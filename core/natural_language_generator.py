@@ -59,6 +59,7 @@ class NLG:
         }
 
     def formulate_response(self,moves,index):
+        print('NLG moves',moves,index)
         self.update_step(index)
         for move in moves:
             self.move_response[move]()

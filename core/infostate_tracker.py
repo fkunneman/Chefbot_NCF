@@ -146,7 +146,6 @@ class ISU:
         False : if none of the moves have their preconditions met 
         """
         for move in self.moves:
-            print(move.name)
             if move.preconditions_met(self.infostate,self.knowledge):
                 return move
         return False
