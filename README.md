@@ -25,4 +25,11 @@ Examples of such files are given in the 'example_data' folder. These files are b
 
 The following components are needed to set up the conversational agent:
 
+1. A Google DialogFlow agent
+* The intents, entities and context of the agent should align with those included in chefbot_NCF: the intents align with the user's moves, the entities align with the entities and the context aligns with the output context of each move.
+* Contact f.a.kunneman@vu.nl to acquire acces to an example agent.
+2. Software to set up a local server 
+* Consider using ngrok: https://ngrok.com/
+3. A program to process GET and POST requests: available through github as 
+
 
