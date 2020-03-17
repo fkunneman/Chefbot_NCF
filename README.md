@@ -25,11 +25,15 @@ Examples of such files are given in the 'example_data' folder. These files are b
 
 The following components are needed to set up the conversational agent:
 
-1. A Google DialogFlow agent
-* The intents, entities and context of the agent should align with those included in chefbot_NCF: the intents align with the user's moves, the entities align with the entities and the context aligns with the output context of each move.
-* Contact f.a.kunneman@vu.nl to acquire acces to an example agent.
+1. The current github repository
+* clone to a local folder of choice and add to your pythonpath
 2. Software to set up a local server 
-* Consider using ngrok: https://ngrok.com/
-3. A program to process GET and POST requests: available through github as 
-
-
+* Consider using ngrok: https://ngrok.com/download
+3. A program to process GET and POST requests: available through github as https://github.com/fkunneman/smoothbot
+* clone the repository to a local folder of choice
+* within the repository specify the following fields in smoothbot/settings.py: SECRET_KEY (line 23), ALLOWED_HOST (line 29, use the ngrok URL for this one)
+4. A Google DialogFlow agent
+* The intents, entities and context of the agent should align with those included in chefbot_NCF: the intents align with the user's moves, the entities align with the entities and the context aligns with the output context of each move.
+* Contact f.a.kunneman@vu.nl to acquire access to an example agent.
+* setup the webhook connection by adding the ngrok URL to Fulfillment - webhook - URL --> https://[SERVER_URL]/df_smoothbot/webhook/
+* optionally add a basic authorization to the fulfillment and server
