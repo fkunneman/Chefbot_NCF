@@ -10,18 +10,18 @@ In its current form, the system is designed for the application of a cooking ass
 
 Chefbot_NFC features the following components (in the 'core' directory):
 
-..* infostate_tracker.py
-- for keeping track of and updating the information state
-- for selecting the next conversation moves of the agent
-..* natural_language_generator.py
-- for selecting the proper agent responses based on the selected conversation moves
-⋅⋅* dialog_manager.py 
-- for connecting the agent to Google Dialogflow, parsing incoming messages and posting the agent's response
+* infostate_tracker.py
+.- for keeping track of and updating the information state
+.- for selecting the next conversation moves of the agent
+* natural_language_generator.py
+.- for selecting the proper agent responses based on the selected conversation moves
+* dialog_manager.py 
+.- for connecting the agent to Google Dialogflow, parsing incoming messages and posting the agent's response
 
 The utterances of the agent can be written in two files: 
 
-..* a file with the standard responses
-..* a file with the recipes, each recipe consisting of steps and clarifications of steps
+* a file with the standard responses
+* a file with the recipes, each recipe consisting of steps and clarifications of steps
 
 Examples of such files are given in the 'example_data' folder. These files are by default used by the dialogue agent. When writing your own content, it is important to use the exact same dictionary keys.
 
