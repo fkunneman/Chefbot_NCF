@@ -27,7 +27,7 @@ The following components are needed to set up the conversational agent:
 
 1. The current github repository
 * clone to a local folder of choice
-* install with the 'python setup.py install' in the command line, or add to your pythonpath
+* install with 'python setup.py install' in the command line, or add to your pythonpath
 2. Software to set up a server tunnel
 * Consider using ngrok: https://ngrok.com/download
 3. A program to process GET and POST requests: available through github as https://github.com/fkunneman/smoothbot
