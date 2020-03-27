@@ -68,7 +68,7 @@ A step-by-step guidance to set up the conversational agent:
     - At the bottom of the page, click 'Save' and then 'Done'
   - The basic cooking assistant should now be operational. Test by starting a conversation in the right-hand bar of the screen (text box that says 'Try it now'). 
     - Mentioning the word 'Pasta' will start the basic pasta recipe conversation (consisting of only three steps). 
-    - Make sure to change the drop-down button that says 'default response' to 'ACTIONS ON GOOGLE'
+    - Make sure to change the drop-down button that says 'default response' to 'ACTIONS ON GOOGLE'; the agent responses will be presented there.
 
 ## Extending the basic agent
 
