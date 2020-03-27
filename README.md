@@ -30,30 +30,31 @@ A step-by-step guidance to set up the conversational agent:
   - In the command line, clone this repository to a local folder of choice: `git clone git@github.com:fkunneman/Chefbot_NCF.git`
   - Install with `python3 setup.py install` in the command line, or add to your pythonpath (`export PYTHONPATH=$PYTHONPATH:<path_to_the repository>/Chefbot_NFC/:`) 
   
-2. Install software to set up a server tunnel (current instructions are for setting up ngrok, but other services of choice would also do)
+2. Install software to set up a server tunnel (the current instructions are for setting up ngrok, but other services of choice would also do)
   - Download ngrok from https://ngrok.com/download
   - On Linux or OSX you can unzip ngrok from a terminal using the command `unzip /path/to/ngrok.zip`. On Windows, double click ngrok.zip. 
-  - Signup to ngrok for a free account (https://dashboard.ngrok.com/signup), needed for authorization.
+  - Sign up to ngrok for a free account (https://dashboard.ngrok.com/signup), needed for authorization.
   - Copy your authtoken from https://dashboard.ngrok.com/auth
   - Connect the authtoken in the terminal (on Linux or OSX) or after running ngrok.exe (on Windows), with the following command: `./ngrok authtoken <YOUR_AUTH_TOKEN>`
   - Run the tunnel with the command `./ngrok http 80`
   
-3. Now install Smoothbot, a repository for processing the dialog webhooks, which is based on the Django Web framework (https://www.djangoproject.com/) 
-  - Like the current repository, smoothbot is a custom repository available through github as https://github.com/fkunneman/smoothbot; clone the repository to a local folder of choice: `git clone git@github.com:fkunneman/smoothbot.git`
+3. Now install Smoothbot, a repository for processing the dialog webhooks, which is based on the Django Web framework 
+  - Like the current repository, smoothbot is a custom repository available through github as https://github.com/fkunneman/smoothbot. Clone the repository to a local folder of choice: `git clone git@github.com:fkunneman/smoothbot.git`
   - In the repository, open the file smoothbot/settings.py, this file needs two adjustments to adopt it to your personal environment and make the repository operational:
     - On line 23, specify the SECRET_KEY - this may be a random sequence of characters (make sure you store the chosen sequence somewhere in a file). 
     - On line 29, specify the allowed host. If you completed step 2 and succesfully started the ngrok tunnel, the url can be found from ngrok session information: check the lines that start with 'Forwarding' and copy the url that ends with 'ngrok.io', but exclude the 'http(s)://' part. On line 29 of the settings.py file, replace 'YOUR TUNNELING HOST' with this url. 
-  - Now you can start the web server: in the command line when located at the root of this repository, run `python3 manage.py runserver`
+  - Now you can start the web server. In the command line when located at the root of this repository, run `python3 manage.py runserver`
   - Check if it works by retrieving the following URL in your browser: https://<YOUR_NGROK_URL>/df_smoothbot/home/. If the browser displays a page that says 'Hello World!', the web server is properly launched through the tunnelling service. Otherwise, something might be wrong with the tunnelling URL or the web server itself. Carefully check the error message displayed in the browser, and contact f.a.kunneman@vu.nl in case the issues cannot be solved.  
 
 4. When the webserver is set up, you can finally connect this to a Google Dialogflow agent
   - To set up an agent on Dialogflow, first sign up on https://dialogflow.cloud.google.com/
   - Choose 'Create new agent'
-    - In the subsequent screen, start by choosing a name for your agent
-    - Then give the preferred language. The example agent in this repository is targeted for the Dutch language, so this will have the preference for a first agent.
+  - In the subsequent screen, start by choosing a name for your agent
+  - Then give the preferred language. The example agent in this repository is targeted for the Dutch language, so this will have the preference for a first agent.
   - When finished setting up, click the 'Create' button
-    - You will now see the general dashboard for creating the agent, with options to create your first intents or entities. To start off, you are advised to import the example agent from this repository. The agent is stored as a zip-file, and located in 'Chefbot_NFC/example_data/Chef.zip'.
-  - To import the example agent, click on the settings button (the icon next to the name of your agent, at the top left of your dashboard screen)
+    - You will now see the general dashboard for creating the agent, with options to create your first intents or entities. 
+  - To start off, you are advised to import the example agent from this repository. The agent is stored as a zip-file, and located in 'Chefbot_NFC/example_data/Chef.zip'. 
+    - To import the example agent, click on the settings button (the icon next to the name of your agent, at the top left of your dashboard screen)
     - Then click the tab 'export and import'
     - Click 'import from zip'
     - Drop the example agent file 'Chef.zip' in the designated import window
