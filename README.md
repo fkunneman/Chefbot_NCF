@@ -29,6 +29,7 @@ A step-by-step guidance to set up the conversational agent:
   - python3 is required - install if you have not done so already.  
   - In the command line, clone this repository to a local folder of choice: `git clone git@github.com:fkunneman/Chefbot_NCF.git`
   - Install with `python3 setup.py install` in the command line, or add to your pythonpath (`export PYTHONPATH=$PYTHONPATH:<path_to_the repository>/Chefbot_NFC/:`) 
+  
 2. Install software to set up a server tunnel (current instructions are for setting up ngrok, but other services of choice would also do)
   - Download ngrok from https://ngrok.com/download
   - On Linux or OSX you can unzip ngrok from a terminal using the command `unzip /path/to/ngrok.zip`. On Windows, double click ngrok.zip. 
@@ -36,15 +37,39 @@ A step-by-step guidance to set up the conversational agent:
   - Copy your authtoken from https://dashboard.ngrok.com/auth
   - Connect the authtoken in the terminal (on Linux or OSX) or after running ngrok.exe (on Windows), with the following command: `./ngrok authtoken <YOUR_AUTH_TOKEN>`
   - Run the tunnel with the command `./ngrok http 80`
-3. Now install Smoothbot, a repository for processing GET and POST requests, which is based on the Django Web framework (https://www.djangoproject.com/) 
+  
+3. Now install Smoothbot, a repository for processing the dialog webhooks, which is based on the Django Web framework (https://www.djangoproject.com/) 
   - Like the current repository, smoothbot is a custom repository available through github as https://github.com/fkunneman/smoothbot; clone the repository to a local folder of choice: `git clone git@github.com:fkunneman/smoothbot.git`
-  - In the repository, open the file smoothbot/settings.py, this file needs two adjustments to adapt it to your personal environment and make the repository operational:
-    - On line 23, specify the SECRET_KEY - this may be a random sequence of characters.
-    - On line 29, specify the allowed host. If you completed step 2 and succesfully started the ngrok tunnel, the url can be found from ngrok session information: check the lines that starts with 'Forwarding' and copy the url that starts with 'https' and ends with 'ngrok.io'. On line 29 of the settings.py file, replace 'YOUR TUNNELING HOST' with this url. 
+  - In the repository, open the file smoothbot/settings.py, this file needs two adjustments to adopt it to your personal environment and make the repository operational:
+    - On line 23, specify the SECRET_KEY - this may be a random sequence of characters (make sure you store the chosen sequence somewhere in a file). 
+    - On line 29, specify the allowed host. If you completed step 2 and succesfully started the ngrok tunnel, the url can be found from ngrok session information: check the lines that start with 'Forwarding' and copy the url that ends with 'ngrok.io', but exclude the 'http(s)://' part. On line 29 of the settings.py file, replace 'YOUR TUNNELING HOST' with this url. 
   - Now you can start the web server: in the command line when located at the root of this repository, run `python3 manage.py runserver`
-4. When the webserver is set-up, you can finally connect this to a Google DialogFlow agent
-* Contact f.a.kunneman@vu.nl to acquire access to an example agent.
-* The intents, entities and context of the agent should align with those included in chefbot_NCF: the intents align with the user's moves, the entities align with the entities and the context aligns with the output context of each move.
+  - Check if it works by retrieving the following URL in your browser: https://<YOUR_NGROK_URL>/df_smoothbot/home/. If the browser displays a page that says 'Hello World!', the web server is properly launched through the tunnelling service. Otherwise, something might be wrong with the tunnelling URL or the web server itself. Carefully check the error message displayed in the browser, and contact f.a.kunneman@vu.nl in case the issues cannot be solved.  
 
-* setup the webhook connection by adding the ngrok URL to Fulfillment - webhook - URL --> https://[SERVER_URL]/df_smoothbot/webhook/
-* optionally add a basic authorization to the fulfillment and server
+4. When the webserver is set up, you can finally connect this to a Google Dialogflow agent
+  - To set up an agent on Dialogflow, first sign up on https://dialogflow.cloud.google.com/
+  - Choose 'Create new agent'
+    - In the subsequent screen, start by choosing a name for your agent
+    - Then give the preferred language. The example agent in this repository is targeted for the Dutch language, so this will have the preference for a first agent.
+  - When finished setting up, click the 'Create' button
+    - You will now see the general dashboard for creating the agent, with options to create your first intents or entities. To start off, you are advised to import the example agent from this repository. The agent is stored as a zip-file, and located in 'Chefbot_NFC/example_data/Chef.zip'.
+  - To import the example agent, click on the settings button (the icon next to the name of your agent, at the top left of your dashboard screen)
+    - Then click the tab 'export and import'
+    - Click 'import from zip'
+    - Drop the example agent file 'Chef.zip' in the designated import window
+    - Now type 'IMPORT' in the text box
+    - Finally click the 'IMPORT' button
+    - When the program is done importing, click on the 'Done' button
+  - After the import you will see that a number of intents and entities are specified. The only thing you need to do next is connecting the agent to the server you have set up in step 3
+    - Click on the 'fulfillment tab'
+    - You will see a screen with the headers 'Webhook' and 'Inline Editor'; set the webhook to 'enabled'. 
+    - Now enter your server URL (the one starting with 'https' and ending with 'webhook', specified at the end of step 3) as the url.
+    - At the bottom of the page, click 'Save' and then 'Done'
+  - The basic cooking assistant should now be operational. Test by starting a conversation in the right-hand bar of the screen (text box that says 'Try it now'). 
+    - Mentioning the word 'Pasta' will start the basic pasta recipe conversation (consisting of only three steps). 
+    - Make sure to change the drop-down button that says 'default response' to 'ACTIONS ON GOOGLE'
+
+## Extending the basic agent
+
+* TODO
+
