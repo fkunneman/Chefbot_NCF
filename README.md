@@ -26,22 +26,22 @@ Examples of such files are given in the 'example_data' folder. These files are b
 A step-by-step guidance to set up the conversational agent:
 
 1. Install the current github repository
-  - Requirement: python3 - install if you have not done so already.  
-  - In the command line: clone this repository to a local folder of choice: 'git clone git@github.com:fkunneman/Chefbot_NCF.git'
-  - Install with 'python3 setup.py install' in the command line, or add to your pythonpath ('export PYTHONPATH=$PYTHONPATH:<path_to_the repository>/Chefbot_NFC/:') 
+  - python3 is required - install if you have not done so already.  
+  - In the command line, clone this repository to a local folder of choice: `git clone git@github.com:fkunneman/Chefbot_NCF.git`
+  - Install with `python3 setup.py install` in the command line, or add to your pythonpath (`export PYTHONPATH=$PYTHONPATH:<path_to_the repository>/Chefbot_NFC/:`) 
 2. Install software to set up a server tunnel (current instructions are for setting up ngrok, but other services of choice would also do)
   - Download ngrok from https://ngrok.com/download
-  - On Linux or OSX you can unzip ngrok from a terminal using the command 'unzip /path/to/ngrok.zip'. On Windows, double click ngrok.zip. 
+  - On Linux or OSX you can unzip ngrok from a terminal using the command `unzip /path/to/ngrok.zip`. On Windows, double click ngrok.zip. 
   - Signup to ngrok for a free account (https://dashboard.ngrok.com/signup), needed for authorization.
   - Copy your authtoken from https://dashboard.ngrok.com/auth
-  - Connect the authtoken in the terminal (on Linux or OSX) or after running ngrok.exe (on Windows), with the following command: './ngrok authtoken <YOUR_AUTH_TOKEN>'
-  - Run the tunnel with the command './ngrok http 80'
+  - Connect the authtoken in the terminal (on Linux or OSX) or after running ngrok.exe (on Windows), with the following command: `./ngrok authtoken <YOUR_AUTH_TOKEN>`
+  - Run the tunnel with the command `./ngrok http 80`
 3. Now install Smoothbot, a repository for processing GET and POST requests, which is based on the Django Web framework (https://www.djangoproject.com/) 
-  - Like the current repository, smoothbot is a custom repository available through github as https://github.com/fkunneman/smoothbot; clone the repository to a local folder of choice: 'git clone git@github.com:fkunneman/smoothbot.git'
+  - Like the current repository, smoothbot is a custom repository available through github as https://github.com/fkunneman/smoothbot; clone the repository to a local folder of choice: `git clone git@github.com:fkunneman/smoothbot.git`
   - In the repository, open the file smoothbot/settings.py, this file needs two adjustments to adapt it to your personal environment and make the repository operational:
     - On line 23, specify the SECRET_KEY - this may be a random sequence of characters.
-    - On line 29, specify the allowed host. If you completed step 2 and succesfully started the ngrok tunnel, the url can be found from ngrok session information: check the lines that starts with "Forwarding" and copy the url that starts with "https" and ends with "ngrok.io". On line 29 of the settings.py file, replace "YOUR TUNNELING HOST" with this url. 
-  - Now you can start the web server: in the command line when located at the root of this repository, run python3 manage.py runserver
+    - On line 29, specify the allowed host. If you completed step 2 and succesfully started the ngrok tunnel, the url can be found from ngrok session information: check the lines that starts with 'Forwarding' and copy the url that starts with 'https' and ends with 'ngrok.io'. On line 29 of the settings.py file, replace 'YOUR TUNNELING HOST' with this url. 
+  - Now you can start the web server: in the command line when located at the root of this repository, run `python3 manage.py runserver`
 4. When the webserver is set-up, you can finally connect this to a Google DialogFlow agent
 * Contact f.a.kunneman@vu.nl to acquire access to an example agent.
 * The intents, entities and context of the agent should align with those included in chefbot_NCF: the intents align with the user's moves, the entities align with the entities and the context aligns with the output context of each move.
