@@ -37,7 +37,7 @@ On Windows, use a Bash terminal (and you may have to use 'python' instead of 'py
   - On Linux or OSX you can unzip ngrok from a terminal using the command `unzip /path/to/ngrok.zip`. On Windows, double click ngrok.zip. 
   - Sign up to ngrok for a free account (https://dashboard.ngrok.com/signup), needed for authorization.
   - Copy your authtoken from https://dashboard.ngrok.com/auth
-  - Connect the authtoken in the terminal (on Linux or OSX) or after running ngrok.exe (on Windows from terminal: ngrok.exe http 80), with the following command: `./ngrok authtoken <YOUR_AUTH_TOKEN>`
+  - Connect the authtoken in the terminal (on Linux or OSX) or after running ngrok.exe (on Windows from terminal: ngrok.exe http 8000), with the following command: `./ngrok authtoken <YOUR_AUTH_TOKEN>`
   - Run the tunnel with the command `./ngrok http 8000`
   
 3. Now install Smoothbot, a repository for processing the dialog webhooks, which is based on the Django Web framework 
