@@ -38,10 +38,10 @@ On Windows, use a Bash terminal (and you may have to use 'python' instead of 'py
   - Sign up to ngrok for a free account (https://dashboard.ngrok.com/signup), needed for authorization.
   - Copy your authtoken from https://dashboard.ngrok.com/auth
   - Connect the authtoken in the terminal (on Linux or OSX) or after running ngrok.exe (on Windows from terminal: ngrok.exe http 80), with the following command: `./ngrok authtoken <YOUR_AUTH_TOKEN>`
-  - Run the tunnel with the command `./ngrok http 80`
+  - Run the tunnel with the command `./ngrok http 8000`
   
 3. Now install Smoothbot, a repository for processing the dialog webhooks, which is based on the Django Web framework 
-  - if you haven't installed Django yet, `run pip install django'
+  - if you haven't installed Django yet, run `pip install django'
   - Like the current repository, smoothbot is a custom repository available through github as https://github.com/fkunneman/smoothbot. Clone the repository to a local folder of choice: `git clone git@github.com:fkunneman/smoothbot.git`
   - In the repository, open the file smoothbot/settings.py, this file needs two adjustments to adopt it to your personal environment and make the repository operational:
     - On line 23, specify the SECRET_KEY - this may be a random sequence of characters (make sure you store the chosen sequence somewhere in a file). 
