@@ -68,7 +68,7 @@ On Windows, use a Bash terminal (and you may have to use 'python' instead of 'py
   - After the import you will see that a number of intents and entities are specified. The only thing you need to do next is connecting the agent to the server you have set up in step 3
     - Click on the 'fulfillment tab'
     - You will see a screen with the headers 'Webhook' and 'Inline Editor'; set the webhook to 'enabled'. 
-    - Now enter your server URL: https://<YOUR_NGROK_URL>/df_smoothbot/webhook/ (e.g.: the same URL as the one you tested in the browser at the end of step three, but ending with 'webhook/' instead of home/).
+    - Now enter your server URL: https://<YOUR_NGROK_URL>/df_smoothbot/webhook/ (e.g.: the same URL as the one you tested in the browser at the end of step 3, but ending with 'webhook/' instead of home/).
     - At the bottom of the page, click 'Save' and then 'Done'
   - The basic cooking assistant should now be operational. Test by starting a conversation in the right-hand bar of the screen (text box that says 'Try it now'). 
     - Mentioning the word 'Pasta' will start the basic pasta recipe conversation (consisting of only three steps). 
