@@ -1,0 +1,15 @@
+{"answers" :
+	{ "inquiry_archiving" : 
+		{ 
+			"answer_standard" : "Ik heb momenteel nog geen kennis over het terugkijken of opnemen van de webinar"
+		},
+	"inquiry_platform" : 
+		{
+			"answer_standard" :	"Ik heb momenteel nog geen kennis over het platform dat gebruikt dient te worden"
+		},
+	"inquiry_whiteboard" : 
+		{
+			"answer_standard" : "Ik heb momenteel nog geen kennis over het gebruik van een whiteboard bij beeldbellen"
+		}
+	}
+}

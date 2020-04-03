@@ -1,9 +1,9 @@
-#title           : dialog_manager.py
+#title           : dm_ggz.py
 #description     : Class to coördinate the dialog between incoming user utterances from a dialogue interface and the outgoing responses
 #author          : Florian Kunneman
-#date            : 20200316
+#date            : 20200402
 #version         : 0.1
-#usage           : dm = dialog_manager.DialogManager(); fulfillmentText, suggestions, output_contexts = dm.manage(query)
+#usage           : dm = dm_ggz.DialogManager(); fulfillmentText, suggestions, output_contexts = dm.manage(query)
 #notes           : 
 #python_version  : 3.7.4  
 #==============================================================================
@@ -13,14 +13,12 @@ import os
 import json
 import random
 
-from . import infostate_tracker
-from . import natural_language_generator
-from . import standard_moves
+from Chefbot_NFC.core import infostate_tracker
+from Chefbot_NFC.chat_ggz import nlg_ggz, ggz_moves
 
 # the content utterered by the dialogue agent is stored in separate files: recipes and general responses
 script_dir = os.path.dirname(__file__)
-recipepath = script_dir + '/../example_data/agent_recipes.json'
-responsepath = script_dir + '/../example_data/agent_responses.json'
+answerpath = script_dir + '/ggz_qa.json'
 
 class DialogManager:
     """
@@ -56,14 +54,11 @@ class DialogManager:
         object that stores the current agent's response, move and context
     """
 
-    def __init__(self,recipefile=recipepath,responsefile=responsepath,moveset=False):
-        self.recipes = self.load_data(recipefile)
-        self.responses = self.load_data(responsefile)
-        if not moveset:
-            moveset = standard_moves
-        self.ISU = infostate_tracker.ISU(self.recipes,moveset)
-        self.NLG = natural_language_generator.NLG(self.responses)
-        self.active_recipe = {}
+    def __init__(self,answerfile=answerpath,moveset=ggz_moves):
+        self.answers = self.load_data(answerfile)
+        self.ISU = infostate_tracker.ISU(self.answers,moveset)
+        self.NLG = nlg_ggz.NLG(self.answers)
+        self.active_answers = {}
         self.active_processed = {}
         self.active_response = {}
 
@@ -132,7 +127,8 @@ class DialogManager:
         intent = utterance['intent']['displayName']
         text = utterance['queryText']
         entities = utterance['parameters']
-        self.active_processed = {'utterance':utterance,'move':intent,'entities':entities,'text':text}
+        confidence = utterance['confidence']
+        self.active_processed = {'utterance':utterance,'move':intent,'entities':entities,'text':text, 'confidence':confidence}
 
     def update_processed(self):
         """
@@ -153,9 +149,9 @@ class DialogManager:
             For deciding on the agent moves based on the user's utterance - 
                 selecting one or more moves for which the preconditions are met, and applying their effects
         """
-        if self.active_processed['move'] == 'Kook recept':
-            self.start_recipe()
-        self.ISU.update('U',self.active_processed['move'],self.active_processed['entities'],self.active_processed['text'])
+        # if self.active_processed['move'] == 'Kook recept':
+        #     self.start_recipe()
+        self.ISU.update('U',self.active_processed['move'],self.active_processed['confidence'],self.active_processed['entities'],self.active_processed['text'])
         self.ISU.update_speaker('A')
         self.ISU.next_moves()
 
@@ -175,7 +171,7 @@ class DialogManager:
         self.active_response :
             update with the textual response as returned by the NLG object
         """
-        self.active_response = self.NLG.formulate_response(self.ISU.return_agent_moves(),self.ISU.return_current_step())
+        self.active_response = self.NLG.formulate_response(self.ISU.return_agent_moves(),self.ISU.return_qud())
 
     def update_response(self):
         """
@@ -193,30 +189,6 @@ class DialogManager:
     ###################################
     ### Helper functions ##############
     ###################################
-
-    def start_recipe(self):
-        """
-        start_recipe
-        =====
-        function to set the active recipe based on the user's intent
-
-        Function calls
-        -----
-        self.NLG.set_recipe :
-            set the active recipe in the NLG object 
-        self.ISU.clear : 
-            clear the information state (new recipe is seen as new conversation plan)
-
-        Transforms
-        -----
-        self.active_recipe : dict
-            The steps and the name of the active recipe are updated according to the choice of the user
-        """
-        name = self.active_processed['utterance']['parameters']['recept']
-        self.active_recipe['steps'] = self.recipes['Recipe'][name]
-        self.active_recipe['name'] = name
-        self.NLG.set_recipe(self.active_recipe)
-        self.ISU.clear()
 
     def load_data(self,path):
         """
