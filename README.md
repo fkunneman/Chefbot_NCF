@@ -21,6 +21,16 @@ The utterances of the agent can be written in two files:
 
 Examples of such files are given in the 'example_data' folder. These files are by default used by the dialogue agent. When writing your own content, it is important to use the exact same dictionary keys.
 
+## Launch webserver
+
+Use the following commands to launch the webserver for Chefbot from a terminal window:
+
+``./ngrok http 8000``
+
+If you don't have a persistent subdomain, inspect the terminal from where you launched ngrok and change the variable ``ALLOWED_HOSTS`` in ``smoothbot/settings.py`` line 29 to your current ngrok forwarding url (without ``https://``)
+
+``python3 manage.py runserver``
+
 ## Installation
 
 A step-by-step guidance to set up the conversational agent:
