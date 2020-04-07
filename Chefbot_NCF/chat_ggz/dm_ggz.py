@@ -13,8 +13,8 @@ import os
 import json
 import random
 
-from Chefbot_NFC.core import infostate_tracker
-from Chefbot_NFC.chat_ggz import nlg_ggz, ggz_moves
+from Chefbot_NCF.core import infostate_tracker
+from Chefbot_NCF.chat_ggz import nlg_ggz, ggz_moves
 
 # the content utterered by the dialogue agent is stored in separate files: recipes and general responses
 script_dir = os.path.dirname(__file__)
@@ -124,11 +124,11 @@ class DialogManager:
                 text : the text of the utterance, as decoded by the ASR component of the dialog interface
                 entities : the entities in the utterance, if any, as specified in the dialog interface (Google Dialog Flow by default)
         """
-        intent = utterance['intent']['displayName']
-        text = utterance['queryText']
-        entities = utterance['parameters']
+        intents = utterance['intents']
+        text = utterance['text']
+        entities = utterance['entities']
         confidence = utterance['confidence']
-        self.active_processed = {'utterance':utterance,'move':intent,'entities':entities,'text':text, 'confidence':confidence}
+        self.active_processed = {'utterance':utterance,'move':intents[0],'entities':entities,'text':text, 'confidence':confidence}
 
     def update_processed(self):
         """

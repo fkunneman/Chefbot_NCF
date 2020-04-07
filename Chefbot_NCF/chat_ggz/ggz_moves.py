@@ -8,7 +8,7 @@
 #python_version  : >= 3.7.4 
 #==============================================================================
 
-from Chefbot_NFC.core.standard_moves import Move
+from Chefbot_NCF.core.standard_moves import Move
 
 ###################################
 ### moves #########################

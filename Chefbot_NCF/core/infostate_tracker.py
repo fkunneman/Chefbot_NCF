@@ -86,9 +86,9 @@ class ISU:
         moves = []
         for move in inspect.getmembers(moveset):
             if not move[0][:2] == '__':
-                if not move[0] == 'Move':
-                    moves.append(move[1]())
-        print("MOVES",moves)
+                if not move[0] == 'Move' and move[0][0].isupper():
+                    move_obj = move[1]()
+                    moves.append(move_obj)
         return moves 
 
     def next_moves(self):
