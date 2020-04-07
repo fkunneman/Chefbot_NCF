@@ -1,5 +1,4 @@
 #! /usr/bin/env python3
-# -*- coding: utf8 -*-
 
 import os
 import sys
@@ -9,16 +8,16 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name = "Chefbot_NFC",
+    name = "Chefbot_NCF",
     version = "0.1",
     author = "Florian Kunneman",
     author_email = "f.a.kunneman@vu.nl",
     description = ("Framework for managing conversational agents"),
     license = "GPL",
     keywords = "conversational_ai cooking_assistant",
-    url = "https://github.com/fkunneman/Chefbot_NFC.git",
-    packages=find_packages() + ['Chefbot_NFC'],
-    package_data={'Chefbot_NFC' : ['example_data/*.json']},
+    url = "https://github.com/fkunneman/Chefbot_NCF.git",
+    packages=['Chefbot_NCF','Chefbot_NCF.core'],
+    package_data={'Chefbot_NCF' : ['example_data/*.json']},
     #,'Chefbot_NFC', 'Chefbot_NFC.core'],
     #data_files=[('example_data', ['Chefbot_NFC/example_data/*.json'])],
     long_description=read('README.md'),
