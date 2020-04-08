@@ -124,11 +124,11 @@ class DialogManager:
                 text : the text of the utterance, as decoded by the ASR component of the dialog interface
                 entities : the entities in the utterance, if any, as specified in the dialog interface (Google Dialog Flow by default)
         """
-        intents = utterance['intents']
+        intent = utterance['intent']
         text = utterance['text']
         entities = utterance['entities']
         confidence = utterance['confidence']
-        self.active_processed = {'utterance':utterance,'move':intents[0],'entities':entities,'text':text, 'confidence':confidence}
+        self.active_processed = {'utterance':utterance,'move':intent,'entities':entities,'text':text, 'confidence':confidence}
 
     def update_processed(self):
         """

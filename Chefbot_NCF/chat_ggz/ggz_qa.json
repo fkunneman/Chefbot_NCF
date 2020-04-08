@@ -10,6 +10,10 @@
 	"inquiry_whiteboard" : 
 		{
 			"answer_standard" : "Ik heb momenteel nog geen kennis over het gebruik van een whiteboard bij beeldbellen"
+		},
+	"inquiry_screen_sharing" :
+		{
+			"answer_standard" : "Ik heb momenteel nog geen kennis over het delen van je sherm."
 		}
 	}
 }
