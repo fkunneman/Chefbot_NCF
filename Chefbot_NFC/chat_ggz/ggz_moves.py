@@ -54,3 +54,83 @@ class Answer(Move):
         """
         Move.effects(self,infostate)
         infostate['shared']['qud'] = [infostate['shared']['moves'][-2][1]]
+
+
+class ConfirmPreInquiry(Move):
+    """
+    ConfirmPreInquiry
+    =====
+    Class to model the preconditions and effects of a confirm_pre-inquiry move
+    """
+
+    def __init__(self):
+        Move.__init__(self,
+            name = 'confirm_pre-inquiry',
+            prior_moves = ['pre-inquiry'],
+            context = [],
+            suggestions = []
+        )
+
+    def preconditions_met(self,infostate,knowledge):
+        """
+        preconditions_met
+        =====
+        Boolean function to return if the preconditions of this move have been met given the current information state
+
+        If the user does a pre-inquiry, this move would fit if the agent knows about the mentioned topic
+        """
+        pm = False
+        if Move.preconditions_met(self,infostate):
+            if set(infostate['shared']['entities'][-1]) & set(knowledge['known_topics_list']):
+                pm = True        
+        return pm
+
+    def effects(self,infostate,knowledge):
+        """
+        effects
+        =====
+        Function to apply this move's effects to the information state
+
+        This move has no further effects apart from adding it to the shared conversation information state
+        """
+        Move.effects(self,infostate)
+
+
+class DisconfirmPreInquiry(Move):
+    """
+    DisconfirmPreInquiry
+    =====
+    Class to model the preconditions and effects of a disconfirm_pre-inquiry move
+    """
+
+    def __init__(self):
+        Move.__init__(self,
+            name = 'disconfirm_pre-inquiry',
+            prior_moves = ['pre-inquiry'],
+            context = [],
+            suggestions = []
+        )
+
+    def preconditions_met(self,infostate,knowledge):
+        """
+        preconditions_met
+        =====
+        Boolean function to return if the preconditions of this move have been met given the current information state
+
+        If the user does a pre-inquiry, this move would fit if the agent does not know about the mentioned topic
+        """
+        pm = False
+        if Move.preconditions_met(self,infostate):
+            if not set(infostate['shared']['entities'][-1]) & set(knowledge['known_topics_list']):
+                pm = True        
+        return pm
+
+    def effects(self,infostate,knowledge):
+        """
+        effects
+        =====
+        Function to apply this move's effects to the information state
+
+        This move has no further effects apart from adding it to the shared conversation information state
+        """
+        Move.effects(self,infostate)

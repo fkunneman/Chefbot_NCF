@@ -1,0 +1,21 @@
+{
+	"Confirm Pre-inquiry" :
+		{ "regular" : 
+			[
+				"Ik weet behoorlijk veel over [topic], al zeg ik het zelf",
+				"Daar kun je me zeker naar vragen",
+				"Ja hoor, vraag maar raak",
+				"Daar weet ik wel het een en ander van",
+				"[topic] kent voor mij weinig geheimen"
+			]
+		},
+	"Disconfirm Pre-inquiry" :
+		{ "regular" :
+			[
+				"Op dit moment heb ik helaas nog weinig kaas gegeten van [topic], maar vraag me vooral naar [topics_known]",
+				"Hier kan ik je helaas niet bij helpen. Wel kun je me vragen naar [topics_known]"
+				"Jammer dat je me net daar naar moet vragen, nu ben ik in verlegenheid gebracht. Kun je me een vraag stellen over [topics_known]? dan voel ik me weer wat nuttiger"
+				"Op dit moment kan ik nog geen vragen beantwoorden over [topic], maar daar wordt aan gewerkt."
+			]
+		}
+}

@@ -18,7 +18,8 @@ from Chefbot_NFC.chat_ggz import nlg_ggz, ggz_moves
 
 # the content utterered by the dialogue agent is stored in separate files: recipes and general responses
 script_dir = os.path.dirname(__file__)
-answerpath = script_dir + '/ggz_qa.json'
+knowledgepath = script_dir + '/ggz_knowledge.json'
+responsepath = script_dir + '/ggz_agent.json'
 
 class DialogManager:
     """
@@ -54,10 +55,11 @@ class DialogManager:
         object that stores the current agent's response, move and context
     """
 
-    def __init__(self,answerfile=answerpath,moveset=ggz_moves):
-        self.answers = self.load_data(answerfile)
-        self.ISU = infostate_tracker.ISU(self.answers,moveset)
-        self.NLG = nlg_ggz.NLG(self.answers)
+    def __init__(self,knowledgefile=knowledgepath,responsefile=responsepath,moveset=ggz_moves):
+        self.knowledge = self.load_data(knowledgefile)
+        self.default_responses = self.load_data(responsefile)
+        self.ISU = infostate_tracker.ISU(self.knowledge,moveset)
+        self.NLG = nlg_ggz.NLG(self.knowledge,self.default_responses)
         self.active_answers = {}
         self.active_processed = {}
         self.active_response = {}
@@ -124,11 +126,10 @@ class DialogManager:
                 text : the text of the utterance, as decoded by the ASR component of the dialog interface
                 entities : the entities in the utterance, if any, as specified in the dialog interface (Google Dialog Flow by default)
         """
-        intent = utterance['intent']['displayName']
-        text = utterance['queryText']
-        entities = utterance['parameters']
-        confidence = utterance['confidence']
-        self.active_processed = {'utterance':utterance,'move':intent,'entities':entities,'text':text, 'confidence':confidence}
+        intent = utterance['intent']
+        text = utterance['text']
+        entities = utterance['entities']
+        self.active_processed = {'utterance':utterance,'move':intent,'entities':entities,'text':text}
 
     def update_processed(self):
         """
@@ -151,7 +152,7 @@ class DialogManager:
         """
         # if self.active_processed['move'] == 'Kook recept':
         #     self.start_recipe()
-        self.ISU.update('U',self.active_processed['move'],self.active_processed['confidence'],self.active_processed['entities'],self.active_processed['text'])
+        self.ISU.update('U',self.active_processed['move'],self.active_processed['entities'],self.active_processed['text'])
         self.ISU.update_speaker('A')
         self.ISU.next_moves()
 

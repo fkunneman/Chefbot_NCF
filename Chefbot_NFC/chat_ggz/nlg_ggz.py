@@ -34,11 +34,14 @@ class NLG:
         add new moves / responses to this dictionary
     """
 
-    def __init__(self,qa):
+    def __init__(self,knowledge,default_responses):
         self.response = []
-        self.qa = qa
+        self.knowledge = knowledge
+        self.default_responses = default_responses
         self.move_response = {
-            'answer' : self.answer_inquiry
+            'answer' : self.answer_inquiry,
+            'confirm_pre-inquiry' : self.confirm_preinquiry,
+            'disconfirm_pre-inquiry' : self.disconfirm_preinquiry
         }
 
     def formulate_response(self,moves,qud):
@@ -47,7 +50,7 @@ class NLG:
         self.update_qud(qud)
         for move in moves:
             self.move_response[move]()
-        response_out = ' '.join(self.response)
+        response_out = ' '.join(self.response).replace('[topic]',qud['entity']).replace('[topics_known]',self.knowledge['known_topics'])
         self.reset_response()
         return response_out
 
@@ -72,4 +75,17 @@ class NLG:
         self.response : 
             adds the answer to the active response
         """
-        self.response.append(self.qa['answers'][self.inquiry]['answer_standard'])
+        self.response.append(self.knowledge['answers'][self.inquiry]['answer_standard'])
+
+    def confirm_preinquiry(self):
+        """
+        confirm_preinquiry
+        =====
+        function to retrieve the proper response for the move to confirm a pre-inquiry
+
+        Transforms
+        -----
+        self.response : 
+            adds the confirmation to the active response
+        """
+        self.response.append(random.choice(self.default_responses["Confirm Pre-inquiry"]))
