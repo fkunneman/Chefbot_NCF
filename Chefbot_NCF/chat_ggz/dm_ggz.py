@@ -13,8 +13,8 @@ import os
 import json
 import random
 
-from Chefbot_NFC.core import infostate_tracker
-from Chefbot_NFC.chat_ggz import nlg_ggz, ggz_moves
+from Chefbot_NCF.core import infostate_tracker
+from Chefbot_NCF.chat_ggz import nlg_ggz, ggz_moves
 
 # the content utterered by the dialogue agent is stored in separate files: recipes and general responses
 script_dir = os.path.dirname(__file__)

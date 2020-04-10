@@ -11,5 +11,12 @@
 		{
 			"answer_standard" : "Ik heb momenteel nog geen kennis over het gebruik van een whiteboard bij beeldbellen"
 		},
+<<<<<<< HEAD:Chefbot_NFC/chat_ggz/ggz_qa.json
+=======
+	"inquiry_screen_sharing" :
+		{
+			"answer_standard" : "Ik heb momenteel nog geen kennis over het delen van je sherm."
+		}
+>>>>>>> 9b27181e851635bd3f432c3a528bbfe2b3886832:Chefbot_NCF/chat_ggz/ggz_qa.json
 	}
 }
