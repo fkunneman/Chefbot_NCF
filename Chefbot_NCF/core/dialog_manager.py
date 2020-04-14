@@ -15,6 +15,7 @@ import random
 
 from . import infostate_tracker
 from . import natural_language_generator
+from . import standard_moves
 
 # the content utterered by the dialogue agent is stored in separate files: recipes and general responses
 script_dir = os.path.dirname(__file__)
@@ -55,10 +56,12 @@ class DialogManager:
         object that stores the current agent's response, move and context
     """
 
-    def __init__(self,recipefile=recipepath,responsefile=responsepath):
+    def __init__(self,recipefile=recipepath,responsefile=responsepath,moveset=False):
         self.recipes = self.load_data(recipefile)
         self.responses = self.load_data(responsefile)
-        self.ISU = infostate_tracker.ISU(self.recipes)
+        if not moveset:
+            moveset = standard_moves
+        self.ISU = infostate_tracker.ISU(self.recipes,moveset)
         self.NLG = natural_language_generator.NLG(self.responses)
         self.active_recipe = {}
         self.active_processed = {}
