@@ -133,7 +133,7 @@ class ISU:
     ### infostate updates #############
     ###################################
 
-    def update(self,speaker,move,confidence,entities,text):
+    def update(self,speaker,move,entities,text):
         """
         update
         =====
@@ -162,7 +162,7 @@ class ISU:
             adding the text of the latest utterance to the shared 'conversation' field in the information state 
         """
         self.update_speaker(speaker)
-        self.update_move(move,confidence)
+        self.update_move(move)
         self.update_entities(entities)
         self.update_utterance(text)
 
@@ -215,7 +215,7 @@ class ISU:
         """
         self.infostate['shared']['ls'] = speaker
 
-    def update_move(self,move,confidence):
+    def update_move(self,move):
         """
         update_move
         =====
