@@ -668,4 +668,36 @@ class CloseActivity(Move):
         infostate['plan_wide'] = {}
         infostate['agenda'] = None
         infostate['shared']['beliefs']['task'] = []
-        
+
+class SelectRecipe(Move):
+    """
+    SelectRecipe
+    =====
+    Class to model the preconditions and effects of a select recipe move
+    """
+
+    def __init__(self):
+        Move.__init__(self,
+            name = 'select_recipe',
+            prior_moves = ['Welke recepten'],
+            context = [],
+            suggestions = []
+        )
+
+    def preconditions_met(self,infostate,knowledge):
+        """
+        preconditions_met
+        =====
+        Boolean function to return if the preconditions of this move have been met given the current information state
+
+        No further preconditions should be met other than the presence of a particular prior move: the intent of the user to ask for recipe options
+        """
+        return Move.preconditions_met(self,infostate)
+
+    def effects(self,infostate,knowledge):
+        """
+        effects
+        =====
+        Function to apply this move's effects to the information state
+        """
+        Move.effects(self,infostate)
