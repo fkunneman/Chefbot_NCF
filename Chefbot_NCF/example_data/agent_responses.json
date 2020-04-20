@@ -115,5 +115,13 @@
 					"Als je geen verdere vragen hebt verklaar ik onze conversatie voor beëindigd"
 
 				]
-		}		
+		},
+	"Select recipe" :
+		{
+			"regular" :
+    			[
+      				"De recepten waar je uit kunt kiezen zijn [recipe].",
+      				"Je kunt kiezen uit de volgende recepten [recipe]."
+    			]
+		}
 }
