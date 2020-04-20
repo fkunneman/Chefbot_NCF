@@ -55,7 +55,8 @@ class NLG:
             'close_clarification_gratitude'     : self.close_clarification_gratitude,
             'close_clarification_understood'    : self.close_clarification_understood,
             'close_clarification_acknowledged'  : self.close_clarification_acknowledged,
-            'close_activity'                    : self.close_activity
+            'close_activity'                    : self.close_activity,
+            'select_recipe'                     : self.select_recipe
         }
 
     def formulate_response(self,moves,index):
@@ -344,3 +345,17 @@ class NLG:
             adds the activity closure to the active response
         """
         self.response.append(random.choice(self.responses['Close activity']['regular']))
+
+    def select_recipe(self):
+        """
+        select_recipe
+        =====
+        function to retrieve the proper response for the move to select a recipe from a list of available recipes
+        the response file might include different variants for variation purposes, which is why a random choice is made
+
+        Transforms
+        -----
+        self.response :
+            adds the utterance to show options of recipes to the active response
+        """
+        self.response.append(random.choice(self.responses['Select recipe']['regular']))
