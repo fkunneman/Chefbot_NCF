@@ -475,49 +475,6 @@ class ClarifyMotivate(Move):
         # qud
         infostate['shared']['qud'] = infostate['private']['plan'][0] + '_motivate'
 
-class ClarifyMotivateFallback(Move):
-    """
-    ClarifyMotivate
-    =====
-    Class to model the preconditions and effects of the move to motivate why a step is important
-    """
-
-    def __init__(self):
-        Move.__init__(self,
-            name = 'clarify_step_motivate_fallback',
-            prior_moves = ['Recept motivate'],
-            context = [['recept_stappen',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_toelichting',5,{'no-input': 0.0, 'no-match': 0.0}]],
-            suggestions = ['volgende','duidelijk','dankje']
-        )
-
-    def preconditions_met(self,infostate,knowledge):
-        """
-        preconditions_met
-        =====
-        Boolean function to return if the preconditions of this move have been met given the current information state
-
-        In addition to the specified prior moves, the precondition should be met that there is knowledge of the reason why to conduct the current step
-        """
-        pm = False
-        if Move.preconditions_met(self,infostate):
-            if 'txt_motivate' not in infostate['private']['plan_wide'][infostate['private']['plan'][0]]:
-                pm = True
-        return pm
-
-    def effects(self,infostate,knowledge):
-        """
-        effects
-        =====
-        Function to apply this move's effects to the information state
-
-        In addition to adding this move to the shared conversation information state, it has the following effect:
-            - the motivate clarification is added to the shared questions under discussion
-        """
-        Move.effects(self,infostate)
-        # qud
-        infostate['shared']['qud'] = infostate['private']['plan'][0] + '_motivate'
-
-
 class CloseClarificationGratitude(Move):
     """
     CloseClarificationGratitude

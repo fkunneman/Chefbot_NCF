@@ -52,7 +52,6 @@ class NLG:
             'clarify_step_explain'              : self.clarify_step_explain,
             'clarify_step_explain_fallback'     : self.fallback_explain,
             'clarify_step_motivate'             : self.clarify_step_motivate,
-            'clarify_step_motivate_fallback'    : self.fallback_motivate,
             'close_clarification_gratitude'     : self.close_clarification_gratitude,
             'close_clarification_understood'    : self.close_clarification_understood,
             'close_clarification_acknowledged'  : self.close_clarification_acknowledged,
@@ -193,7 +192,7 @@ class NLG:
         self.clarify_fallback : 
             to retrieve the proper fallback with the specified key
         """
-        self.clarify_fallback('Step quantity')
+        self.clarify_fallback('Explain quantity')
 
     def clarify_step_repeat(self):
         """
@@ -259,19 +258,6 @@ class NLG:
             to retrieve the proper clarification with the specified keys
         """
         self.clarify_step(['txt_motivate', 'Motivate step'])
-
-    def fallback_motivate(self):
-        """
-        clarify_step_motivate
-        =====
-        function to retrieve the proper response for the move to explain why recipe step is necessary
-
-        Function calls
-        -----
-        self.clarify_step :
-            to retrieve the proper clarification with the specified keys
-        """
-        self.clarify_fallback('Motivate step')
 
     def close_clarification(self,third_position_intent):
         """
