@@ -155,6 +155,9 @@ class DialogManager:
         """
         if self.active_processed['move'] == 'Kook recept':
             self.start_recipe()
+        #if self.active_processed['move'] == 'ander recept':
+            #self.start_other_recipe()
+
         self.ISU.update('U',self.active_processed['move'],self.active_processed['entities'],self.active_processed['text'])
         self.ISU.update_speaker('A')
         self.ISU.next_moves()
@@ -212,7 +215,35 @@ class DialogManager:
         self.active_recipe : dict
             The steps and the name of the active recipe are updated according to the choice of the user
         """
+
         name = self.active_processed['utterance']['parameters']['recept']
+        self.active_recipe['steps'] = self.recipes['Recipe'][name]
+        self.active_recipe['name'] = name
+        self.NLG.set_recipe(self.active_recipe)
+        self.ISU.clear()
+
+
+    def start_other_recipe(self):
+        """
+        start_recipe
+        =====
+        function to set the active recipe based on the user's intent
+
+        Function calls
+        -----
+        self.NLG.set_recipe :
+            set the active recipe in the NLG object
+        self.ISU.clear :
+            clear the information state (new recipe is seen as new conversation plan)
+
+        Transforms
+        -----
+        self.active_recipe : dict
+            The steps and the name of the active recipe are updated according to the choice of the user
+        """
+        #name = self.active_processed['utterance']['parameters']['recept']
+        name = 'sate'
+
         self.active_recipe['steps'] = self.recipes['Recipe'][name]
         self.active_recipe['name'] = name
         self.NLG.set_recipe(self.active_recipe)

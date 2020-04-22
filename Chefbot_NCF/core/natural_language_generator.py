@@ -43,6 +43,7 @@ class NLG:
         self.responses = default_responses
         self.move_response = {
             'confirm_recipe'                    : self.confirm_recipe,
+            'other_recipe'                      : self.other_recipe,
             'instruct_step'                     : self.instruct_step,
             'close_recipe'                      : self.close_recipe,
             'clarify_step_quantity'             : self.clarify_step_quantity,
@@ -99,6 +100,20 @@ class NLG:
         """
         self.response.append(random.choice(self.responses['Confirm recipe']['regular']))
 
+    def other_recipe(self):
+        """
+        confirm_recipe
+        =====
+        function to retrieve the proper response for the move to confirm that a recipe has been chose by the user
+        the response file might include different variants for variation purposes, which is why a random choice is made
+
+        Transforms
+        -----
+        self.response :
+            adds the utterance to confirm a recipe to the active response
+        """
+        self.response.append(random.choice(self.responses['Other recipe']['regular']))
+
     def introduce_step(self):
         """
         introduce_step
@@ -128,6 +143,7 @@ class NLG:
             adds the instruction to the active response
         """
         self.response.append(self.recipe['steps'][self.step]['txt_standard'])
+
 
     def clarify_step(self,clarification_type):
         """
@@ -358,3 +374,23 @@ class NLG:
             adds the activity closure to the active response
         """
         self.response.append(random.choice(self.responses['Close activity']['regular']))
+    def load_data(self,path):
+        """
+        load_data
+        =====
+        function to read a json file and return a dict object
+
+        Parameters
+        -----
+        path : str
+            Path to the json file
+
+        Returns
+        -----
+        json_data_formatted : dict
+            The parsed json file as a dict object
+        """
+        with open(path,'r',encoding='utf-8') as file_in:
+            json_data = file_in.read().strip()
+        json_data_formatted = json.loads(json_data)
+        return json_data_formatted

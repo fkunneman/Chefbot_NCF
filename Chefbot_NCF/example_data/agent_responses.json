@@ -9,6 +9,13 @@
 					"Gaan we doen!"
 				]
 		},
+	"Other recipe" :
+	{
+		"regular" :
+				[
+					"Gaan we [advies] doen!"
+				]
+	},
 	"New recipe step" :
 		{
 			"first" : 

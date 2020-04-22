@@ -139,6 +139,49 @@ class ConfirmRecipe(Move):
         for step in infostate['private']['plan']:
             infostate['private']['plan_wide'][step] = [k for k in recipedict[step].keys() if recipedict[step][k]] 
 
+class OtherRecipe(Move):
+    """
+    ClarifyQuantity
+    =====
+    Class to model the preconditions and effects of the move to clarify the quantity of a step
+    """
+
+    def __init__(self):
+        Move.__init__(self,
+            name = 'other_recipe',
+            prior_moves = ['ander recept'],
+            context = [['recept_confirm',1,{'no-input': 0.0, 'no-match': 0.0}]],
+            suggestions = ['pasta', 'volgende']
+        )
+
+    def preconditions_met(self,infostate,knowledge):
+        """
+        preconditions_met
+        =====
+        Boolean function to return if the preconditions of this move have been met given the current information state
+
+        In addition to the specified prior moves, the precondition should be met that there is knowledge of the quantity of the ingredients in the current steps
+        """
+        return Move.preconditions_met(self, infostate)
+
+    def effects(self,infostate,knowledge):
+        """
+        effects
+        =====
+        Function to apply this move's effects to the information state
+
+        In addition to adding this move to the shared conversation information state, it has the following effect:
+            - the quantity clarification is added to the shared questions under discussion
+        """
+        Move.effects(self, infostate)
+
+        infostate['plan'] = []
+        infostate['plan_wide'] = {}
+        infostate['agenda'] = None
+        infostate['shared']['beliefs']['task'] = []
+
+
+
 class InstructStep(Move):
     """
     InstructStep

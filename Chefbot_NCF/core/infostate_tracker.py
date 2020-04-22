@@ -67,6 +67,7 @@ class ISU:
             }
         self.moves = self.set_moves(moveset)
 
+
     ###################################
     ### move functions ################
     ###################################
