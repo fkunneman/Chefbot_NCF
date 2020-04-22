@@ -155,8 +155,10 @@ class DialogManager:
         """
         if self.active_processed['move'] == 'Kook recept':
             self.start_recipe()
-        #if self.active_processed['move'] == 'ander recept':
-            #self.start_other_recipe()
+            print(self.active_processed['entities'])
+        if self.active_processed['move'] == 'ander recept':
+            self.start_other_recipe()
+            self.active_processed['entities']['recept'] = 'sate'
 
         self.ISU.update('U',self.active_processed['move'],self.active_processed['entities'],self.active_processed['text'])
         self.ISU.update_speaker('A')

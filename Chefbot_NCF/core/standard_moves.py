@@ -174,11 +174,15 @@ class OtherRecipe(Move):
             - the quantity clarification is added to the shared questions under discussion
         """
         Move.effects(self, infostate)
+        recipe_name = infostate['shared']['entities'][-1]['recept']
+        infostate['private']['agenda'] = recipe_name
+        infostate['shared']['beliefs']['task'] = [recipe_name]
+        infostate['private']['plan'] = list(knowledge['Recipe'][recipe_name].keys())
+        recipedict = knowledge['Recipe'][recipe_name]
+        for step in infostate['private']['plan']:
+            infostate['private']['plan_wide'][step] = [k for k in recipedict[step].keys() if recipedict[step][k]]
 
-        infostate['plan'] = []
-        infostate['plan_wide'] = {}
-        infostate['agenda'] = None
-        infostate['shared']['beliefs']['task'] = []
+
 
 
 
@@ -192,7 +196,7 @@ class InstructStep(Move):
     def __init__(self):
         Move.__init__(self,
             name = 'instruct_step',
-            prior_moves = ['Recept continueerder','confirm_recipe'],
+            prior_moves = ['Recept continueerder','confirm_recipe','other_recipe'],
             context = [['recept_stappen',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_quantity',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_skill',5,{'no-input': 0.0, 'no-match': 0.0}]],
             suggestions = ['volgende','hoe','hoeveel','waarom','kun je dat nog een keer herhalen','wat bedoel je']
         )
