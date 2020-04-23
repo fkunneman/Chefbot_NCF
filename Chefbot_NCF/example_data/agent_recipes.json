@@ -215,34 +215,88 @@
 				"txt_howmuch" : "Naar smaak, dus net zoveel als je lekker vindt."
 			}
 		},
-	"Sate" :
+	"sate" :
 		{
-			"1" : {
+			"1": {
 				"label": "sate 1",
-				"txt_standard" : "Zet een pan met ruim water op.",
-				"txt_detail" : "Vul je pan tot ongeveer drie-vierde met water en verwarm tot het gaat koken.",
-				"txt_howto" : false,
+				"txt_standard" : "Snijd een knoflook teen fijn.",
+				"txt_detail" : "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes",
+				"txt_howto" : "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes",
 				"img_howto" : false,
-				"txt_motivate" : "De beste bereiding van pasta is door het in ruim water op te zetten. Zoals iedere Italiaanse kok zal zeggen: pasta moet zwemmen.",
-				"txt_howmuch" : "Dit hangt van je pan af, vul het tot het zo ongeveer drie kwart vol is."
+				"txt_motivate" : "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
+				"txt_howmuch" : "Voor dit recept gebruiken we 6 teentjes knoflook."
 			},
-		 	"2" : {
-		 		"label": "pasta 2",
-		 		"txt_standard" : "Snij de knoflook." ,
-		 		"txt_detail" : "Haal de knoflook teentjes uit elkaar, pel de teentjes en snijd de knoflook in dunne plakjes",
-		 		"txt_howto" : "Het maakt niet echt uit hoe je de knoflook snijdt, het gaat erom dat je plakjes knoflook van 1 à 2 milimeter als resultaat krijgt.",
-		 		"img_howto" : "https://i.imgur.com/2lTxwC7.gif",
-		 		"txt_motivate" : "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven. ",
-		 		"txt_howmuch" : "Een derde bol - 3 à 5 teentjes"
-		 	},
-			"3" : {
-				"label": "pasta 3",
-				"txt_standard" : "Garneer naar smaak met geraspte kaas.",
-				"txt_detail" : "Strooi als je dat wil garaspte kaas over de pasta.",
+			"2": {
+				"label": "sate 2",
+				"txt_standard" : "Snijd de rode peper.",
+				"txt_detail" : "Snij de peper in ringen.",
+				"txt_howto" : "Snijd het steeltje van de rode peper en snijd de peper in ringen.",
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : "Voor dit recept gebruiken we een hele rode peper"
+			},
+			"3": {
+				"label": "sate 3",
+				"txt_standard" : "Snij de kip in blokjes",
+				"txt_detail" : "De blokjes moeten ongeveer 2 vierkante centimeter zijn",
+				"txt_howto" : "Snij het vet van de kip en snij in stukken",
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : "We gebruiken 500 gram kipfilet"
+			},
+			"4": {
+				"label": "sate 4",
+				"txt_standard" : "Doe een halve liter ketjap in een schaal.",
+				"txt_detail" : false,
 				"txt_howto" : false,
 				"img_howto" : false,
-				"txt_motivate" : "Veel mensen vinden het lekker om pasta verder op smaak te brengen met geraspte kaas, maar zonder is het ook nog steeds erg lekker.",
-				"txt_howmuch" : "Naar smaak, dus net zoveel als je lekker vindt. Ik zou het echter niet te bont maken"
+				"txt_motivate" : false,
+				"txt_howmuch" : "We gebruiken een halve liter ketjap"
+			},
+			"5": {
+				"label": "sate 5",
+				"txt_standard" : "Voeg de knoflook, rode peper, de ketoembar en de kip toe en laat afgedekt 15 minuten staan.",
+				"txt_detail" : "De zou na 15 min op smaak zijn. Des te langer het staat, des te meer smaak er aan zit.",
+				"txt_howto" : "Dek af met een bord of folie.",
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : false
+			},
+			"6": {
+				"label": "sate 6",
+				"txt_standard" : "Rijg de kip op de satestokjes.",
+				"txt_detail" : "De kip bakt sneller door het formaat.",
+				"txt_howto" : "Gebruik voor het omscheppen een grote spatel.",
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : "Gebruik 4 of 5 stukjes kip per stokje."
+			},
+			"7": {
+				"label": "sate 7",
+				"txt_standard" : "Bak de kip goudbruin aan beide kanten.",
+				"txt_detail" : false,
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : "3 minuten per kant is een goede indicatie."
+			},
+			"8": {
+				"label": "sate 8",
+				"txt_standard" : "Verdeel de sate over de schaal.",
+				"txt_detail" : false,
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : false
+			},
+			"9": {
+				"label": "sate 9",
+				"txt_standard" : "Bestrooi met sesamzaad en serveer met pindasaus. Geniet ervan!",
+				"txt_detail" : false,
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : false
 			}
 		},
 	"ovenschotel" :
