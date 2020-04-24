@@ -38,6 +38,7 @@ class NLG:
 
     def __init__(self,default_responses):
         self.response = []
+        self.images = {}
         self.recipe = None
         self.step = None
         self.responses = default_responses
@@ -64,11 +65,13 @@ class NLG:
         for move in moves:
             self.move_response[move]()
         response_out = ' '.join(self.response).replace('[recipe]',self.recipe['name']).replace('[step]',self.step)
+        images_out = self.images
         self.reset_response()
-        return response_out
+        return response_out, images_out
 
     def reset_response(self):
         self.response = []
+        self.images = []
 
     def set_recipe(self,recipe):
         self.recipe = recipe
@@ -128,7 +131,7 @@ class NLG:
         """
         self.response.append(self.recipe['steps'][self.step]['txt_standard'])
 
-    def clarify_step(self,clarification_type):
+    def clarify_step(self,clarification_type,img=False):
         """
         clarify_step
         =====
@@ -147,6 +150,10 @@ class NLG:
             adds the introduction to the clarification (if any), and the clarification itself to the active response
         """
         self.response.extend([random.choice(self.responses[clarification_type[1]]['regular']),self.recipe['steps'][self.step][clarification_type[0]]])
+        if img:
+            if self.recipe['steps'][self.step][img]:
+                self.images = self.recipe['steps'][self.step][img]
+                print("NLG IMAGES",self.images)
 
     def clarify_fallback(self,clarification_type):
         """
@@ -231,7 +238,7 @@ class NLG:
         self.clarify_step : 
             to retrieve the proper clarification with the specified keys
         """
-        self.clarify_step(['txt_howto', 'Explain step'])
+        self.clarify_step(['txt_howto', 'Explain step'],'img_howto')
 
     def fallback_explain(self):
         """

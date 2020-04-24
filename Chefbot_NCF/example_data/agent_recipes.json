@@ -15,7 +15,36 @@
 		 		"txt_standard" : "Snij de knoflook." ,
 		 		"txt_detail" : "Haal de knoflook teentjes uit elkaar, pel de teentjes en snijd de knoflook in dunne plakjes",
 		 		"txt_howto" : "Het maakt niet echt uit hoe je de knoflook snijdt, het gaat erom dat je plakjes knoflook van 1 à 2 milimeter als resultaat krijgt.",
-		 		"img_howto" : "https://i.imgur.com/2lTxwC7.gif",
+		 		"img_howto" : {
+		 			"title" : "instructiefilmpjes",
+		 			"list" :
+			 			[
+			 				{
+				 				"optionInfo": {
+				 					"key" : "knofloook snijden",
+				 					"synonyms" : ["ks"]
+				 				},
+				 				"description": "Instructiefilmpje",
+				 		        "image": {
+		                  			"url": "https://i.imgur.com/2lTxwC7.gif",
+		                  			"accessibilityText": "instructiefilmpje knoflook snijden"
+		                		},
+		                		"title": "Instructiefilmpje knoflook snijden"
+		                	},
+				 			{
+				 				"optionInfo": {
+				 					"key" : "knofloook snijden",
+				 					"synonyms" : ["ks"]
+				 				},
+				 				"description": "Instructiefilmpje",
+				 		        "image": {
+		                  			"url": "https://i.imgur.com/2lTxwC7.gif",
+		                  			"accessibilityText": "instructiefilmpje knoflook snijden"
+		                		},
+		                		"title": "Instructiefilmpje knoflook snijden"
+		                	}
+	                	]
+	                },
 		 		"txt_motivate" : "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven. ",
 		 		"txt_howmuch" : "Een derde bol - 3 à 5 teentjes"
 		 		},
