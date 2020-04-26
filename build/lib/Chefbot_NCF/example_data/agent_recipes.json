@@ -1,0 +1,140 @@
+{"Recipe" :
+	{ "pasta aglio e olio" :
+		{
+			"1" : {
+				"label": "pasta 1",
+				"txt_standard" : "Dit is het kookgerei dat je nodig hebt voor dit recept",
+				"txt_cookware" :  "Het kookgerei dat je nodig hebt is een kookpan, koekenpan, snijplank, beker en een zeef. "
+				},
+			"2" : {
+				"label": "pasta 2",
+				"txt_standard" : "Zet een pan met ruim water op.",
+				"txt_detail" : "Vul je pan tot ongeveer drie-vierde met water en verwarm tot het gaat koken.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : "De beste bereiding van pasta is door het in ruim water op te zetten. Zoals iedere Italiaanse kok zal zeggen: pasta moet zwemmen.",
+				"txt_howmuch" : "Dit hangt van je pan af, vul het tot het zo ongeveer drie kwart vol is."
+				},
+		 	"3" : {
+		 		"label": "pasta 3",
+		 		"txt_standard" : "Snij de knoflook." ,
+		 		"txt_detail" : "Haal de knoflook teentjes uit elkaar, pel de teentjes en snijd de knoflook in dunne plakjes",
+		 		"txt_howto" : "Het maakt niet echt uit hoe je de knoflook snijdt, het gaat erom dat je plakjes knoflook van 1 à 2 milimeter als resultaat krijgt.",
+		 		"img_howto" : "https://i.imgur.com/2lTxwC7.gif",
+		 		"txt_motivate" : "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven. ",
+		 		"txt_howmuch" : "Een derde bol - 3 à 5 teentjes"
+		 		},
+			"4" : {
+				"label": "pasta 4",
+				"txt_standard" : "Garneer naar smaak met geraspte kaas.",
+				"txt_detail" : "Strooi als je dat wil garaspte kaas over de pasta.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : "Veel mensen vinden het lekker om pasta verder op smaak te brengen met geraspte kaas, maar zonder is het ook nog steeds erg lekker.",
+				"txt_howmuch" : "Naar smaak, dus net zoveel als je lekker vindt. Ik zou het echter niet te bont maken"
+			}
+		},
+	"noedels" :
+		{
+			"1": {
+				"label": "noedels 1",
+				"txt_standard" : "Snijd een knoflook teen fijn.",
+				"txt_detail" : "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes",
+				"txt_howto" : "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes",
+				"img_howto" : false,
+				"txt_motivate" : "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
+				"txt_howmuch" : "Voor dit recept gebruiken we 1 teen knoflook."
+			},
+				"2": {
+					"label": "noedels 2",
+					"txt_standard" : "Snijd een halve rode peper.",
+					"txt_detail" : "Snijd het steeltje van de rode peper, halveer de peper in de lengte, verwijder met een scherp mesje de zaadlijsten en snijd het vruchtvlees van een halve rode peper fijn",
+					"txt_howto" : "Snijd het steeltje van de rode peper, halveer de peper in de lengte, verwijder met een scherp mesje de zaadlijsten en snijd het vruchtvlees van een halve rode peper fijn",
+					"img_howto" : false,
+					"txt_motivate" : false,
+					"txt_howmuch" : "Voor dit recept gebruiken we een halve rode peper"
+				},
+				"3": {
+					"label": "noedels 3",
+					"txt_standard" : "Verhit een koekenpan met antiaanbaklaag zonder olie of boter en bak het gehakt op middelhoog vuur rul.",
+					"txt_detail" : "Het gehakt zou in 3 min rul moeten zijn",
+					"txt_howto" : "Het gehakt zou in 3 min rul moeten zijn",
+					"img_howto" : false,
+					"txt_motivate" : false,
+					"txt_howmuch" : "Gebruik het hele pak 300gr mager rundergehakt"
+				},
+				"4": {
+					"label": "noedels 4",
+					"txt_standard" : "Giet het vocht af en zet terug op het vuur.",
+					"txt_detail" : false,
+					"txt_howto" : "Giet het vocht voorzichtig af terwijl je de pan wat schuin houdt.",
+					"img_howto" : false,
+					"txt_motivate" : false,
+					"txt_howmuch" : false
+				},
+				"5": {
+					"label": "noedels 5",
+					"txt_standard" : "Voeg de knoflook en rode peper toe en bak het vlees tot het vlees knapperig is. En voeg daarna 4/5 van de woksaus toe.",
+					"txt_detail" : "Het vlees zou binnen 8 min knapperig moeten zijn. De woksaus kan in de laatste minuut toegevoegd worden.",
+					"txt_howto" : "Het vlees zou binnen 8 min knapperig moeten zijn. De woksaus kan in de laatste minuut toegevoegd worden.",
+					"img_howto" : false,
+					"txt_motivate" : false,
+					"txt_howmuch" : false
+				},
+				"6": {
+					"label": "noedels 6",
+					"txt_standard" : "Verhit wat sesamolie in een wok en bak de wokgroente 3 min. al omscheppend op hoog vuur. Voeg de rest van de woksaus toe en verwarm 2 min. mee.",
+					"txt_detail" : "Verhit de sesamolie in een wok en bak de wokgroente 3 min. al omscheppend op hoog vuur. Voeg de rest van de woksaus toe en verwarm 2 min. mee.",
+					"txt_howto" : "Gebruik voor het omscheppen een grote spatel.",
+					"img_howto" : false,
+					"txt_motivate" : false,
+					"txt_howmuch" : "Gebruik hiervoor 2 eetlepels sesamolie."
+				},
+				"7": {
+					"label": "noedels 7",
+					"txt_standard" : "Kook 2 liter water. ",
+					"txt_detail" : false,
+					"txt_howto" : false,
+					"img_howto" : false,
+					"txt_motivate" : false,
+					"txt_howmuch" : false
+				},
+				"8": {
+					"label": "noedels 8",
+					"txt_standard" : "Als het water kookt, zet het vuur uit en laat de egg noodles er 4 min in wellen.",
+					"txt_detail" : false,
+					"txt_howto" : false,
+					"img_howto" : false,
+					"txt_motivate" : false,
+					"txt_howmuch" : false
+				},
+				"9": {
+					"label": "noedels 9",
+					"txt_standard" : "Giet de noedels af in een vergiet. Spoel ze af met water en laat goed uitlekken. ",
+					"txt_detail" : false,
+					"txt_howto" : false,
+					"img_howto" : false,
+					"txt_motivate" : false,
+					"txt_howmuch" : false
+				},
+				"10": {
+					"label": "noedels 10",
+					"txt_standard" : "Verdeel de noedels samen met het gehakt en de groente naast elkaar over diepe borden.",
+					"txt_detail" : false,
+					"txt_howto" : false,
+					"img_howto" : false,
+					"txt_motivate" : false,
+					"txt_howmuch" : false
+				},
+				"11": {
+					"label": "noedels 11",
+					"txt_standard" : "Bestrooi met sesamzaad en geniet!",
+					"txt_detail" : "Dit kan zowel zwarte sesamzaden zijn als witte sesamzaden.",
+					"txt_howto" : false,
+					"img_howto" : false,
+					"txt_motivate" : "Het toevoegen van sesamzaden aan gerechten kan worden vergelijken met een kers op de taart. Dit maakt het gerecht helemaal af.",
+					"txt_howmuch" : "De hoeveelheid is naar eigen wens aan te passen."
+				}
+			}
+		}
+}

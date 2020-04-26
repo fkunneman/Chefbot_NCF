@@ -668,11 +668,11 @@ class CloseActivity(Move):
         infostate['agenda'] = None
         infostate['shared']['beliefs']['task'] = []
 
-class CookingUtensilsList(Move):
+class ClarifyCookware(Move):
     def __init__(self):
         Move.__init__(self,
-            name= 'cooking_utensils_list',
-            prior_moves= ['confirm_recipe'],
+            name= 'clarify_step_cookware',
+            prior_moves= ['Recept cookware'],
             context = [['recept_stappen',5, {'no-input': 0.0, 'no-match': 0.0}], ['recept_toelichting',5,{'no-input': 0.0, 'no-match': 0.0}]],
             suggestions= ['volgende', 'duidelijk', 'dankje']
         )
@@ -686,7 +686,7 @@ class CookingUtensilsList(Move):
         """
         pm = False
         if Move.preconditions_met(self,infostate):
-            if 'cooking_utensils' in infostate['private']['plan_wide'][infostate['private']['plan'][0]]:
+            if 'txt_cookware' in infostate['private']['plan_wide'][infostate['private']['plan'][0]]:
                 pm = True
         return pm
 
@@ -701,4 +701,4 @@ class CookingUtensilsList(Move):
         """
         Move.effects(self,infostate)
         # qud
-        infostate['shared']['qud'] = infostate['private']['plan'][0] + '_cooking_utensils'
+        infostate['shared']['qud'] = infostate['private']['plan'][0] + '_cookware'

@@ -45,7 +45,7 @@ class NLG:
             'confirm_recipe'                    : self.confirm_recipe,
             'instruct_step'                     : self.instruct_step,
             'close_recipe'                      : self.close_recipe,
-            'cooking_utensils_list'             : self.cooking_utensils_list,
+            'clarify_step_cookware'             : self.clarify_step_cookware,
             'clarify_step_quantity'             : self.clarify_step_quantity,
             'clarify_step_quantity_fallback'    : self.fallback_quantity,
             'clarify_step_repeat'               : self.clarify_step_repeat,
@@ -128,8 +128,8 @@ class NLG:
             adds the instruction to the active response
         """
 
-        if self.step == "cooking_utensils":
-            self.response.append(self.recipe['steps'][self.step]['needed_cooking_utensils'])
+        if self.step == "1":
+            self.response.append(self.recipe['steps'][self.step]['txt_cookware'])
         else:
             self.response.append(self.recipe['steps'][self.step]['txt_standard'])
 
@@ -173,12 +173,12 @@ class NLG:
         """
         self.response.append(random.choice(self.responses[clarification_type]['fallback']))
 
-    def cooking_utensils_list(self):
+    def clarify_step_cookware(self):
         """clarify_step_cookware
         =====
         function to retrieve the proper response for the move to clarify the needed cookware of a recipe
         """
-        self.instruct_step()
+        self.clarify_step(['txt_cookware', 'Step cookware'])
 
     def clarify_step_quantity(self):
         """

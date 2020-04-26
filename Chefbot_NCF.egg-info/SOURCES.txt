@@ -1,0 +1,12 @@
+README.md
+setup.py
+Chefbot_NCF/__init__.py
+Chefbot_NCF.egg-info/PKG-INFO
+Chefbot_NCF.egg-info/SOURCES.txt
+Chefbot_NCF.egg-info/dependency_links.txt
+Chefbot_NCF.egg-info/not-zip-safe
+Chefbot_NCF.egg-info/top_level.txt
+Chefbot_NCF/core/dialog_manager.py
+Chefbot_NCF/core/infostate_tracker.py
+Chefbot_NCF/core/natural_language_generator.py
+Chefbot_NCF/core/standard_moves.py

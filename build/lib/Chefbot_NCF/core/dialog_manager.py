@@ -215,7 +215,6 @@ class DialogManager:
         print(self.recipes['Recipe'].keys())
         name = self.active_processed['utterance']['parameters']['recept']
         self.active_recipe['steps'] = self.recipes['Recipe'][name]
-        self.active_recipe['cooking_utensils'] = self.recipes['Recipe'][name]
         self.active_recipe['name'] = name
         self.NLG.set_recipe(self.active_recipe)
         self.ISU.clear()
