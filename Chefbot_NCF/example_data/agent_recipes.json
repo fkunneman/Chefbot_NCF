@@ -1,29 +1,68 @@
 {
 	"Recipe": {
 		"pasta aglio e olio": {
-			"cooking_utensils": {
-				"label": "pasta 1",
-				"txt_standard": "Dit is het kookgerei dat je nodig hebt voor dit recept",
-				"needed_cooking_utensils": "kookpan"
-			},
-			"2" : {
-		 		"label": "pasta 2",
-		 		"txt_standard" : "Snij de knoflook." ,
-		 		"txt_detail" : "Haal de knoflook teentjes uit elkaar, pel de teentjes en snijd de knoflook in dunne plakjes",
-		 		"txt_howto" : "Het maakt niet echt uit hoe je de knoflook snijdt, het gaat erom dat je plakjes knoflook van 1 à 2 milimeter als resultaat krijgt.",
-		 		"img_howto" : "https://i.imgur.com/2lTxwC7.gif",
-		 		"txt_motivate" : "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven. ",
-		 		"txt_howmuch" : "Een derde bol - 3 à 5 teentjes"
-		 		},
-			"3" : {
-				"label": "pasta 3",
-				"txt_standard" : "Garneer naar smaak met geraspte kaas.",
-				"txt_detail" : "Strooi als je dat wil garaspte kaas over de pasta.",
-				"txt_howto" : false,
-				"img_howto" : false,
-				"txt_motivate" : "Veel mensen vinden het lekker om pasta verder op smaak te brengen met geraspte kaas, maar zonder is het ook nog steeds erg lekker.",
-				"txt_howmuch" : "Naar smaak, dus net zoveel als je lekker vindt. Ik zou het echter niet te bont maken"
+			"cooking_utensils_steps": {
+				"cooking_utensils": {
+					"label": "pasta 1",
+					"txt_standard": "Dit is het kookgerei dat je nodig hebt voor dit recept",
+					"needed_cooking_utensils": {
+						"title": "koekenpan",
+						"url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tefal.nl%2FPannen-%26-Keukengerei%2FPannen%2FBasics-Koekenpan-24-cm%2Fp%2F2100103092&psig=AOvVaw0hCosKEFxdqxFEVfvAYEUu&ust=1588083070972000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiDzszkiOkCFQAAAAAdAAAAABAF"
+					}
 				}
+			},
+			"steps": {
+				"1": {
+					"label": "pasta 2",
+					"txt_standard": "Snij de knoflook.",
+					"txt_detail": "Haal de knoflook teentjes uit elkaar, pel de teentjes en snijd de knoflook in dunne plakjes",
+					"txt_howto": "Het maakt niet echt uit hoe je de knoflook snijdt, het gaat erom dat je plakjes knoflook van 1 à 2 milimeter als resultaat krijgt.",
+					"img_howto": {
+						"title": "instructiefilmpjes",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knofloook snijden",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Instructiefilmpje",
+								"image": {
+									"url": "https://i.imgur.com/2lTxwC7.gif",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							},
+							{
+								"optionInfo": {
+									"key": "knofloook snijden",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Instructiefilmpje",
+								"image": {
+									"url": "https://i.imgur.com/2lTxwC7.gif",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					},
+					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven. ",
+					"txt_howmuch": "Een derde bol - 3 à 5 teentjes"
+				},
+				"2": {
+					"label": "pasta 3",
+					"txt_standard": "Garneer naar smaak met geraspte kaas.",
+					"txt_detail": "Strooi als je dat wil garaspte kaas over de pasta.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": "Veel mensen vinden het lekker om pasta verder op smaak te brengen met geraspte kaas, maar zonder is het ook nog steeds erg lekker.",
+					"txt_howmuch": "Naar smaak, dus net zoveel als je lekker vindt. Ik zou het echter niet te bont maken"
+				}
+			}
 		},
 	"noedels" :
 		{
