@@ -120,8 +120,8 @@
 		{
 			"regular" :
     			[
-      				"De recepten waar je uit kunt kiezen zijn [recipe].",
-      				"Je kunt kiezen uit de volgende recepten [recipe]."
+      				"De recepten waar je uit kunt kiezen zijn [recipe_options].",
+      				"Je kunt kiezen uit de volgende recepten [recipe_options]."
     			]
 		}
 }
