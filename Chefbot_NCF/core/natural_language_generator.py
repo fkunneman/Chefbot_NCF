@@ -39,7 +39,7 @@ class NLG:
     def __init__(self,default_responses, recipe_options):
         self.response = []
         self.recipe = None
-        self.recipes = recipe_options
+        self.recipe_options = recipe_options
         self.step = None
         self.responses = default_responses
         self.move_response = {
@@ -65,11 +65,16 @@ class NLG:
         self.update_step(index)
         for move in moves:
             self.move_response[move]()
-        print("Recepten in NLG file:", self.recipes)
+
+        # '[recipe]' naar een lijst van recipes?
+        print("Recepten in NLG file:", self.recipe_options)
         print(self.recipe['name'])
-        #Error replace() argument 2 must be string not dictkeys (self.recipes is in de vorm van dictkeys)
-        response_out = ' '.join(self.response).replace('[recipe]',self.recipe['name']).replace('[step]',self.step).replace('[recipe_options]','pasta')
-        #'[recipe]' naar een lijst van recipes?
+        recipe_options_string = ', '.join(self.recipe_options)
+        print("recipe_options_string:",recipe_options_string)
+        #Error replace() argument 2 must be string not dictkeys (self.recipe_options is in de vorm van dictkeys)
+        #oplossing?
+        response_out = ' '.join(self.response).replace('[recipe]',self.recipe['name']).replace('[step]',self.step).replace('[recipe_options]',recipe_options_string)
+
         self.reset_response()
         return response_out
 
@@ -79,10 +84,10 @@ class NLG:
     def set_recipe(self,recipe):
         self.recipe = recipe
 
-    def set_recipe_options(self,recipes):
-        print("Set recipe options in NLG boven:", recipes)
-        self.recipes = recipes
-        print("Set recipe options in NLG onder:", recipes)
+    def set_recipe_options(self,recipe_options):
+        print("Set recipe options in NLG boven:", recipe_options)
+        self.recipe_options = recipe_options
+        print("Set recipe options in NLG onder:", recipe_options)
 
     def set_responses(self,default_responses):
         self.responses = default_responses
