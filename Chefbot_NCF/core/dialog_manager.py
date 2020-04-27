@@ -59,14 +59,14 @@ class DialogManager:
     def __init__(self,recipefile=recipepath,responsefile=responsepath,moveset=False):
         self.recipes = self.load_data(recipefile)
         self.recipe_options = self.recipes["Recipe"].keys()
-        print("Recepten in dialog manager:", self.recipe_options)
+        #print("Recepten in dialog manager:", self.recipe_options)
         self.responses = self.load_data(responsefile)
-        print(self.responses)
+        #print(self.responses)
         if not moveset:
             moveset = standard_moves
         self.ISU = infostate_tracker.ISU(self.recipes,moveset)
         self.NLG = natural_language_generator.NLG(self.responses, self.recipe_options)
-        print(self.NLG)
+        #print(self.NLG)
         self.active_recipe = {}
         self.active_processed = {}
         self.active_response = {}
@@ -221,32 +221,6 @@ class DialogManager:
         self.active_recipe['name'] = name
         self.NLG.set_recipe(self.active_recipe)
         self.ISU.clear()
-
-#Zelf toegevoegd
-    def show_recipe_options(self):
-        """
-        show_recipe_options
-        =====
-        function to show to recipe options based on the user's intent
-
-        Function calls
-        -----
-        self.NLG.set_recipe_options :
-            set the recipe options in the NLG object
-        self.ISU.clear : ??
-            clear the information state (new recipe is seen as new conversation plan)
-
-        Transforms
-        -----
-        self.active_recipe : dict
-            The steps and the name of the active recipe are updated according to the choice of the user
-        """
-        #name = self.active_processed['utterance']['parameters']['recept']
-        #self.active_recipe['steps'] = self.recipes['Recipe'][name]
-        #self.active_recipe['name'] = name
-        self.NLG.set_recipe_options(self.recipe_options)
-        #self.ISU.clear()
-
 
     def load_data(self,path):
         """

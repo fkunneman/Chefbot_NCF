@@ -66,13 +66,9 @@ class NLG:
         for move in moves:
             self.move_response[move]()
 
-        # '[recipe]' naar een lijst van recipes?
-        print("Recepten in NLG file:", self.recipe_options)
-        print(self.recipe['name'])
+        #print("Recepten in NLG file:", self.recipe_options)
         recipe_options_string = ', '.join(self.recipe_options)
-        print("recipe_options_string:",recipe_options_string)
-        #Error replace() argument 2 must be string not dictkeys (self.recipe_options is in de vorm van dictkeys)
-        #oplossing?
+        #print("recipe_options_string:",recipe_options_string)
         response_out = ' '.join(self.response).replace('[recipe]',self.recipe['name']).replace('[step]',self.step).replace('[recipe_options]',recipe_options_string)
 
         self.reset_response()
@@ -83,11 +79,6 @@ class NLG:
 
     def set_recipe(self,recipe):
         self.recipe = recipe
-
-    def set_recipe_options(self,recipe_options):
-        print("Set recipe options in NLG boven:", recipe_options)
-        self.recipe_options = recipe_options
-        print("Set recipe options in NLG onder:", recipe_options)
 
     def set_responses(self,default_responses):
         self.responses = default_responses

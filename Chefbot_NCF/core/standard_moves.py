@@ -681,7 +681,7 @@ class SelectRecipe(Move):
             name = 'select_recipe',
             prior_moves = ['Welke recepten'],
             context = [],
-            suggestions = ['pasta']
+            suggestions = ['pasta', 'pannenkoeken', 'noedels', 'sate', 'ovenschotel']
         )
 
     def preconditions_met(self,infostate,knowledge):
@@ -692,7 +692,7 @@ class SelectRecipe(Move):
 
         No further preconditions should be met other than the presence of a particular prior move: the intent of the user to ask for recipe options
         """
-        print("Prior moves of SelectRecipe:", self.prior_moves)
+        #print("Prior moves of SelectRecipe:", self.prior_moves)
         return Move.preconditions_met(self,infostate)
 
     def effects(self,infostate,knowledge):
