@@ -36,9 +36,10 @@ class NLG:
         add new moves / responses to this dictionary
     """
 
-    def __init__(self,default_responses):
+    def __init__(self,default_responses, recipe_options):
         self.response = []
         self.recipe = None
+        self.recipes = recipe_options
         self.step = None
         self.responses = default_responses
         self.move_response = {
@@ -64,7 +65,11 @@ class NLG:
         self.update_step(index)
         for move in moves:
             self.move_response[move]()
-        response_out = ' '.join(self.response).replace('[recipe]',self.recipe['name']).replace('[step]',self.step)
+        print("Recepten in NLG file:", self.recipes)
+        print(self.recipe['name'])
+        #Error replace() argument 2 must be string not dictkeys (self.recipes is in de vorm van dictkeys)
+        response_out = ' '.join(self.response).replace('[recipe]',self.recipe['name']).replace('[step]',self.step).replace('[recipe_options]','pasta')
+        #'[recipe]' naar een lijst van recipes?
         self.reset_response()
         return response_out
 
@@ -73,6 +78,11 @@ class NLG:
 
     def set_recipe(self,recipe):
         self.recipe = recipe
+
+    def set_recipe_options(self,recipes):
+        print("Set recipe options in NLG boven:", recipes)
+        self.recipes = recipes
+        print("Set recipe options in NLG onder:", recipes)
 
     def set_responses(self,default_responses):
         self.responses = default_responses
