@@ -3,7 +3,6 @@
 		"pasta aglio e olio": {
 			"preliminaries": {
 				"ingredients": {
-					"label": "pasta ingredients",
 					"1": "Dit zijn de ingredienten die je nodig hebt: ",
 					"2": "3 à 5 knoflook teentjes",
 					"3": "pasta",
@@ -11,7 +10,6 @@
 					"5": "geraspte kaas"
 				},
 				"cooking_utensils": {
-					"label": "pasta 1",
 					"txt_standard": "Dit is het kookgerei dat je nodig hebt voor dit recept",
 					"list" : {
 							"1": "koekenpan"
