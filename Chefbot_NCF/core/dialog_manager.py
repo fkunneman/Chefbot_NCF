@@ -178,6 +178,7 @@ class DialogManager:
         self.active_response :
             update with the textual response as returned by the NLG object
         """
+        print(self.ISU.infostate['private']['plan'])
         self.active_response, self.active_images = self.NLG.formulate_response(self.ISU.return_agent_moves(), self.ISU.return_current_step())
 
     def update_response(self):
@@ -216,8 +217,8 @@ class DialogManager:
         """
         print(self.recipes['Recipe'].keys())
         name = self.active_processed['utterance']['parameters']['recept']
-        self.active_recipe['steps'] = self.recipes['Recipe'][name]['steps']
-        self.active_recipe['cooking_utensils_steps'] = self.recipes['Recipe'][name]['cooking_utensils_steps']
+        self.active_recipe['Recipe_steps'] = self.recipes['Recipe'][name]['Recipe_steps']
+        self.active_recipe['preliminaries'] = self.recipes['Recipe'][name]['preliminaries']
         self.active_recipe['name'] = name
         self.NLG.set_recipe(self.active_recipe)
         self.ISU.clear()

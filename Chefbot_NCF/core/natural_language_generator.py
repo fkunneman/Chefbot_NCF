@@ -46,6 +46,7 @@ class NLG:
             'confirm_recipe'                    : self.confirm_recipe,
             'instruct_step'                     : self.instruct_step,
             'close_recipe'                      : self.close_recipe,
+            'ingredient_steps'                  : self.ingredient_steps,
             'cooking_utensils_list'             : self.cooking_utensils_list,
             'clarify_step_quantity'             : self.clarify_step_quantity,
             'clarify_step_quantity_fallback'    : self.fallback_quantity,
@@ -65,6 +66,7 @@ class NLG:
         self.update_step(index)
         for move in moves:
             self.move_response[move]()
+        print(self.response)
         response_out = ' '.join(self.response).replace('[recipe]',self.recipe['name']).replace('[step]',self.step)
         images_out = self.images
         self.reset_response()
@@ -131,13 +133,9 @@ class NLG:
             adds the instruction to the active response
         """
 
-        if self.step == "cooking_utensils_steps":
-        #    # print(self.recipe)
-            self.response.append(self.recipe['cooking_utensils_steps']['cooking_utensils']['needed_cooking_utensils']["title"])
-            print(self.recipe)
-        else:
-
-            self.response.append(self.recipe['steps'][self.step]['txt_standard'])
+        print(self.recipe)
+        print(self.step)
+        self.response.append(self.recipe['Recipe_steps'][self.step]['txt_standard'])
 
     def clarify_step(self,clarification_type,img=False):
         """
@@ -157,16 +155,16 @@ class NLG:
         self.response : 
             adds the introduction to the clarification (if any), and the clarification itself to the active response
         """
-        self.response.extend([random.choice(self.responses[clarification_type[1]]['regular']),self.recipe['steps'][self.step][clarification_type[0]]])
+        self.response.extend([random.choice(self.responses[clarification_type[1]]['regular']),self.recipe['Recipe_steps'][self.step][clarification_type[0]]])
         if img:
-            if self.recipe['steps'][self.step][img]:
-                self.images = self.recipe['steps'][self.step][img]
+            if self.recipe['Recipe_steps'][self.step][img]:
+                self.images = self.recipe['Recipe_steps'][self.step][img]
                 print("NLG IMAGES", self.images)
 
-        if img:
-            if self.recipe['cooking_utensils_steps'][img]:
-                self.images = self.recipe['cooking_utensils_steps'][img]
-                print("NLG IMAGES", self.images)
+        # if img:
+        #     if self.recipe['preliminaries'][img]:
+        #         self.images = self.recipe['preliminaries'][img]
+        #         print("NLG IMAGES", self.images)
 
     def clarify_fallback(self,clarification_type):
         """
@@ -188,15 +186,6 @@ class NLG:
         """
         self.response.append(random.choice(self.responses[clarification_type]['fallback']))
 
-    def cooking_utensils_list(self):
-        """clarify_step_cookware
-        =====
-        function to retrieve the proper response for the move to clarify the needed cookware of a recipe
-        """
-        # if self.step == "cooking_utensils":
-            # print(self.recipe)
-        # self.response.append(self.recipe['cooking_utensils']['needed_cooking_utensils'])
-        self.instruct_step()
 
     def clarify_step_quantity(self):
         """
@@ -374,3 +363,33 @@ class NLG:
             adds the activity closure to the active response
         """
         self.response.append(random.choice(self.responses['Close activity']['regular']))
+
+    def cooking_utensils_list(self):
+        """clarify_step_cookware
+        =====
+        function to retrieve the proper response for the move to clarify the needed cookware of a recipe
+        """
+        # if self.step == "cooking_utensils":
+            # print(self.recipe)
+        # self.response.append(self.recipe['cooking_utensils']['needed_cooking_utensils'])
+        for x in self.recipe['preliminaries']['cooking_utensils']["list"]:
+            self.response.append(self.recipe['preliminaries']['cooking_utensils']["list"][x])
+
+        if self.recipe['preliminaries']['cooking_utensils']['img_howto']:
+            self.images = self.recipe['preliminaries']['cooking_utensils']['img_howto']
+            print("NLG IMAGES", self.images)
+
+    def ingredient_steps(self):
+        """
+        ingredient_step
+        =====
+        function to retrieve the proper response for the move to show ingredients in a recipe step
+
+        Transforms
+        -----
+        self.response :
+            adds the instruction to the active response
+        """
+        # self.response.append(self.recipe['steps']['ingredient_steps']["1"]['ingredients']) #onthouden
+        for x in self.recipe['preliminaries']["ingredients"]:
+            self.response.append(self.recipe['preliminaries']["ingredients"][x])
