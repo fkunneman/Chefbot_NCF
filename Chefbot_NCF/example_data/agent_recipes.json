@@ -3,11 +3,74 @@
 		"pasta aglio e olio": {
 			"preliminaries": {
 				"ingredients": {
-					"1": "Dit zijn de ingredienten die je nodig hebt: ",
-					"2": "3 à 5 knoflook teentjes",
-					"3": "pasta",
-					"4": "water",
-					"5": "geraspte kaas"
+					"list": {
+						"1": "Dit zijn de ingredienten die je nodig hebt: ",
+						"2": "3 à 5 knoflook teentjes",
+						"3": "pasta",
+						"4": "water",
+						"5": "geraspte kaas"
+					},
+					"img_howto": {
+						"title": "ingredienten",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook foto",
+									"synonyms": [
+										"knoflook"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
+									"accessibilityText": "knoflook"
+								},
+								"title": "knoflook teentjes"
+							},
+							{
+								"optionInfo": {
+									"key": "pasta foto",
+									"synonyms": [
+										"pasta"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.toscanetips.nl/sites/toscanetips/files/styles/blog_image/public/embed/spaghetti.jpg?itok=GWeVi3oc",
+									"accessibilityText": "pasta"
+								},
+								"title": "Pasta"
+							},
+							{
+								"optionInfo": {
+									"key": "water foto",
+									"synonyms": [
+										"water"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://assets04.wurmagazine.nl/wp-content/uploads/2018/12/shutterstock_1104321005_WW.jpg",
+									"accessibilityText": "water"
+								},
+								"title": "Water"
+							},
+							{
+								"optionInfo": {
+									"key": "geraspte kaas foto",
+									"synonyms": [
+										"geraspte kaas"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://shop.thuisbezorgd.nl/media/catalog/product/cache/11/image/9df78eab33525d08d6e5fb8d27136e95/v/e/vendor_product_5be930a6b82f8_11.jpeg",
+									"accessibilityText": "geraspte kaas"
+								},
+								"title": "geraspte kaas"
+							}
+						]
+					}
 				},
 				"cooking_utensils": {
 					"txt_standard": "Dit is het kookgerei dat je nodig hebt voor dit recept",
@@ -151,6 +214,7 @@
 		"noedels": {
 			"preliminaries": {
 				"ingredients": {
+					"list": {
 					"1": "Dit zijn de ingredienten die je nodig hebt: ",
 					"2": "1 teen knoflook",
 					"3": "een halve rode peper",
@@ -160,6 +224,124 @@
 					"7": "800 g Japanse wokgroente kastanjechampignons & peulen",
 					"8": "250 g Go-Tan egg noodles",
 					"9": "2 eetlepels sesamzaad"
+				},
+					"img_howto": {
+						"title": "ingredienten",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook foto",
+									"synonyms": [
+										"knoflook"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
+									"accessibilityText": "knoflook"
+								},
+								"title": "Knoflook teentjes"
+							},
+							{
+								"optionInfo": {
+									"key": "sesamzaad foto",
+									"synonyms": [
+										"sesamzaad"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://dieetuniversiteit.nl/wp-content/uploads/2016/10/sesamzaad-gezond-1024x768.jpg",
+									"accessibilityText": "sesamzaad"
+								},
+								"title": "Sesamzaad"
+							},
+							{
+								"optionInfo": {
+									"key": "rode peper foto",
+									"synonyms": [
+										"rode peper"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.ahealthylife.nl/wp-content/uploads/2019/02/chilipeper_spaanse_peper_voedingswaarde.jpg",
+									"accessibilityText": "rode peper"
+								},
+								"title": "Rode peper"
+							},
+							{
+								"optionInfo": {
+									"key": "mager rundergehakt foto",
+									"synonyms": [
+										"mager rundergehakt"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.slagerij-islamcentrum.nl/wp-content/uploads/2017/11/gehakt.jpg",
+									"accessibilityText": "mager rundergehakt"
+								},
+								"title": "Mager rundergehakt"
+							},
+							{
+								"optionInfo": {
+									"key": "Go-Tan woksaus oyster garlic foto",
+									"synonyms": [
+										"Go-Tan woksaus oyster garlic"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://dg3w27tmpqz1r.cloudfront.net/artikelen/15910_1_392688_637188237569169724.png?width=500&height=500&mode=crop",
+									"accessibilityText": "Go-Tan woksaus oyster garlic"
+								},
+								"title": "Go-Tan woksaus oyster garlic"
+							},
+							{
+								"optionInfo": {
+									"key": "sesamolie foto",
+									"synonyms": [
+										"sesamolie"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://static.ah.nl/image-optimization/static/product/AHI_43545239363439393333_1_LowRes_JPG.JPG?options=399,q85",
+									"accessibilityText": "sesamolie"
+								},
+								"title": "Sesamolie"
+							},
+							{
+								"optionInfo": {
+									"key": "Japanse wokgroente kastanjechampignons & peulen foto",
+									"synonyms": [
+										"Japanse wokgroente kastanjechampignons & peulen"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://dg3w27tmpqz1r.cloudfront.net/artikelen/22482_1_247488_637188381593665069.png?width=500&height=500&mode=crop",
+									"accessibilityText": "Japanse wokgroente kastanjechampignons & peulen"
+								},
+								"title": "Japanse wokgroente kastanjechampignons & peulen"
+							},
+							{
+								"optionInfo": {
+									"key": "Go-Tan egg noodles foto",
+									"synonyms": [
+										"Go-Tan egg noodles"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.worldwideholland.com/images/productimages/big/go-tan-egg-noodles.png",
+									"accessibilityText": "Go-Tan egg noodles"
+								},
+								"title": "Go-Tan egg noodles"
+							}
+						]
+					}
 				},
 				"cooking_utensils": {
 					"txt_standard": "Dit is het kookgerei dat je nodig hebt voor dit recept",
@@ -352,6 +534,7 @@
 		"pannenkoeken": {
 			"preliminaries": {
 				"ingredients": {
+					"list": {
 					"1": "Dit zijn de ingredienten die je nodig hebt: ",
 					"2": "300 g tarwebloem",
 					"3": "1 theelepel zout",
@@ -359,6 +542,82 @@
 					"5": "500 ml halfvolle melk",
 					"6": "30 g ongezouten roomboter"
 				},
+					"img_howto": {
+					"title": "ingredienten",
+					"list": [
+						{
+							"optionInfo": {
+								"key": "tarwebloem foto",
+								"synonyms": [
+									"tarwebloem"
+								]
+							},
+							"description": "Afbeelding",
+							"image": {
+								"url": "https://www.koopmans.com/assets/_processed_/6/8/csm_tarwebloem-biologisch_V4_8fa92bda70.png",
+								"accessibilityText": "tarwebloem"
+							},
+							"title": "Tarwebloem"
+						},
+						{
+							"optionInfo": {
+								"key": "zout foto",
+								"synonyms": [
+									"zout"
+								]
+							},
+							"description": "Afbeelding",
+							"image": {
+								"url": "https://images0.persgroep.net/rcs/hz5KoGpMETnmn7_ySGlS_DodYp4/diocontent/66568016/_crop/0/36/1625/918/_fitwidth/763?appId=93a17a8fd81db0de025c8abd1cca1279&quality=0.8",
+								"accessibilityText": "zout"
+							},
+							"title": "Zout"
+						},
+						{
+							"optionInfo": {
+								"key": "eieren foto",
+								"synonyms": [
+									"eieren"
+								]
+							},
+							"description": "Afbeelding",
+							"image": {
+								"url": "https://www.altijdweervooreenei.nl/wp-content/uploads/2018/11/eiveschillenthumbnail.jpg",
+								"accessibilityText": "eieren"
+							},
+							"title": "Eieren"
+						},
+						{
+							"optionInfo": {
+								"key": "halfvolle melk foto",
+								"synonyms": [
+									"halfvolle melk"
+								]
+							},
+							"description": "Afbeelding",
+							"image": {
+								"url": "https://www.htwcatering.nl/wp-content/uploads/2018/08/110883-71550-campina-halfvolle-melk.4-400.png",
+								"accessibilityText": "halfvolle melk"
+							},
+							"title": "Halfvolle melk"
+						},
+						{
+							"optionInfo": {
+								"key": "ongezouten roomboter foto",
+								"synonyms": [
+									"ongezouten roomboter"
+								]
+							},
+							"description": "Afbeelding",
+							"image": {
+								"url": "https://static.hanos.com/sys-master/productimages/h28/h37/9258621009950/27109988.jpg_914Wx914H",
+								"accessibilityText": "ongezouten roomboter"
+							},
+							"title": "Ongezouten roomboter"
+						}
+					]
+				}
+			},
 				"cooking_utensils": {
 					"txt_standard": "Dit is het kookgerei dat je nodig hebt voor dit recept",
 					"list": {
@@ -517,12 +776,75 @@
 		"sate": {
 			"preliminaries": {
 				"ingredients": {
+					"list": {
 					"1": "Dit zijn de ingredienten die je nodig hebt: ",
 					"2": "Knoflook",
 					"3": "Ketoembar",
 					"4": "een rode peper",
 					"5": "ketjap"
 				},
+					"img_howto": {
+					"title": "ingredienten",
+					"list": [
+						{
+							"optionInfo": {
+								"key": "knoflook foto",
+								"synonyms": [
+									"knoflook"
+								]
+							},
+							"description": "Afbeelding",
+							"image": {
+								"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
+								"accessibilityText": "knoflook"
+							},
+							"title": "Knoflook teentjes"
+						},
+						{
+							"optionInfo": {
+								"key": "Ketoembar foto",
+								"synonyms": [
+									"Ketoembar"
+								]
+							},
+							"description": "Afbeelding",
+							"image": {
+								"url": "https://static.ah.nl/image-optimization/static/product/AHI_434d50313231373437_2_LowRes_JPG.JPG?options=399,q85",
+								"accessibilityText": "Ketoembar"
+							},
+							"title": "Ketoembar"
+						},
+						{
+							"optionInfo": {
+								"key": "rode peper foto",
+								"synonyms": [
+									"rode peper"
+								]
+							},
+							"description": "Afbeelding",
+							"image": {
+								"url": "https://www.ahealthylife.nl/wp-content/uploads/2019/02/chilipeper_spaanse_peper_voedingswaarde.jpg",
+								"accessibilityText": "rode peper"
+							},
+							"title": "Rode peper"
+						},
+						{
+							"optionInfo": {
+								"key": "ketjap foto",
+								"synonyms": [
+									"ketjap"
+								]
+							},
+							"description": "Afbeelding",
+							"image": {
+								"url": "https://www.dutchdelicacies.com/wp-content/uploads/2015/09/Conimex-Ketjp-Manis4.jpg",
+								"accessibilityText": "ketjap"
+							},
+							"title": "Ketjap"
+						}
+					]
+				}
+			},
 				"cooking_utensils": {
 					"txt_standard": "Dit is het kookgerei dat je nodig hebt voor dit recept",
 					"list": {
@@ -681,6 +1003,7 @@
 		"ovenschotel": {
 			"preliminaries": {
 				"ingredients": {
+					"list": {
 					"1": "Dit zijn de ingredienten die je nodig hebt: ",
 					"2": "500 g rundergehakt",
 					"3": "40 g burrito seasoning mix",
@@ -690,6 +1013,110 @@
 					"7": "150 g tortillachips naturel",
 					"8": "1 rode puntpaprika"
 				},
+					"img_howto": {
+					"title": "ingredienten",
+					"list": [
+						{
+							"optionInfo": {
+								"key": "rundergehakt foto",
+								"synonyms": [
+									"rundergehakt"
+								]
+							},
+							"description": "Afbeelding",
+							"image": {
+								"url": "https://www.supermarktaanbiedingen.com/public/images/product/2017/42/0-675163000-magere-rundergehakt.jpg",
+								"accessibilityText": "rundergehakt"
+							},
+							"title": "Rundergehakt"
+						},
+						{
+							"optionInfo": {
+								"key": "burrito seasoning mix foto",
+								"synonyms": [
+									"burrito seasoning mix"
+								]
+							},
+							"description": "Afbeelding",
+							"image": {
+								"url": "https://www.santamariaworld.com/optimized/product-large/globalassets/foodservice/blocks/promo-blocks/07311310313999_c1n1-1.png",
+								"accessibilityText": "burrito seasoning mix"
+							},
+							"title": "Burrito seasoning mix"
+						},
+						{
+							"optionInfo": {
+								"key": "mais in blik foto",
+								"synonyms": [
+									"mais in blik"
+								]
+							},
+							"description": "Afbeelding",
+							"image": {
+								"url": "https://mediacenter.bonduelle.com/cdn/201909/03083680597210_.png",
+								"accessibilityText": "mais in blik"
+							},
+							"title": "Mais in blik"
+						},
+						{
+							"optionInfo": {
+								"key": "chilibonen in blik foto",
+								"synonyms": [
+									"chilibonen in blik"
+								]
+							},
+							"description": "Afbeelding",
+							"image": {
+								"url": "https://mediacenter.bonduelle.com/cdn/201908_1/03083680479264_03083680479264-chili-beans-sauce-200g.png",
+								"accessibilityText": "chilibonen in blik"
+							},
+							"title": "Chilibonen in blik"
+						},
+						{
+							"optionInfo": {
+								"key": "geraspte milde kaas foto",
+								"synonyms": [
+									"geraspte milde kaas"
+								]
+							},
+							"description": "Afbeelding",
+							"image": {
+								"url": "https://static.ah.nl/image-optimization/static/product/AHI_434d50313930353539_3_LowRes_JPG.JPG?options=399,q85",
+								"accessibilityText": "geraspte milde kaas"
+							},
+							"title": "Geraspte milde kaas"
+						},
+						{
+							"optionInfo": {
+								"key": "tortillachips naturel foto",
+								"synonyms": [
+									"tortillachips naturel"
+								]
+							},
+							"description": "Afbeelding",
+							"image": {
+								"url": "https://www.bidfood.nl/images/product/70/064157-product-shot-250x190-22c7af70.jpeg",
+								"accessibilityText": "tortillachips naturel"
+							},
+							"title": "Tortillachips naturel"
+						},
+						{
+							"optionInfo": {
+								"key": "rode puntpaprika foto",
+								"synonyms": [
+									"rode puntpaprika"
+								]
+							},
+							"description": "Afbeelding",
+							"image": {
+								"url": "https://dgmnuojaamh45.cloudfront.net/images/maaltijden/67007-Screen-Shot-2014-05-27-at-08.54.49.png",
+								"accessibilityText": "rode puntpaprika"
+							},
+							"title": "Rode puntpaprika"
+						}
+					]
+				}
+			},
 				"cooking_utensils": {
 					"txt_standard": "Dit is het kookgerei dat je nodig hebt voor dit recept",
 					"list": {

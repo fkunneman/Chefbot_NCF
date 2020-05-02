@@ -389,5 +389,9 @@ class NLG:
             adds the instruction to the active response
         """
         # self.response.append(self.recipe['steps']['ingredient_steps']["1"]['ingredients']) #onthouden
-        for x in self.recipe['preliminaries']["ingredients"]:
-            self.response.append(self.recipe['preliminaries']["ingredients"][x])
+        for x in self.recipe['preliminaries']["ingredients"]["list"]:
+            self.response.append(self.recipe['preliminaries']["ingredients"]["list"][x])
+
+        if self.recipe['preliminaries']['ingredients']['img_howto']:
+            self.images = self.recipe['preliminaries']['ingredients']['img_howto']
+            print("NLG IMAGES", self.images)
