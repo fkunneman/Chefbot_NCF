@@ -369,9 +369,7 @@ class NLG:
         =====
         function to retrieve the proper response for the move to clarify the needed cookware of a recipe
         """
-        # if self.step == "cooking_utensils":
-            # print(self.recipe)
-        # self.response.append(self.recipe['cooking_utensils']['needed_cooking_utensils'])
+
         for x in self.recipe['preliminaries']['cooking_utensils']["list"]:
             self.response.append(self.recipe['preliminaries']['cooking_utensils']["list"][x])
 

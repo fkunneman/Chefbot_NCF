@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d02573a3-bca6-475c-bf10-658c34763aad" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chefbot_NCF/core/dialog_manager.py" afterPath="$PROJECT_DIR$/Chefbot_NCF/core/dialog_manager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chefbot_NCF/core/infostate_tracker.py" afterPath="$PROJECT_DIR$/Chefbot_NCF/core/infostate_tracker.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chefbot_NCF/core/natural_language_generator.py" afterPath="$PROJECT_DIR$/Chefbot_NCF/core/natural_language_generator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chefbot_NCF/example_data/agent_recipes.json" afterPath="$PROJECT_DIR$/Chefbot_NCF/example_data/agent_recipes.json" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/smoothbot/df_smoothbot/views.py" afterPath="$USER_HOME$/smoothbot/df_smoothbot/views.py" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/smoothbot/smoothbot/settings.py" afterPath="$USER_HOME$/smoothbot/smoothbot/settings.py" />
@@ -40,8 +44,8 @@
       <file leaf-file-name="agent_recipes.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chefbot_NCF/example_data/agent_recipes.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="13125">
+              <caret line="875" column="1" lean-forward="true" selection-start-line="875" selection-start-column="1" selection-end-line="875" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -50,8 +54,8 @@
       <file leaf-file-name="dialog_manager.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chefbot_NCF/core/dialog_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+            <state relative-caret-position="385">
+              <caret line="179" column="11" lean-forward="false" selection-start-line="179" selection-start-column="11" selection-end-line="179" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -60,8 +64,8 @@
       <file leaf-file-name="infostate_tracker.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chefbot_NCF/core/infostate_tracker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1299">
-              <caret line="350" column="29" lean-forward="false" selection-start-line="350" selection-start-column="29" selection-end-line="350" selection-end-column="29" />
+            <state relative-caret-position="375">
+              <caret line="354" column="25" lean-forward="true" selection-start-line="354" selection-start-column="25" selection-end-line="354" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -70,8 +74,8 @@
       <file leaf-file-name="natural_language_generator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chefbot_NCF/core/natural_language_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="375" column="89" lean-forward="false" selection-start-line="375" selection-start-column="89" selection-end-line="375" selection-end-column="89" />
+            <state relative-caret-position="357">
+              <caret line="371" column="0" lean-forward="false" selection-start-line="371" selection-start-column="0" selection-end-line="371" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,8 +84,8 @@
       <file leaf-file-name="standard_moves.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chefbot_NCF/core/standard_moves.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="196" column="99" lean-forward="true" selection-start-line="196" selection-start-column="99" selection-end-line="196" selection-end-column="99" />
+            <state relative-caret-position="519">
+              <caret line="198" column="28" lean-forward="true" selection-start-line="198" selection-start-column="28" selection-end-line="198" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -112,6 +116,7 @@
       <find>clarify_step(</find>
       <find>instructStep</find>
       <find>steps</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,16 +126,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$USER_HOME$/smoothbot/df_smoothbot/views.py" />
-        <option value="$PROJECT_DIR$/Chefbot_NCF/core/infostate_tracker.py" />
-        <option value="$PROJECT_DIR$/Chefbot_NCF/core/standard_moves.py" />
-        <option value="$PROJECT_DIR$/Chefbot_NCF/core/natural_language_generator.py" />
-        <option value="$PROJECT_DIR$/Chefbot_NCF/core/dialog_manager.py" />
         <option value="$PROJECT_DIR$/Chefbot_NCF/example_data/agent_recipes.json" />
+        <option value="$PROJECT_DIR$/Chefbot_NCF/core/dialog_manager.py" />
+        <option value="$PROJECT_DIR$/Chefbot_NCF/core/standard_moves.py" />
+        <option value="$PROJECT_DIR$/Chefbot_NCF/core/infostate_tracker.py" />
+        <option value="$PROJECT_DIR$/Chefbot_NCF/core/natural_language_generator.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="172" />
+    <option name="x" value="358" />
     <option name="y" value="23" />
     <option name="width" value="1018" />
     <option name="height" value="811" />
@@ -226,7 +231,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="172" y="23" width="1018" height="811" extended-state="0" />
+    <frame x="358" y="23" width="1018" height="811" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -295,42 +300,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chefbot_NCF/core/dialog_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="179" column="11" lean-forward="false" selection-start-line="179" selection-start-column="11" selection-end-line="179" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chefbot_NCF/core/infostate_tracker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1299">
-          <caret line="350" column="29" lean-forward="false" selection-start-line="350" selection-start-column="29" selection-end-line="350" selection-end-column="29" />
+        <state relative-caret-position="375">
+          <caret line="354" column="25" lean-forward="true" selection-start-line="354" selection-start-column="25" selection-end-line="354" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chefbot_NCF/core/natural_language_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="375" column="89" lean-forward="false" selection-start-line="375" selection-start-column="89" selection-end-line="375" selection-end-column="89" />
+        <state relative-caret-position="357">
+          <caret line="371" column="0" lean-forward="false" selection-start-line="371" selection-start-column="0" selection-end-line="371" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chefbot_NCF/core/standard_moves.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="196" column="99" lean-forward="true" selection-start-line="196" selection-start-column="99" selection-end-line="196" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chefbot_NCF/core/dialog_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+        <state relative-caret-position="519">
+          <caret line="198" column="28" lean-forward="true" selection-start-line="198" selection-start-column="28" selection-end-line="198" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chefbot_NCF/example_data/agent_recipes.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="13125">
+          <caret line="875" column="1" lean-forward="true" selection-start-line="875" selection-start-column="1" selection-end-line="875" selection-end-column="1" />
           <folding />
         </state>
       </provider>
