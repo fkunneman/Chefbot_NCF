@@ -207,8 +207,8 @@
 			},
 			"9"	: {
 				"label": "pannenkoeken 9",
-				"txt_standard" : "Leg de pannekoek op een bord en bestrooi met poedersuiker naar smaak.",
-				"txt_detail" : "Spatel de pannekoek uit de pan en op een bord. Strooi poedersuiker over de pannenkoek.",
+				"txt_standard" : "Leg de pannenkoek op een bord en bestrooi met poedersuiker naar smaak.",
+				"txt_detail" : "Spatel de pannenkoek uit de pan en op een bord. Strooi poedersuiker over de pannenkoek.",
 				"txt_howto" : false,
 				"img_howto" : false,
 				"txt_motivate" : false,
