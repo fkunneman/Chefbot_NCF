@@ -1,9 +1,0 @@
-{
-  "id": "e596528f-22fb-4671-a332-cfa40c73a88c",
-  "name": "recept",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": true
-}
