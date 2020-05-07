@@ -69,7 +69,8 @@ class DialogManager:
         #print(self.NLG)
         self.active_recipe = {}
         self.active_processed = {}
-        self.active_response = {}
+        self.active_response = ''
+        self.active_images = False
 
     ###################################
     ### Main functions ################
@@ -111,7 +112,9 @@ class DialogManager:
         self.update_processed()
         self.formulate_response()
         self.update_response()
-        return self.active_response, self.ISU.return_suggestions(), self.ISU.return_context()
+        active_images_send = self.active_images
+        self.active_images = False
+        return self.active_response, active_images_send, self.ISU.return_suggestions(), self.ISU.return_context()
 
     def process(self,utterance):
         """
@@ -179,7 +182,7 @@ class DialogManager:
         self.active_response :
             update with the textual response as returned by the NLG object
         """
-        self.active_response = self.NLG.formulate_response(self.ISU.return_agent_moves(),self.ISU.return_current_step())
+        self.active_response, self.active_images = self.NLG.formulate_response(self.ISU.return_agent_moves(), self.ISU.return_current_step())
 
     def update_response(self):
         """
@@ -189,11 +192,10 @@ class DialogManager:
 
         Function calls
         -----
-        self.ISU.update_utterance : 
+        self.ISU.update_utterance : x
             Update the past conversation with the text to be returned by the agent
         """
         self.ISU.update_utterance(self.active_response)
-
     ###################################
     ### Helper functions ##############
     ###################################
@@ -216,8 +218,10 @@ class DialogManager:
         self.active_recipe : dict
             The steps and the name of the active recipe are updated according to the choice of the user
         """
+        print(self.recipes['Recipe'].keys())
         name = self.active_processed['utterance']['parameters']['recept']
-        self.active_recipe['steps'] = self.recipes['Recipe'][name]
+        self.active_recipe['Recipe_steps'] = self.recipes['Recipe'][name]['Recipe_steps']
+        self.active_recipe['preliminaries'] = self.recipes['Recipe'][name]['preliminaries']
         self.active_recipe['name'] = name
         self.NLG.set_recipe(self.active_recipe)
         self.ISU.clear()
