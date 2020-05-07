@@ -59,14 +59,11 @@ class DialogManager:
     def __init__(self,recipefile=recipepath,responsefile=responsepath,moveset=False):
         self.recipes = self.load_data(recipefile)
         self.recipe_options = self.recipes["Recipe"].keys()
-        #print("Recepten in dialog manager:", self.recipe_options)
         self.responses = self.load_data(responsefile)
-        #print(self.responses)
         if not moveset:
             moveset = standard_moves
         self.ISU = infostate_tracker.ISU(self.recipes,moveset)
         self.NLG = natural_language_generator.NLG(self.responses, self.recipe_options)
-        #print(self.NLG)
         self.active_recipe = {}
         self.active_processed = {}
         self.active_response = ''

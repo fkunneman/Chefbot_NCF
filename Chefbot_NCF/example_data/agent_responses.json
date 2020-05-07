@@ -120,8 +120,22 @@
 		{
 			"regular" :
     			[
-      				"De recepten waar je uit kunt kiezen zijn [recipe_options].",
-      				"Je kunt kiezen uit de volgende recepten [recipe_options]."
+      				"De recepten waar je uit kunt kiezen zijn: [recipe_options].",
+      				"Je kunt kiezen uit de volgende recepten: [recipe_options]."
     			]
+		},
+	"Introduce cooking utensils" :
+		{
+			"regular" :
+				[
+					"Dit is het kookgerei dat je nodig hebt voor dit recept:"
+				]
+		},
+	"Introduce ingredients" :
+		{
+			"regular" :
+				[
+					"Dit zijn de ingredienten die je nodig hebt:"
+				]
 		}
 }

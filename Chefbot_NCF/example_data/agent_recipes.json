@@ -4,11 +4,10 @@
 			"preliminaries": {
 				"ingredients": {
 					"list": {
-						"1": "Dit zijn de ingredienten die je nodig hebt: ",
-						"2": "3 à 5 knoflook teentjes",
-						"3": "pasta",
-						"4": "water",
-						"5": "geraspte kaas"
+						"1": "3 à 5 knoflook teentjes",
+						"2": "pasta",
+						"3": "water",
+						"4": "geraspte kaas"
 					},
 					"img_howto": {
 						"title": "ingredienten",
@@ -73,7 +72,6 @@
 					}
 				},
 				"cooking_utensils": {
-					"txt_standard": "Dit is het kookgerei dat je nodig hebt voor dit recept",
 					"list": {
 						"1": "Koekenpan",
 						"2": "Snijplank",
@@ -215,15 +213,14 @@
 			"preliminaries": {
 				"ingredients": {
 					"list": {
-					"1": "Dit zijn de ingredienten die je nodig hebt: ",
-					"2": "1 teen knoflook",
-					"3": "een halve rode peper",
-					"4": "300 g mager rundergehakt",
-					"5": "5 eetlepels Go-Tan woksaus oyster garlic",
-					"6": "2 eetlepels sesamolie",
-					"7": "800 g Japanse wokgroente kastanjechampignons & peulen",
-					"8": "250 g Go-Tan egg noodles",
-					"9": "2 eetlepels sesamzaad"
+					"1": "1 teen knoflook",
+					"2": "een halve rode peper",
+					"3": "300 g mager rundergehakt",
+					"4": "5 eetlepels Go-Tan woksaus oyster garlic",
+					"5": "2 eetlepels sesamolie",
+					"6": "800 g Japanse wokgroente kastanjechampignons & peulen",
+					"7": "250 g Go-Tan egg noodles",
+					"8": "2 eetlepels sesamzaad"
 				},
 					"img_howto": {
 						"title": "ingredienten",
@@ -344,7 +341,6 @@
 					}
 				},
 				"cooking_utensils": {
-					"txt_standard": "Dit is het kookgerei dat je nodig hebt voor dit recept",
 					"list": {
 						"1": "Koekenpan",
 						"2": "Snijplank",
@@ -535,12 +531,11 @@
 			"preliminaries": {
 				"ingredients": {
 					"list": {
-					"1": "Dit zijn de ingredienten die je nodig hebt: ",
-					"2": "300 g tarwebloem",
-					"3": "1 theelepel zout",
-					"4": "2 middelgrote eieren",
-					"5": "500 ml halfvolle melk",
-					"6": "30 g ongezouten roomboter"
+					"1": "300 g tarwebloem",
+					"2": "1 theelepel zout",
+					"3": "2 middelgrote eieren",
+					"4": "500 ml halfvolle melk",
+					"5": "30 g ongezouten roomboter"
 				},
 					"img_howto": {
 					"title": "ingredienten",
@@ -619,7 +614,6 @@
 				}
 			},
 				"cooking_utensils": {
-					"txt_standard": "Dit is het kookgerei dat je nodig hebt voor dit recept",
 					"list": {
 						"1": "Maatbeker",
 						"2": "Mengkom",
@@ -777,11 +771,10 @@
 			"preliminaries": {
 				"ingredients": {
 					"list": {
-					"1": "Dit zijn de ingredienten die je nodig hebt: ",
-					"2": "Knoflook",
-					"3": "Ketoembar",
-					"4": "een rode peper",
-					"5": "ketjap"
+					"1": "Knoflook",
+					"2": "Ketoembar",
+					"3": "een rode peper",
+					"4": "ketjap"
 				},
 					"img_howto": {
 					"title": "ingredienten",
@@ -846,7 +839,6 @@
 				}
 			},
 				"cooking_utensils": {
-					"txt_standard": "Dit is het kookgerei dat je nodig hebt voor dit recept",
 					"list": {
 						"1": "Grillpan",
 						"2": "Kom",
@@ -1004,14 +996,13 @@
 			"preliminaries": {
 				"ingredients": {
 					"list": {
-					"1": "Dit zijn de ingredienten die je nodig hebt: ",
-					"2": "500 g rundergehakt",
-					"3": "40 g burrito seasoning mix",
-					"4": "300 g mais in blik",
-					"5": "400 g chilibonen in blik",
-					"6": "100 g geraspte milde kaas 45+",
-					"7": "150 g tortillachips naturel",
-					"8": "1 rode puntpaprika"
+					"1": "500 g rundergehakt",
+					"2": "40 g burrito seasoning mix",
+					"3": "300 g mais in blik",
+					"4": "400 g chilibonen in blik",
+					"5": "100 g geraspte milde kaas 45+",
+					"6": "150 g tortillachips naturel",
+					"7": "1 rode puntpaprika"
 				},
 					"img_howto": {
 					"title": "ingredienten",
@@ -1118,7 +1109,6 @@
 				}
 			},
 				"cooking_utensils": {
-					"txt_standard": "Dit is het kookgerei dat je nodig hebt voor dit recept",
 					"list": {
 						"1": "Koekenpan",
 						"2": "Scheplepel",

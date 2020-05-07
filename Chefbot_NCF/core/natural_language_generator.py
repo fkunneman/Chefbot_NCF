@@ -39,9 +39,9 @@ class NLG:
     def __init__(self,default_responses, recipe_options):
         self.response = []
         self.images = {}
-        self.recipe = None
+        self.recipe = False
         self.recipe_options = recipe_options
-        self.step = None
+        self.step = False
         self.responses = default_responses
         self.move_response = {
             'confirm_recipe'                    : self.confirm_recipe,
@@ -69,10 +69,21 @@ class NLG:
         for move in moves:
             self.move_response[move]()
         recipe_options_string = ', '.join(self.recipe_options)
-        response_out = ' '.join(self.response).replace('[recipe]',self.recipe['name']).replace('[step]',self.step).replace('[recipe_options]',recipe_options_string)
+        response = ' '.join(self.response)
+        response_out = self.fill_in_concepts(response)
         images_out = self.images
         self.reset_response()
         return response_out, images_out
+
+    def fill_in_concepts(self,response):
+        if self.recipe_options:
+            recipe_options_string = ', '.join(self.recipe_options)
+            response = response.replace('[recipe_options]',recipe_options_string)
+        if self.recipe:
+            response = response.replace('[recipe]',self.recipe['name'])
+        if self.step:
+            response = response.replace('[step]',self.step)
+        return response
 
     def reset_response(self):
         self.response = []
@@ -362,9 +373,11 @@ class NLG:
         =====
         function to retrieve the proper response for the move to clarify the needed cookware of a recipe
         """
-
+        self.response.append(random.choice(self.responses['Introduce cooking utensils']['regular']))
+        utensils = []
         for x in self.recipe['preliminaries']['cooking_utensils']["list"]:
-            self.response.append(self.recipe['preliminaries']['cooking_utensils']["list"][x])
+            utensils.append(self.recipe['preliminaries']['cooking_utensils']["list"][x])
+        self.response.append(', '.join(utensils))
         if self.recipe['preliminaries']['cooking_utensils']['img_howto']:
             self.images = self.recipe['preliminaries']['cooking_utensils']['img_howto']
 
@@ -378,10 +391,11 @@ class NLG:
         self.response :
             adds the instruction to the active response
         """
-        # self.response.append(self.recipe['steps']['ingredient_steps']["1"]['ingredients']) #onthouden
-        for x in self.recipe['preliminaries']["ingredients"]["list"]:
-            self.response.append(self.recipe['preliminaries']["ingredients"]["list"][x])
-
+        self.response.append(random.choice(self.responses['Introduce ingredients']['regular']))
+        ingredients = []
+        for x in self.recipe['preliminaries']['ingredients']["list"]:
+            ingredients.append(self.recipe['preliminaries']['ingredients']["list"][x])
+        self.response.append(', '.join(ingredients))
         if self.recipe['preliminaries']['ingredients']['img_howto']:
             self.images = self.recipe['preliminaries']['ingredients']['img_howto']
 
