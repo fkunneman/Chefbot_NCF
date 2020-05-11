@@ -7,7 +7,20 @@
 					"Uitstekend! Ik ga je door het recept voor [recipe] praten.",
 					"Uitstekende keuze!",
 					"Gaan we doen!"
-				]
+				],
+			"fallback" :
+            	[
+                	"sorry, ken ik niet."
+            	]
+		},
+	"Warning recipe" :
+		{
+			"regular" :
+				[],
+			"fallback" :
+            	[
+                	"Maak eerst uw huidige recept af voordat je start met een ander recept."
+            	]
 		},
 	"Other recipe" :
 	{

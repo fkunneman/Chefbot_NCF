@@ -43,6 +43,8 @@ class NLG:
         self.responses = default_responses
         self.move_response = {
             'confirm_recipe'                    : self.confirm_recipe,
+            'no_new_recipe'                     : self.no_new_recipe,
+            'confirm_no_recipe'                 : self.confirm_no_recipe,
             'other_recipe'                      : self.other_recipe,
             'instruct_step'                     : self.instruct_step,
             'close_recipe'                      : self.close_recipe,
@@ -65,6 +67,7 @@ class NLG:
         self.update_step(index)
         for move in moves:
             self.move_response[move]()
+        print (self.response)
         response_out = ' '.join(self.response).replace('[recipe]',self.recipe['name']).replace('[step]',self.step)
         self.reset_response()
         return response_out
@@ -99,6 +102,36 @@ class NLG:
             adds the utterance to confirm a recipe to the active response
         """
         self.response.append(random.choice(self.responses['Confirm recipe']['regular']))
+
+    def confirm_no_recipe(self):
+        """
+        confirm_recipe
+        =====
+        function to retrieve the proper response for the move to confirm that a recipe has been chose by the user
+        the response file might include different variants for variation purposes, which is why a random choice is made
+
+        Transforms
+        -----
+        self.response :
+            adds the utterance to confirm a recipe to the active response
+        """
+        self.clarify_fallback('Confirm recipe')
+        print ("hiha")
+
+    def no_new_recipe(self):
+        """
+        confirm_recipe
+        =====
+        function to retrieve the proper response for the move to confirm that a recipe has been chose by the user
+        the response file might include different variants for variation purposes, which is why a random choice is made
+
+        Transforms
+        -----
+        self.response :
+            adds the utterance to confirm a recipe to the active response
+        """
+        self.clarify_fallback('Confirm recipe')
+        print ("oeps")
 
     def other_recipe(self):
         """
@@ -184,6 +217,8 @@ class NLG:
             adds the fallback to the clarification to the active response
         """
         self.response.append(random.choice(self.responses[clarification_type]['fallback']))
+        print ("kutzooi")
+        print (self.response)
 
     def clarify_step_quantity(self):
         """

@@ -59,6 +59,14 @@ class DialogManager:
     def __init__(self,recipefile=recipepath,responsefile=responsepath,moveset=False):
         self.recipes = self.load_data(recipefile)
         self.responses = self.load_data(responsefile)
+        self.other_recipe_list = []
+        self.current_recipe_list = []
+
+        for x in self.recipes['Recipe']:
+            self.other_recipe_list.append(x)
+        #self.other = random.choice(self.other_recipe_list)
+
+
         if not moveset:
             moveset = standard_moves
         self.ISU = infostate_tracker.ISU(self.recipes,moveset)
@@ -153,16 +161,20 @@ class DialogManager:
             For deciding on the agent moves based on the user's utterance - 
                 selecting one or more moves for which the preconditions are met, and applying their effects
         """
-        if self.active_processed['move'] == 'Kook recept':
-            self.start_recipe()
-            print(self.active_processed['entities'])
+        if (self.ISU.infostate['shared']['moves'] == [] or self.ISU.infostate['shared']['moves'][-1] == ['A', 'close_activity']):
+            #print ("JA DIT WERKT")
+            if self.active_processed['move'] == 'Kook recept' :
+                print(self.active_processed['utterance']['parameters']['recept']  in self.recipes['Recipe'])
+                self.start_recipe()
         if self.active_processed['move'] == 'ander recept':
+            self.other = random.choice(self.other_recipe_list)
             self.start_other_recipe()
-            self.active_processed['entities']['recept'] = 'sate'
+            self.active_processed['entities']['recept'] = self.other
 
         self.ISU.update('U',self.active_processed['move'],self.active_processed['entities'],self.active_processed['text'])
         self.ISU.update_speaker('A')
         self.ISU.next_moves()
+        #print (self.ISU.infostate['private']['plan'])
 
     def formulate_response(self):
         """
@@ -219,6 +231,8 @@ class DialogManager:
         """
 
         name = self.active_processed['utterance']['parameters']['recept']
+        if self.active_processed['entities']['recept'] in self.other_recipe_list:
+            self.other_recipe_list.remove(self.active_processed['entities']['recept'])
         self.active_recipe['steps'] = self.recipes['Recipe'][name]
         self.active_recipe['name'] = name
         self.NLG.set_recipe(self.active_recipe)
@@ -244,8 +258,7 @@ class DialogManager:
             The steps and the name of the active recipe are updated according to the choice of the user
         """
         #name = self.active_processed['utterance']['parameters']['recept']
-        name = 'sate'
-
+        name = self.other
         self.active_recipe['steps'] = self.recipes['Recipe'][name]
         self.active_recipe['name'] = name
         self.NLG.set_recipe(self.active_recipe)

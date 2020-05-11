@@ -94,6 +94,51 @@ class Move:
         infostate['shared']['suggestions'].extend(self.suggestions)
 
 
+class NoNewRecipe(Move):
+    """
+    ConfirmRecipe
+    =====
+    Class to model the preconditions and effects of a confirm recipe move
+    """
+
+    def __init__(self):
+        Move.__init__(self,
+            name = 'no_new_recipe',
+            prior_moves = ['Kook recept'],
+            context = [['recept_confirm',1,{'no-input': 0.0, 'no-match': 0.0}]],
+            suggestions = ['volgende']
+        )
+
+    def preconditions_met(self,infostate,knowledge):
+        """
+        preconditions_met
+        =====
+        Boolean function to return if the preconditions of this move have been met given the current information state
+
+        No further preconditions should be met other than the presence of a particular prior move: the intent of the user to cook a certain recipe
+        """
+        pm = False
+        if Move.preconditions_met(self, infostate):
+           if ['A', 'confirm_step'] not in infostate['shared']['moves'] and infostate['shared']['entities'][-1]['recept'] != '' and infostate['private']['agenda'] != None :
+                pm = True
+        print ("why")
+        return pm
+        #return Move.preconditions_met(self, infostate)
+
+    def effects(self,infostate,knowledge):
+        """
+        effects
+        =====
+        Function to apply this move's effects to the information state
+
+        In addition to adding this move to the shared conversation information state, it has the following effects:
+            - the agenda will be set as the instruction of the recipe 
+            - the name of the recipe and the fact that it is instructed is added to the shared beliefs
+            - the recipe is loaded from the knowledge base and the plan and plan_wide are filled accordingly
+        """
+        Move.effects(self,infostate)
+
+
 class ConfirmRecipe(Move):
     """
     ConfirmRecipe
@@ -117,7 +162,13 @@ class ConfirmRecipe(Move):
 
         No further preconditions should be met other than the presence of a particular prior move: the intent of the user to cook a certain recipe
         """
-        return Move.preconditions_met(self,infostate)
+        pm = False
+        if Move.preconditions_met(self, infostate):
+           if ['A', 'confirm_step'] not in infostate['shared']['moves'] and infostate['shared']['entities'][-1]['recept'] != '' and infostate['private']['agenda'] == None :
+                pm = True
+        print (infostate['private']['agenda'])
+        return pm
+        #return Move.preconditions_met(self, infostate)
 
     def effects(self,infostate,knowledge):
         """
@@ -126,7 +177,7 @@ class ConfirmRecipe(Move):
         Function to apply this move's effects to the information state
 
         In addition to adding this move to the shared conversation information state, it has the following effects:
-            - the agenda will be set as the instruction of the recipe 
+            - the agenda will be set as the instruction of the recipe
             - the name of the recipe and the fact that it is instructed is added to the shared beliefs
             - the recipe is loaded from the knowledge base and the plan and plan_wide are filled accordingly
         """
@@ -137,7 +188,58 @@ class ConfirmRecipe(Move):
         infostate['private']['plan'] = list(knowledge['Recipe'][recipe_name].keys())
         recipedict = knowledge['Recipe'][recipe_name]
         for step in infostate['private']['plan']:
-            infostate['private']['plan_wide'][step] = [k for k in recipedict[step].keys() if recipedict[step][k]] 
+            infostate['private']['plan_wide'][step] = [k for k in recipedict[step].keys() if recipedict[step][k]]
+
+class ConfirmNORecipe(Move):
+    """
+    ConfirmRecipe
+    =====
+    Class to model the preconditions and effects of a confirm recipe move
+    """
+
+    def __init__(self):
+        Move.__init__(self,
+            name = 'confirm_no_recipe',
+            prior_moves = ['Kook recept'],
+            context = [['recept_confirm',1,{'no-input': 0.0, 'no-match': 0.0}]],
+            suggestions = ['ander recept']
+        )
+
+    def preconditions_met(self,infostate,knowledge):
+        """
+        preconditions_met
+        =====
+        Boolean function to return if the preconditions of this move have been met given the current information state
+
+        No further preconditions should be met other than the presence of a particular prior move: the intent of the user to cook a certain recipe
+        """
+        pm = False
+        if Move.preconditions_met(self, infostate):
+           if ['A', 'confirm_step'] not in infostate['shared']['moves'] and infostate['shared']['entities'][-1]['recept'] ==  '' :
+                pm = True
+        #print (infostate['shared']['moves'])
+        return pm
+
+        #return Move.preconditions_met(self, infostate)
+
+    def effects(self,infostate,knowledge):
+        """
+        effects
+        =====
+        Function to apply this move's effects to the information state
+
+        In addition to adding this move to the shared conversation information state, it has the following effects:
+            - the agenda will be set as the instruction of the recipe
+            - the name of the recipe and the fact that it is instructed is added to the shared beliefs
+            - the recipe is loaded from the knowledge base and the plan and plan_wide are filled accordingly
+        """
+        Move.effects(self, infostate)
+        # qud
+        infostate['shared']['qud'] = '_howto'
+        infostate['private']['plan'] = ["1"]
+        infostate['plan_wide'] = {}
+        infostate['agenda'] = None
+        infostate['shared']['beliefs']['task'] = []
 
 class OtherRecipe(Move):
     """
