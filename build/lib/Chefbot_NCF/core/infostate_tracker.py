@@ -51,9 +51,7 @@ class ISU:
             'private': {
                 'agenda':None,
                 'plan':[],
-                'plan_wide':[],
-                'explanations': {},
-                'preliminaries':{}
+                'plan_wide':{}
                 },
             'shared': {
                 'beliefs' : {'done':[], 'task':[]},
@@ -90,7 +88,6 @@ class ISU:
         for move in inspect.getmembers(moveset):
             if not move[0][:2] == '__':
                 if not move[0] == 'Move' and move[0][0].isupper():
-                    print(move[0])
                     move_obj = move[1]()
                     moves.append(move_obj)
         return moves 
@@ -186,9 +183,7 @@ class ISU:
             'private': {
                 'agenda':None,
                 'plan':[],
-                'plan_wide':[],
-                'explanations': {},
-                'preliminaries':{}
+                'plan_wide':{}
                 },
             'shared': {
                 'beliefs' : {'done':[], 'task':[]},
@@ -346,11 +341,7 @@ class ISU:
         current_step : str
            the index of the current step, which is the first entry in the plan
         """
-        try:
-            current_step = self.infostate['private']['plan_wide'][0]
-        except:
-            current_step = '1'
-            print('return current step, step not found')
+        current_step = self.infostate['private']['plan'][0]
         return current_step
 
     def return_qud(self):

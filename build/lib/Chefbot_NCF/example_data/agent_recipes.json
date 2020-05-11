@@ -1,0 +1,423 @@
+{"Recipe" :
+	{ "pasta aglio e olio" :
+		{
+			"1" : {
+				"label": "pasta 1",
+				"txt_standard" : "Zet een pan met ruim water op.",
+				"txt_detail" : "Vul je pan tot ongeveer drie-vierde met water en verwarm tot het gaat koken.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : "De beste bereiding van pasta is door het in ruim water op te zetten. Zoals iedere Italiaanse kok zal zeggen: pasta moet zwemmen.",
+				"txt_howmuch" : "Dit hangt van je pan af, vul het tot het zo ongeveer drie kwart vol is."
+				},
+		 	"2" : {
+		 		"label": "pasta 2",
+		 		"txt_standard" : "Snij de knoflook." ,
+		 		"txt_detail" : "Haal de knoflook teentjes uit elkaar, pel de teentjes en snijd de knoflook in dunne plakjes",
+		 		"txt_howto" : "Het maakt niet echt uit hoe je de knoflook snijdt, het gaat erom dat je plakjes knoflook van 1 à 2 milimeter als resultaat krijgt.",
+		 		"img_howto" : "https://i.imgur.com/2lTxwC7.gif",
+		 		"txt_motivate" : "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven. ",
+		 		"txt_howmuch" : "Een derde bol - 3 à 5 teentjes"
+		 		},
+			"3" : {
+				"label": "pasta 3",
+				"txt_standard" : "Garneer naar smaak met geraspte kaas.",
+				"txt_detail" : "Strooi als je dat wil garaspte kaas over de pasta.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : "Veel mensen vinden het lekker om pasta verder op smaak te brengen met geraspte kaas, maar zonder is het ook nog steeds erg lekker.",
+				"txt_howmuch" : "Naar smaak, dus net zoveel als je lekker vindt. Ik zou het echter niet te bont maken"
+				}
+		},
+	"noedels" :
+		{
+			"1": {
+				"label": "noedels 1",
+				"txt_standard" : "Snijd een knoflook teen fijn.",
+				"txt_detail" : "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes",
+				"txt_howto" : "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes",
+				"img_howto" : false,
+				"txt_motivate" : "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
+				"txt_howmuch" : "Voor dit recept gebruiken we 1 teen knoflook."
+			},
+			"2": {
+				"label": "noedels 2",
+				"txt_standard" : "Snijd een halve rode peper.",
+				"txt_detail" : "Snijd het steeltje van de rode peper, halveer de peper in de lengte, verwijder met een scherp mesje de zaadlijsten en snijd het vruchtvlees van een halve rode peper fijn",
+				"txt_howto" : "Snijd het steeltje van de rode peper, halveer de peper in de lengte, verwijder met een scherp mesje de zaadlijsten en snijd het vruchtvlees van een halve rode peper fijn",
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : "Voor dit recept gebruiken we een halve rode peper"
+			},
+			"3": {
+				"label": "noedels 3",
+				"txt_standard" : "Verhit een koekenpan met antiaanbaklaag zonder olie of boter en bak het gehakt op middelhoog vuur rul.",
+				"txt_detail" : "Het gehakt zou in 3 min rul moeten zijn",
+				"txt_howto" : "Het gehakt zou in 3 min rul moeten zijn",
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : "Gebruik het hele pak 300gr mager rundergehakt"
+			},
+			"4": {
+				"label": "noedels 4",
+				"txt_standard" : "Giet het vocht af en zet terug op het vuur.",
+				"txt_detail" : false,
+				"txt_howto" : "Giet het vocht voorzichtig af terwijl je de pan wat schuin houdt.",
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : false
+				},
+			"5": {
+				"label": "noedels 5",
+				"txt_standard" : "Voeg de knoflook en rode peper toe en bak het vlees tot het vlees knapperig is. En voeg daarna 4/5 van de woksaus toe.",
+				"txt_detail" : "Het vlees zou binnen 8 min knapperig moeten zijn. De woksaus kan in de laatste minuut toegevoegd worden.",
+				"txt_howto" : "Het vlees zou binnen 8 min knapperig moeten zijn. De woksaus kan in de laatste minuut toegevoegd worden.",
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : false
+			},
+			"6": {
+				"label": "noedels 6",
+				"txt_standard" : "Verhit wat sesamolie in een wok en bak de wokgroente 3 min. al omscheppend op hoog vuur. Voeg de rest van de woksaus toe en verwarm 2 min. mee.",
+				"txt_detail" : "Verhit de sesamolie in een wok en bak de wokgroente 3 min. al omscheppend op hoog vuur. Voeg de rest van de woksaus toe en verwarm 2 min. mee.",
+				"txt_howto" : "Gebruik voor het omscheppen een grote spatel.",
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : "Gebruik hiervoor 2 eetlepels sesamolie."
+			},
+			"7": {
+				"label": "noedels 7",
+				"txt_standard" : "Kook 2 liter water. ",
+				"txt_detail" : false,
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : false
+			},
+			"8": {
+				"label": "noedels 8",
+				"txt_standard" : "Als het water kookt, zet het vuur uit en laat de egg noodles er 4 min in wellen.",
+				"txt_detail" : false,
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : false
+			},
+			"9": {
+				"label": "noedels 9",
+				"txt_standard" : "Giet de noedels af in een vergiet. Spoel ze af met water en laat goed uitlekken. ",
+				"txt_detail" : false,
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : false
+			},
+			"10": {
+				"label": "noedels 10",
+				"txt_standard" : "Verdeel de noedels samen met het gehakt en de groente naast elkaar over diepe borden.",
+				"txt_detail" : false,
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : false
+			},
+			"11": {
+				"label": "noedels 11",
+				"txt_standard" : "Bestrooi met sesamzaad en geniet!",
+				"txt_detail" : "Dit kan zowel zwarte sesamzaden zijn als witte sesamzaden.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : "Het toevoegen van sesamzaden aan gerechten kan worden vergelijken met een kers op de taart. Dit maakt het gerecht helemaal af.",
+				"txt_howmuch" : "De hoeveelheid is naar eigen wens aan te passen."
+			}
+		},
+	"pannenkoeken" :
+		{
+			"1" : {
+				"label": "pannenkoeken 1",
+				"txt_standard" : "Vul een mok met bloem en leeg deze in een mengkom.",
+				"txt_detail" : "Schep bloem in een mok met een lepel tot deze tot de rand gevuld is en doe deze bloem in een mengkom.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : "Een mok bloem is ongeveer 170 grams bloem."
+			},
+		 	"2" : {
+		 		"label": "pannenkoeken 2",
+		 		"txt_standard" : "Vul dezelfde mok met melk en doe deze melk ook in de mengkom." ,
+		 		"txt_detail" : "Giet melk in dezelfde mok als zojuist en voeg deze melk toe aan de bloem in de mengkom.",
+		 		"txt_howto" : "De melk mag ik een keer bij de bloem worden gegoten.",
+		 		"img_howto" : "https://steemitimages.com/p/54TLbc8y6GjYuEZJYFMRKMgW3z2i2u2CRfgFK2u8RGF63cdmB2VwxLVX6S5EGDGxjyko3BVqv7Wv3fMi212wZgTDLX2K4tarPnVPF93EgCUyMMyLfSnYCNSK5rmL55PV1Q7VWKVFj?format=match&mode=fit",
+		 		"txt_motivate" : false,
+		 		"txt_howmuch" : "Een mok melk is ongeveer 350 mililiter melk."
+		 	},
+			"3" : {
+				"label": "pannenkoeken 3",
+				"txt_standard" : "Voeg twee eieren toe aan de melk en bloem in de mengkom.",
+				"txt_detail" : "Breek de eieren een voor een en doe de inhoud in de mengkom. Zorg dat er geen stukjes eischaal in de mengkom terecht komen.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : "Ei zorgt voor binding tussen de melk en de bloem waardoor het beslag een geheel wordt. Bovendien geeft ei een lekkere smaak aan de pannenkoeken.",
+				"txt_howmuch" : "Twee middelgrote kippeneieren."
+			},
+			"4"	: {
+				"label": "pannenkoeken 4",
+				"txt_standard" : "Meng de ingredienten in de mengkom door elkaar.",
+				"txt_detail" : "Gebruik een garde om de bloem, melk en eieren in de mengkom door elkaar te roeren.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : "Meng tot het een mooi, glad beslag is."
+			},
+			"5"	: {
+				"label": "pannenkoeken 5",
+				"txt_standard" : "Verhit een koekenpan op middelhoog vuur.",
+				"txt_detail" : "Zet een koekenpan op het fornuis en zet het fornuis uit op een middelhoge stand.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : "Het beslag heeft niet lang nodig om gaar te worden. Door middelhoog vuur te gebruiken zijn de pannenkoeken snel klaar zonder te verbranden.",
+				"txt_howmuch" : false
+			},
+			"6"	: {
+				"label": "pannenkoeken 6",
+				"txt_standard" : "Verhit een klontje boter in de koekenpan.",
+				"txt_detail" : "Leg een klontje boter in de verhitte koekenpan en laat deze smelten.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : "Ongeveer een theelepel boter."
+			},
+			"7"	: {
+				"label": "pannenkoeken 7",
+				"txt_standard" : "Schep een soeplepel beslag in de koekenpan en verspreid dit over de koekenpan.",
+				"txt_detail" : "Schep een soeplepel beslag in de koekenpan en draai de pan rond totdat het beslag over de hele koekenpan verspreid is.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : "Een soeplepel is ongeveer 150 mililiter."
+			},
+			"8"	: {
+				"label": "pannenkoeken 8",
+				"txt_standard" : "Draai de pannenkoek om zodra er belletjes op komen.",
+				"txt_detail" : "Schuif een spatel onder de pannekoek en keer de pannenkoek ondertsteboven in de pan zodra er belletjes op de pannenkoek verschijnen.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : "Draai de pannenkoek een keer om."
+			},
+			"9"	: {
+				"label": "pannenkoeken 9",
+				"txt_standard" : "Leg de pannekoek op een bord en bestrooi met poedersuiker naar smaak.",
+				"txt_detail" : "Spatel de pannekoek uit de pan en op een bord. Strooi poedersuiker over de pannenkoek.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : "Naar smaak, dus net zoveel als je lekker vindt."
+			}
+		},
+	"sate" :
+		{
+			"1": {
+				"label": "sate 1",
+				"txt_standard" : "Snijd een knoflook teen fijn.",
+				"txt_detail" : "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes",
+				"txt_howto" : "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes",
+				"img_howto" : false,
+				"txt_motivate" : "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
+				"txt_howmuch" : "Voor dit recept gebruiken we 6 teentjes knoflook."
+			},
+			"2": {
+				"label": "sate 2",
+				"txt_standard" : "Snijd de rode peper.",
+				"txt_detail" : "Snij de peper in ringen.",
+				"txt_howto" : "Snijd het steeltje van de rode peper en snijd de peper in ringen.",
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : "Voor dit recept gebruiken we een hele rode peper"
+			},
+			"3": {
+				"label": "sate 3",
+				"txt_standard" : "Snij de kip in blokjes",
+				"txt_detail" : "De blokjes moeten ongeveer 2 vierkante centimeter zijn",
+				"txt_howto" : "Snij het vet van de kip en snij in stukken",
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : "We gebruiken 500 gram kipfilet"
+			},
+			"4": {
+				"label": "sate 4",
+				"txt_standard" : "Doe een halve liter ketjap in een schaal.",
+				"txt_detail" : false,
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : "We gebruiken een halve liter ketjap"
+			},
+			"5": {
+				"label": "sate 5",
+				"txt_standard" : "Voeg de knoflook, rode peper, de ketoembar en de kip toe en laat afgedekt 15 minuten staan.",
+				"txt_detail" : "De zou na 15 min op smaak zijn. Des te langer het staat, des te meer smaak er aan zit.",
+				"txt_howto" : "Dek af met een bord of folie.",
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : false
+			},
+			"6": {
+				"label": "sate 6",
+				"txt_standard" : "Rijg de kip op de satestokjes.",
+				"txt_detail" : "De kip bakt sneller door het formaat.",
+				"txt_howto" : "Gebruik voor het omscheppen een grote spatel.",
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : "Gebruik 4 of 5 stukjes kip per stokje."
+			},
+			"7": {
+				"label": "sate 7",
+				"txt_standard" : "Bak de kip goudbruin aan beide kanten.",
+				"txt_detail" : false,
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : "3 minuten per kant is een goede indicatie."
+			},
+			"8": {
+				"label": "sate 8",
+				"txt_standard" : "Verdeel de sate over de schaal.",
+				"txt_detail" : false,
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : false
+			},
+			"9": {
+				"label": "sate 9",
+				"txt_standard" : "Bestrooi met sesamzaad en serveer met pindasaus. Geniet ervan!",
+				"txt_detail" : false,
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : false,
+				"txt_howmuch" : false
+			}
+		},
+	"ovenschotel" :
+		{
+			"1" :{
+				"label": "pasta ingredients",
+				"txt_standard": "Dit zijn de ingredienten die je nodig hebt: 500 gram rundergehakt, 40 gram burrito seasoningmix, een blik van 400 gram tomatenblokjes, een blikje van 300 gram mais,  een blikje van 400 gram chilibonen, 100 gram milde geraspte kaas, een zak naturel tortillachips en 1 rode puntpaprika.",
+				"txt_detail": false,
+				"txt_howto": false,
+				"img_howto": false,
+				"txt_motivate": false,
+				"txt_howmuch": false
+				},
+			"2" : {
+				"label": "Mexicaanse Ovenschotel 1",
+				"txt_standard" : "Verwarm de oven voor op 180 graden.",
+				"txt_detail" : "Door je oven voor te verwarmen is hij op de goeie temperatuur wanneer de schotel de oven in moet.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : "Door de oven nu alvast voor de verwarmen hoef je straks niet meer te wachten tot hij op temperatuur is.",
+				"txt_howmuch" : false
+				},
+		 	"3" : {
+		 		"label": "Mexicaanse Ovenschotel 2",
+		 		"txt_standard" : "Verhit een koekenpan zonder olie of boter en bak het gehakt op middelhoog vuur in 5 minuten rul." ,
+		 		"txt_detail" : "Bak het gehakt tot het bruin in plaats van rood is.",
+		 		"txt_howto" : "Je kan het gehakt in stukjes in de pan doen of alles tegelijk erin gooien. je mag zelf bepalen hoe je dat doet.",
+		 		"img_howto" : "https://kokenmetfotos.inekedegroot11.nl/wp-content/uploads/2017/08/W-Spaghetti-met-uiensaus-20.jpg",
+		 		"txt_motivate" : "Er is geen extra boter of olie nodig omdat er al genoeg vet in het gehakt zit om het rul te bakken.",
+		 		"txt_howmuch" : "500 gram rundergehakt"
+		 		},
+			"4" : {
+				"label": "Mexicaanse Ovenschotel 3",
+				"txt_standard" : "Voeg de seasoningmix en tomatenblokjes toe en verwarm nog 2 minuten.",
+				"txt_detail" : "Strooi de seasoningmix over het gehakt en giet het blikje tomatenblokjes er overheen.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : "De seasoningmix zorgt voor een groot deel voor de lekkere smaak van deze Ovenschotel",
+				"txt_howmuch" : "Het hele zakje seasoningmix mag er doorheen, dat is 40 gram. En er moet 400 gram tomatenblokjes doorheen."
+			},
+			"5" : {
+				"label": "Mexicaanse Ovenschotel 4",
+				"txt_standard" : "Schep het mengsel in de ovenschaal.",
+				"txt_detail" : "Schep het mengsel uit de pan over in de ovenschaal met bijvoorbeeld een grote lepel.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : "Schep of giet de hele pan leeg in de ovenschaal en verdeel het mensgel goed. Dit is de onderste laag van de ovenschotel.",
+				"txt_howmuch" : "Schep de hele pan leeg"
+			},
+			"6" : {
+				"label": "Mexicaanse Ovenschotel 5",
+				"txt_standard" : "Laat de maïskorrels uitlekken en verdeel over het gehaktmengsel",
+				"txt_detail" : "Laat de maïskorrels uitlekken en verdeel ze daarna gelijk over het gehakt mengsel dat in de ovenschotel zit.",
+				"txt_howto" : "Dit kan heel makkelijk door de inhoud van het maïsblik in een zeef te gooien.",
+				"img_howto" : false,
+				"txt_motivate" : "Door de maiskorrels eerst uit te laten lekken komt er geen extra vocht in de ovenschotel.",
+				"txt_howmuch" : "Er gaat 300 gram mais in het mengsel"
+			},
+			"7" : {
+				"label": "Mexicaanse Ovenschotel 6",
+				"txt_standard" : "Voeg nu de chilibonen toe.",
+				"txt_detail" : "Verdeel de chilibonen goed over het gehakt mengsel in de ovenschotel.",
+				"txt_howto" : "Open het blik en schud de bonen eruit boven het gehaktmengsel.",
+				"img_howto" : false,
+				"txt_motivate" : "Zorg dat je de chilibonen goed verdeelt over het gehaktmengsel, want het is lekkerder als er overal een paar bonen zitten.",
+				"txt_howmuch" : "Er moet 400 gram chilibonen toegevoegd worden."
+			},
+			"8" : {
+				"label": "Mexicaanse Ovenschotel 7",
+				"txt_standard" : "Voeg nu de helft van de geraspte kaas toe.",
+				"txt_detail" : "Verdeel de kaas goed over het gehakt mengsel in de ovenschotel.",
+				"txt_howto" : "Open het zakje en schud de kaas eruit boven het gehaktmengsel.",
+				"img_howto" : false,
+				"txt_motivate" : "Zorg dat je de kaas goed verdeelt over het gehaktmengsel.",
+				"txt_howmuch" : "Er moet 50 gram geraspte kaas toegevoegd worden."
+			},
+			"9" : {
+				"label": "Mexicaanse Ovenschotel 8",
+				"txt_standard" : "Voeg nu de helft van de tortillachips toe.",
+				"txt_detail" : "Leg de tortillachips bovenop het gehakt mengsel en zorg dat de tortillachips goed verdeeld is zodat hat gehaktmengsel nauwelijks nog te zien is.",
+				"txt_howto" : "Leg de tortillachips bovenop het gehaktmengsel. Dit kan je doen door de halve zak leeg te schudden of door de tortillachipjes zelf op de ovenschotel te leggen.",
+				"img_howto" : false,
+				"txt_motivate" : "Zorg dat je de tortillachips goed verdeelt over het gehaktmengsel, zodat er een goeie laag chips bovenop ligt.",
+				"txt_howmuch" : "De halve zak tortillachips moet bovenop de schotel geplaatst worden"
+			},
+			"10" : {
+				"label": "Mexicaanse Ovenschotel 9",
+				"txt_standard" : "Voeg nu de andere helft van de geraspte kaas toe.",
+				"txt_detail" : "Strooi de andere helft van de geraspte kaas over de tortillachips.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : "Het ziet er extra lekker uit als er gesmolten kaas over de tortillachips ligt.",
+				"txt_howmuch" : "Er moet 50 gram geraspte kaas toegevoegd worden."
+			},
+			"11" : {
+				"label": "Mexicaanse Ovenschotel 10",
+				"txt_standard" : "Verwijder de steelaanzet en zaadlijsten van de paprika en snijd het vruchtvlees in ringen. En verdeel deze over de ovenschotel. ",
+				"txt_detail" : "Snij met een mes de steel van de paprika eraf en verwijder alle zaadjes. Snij daarna de puntpaprika door de lengte door midden en snij het vruchtvlees in ringen. Verdeel de ringen daarna over de ovenschotel.",
+				"txt_howto" : "Snij met een mes de steel en een stukje van de bovenkant van de paprika af. Snij de paprika door midden en haal alle zaadjes eruit, Snij dan door de breedte ringen van het vruchtvlees. Verdeel de ringen daarna over de chips en kaas op de ovenschotel.",
+				"img_howto" : "https://www.youtube.com/watch?v=_5sE1FNh8rg",
+				"txt_motivate" : "De ringen liggen bovenop de ovenschotel en dit maakt het helemaal af. Ziet het er niet prachtig uit.",
+				"txt_howmuch" : "Er moet 1 rode puntpaprika gesneden worden."
+			},
+			"12" : {
+				"label": "Mexicaanse Ovenschotel 11",
+				"txt_standard" : "Bak de ovenschotel in het midden van de oven in ongeveer 20 minuten goudbruin.",
+				"txt_detail" : "Zet de ovenschotel in de voorverwarmde oven en zet de oven voor 20 minuten op 180 graden.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : "20 minuten is een goeie tijd om de ovenschotel goed op te warmen, zodat het nog lekkerder is.",
+				"txt_howmuch" : "De schotel moet 20 minuten in de oven, maar houd natuurlijk altijd de schotel zelf in de gaten."
+			},
+			"13" : {
+				"label": "Mexicaanse Ovenschotel 12",
+				"txt_standard" : "Serveer met de rest van de tortillachips.",
+				"txt_detail" : "Doe de overige inhoud van de tortillachips in een schaal en zet deze op tafel.",
+				"txt_howto" : false,
+				"img_howto" : false,
+				"txt_motivate" : "Tortillachips is lekker om naast het gerecht erbij te eten, of je kan er wat extra chips bij doen als je vind dat er niet genoeg chips door je eten zit.",
+				"txt_howmuch" : "De overige tortillachips uit de zak, en dat is als het goed is ongeveer de halve zak."
+			}
+		}
+	}
+}

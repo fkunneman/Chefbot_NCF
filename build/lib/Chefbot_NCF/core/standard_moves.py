@@ -137,6 +137,7 @@ class ConfirmRecipe(Move):
         infostate['private']['plan'] = list(knowledge['Recipe'][recipe_name].keys())
         recipedict = knowledge['Recipe'][recipe_name]
         for step in infostate['private']['plan']:
+<<<<<<< HEAD
             if step == "preliminaries":
                 infostate['private']['preliminaries'] = sorted([k for k in recipedict[step].keys() if recipedict[step][k]])
             elif step == "Recipe_steps":
@@ -144,6 +145,56 @@ class ConfirmRecipe(Move):
                 print(infostate['private']['explanations'])
                 print(recipedict[step])
                 infostate['private']['explanations'] = recipedict[step]
+=======
+            infostate['private']['plan_wide'][step] = [k for k in recipedict[step].keys() if recipedict[step][k]] 
+
+class OtherRecipe(Move):
+    """
+    ClarifyQuantity
+    =====
+    Class to model the preconditions and effects of the move to clarify the quantity of a step
+    """
+
+    def __init__(self):
+        Move.__init__(self,
+            name = 'other_recipe',
+            prior_moves = ['ander recept'],
+            context = [['recept_confirm',1,{'no-input': 0.0, 'no-match': 0.0}]],
+            suggestions = ['pasta', 'volgende']
+        )
+
+    def preconditions_met(self,infostate,knowledge):
+        """
+        preconditions_met
+        =====
+        Boolean function to return if the preconditions of this move have been met given the current information state
+
+        In addition to the specified prior moves, the precondition should be met that there is knowledge of the quantity of the ingredients in the current steps
+        """
+        return Move.preconditions_met(self, infostate)
+
+    def effects(self,infostate,knowledge):
+        """
+        effects
+        =====
+        Function to apply this move's effects to the information state
+
+        In addition to adding this move to the shared conversation information state, it has the following effect:
+            - the quantity clarification is added to the shared questions under discussion
+        """
+        Move.effects(self, infostate)
+        recipe_name = infostate['shared']['entities'][-1]['recept']
+        infostate['private']['agenda'] = recipe_name
+        infostate['shared']['beliefs']['task'] = [recipe_name]
+        infostate['private']['plan'] = list(knowledge['Recipe'][recipe_name].keys())
+        recipedict = knowledge['Recipe'][recipe_name]
+        for step in infostate['private']['plan']:
+            infostate['private']['plan_wide'][step] = [k for k in recipedict[step].keys() if recipedict[step][k]]
+
+
+
+
+>>>>>>> origin/Jim
 
 class InstructStep(Move):
     """
@@ -155,7 +206,11 @@ class InstructStep(Move):
     def __init__(self):
         Move.__init__(self,
             name = 'instruct_step',
+<<<<<<< HEAD
             prior_moves = ['Recept continueerder'],
+=======
+            prior_moves = ['Recept continueerder','confirm_recipe','other_recipe'],
+>>>>>>> origin/Jim
             context = [['recept_stappen',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_quantity',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_skill',5,{'no-input': 0.0, 'no-match': 0.0}]],
             suggestions = ['volgende','hoe','hoeveel','waarom','kun je dat nog een keer herhalen','wat bedoel je']
         )
@@ -168,6 +223,7 @@ class InstructStep(Move):
 
         In addition to the specified prior moves, the precondition should be met that there are still steps to explain
         """
+<<<<<<< HEAD
         pm = False
         if Move.preconditions_met(self,infostate):
             if len(infostate['private']['plan_wide']) > 1:
@@ -180,6 +236,13 @@ class InstructStep(Move):
                 pm = True
         return pm
 
+=======
+        if Move.preconditions_met(self,infostate):
+            if len(infostate['private']['plan']) > 1:
+                return True
+            else:
+                return False
+>>>>>>> origin/Jim
 
     def effects(self,infostate,knowledge):
         """
@@ -192,7 +255,13 @@ class InstructStep(Move):
             - the last step will be signified as 'done' in the shared beliefs 
         """
         Move.effects(self,infostate)
+<<<<<<< HEAD
         infostate['shared']['beliefs']['done'].append(infostate['private']['plan_wide'].pop(0))
+=======
+        if not 'recept_confirm' in [x[0] for x in infostate['shared']['context']]: 
+            infostate['shared']['beliefs']['done'].append(infostate['private']['plan'].pop(0))
+
+>>>>>>> origin/Jim
 
 class ClarifyQuantity(Move):
     """
@@ -219,7 +288,11 @@ class ClarifyQuantity(Move):
         """
         pm = False
         if Move.preconditions_met(self,infostate):
+<<<<<<< HEAD
             if infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_howmuch']:
+=======
+            if 'txt_howmuch' in infostate['private']['plan_wide'][infostate['private']['plan'][0]]:
+>>>>>>> origin/Jim
                 pm = True
         return pm
 
@@ -261,7 +334,11 @@ class ClarifyQuantityFallback(Move):
         """
         pm = False
         if Move.preconditions_met(self,infostate):
+<<<<<<< HEAD
             if not infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_howmuch']:
+=======
+            if 'txt_howmuch' not in infostate['private']['plan_wide'][infostate['private']['plan'][0]]:
+>>>>>>> origin/Jim
                 pm = True
         return pm
 
@@ -341,7 +418,11 @@ class ClarifyElicit(Move):
         """
         pm = False
         if Move.preconditions_met(self,infostate):
+<<<<<<< HEAD
             if infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_detail']:
+=======
+            if 'txt_detail' in infostate['private']['plan_wide'][infostate['private']['plan'][0]]:
+>>>>>>> origin/Jim
                 pm = True
         return pm
 
@@ -383,7 +464,11 @@ class ClarifyExplain(Move):
         """
         pm = False
         if Move.preconditions_met(self,infostate):
+<<<<<<< HEAD
             if infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_howto']:
+=======
+            if 'txt_howto' in infostate['private']['plan_wide'][infostate['private']['plan'][0]]:
+>>>>>>> origin/Jim
                 pm = True
         return pm
 
@@ -426,7 +511,11 @@ class ClarifyExplainFallback(Move):
         """
         pm = False
         if Move.preconditions_met(self,infostate):
+<<<<<<< HEAD
             if not infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_howto']:
+=======
+            if 'txt_howto' not in infostate['private']['plan_wide'][infostate['private']['plan'][0]]:
+>>>>>>> origin/Jim
                 pm = True
         return pm
 
@@ -469,7 +558,10 @@ class ClarifyMotivate(Move):
         """
         pm = False
         if Move.preconditions_met(self,infostate):
+<<<<<<< HEAD
             if infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_motivate']:
+=======
+            if 'txt_motivate' in infostate['private']['plan_wide'][infostate['private']['plan'][0]]:
                 pm = True
         return pm
 
@@ -486,6 +578,53 @@ class ClarifyMotivate(Move):
         # qud
         infostate['shared']['qud'] = infostate['private']['plan'][0] + '_motivate'
 
+class ClarifyMotivateFallback(Move):
+    """
+    ClarifyMotivate
+    =====
+    Class to model the preconditions and effects of the move to motivate why a step is important
+    """
+
+    def __init__(self):
+        Move.__init__(self,
+            name = 'clarify_step_motivate_fallback',
+            prior_moves = ['Recept motivate'],
+            context = [['recept_stappen',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_toelichting',5,{'no-input': 0.0, 'no-match': 0.0}]],
+            suggestions = ['volgende','duidelijk','dankje']
+        )
+
+    def preconditions_met(self,infostate,knowledge):
+        """
+        preconditions_met
+        =====
+        Boolean function to return if the preconditions of this move have been met given the current information state
+
+        In addition to the specified prior moves, the precondition should be met that there is knowledge of the reason why to conduct the current step
+        """
+        pm = False
+        if Move.preconditions_met(self,infostate):
+            if 'txt_motivate' not in infostate['private']['plan_wide'][infostate['private']['plan'][0]]:
+>>>>>>> origin/Jim
+                pm = True
+        return pm
+
+    def effects(self,infostate,knowledge):
+        """
+        effects
+        =====
+        Function to apply this move's effects to the information state
+
+        In addition to adding this move to the shared conversation information state, it has the following effect:
+            - the motivate clarification is added to the shared questions under discussion
+        """
+        Move.effects(self,infostate)
+        # qud
+        infostate['shared']['qud'] = infostate['private']['plan'][0] + '_motivate'
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/Jim
 class CloseClarificationGratitude(Move):
     """
     CloseClarificationGratitude
@@ -679,6 +818,7 @@ class CloseActivity(Move):
         infostate['plan_wide'] = {}
         infostate['agenda'] = None
         infostate['shared']['beliefs']['task'] = []
+<<<<<<< HEAD
 
 class SelectRecipe(Move):
     """
@@ -793,3 +933,6 @@ class IngredientStep(Move):
             - the last step will be signified as 'done' in the shared beliefs
         """
         Move.effects(self,infostate)
+=======
+        
+>>>>>>> origin/Jim
