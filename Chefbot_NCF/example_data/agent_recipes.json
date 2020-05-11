@@ -7,11 +7,26 @@
 						"1": "3 à 5 knoflook teentjes",
 						"2": "pasta",
 						"3": "water",
-						"4": "geraspte kaas"
-					},
+						"4": "geraspte kaas",
+						"time": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
+						},
 					"img_howto": {
-						"title": "ingredienten",
+						"title": "Ingredienten & Bereidingstijd",
 						"list": [
+							{
+								"optionInfo": {
+									"key": "Tijd",
+									"synonyms": [
+										"Tijd"
+									]
+								},
+								"description": "Bereidingstijd",
+								"image": {
+									"url": "https://asset.conrad.com/media10/isa/160267/c1/-/nl/672032_BB_00_FB/image.jpg?x=400&y=400",
+									"accessibilityText": "Tijd"
+								},
+								"title": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
+							},
 							{
 								"optionInfo": {
 									"key": "knoflook foto",
@@ -24,7 +39,7 @@
 									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
 									"accessibilityText": "knoflook"
 								},
-								"title": "knoflook teentjes"
+								"title": "3 à 5 knoflook teentjes"
 							},
 							{
 								"optionInfo": {
@@ -220,11 +235,26 @@
 					"5": "2 eetlepels sesamolie",
 					"6": "800 g Japanse wokgroente kastanjechampignons & peulen",
 					"7": "250 g Go-Tan egg noodles",
-					"8": "2 eetlepels sesamzaad"
+					"8": "2 eetlepels sesamzaad",
+					"time": "Het duurt ongeveer 33 minuten voordat dit recept klaar is om te eten!"
 				},
 					"img_howto": {
-						"title": "ingredienten",
+						"title": "Ingredienten & Bereidingstijd",
 						"list": [
+							{
+								"optionInfo": {
+									"key": "Tijd",
+									"synonyms": [
+										"Tijd"
+									]
+								},
+								"description": "Bereidingstijd",
+								"image": {
+									"url": "https://asset.conrad.com/media10/isa/160267/c1/-/nl/672032_BB_00_FB/image.jpg?x=400&y=400",
+									"accessibilityText": "Tijd"
+								},
+								"title": "Het duurt ongeveer 33 minuten voordat dit recept klaar is om te eten!"
+							},
 							{
 								"optionInfo": {
 									"key": "knoflook foto",
@@ -237,7 +267,7 @@
 									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
 									"accessibilityText": "knoflook"
 								},
-								"title": "Knoflook teentjes"
+								"title": "1 Knoflook teentje"
 							},
 							{
 								"optionInfo": {
@@ -251,7 +281,7 @@
 									"url": "https://dieetuniversiteit.nl/wp-content/uploads/2016/10/sesamzaad-gezond-1024x768.jpg",
 									"accessibilityText": "sesamzaad"
 								},
-								"title": "Sesamzaad"
+								"title": "2 eetlepels sesamzaad"
 							},
 							{
 								"optionInfo": {
@@ -265,7 +295,7 @@
 									"url": "https://www.ahealthylife.nl/wp-content/uploads/2019/02/chilipeper_spaanse_peper_voedingswaarde.jpg",
 									"accessibilityText": "rode peper"
 								},
-								"title": "Rode peper"
+								"title": "een halve Rode peper"
 							},
 							{
 								"optionInfo": {
@@ -279,7 +309,7 @@
 									"url": "https://www.slagerij-islamcentrum.nl/wp-content/uploads/2017/11/gehakt.jpg",
 									"accessibilityText": "mager rundergehakt"
 								},
-								"title": "Mager rundergehakt"
+								"title": "300 gram mager rundergehakt"
 							},
 							{
 								"optionInfo": {
@@ -293,7 +323,7 @@
 									"url": "https://dg3w27tmpqz1r.cloudfront.net/artikelen/15910_1_392688_637188237569169724.png?width=500&height=500&mode=crop",
 									"accessibilityText": "Go-Tan woksaus oyster garlic"
 								},
-								"title": "Go-Tan woksaus oyster garlic"
+								"title": "5 eetlepels Go-Tan woksaus oyster garlic"
 							},
 							{
 								"optionInfo": {
@@ -307,7 +337,7 @@
 									"url": "https://static.ah.nl/image-optimization/static/product/AHI_43545239363439393333_1_LowRes_JPG.JPG?options=399,q85",
 									"accessibilityText": "sesamolie"
 								},
-								"title": "Sesamolie"
+								"title": "2 eetlepels sesamolie"
 							},
 							{
 								"optionInfo": {
@@ -321,7 +351,7 @@
 									"url": "https://dg3w27tmpqz1r.cloudfront.net/artikelen/22482_1_247488_637188381593665069.png?width=500&height=500&mode=crop",
 									"accessibilityText": "Japanse wokgroente kastanjechampignons & peulen"
 								},
-								"title": "Japanse wokgroente kastanjechampignons & peulen"
+								"title": "800 gram japanse wokgroente kastanjechampignons & peulen"
 							},
 							{
 								"optionInfo": {
@@ -335,7 +365,7 @@
 									"url": "https://www.worldwideholland.com/images/productimages/big/go-tan-egg-noodles.png",
 									"accessibilityText": "Go-Tan egg noodles"
 								},
-								"title": "Go-Tan egg noodles"
+								"title": "250 gram Go-Tan egg noodles"
 							}
 						]
 					}
@@ -535,11 +565,26 @@
 					"2": "1 theelepel zout",
 					"3": "2 middelgrote eieren",
 					"4": "500 ml halfvolle melk",
-					"5": "30 g ongezouten roomboter"
+					"5": "30 g ongezouten roomboter",
+					"title": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
 				},
 					"img_howto": {
 					"title": "ingredienten",
 					"list": [
+						{
+							"optionInfo": {
+								"key": "Tijd",
+								"synonyms": [
+									"Tijd"
+								]
+							},
+							"description": "Bereidingstijd",
+							"image": {
+								"url": "https://asset.conrad.com/media10/isa/160267/c1/-/nl/672032_BB_00_FB/image.jpg?x=400&y=400",
+								"accessibilityText": "Tijd"
+							},
+							"title": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
+						},
 						{
 							"optionInfo": {
 								"key": "tarwebloem foto",
@@ -552,7 +597,7 @@
 								"url": "https://www.koopmans.com/assets/_processed_/6/8/csm_tarwebloem-biologisch_V4_8fa92bda70.png",
 								"accessibilityText": "tarwebloem"
 							},
-							"title": "Tarwebloem"
+							"title": "300 gram tarwebloem"
 						},
 						{
 							"optionInfo": {
@@ -566,7 +611,7 @@
 								"url": "https://images0.persgroep.net/rcs/hz5KoGpMETnmn7_ySGlS_DodYp4/diocontent/66568016/_crop/0/36/1625/918/_fitwidth/763?appId=93a17a8fd81db0de025c8abd1cca1279&quality=0.8",
 								"accessibilityText": "zout"
 							},
-							"title": "Zout"
+							"title": "1 theelepel zout"
 						},
 						{
 							"optionInfo": {
@@ -580,7 +625,7 @@
 								"url": "https://www.altijdweervooreenei.nl/wp-content/uploads/2018/11/eiveschillenthumbnail.jpg",
 								"accessibilityText": "eieren"
 							},
-							"title": "Eieren"
+							"title": "2 middelgrote eieren"
 						},
 						{
 							"optionInfo": {
@@ -594,7 +639,7 @@
 								"url": "https://www.htwcatering.nl/wp-content/uploads/2018/08/110883-71550-campina-halfvolle-melk.4-400.png",
 								"accessibilityText": "halfvolle melk"
 							},
-							"title": "Halfvolle melk"
+							"title": "500 ml halfvolle melk"
 						},
 						{
 							"optionInfo": {
@@ -608,7 +653,7 @@
 								"url": "https://static.hanos.com/sys-master/productimages/h28/h37/9258621009950/27109988.jpg_914Wx914H",
 								"accessibilityText": "ongezouten roomboter"
 							},
-							"title": "Ongezouten roomboter"
+							"title": "30 gram ongezouten roomboter"
 						}
 					]
 				}
@@ -774,11 +819,26 @@
 					"1": "Knoflook",
 					"2": "Ketoembar",
 					"3": "een rode peper",
-					"4": "ketjap"
+					"4": "ketjap",
+					"title": "Het duurt ongeveer 20 tot 30 minuten voordat dit recept klaar is om te eten!"
 				},
 					"img_howto": {
-					"title": "ingredienten",
+					"title": "Ingredienten & Bereidingstijd",
 					"list": [
+						{
+							"optionInfo": {
+								"key": "Tijd",
+								"synonyms": [
+									"Tijd"
+								]
+							},
+							"description": "Bereidingstijd",
+							"image": {
+								"url": "https://asset.conrad.com/media10/isa/160267/c1/-/nl/672032_BB_00_FB/image.jpg?x=400&y=400",
+								"accessibilityText": "Tijd"
+							},
+							"title": "Het duurt ongeveer 20 tot 30 minuten voordat dit recept klaar is om te eten!"
+						},
 						{
 							"optionInfo": {
 								"key": "knoflook foto",
@@ -819,7 +879,7 @@
 								"url": "https://www.ahealthylife.nl/wp-content/uploads/2019/02/chilipeper_spaanse_peper_voedingswaarde.jpg",
 								"accessibilityText": "rode peper"
 							},
-							"title": "Rode peper"
+							"title": "een rode peper"
 						},
 						{
 							"optionInfo": {
@@ -1003,11 +1063,26 @@
 					"5": "100 g geraspte milde kaas 45+",
 					"6": "150 g tortillachips naturel",
 					"7": "1 rode puntpaprika",
-					"8": "tomatenblokjes"
+					"8": "400 g tomatenblokjes",
+					"time": "Het duurt ongeveer 35 minuten voordat dit recept klaar is om te eten!"
 				},
 					"img_howto": {
-					"title": "ingredienten",
+					"title": "Ingredienten & Bereidingstijd",
 					"list": [
+						{
+							"optionInfo": {
+								"key": "Tijd",
+								"synonyms": [
+									"Tijd"
+								]
+							},
+							"description": "Bereidingstijd",
+							"image": {
+								"url": "https://asset.conrad.com/media10/isa/160267/c1/-/nl/672032_BB_00_FB/image.jpg?x=400&y=400",
+								"accessibilityText": "Tijd"
+							},
+							"title": "Het duurt ongeveer 35 minuten voordat dit recept klaar is om te eten!"
+						},
 						{
 							"optionInfo": {
 								"key": "rundergehakt foto",
@@ -1020,7 +1095,7 @@
 								"url": "https://www.supermarktaanbiedingen.com/public/images/product/2017/42/0-675163000-magere-rundergehakt.jpg",
 								"accessibilityText": "rundergehakt"
 							},
-							"title": "Rundergehakt"
+							"title": "500 gram rundergehakt"
 						},
 						{
 							"optionInfo": {
@@ -1034,7 +1109,7 @@
 								"url": "https://www.santamariaworld.com/optimized/product-large/globalassets/foodservice/blocks/promo-blocks/07311310313999_c1n1-1.png",
 								"accessibilityText": "burrito seasoning mix"
 							},
-							"title": "Burrito seasoning mix"
+							"title": "40 gram burrito seasoning mix"
 						},
 						{
 							"optionInfo": {
@@ -1048,7 +1123,7 @@
 								"url": "https://mediacenter.bonduelle.com/cdn/201909/03083680597210_.png",
 								"accessibilityText": "mais in blik"
 							},
-							"title": "Mais in blik"
+							"title": "300 gram mais in blik"
 						},
 						{
 							"optionInfo": {
@@ -1062,7 +1137,7 @@
 								"url": "https://mediacenter.bonduelle.com/cdn/201908_1/03083680479264_03083680479264-chili-beans-sauce-200g.png",
 								"accessibilityText": "chilibonen in blik"
 							},
-							"title": "Chilibonen in blik"
+							"title": "400 gram chilibonen in blik"
 						},
 						{
 							"optionInfo": {
@@ -1076,7 +1151,7 @@
 								"url": "https://static.ah.nl/image-optimization/static/product/AHI_434d50313930353539_3_LowRes_JPG.JPG?options=399,q85",
 								"accessibilityText": "geraspte milde kaas"
 							},
-							"title": "Geraspte milde kaas"
+							"title": "100 gram geraspte milde kaas"
 						},
 						{
 							"optionInfo": {
@@ -1090,7 +1165,7 @@
 								"url": "https://www.bidfood.nl/images/product/70/064157-product-shot-250x190-22c7af70.jpeg",
 								"accessibilityText": "tortillachips naturel"
 							},
-							"title": "Tortillachips naturel"
+							"title": "1 zak van ongeveer 150 gram tortillachips naturel"
 						},
 						{
 							"optionInfo": {
@@ -1104,7 +1179,7 @@
 								"url": "https://dgmnuojaamh45.cloudfront.net/images/maaltijden/67007-Screen-Shot-2014-05-27-at-08.54.49.png",
 								"accessibilityText": "rode puntpaprika"
 							},
-							"title": "Rode puntpaprika"
+							"title": "1 rode puntpaprika"
 						},
 						{
 							"optionInfo": {
@@ -1118,7 +1193,7 @@
 								"url": "https://www.allesin1bezorgservice.nl/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/o/tomaten_blokjes_gepeld_heinz_blikje.jpg",
 								"accessibilityText": "tomatenblokjes"
 							},
-							"title": "tomatenblokjes"
+							"title": "400 tomatenblokjes in blik"
 						}
 					]
 				}
