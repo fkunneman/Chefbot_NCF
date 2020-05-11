@@ -141,8 +141,6 @@ class ConfirmRecipe(Move):
                 infostate['private']['preliminaries'] = sorted([k for k in recipedict[step].keys() if recipedict[step][k]])
             elif step == "Recipe_steps":
                 infostate['private']['plan_wide'] = [k for k in recipedict[step].keys() if recipedict[step][k]]
-                print(infostate['private']['explanations'])
-                print(recipedict[step])
                 infostate['private']['explanations'] = recipedict[step]
 
 class OtherRecipe(Move):
@@ -187,9 +185,6 @@ class OtherRecipe(Move):
         recipedict = knowledge['Recipe'][recipe_name]
         for step in infostate['private']['plan']:
             infostate['private']['plan_wide'][step] = [k for k in recipedict[step].keys() if recipedict[step][k]]
-
-
-
 
 
 class InstructStep(Move):
@@ -239,7 +234,10 @@ class InstructStep(Move):
             - the last step will be signified as 'done' in the shared beliefs 
         """
         Move.effects(self,infostate)
-        infostate['shared']['beliefs']['done'].append(infostate['private']['plan_wide'].pop(0))
+        if 'cooking_utensils' in list(infostate['private']['preliminaries']):
+            del(infostate['private']['preliminaries'][0])
+        else:
+            infostate['shared']['beliefs']['done'].append(infostate['private']['plan_wide'].pop(0))
 
 class ClarifyQuantity(Move):
     """

@@ -349,7 +349,7 @@ class ISU:
         try:
             current_step = self.infostate['private']['plan_wide'][0]
         except:
-            current_step = '1'
+            current_step = False
             print('return current step, step not found')
         return current_step
 

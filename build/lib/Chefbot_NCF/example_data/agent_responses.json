@@ -13,7 +13,7 @@
 	{
 		"regular" :
 				[
-					"Gaan we [advies] doen!"
+					"Gaan we [recipe] doen!"
 				]
 	},
 	"New recipe step" :
@@ -122,5 +122,27 @@
 					"Als je geen verdere vragen hebt verklaar ik onze conversatie voor beëindigd"
 
 				]
-		}		
+		},
+	"Select recipe" :
+		{
+			"regular" :
+    			[
+      				"De recepten waar je uit kunt kiezen zijn: [recipe_options].",
+      				"Je kunt kiezen uit de volgende recepten: [recipe_options]."
+    			]
+		},
+	"Introduce cooking utensils" :
+		{
+			"regular" :
+				[
+					"Dit is het kookgerei dat je nodig hebt voor dit recept:"
+				]
+		},
+	"Introduce ingredients" :
+		{
+			"regular" :
+				[
+					"Dit zijn de ingredienten die je nodig hebt:"
+				]
+		}
 }

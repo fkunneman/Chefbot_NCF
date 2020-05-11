@@ -419,6 +419,7 @@ class NLG:
         self.response :
             adds the instruction to the active response
         """
+        print("RESPONSES",self.responses)
         self.response.append(random.choice(self.responses['Introduce ingredients']['regular']))
         ingredients = []
         for x in self.recipe['preliminaries']['ingredients']["list"]:

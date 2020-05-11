@@ -36,7 +36,6 @@ class NLG:
         add new moves / responses to this dictionary
     """
 
-<<<<<<< HEAD
     def __init__(self,default_responses, recipe_options):
         self.response = []
         self.images = {}
@@ -46,22 +45,11 @@ class NLG:
         self.responses = default_responses
         self.move_response = {
             'confirm_recipe'                    : self.confirm_recipe,
+            'other_recipe'                      : self.other_recipe,
             'instruct_step'                     : self.instruct_step,
             'close_recipe'                      : self.close_recipe,
             'ingredient_steps'                  : self.ingredient_steps,
             'cooking_utensils_list'             : self.cooking_utensils_list,
-=======
-    def __init__(self,default_responses):
-        self.response = []
-        self.recipe = None
-        self.step = None
-        self.responses = default_responses
-        self.move_response = {
-            'confirm_recipe'                    : self.confirm_recipe,
-            'other_recipe'                      : self.other_recipe,
-            'instruct_step'                     : self.instruct_step,
-            'close_recipe'                      : self.close_recipe,
->>>>>>> origin/Jim
             'clarify_step_quantity'             : self.clarify_step_quantity,
             'clarify_step_quantity_fallback'    : self.fallback_quantity,
             'clarify_step_repeat'               : self.clarify_step_repeat,
@@ -69,7 +57,7 @@ class NLG:
             'clarify_step_explain'              : self.clarify_step_explain,
             'clarify_step_explain_fallback'     : self.fallback_explain,
             'clarify_step_motivate'             : self.clarify_step_motivate,
-<<<<<<< HEAD
+            'clarify_step_motivate_fallback'    : self.fallback_motivate,
             'close_clarification_gratitude'     : self.close_clarification_gratitude,
             'close_clarification_understood'    : self.close_clarification_understood,
             'close_clarification_acknowledged'  : self.close_clarification_acknowledged,
@@ -78,21 +66,10 @@ class NLG:
         }
 
     def formulate_response(self,moves,index=False):
-=======
-            'clarify_step_motivate_fallback'    : self.fallback_motivate,
-            'close_clarification_gratitude'     : self.close_clarification_gratitude,
-            'close_clarification_understood'    : self.close_clarification_understood,
-            'close_clarification_acknowledged'  : self.close_clarification_acknowledged,
-            'close_activity'                    : self.close_activity
-        }
-
-    def formulate_response(self,moves,index):
->>>>>>> origin/Jim
         print('NLG moves',moves,index)
         self.update_step(index)
         for move in moves:
             self.move_response[move]()
-<<<<<<< HEAD
         recipe_options_string = ', '.join(self.recipe_options)
         response = ' '.join(self.response)
         response_out = self.fill_in_concepts(response)
@@ -113,14 +90,6 @@ class NLG:
     def reset_response(self):
         self.response = []
         self.images = []
-=======
-        response_out = ' '.join(self.response).replace('[recipe]',self.recipe['name']).replace('[step]',self.step)
-        self.reset_response()
-        return response_out
-
-    def reset_response(self):
-        self.response = []
->>>>>>> origin/Jim
 
     def set_recipe(self,recipe):
         self.recipe = recipe
@@ -150,8 +119,6 @@ class NLG:
         """
         self.response.append(random.choice(self.responses['Confirm recipe']['regular']))
 
-<<<<<<< HEAD
-=======
     def other_recipe(self):
         """
         confirm_recipe
@@ -166,7 +133,6 @@ class NLG:
         """
         self.response.append(random.choice(self.responses['Other recipe']['regular']))
 
->>>>>>> origin/Jim
     def introduce_step(self):
         """
         introduce_step
@@ -195,17 +161,9 @@ class NLG:
         self.response : 
             adds the instruction to the active response
         """
-<<<<<<< HEAD
-
         self.response.append(self.recipe['Recipe_steps'][self.step]['txt_standard'])
 
     def clarify_step(self,clarification_type,img=False):
-=======
-        self.response.append(self.recipe['steps'][self.step]['txt_standard'])
-
-
-    def clarify_step(self,clarification_type):
->>>>>>> origin/Jim
         """
         clarify_step
         =====
@@ -223,14 +181,10 @@ class NLG:
         self.response : 
             adds the introduction to the clarification (if any), and the clarification itself to the active response
         """
-<<<<<<< HEAD
         self.response.extend([random.choice(self.responses[clarification_type[1]]['regular']),self.recipe['Recipe_steps'][self.step][clarification_type[0]]])
         if img:
             if self.recipe['Recipe_steps'][self.step][img]:
                 self.images = self.recipe['Recipe_steps'][self.step][img]
-=======
-        self.response.extend([random.choice(self.responses[clarification_type[1]]['regular']),self.recipe['steps'][self.step][clarification_type[0]]])
->>>>>>> origin/Jim
 
     def clarify_fallback(self,clarification_type):
         """
@@ -276,11 +230,7 @@ class NLG:
         self.clarify_fallback : 
             to retrieve the proper fallback with the specified key
         """
-<<<<<<< HEAD
-        self.clarify_fallback('Explain quantity')
-=======
         self.clarify_fallback('Step quantity')
->>>>>>> origin/Jim
 
     def clarify_step_repeat(self):
         """
@@ -306,11 +256,7 @@ class NLG:
         self.clarify_step_elicit : 
             to retrieve the proper clarification with the specified keys
         """
-<<<<<<< HEAD
         self.clarify_step(['txt_howto', 'Explain step'])
-=======
-        self.clarify_step(['txt_detail','Elicit step'])
->>>>>>> origin/Jim
 
     def clarify_step_explain(self):
         """
@@ -323,11 +269,7 @@ class NLG:
         self.clarify_step : 
             to retrieve the proper clarification with the specified keys
         """
-<<<<<<< HEAD
         self.clarify_step(['txt_howto', 'Explain step'], 'img_howto')
-=======
-        self.clarify_step(['txt_howto', 'Explain step'])
->>>>>>> origin/Jim
 
     def fallback_explain(self):
         """
@@ -355,8 +297,6 @@ class NLG:
         """
         self.clarify_step(['txt_motivate', 'Motivate step'])
 
-<<<<<<< HEAD
-=======
     def fallback_motivate(self):
         """
         clarify_step_motivate
@@ -370,7 +310,6 @@ class NLG:
         """
         self.clarify_fallback('Motivate step')
 
->>>>>>> origin/Jim
     def close_clarification(self,third_position_intent):
         """
         close_clarification
@@ -456,7 +395,6 @@ class NLG:
             adds the activity closure to the active response
         """
         self.response.append(random.choice(self.responses['Close activity']['regular']))
-<<<<<<< HEAD
 
     def cooking_utensils_list(self):
         """clarify_step_cookware
@@ -481,6 +419,7 @@ class NLG:
         self.response :
             adds the instruction to the active response
         """
+        print("RESPONSES",self.responses)
         self.response.append(random.choice(self.responses['Introduce ingredients']['regular']))
         ingredients = []
         for x in self.recipe['preliminaries']['ingredients']["list"]:
@@ -501,7 +440,7 @@ class NLG:
             adds the utterance to show options of recipes to the active response
         """
         self.response.append(random.choice(self.responses['Select recipe']['regular']))
-=======
+
     def load_data(self,path):
         """
         load_data
@@ -522,4 +461,3 @@ class NLG:
             json_data = file_in.read().strip()
         json_data_formatted = json.loads(json_data)
         return json_data_formatted
->>>>>>> origin/Jim
