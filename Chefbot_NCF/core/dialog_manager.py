@@ -171,9 +171,9 @@ class DialogManager:
                     print(self.active_processed['utterance']['parameters']['recept']  in self.recipes['Recipe'])
                 else:
                     self.start_recipe()
-        if self.active_processed['move'] == 'Kook recept':
-            self.start_recipe()
-            print(self.active_processed['entities']['recept'])
+        #if self.active_processed['move'] == 'Kook recept':
+         #   self.start_recipe()
+         #   print(self.active_processed['entities']['recept'])
         if self.active_processed['move'] == 'ander recept':
             print (self.other_recipe_list)
             self.other = random.choice(self.other_recipe_list)
