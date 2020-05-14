@@ -9,6 +9,15 @@
 					"Gaan we doen!"
 				]
 		},
+	"Warning recipe" :
+		{
+			"regular" :
+				[],
+			"fallback" :
+            	[
+                	"Maak eerst uw huidige recept af voordat je start met een ander recept."
+            	]
+		},
 	"Other recipe" :
 	{
 		"regular" :

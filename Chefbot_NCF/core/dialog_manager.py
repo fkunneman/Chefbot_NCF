@@ -61,6 +61,7 @@ class DialogManager:
         self.recipe_options = self.recipes["Recipe"].keys()
         self.responses = self.load_data(responsefile)
         self.other_recipe_list = []
+        self.current_recipe_list = []
         for x in self.recipes['Recipe']:
             self.other_recipe_list.append(x)
         #self.other = random.choice(self.other_recipe_list)
@@ -163,7 +164,13 @@ class DialogManager:
             For deciding on the agent moves based on the user's utterance - 
                 selecting one or more moves for which the preconditions are met, and applying their effects
         """
-
+        if (self.ISU.infostate['shared']['moves'] == [] or self.ISU.infostate['shared']['moves'][-1] == ['A', 'close_activity']):
+            #print ("JA DIT WERKT")
+            if self.active_processed['move'] == 'Kook recept' :
+                if self.active_processed['utterance']['parameters']['recept'] not in self.recipes['Recipe']:
+                    print(self.active_processed['utterance']['parameters']['recept']  in self.recipes['Recipe'])
+                else:
+                    self.start_recipe()
         if self.active_processed['move'] == 'Kook recept':
             self.start_recipe()
             print(self.active_processed['entities']['recept'])
