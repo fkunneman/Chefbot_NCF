@@ -171,9 +171,6 @@ class DialogManager:
         #             print("DM")
         #         else:
         #             self.start_recipe()
-        if self.active_processed['move'] == 'Kook recept':
-            self.start_recipe()
-            print(self.active_processed['entities']['recept'])
         if self.active_processed['move'] == 'ander recept':
             print (self.other_recipe_list)
             self.other = random.choice(self.other_recipe_list)
@@ -183,6 +180,8 @@ class DialogManager:
         self.ISU.update('U',self.active_processed['move'],self.active_processed['entities'],self.active_processed['text'])
         self.ISU.update_speaker('A')
         self.ISU.next_moves()
+        if 'confirm_recipe' in self.ISU.return_agent_moves():
+            self.start_recipe()
 
     def formulate_response(self):
         """
@@ -244,7 +243,7 @@ class DialogManager:
         self.active_recipe['steps'] = self.recipes['Recipe'][name]
         self.active_recipe['name'] = name
         self.NLG.set_recipe(self.active_recipe)
-        self.ISU.clear()
+        #self.ISU.clear()
 
 
     def start_other_recipe(self):

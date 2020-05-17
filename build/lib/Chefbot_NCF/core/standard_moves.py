@@ -214,7 +214,12 @@ class ConfirmRecipe(Move):
         pm = False
         if Move.preconditions_met(self, infostate):
             if infostate['shared']['entities'][-1]['recept'] != '':
-                pm = True
+                if len(infostate['shared']['beliefs']['task']) == 0:
+                    pm = True
+                else:
+                    if len(infostate['shared']['moves']) >= 4:
+                        if 'Welke recepten' in [x[1] for x in infostate['shared']['moves'][-4:]]:
+                            pm = True
         return pm
 
         
@@ -284,10 +289,7 @@ class OtherRecipe(Move):
         infostate['shared']['beliefs']['task'] = [recipe_name]
         infostate['private']['plan'] = list(knowledge['Recipe'][recipe_name].keys())
         recipedict = knowledge['Recipe'][recipe_name]
-        print('RECIPEDICT',recipedict)
         for step in infostate['private']['plan']:
-            print('STEP',step)
-            print('RECIPEDICT STEP',recipedict[step])
             infostate['private']['plan_wide'][step] = [k for k in recipedict[step].keys() if recipedict[step][k]]
 
 
@@ -660,7 +662,7 @@ class ClarifyMotivateFallback(Move):
         """
         pm = False
         if Move.preconditions_met(self,infostate):
-            if 'txt_motivate' not in infostate['private']['plan_wide'][infostate['private']['plan'][0]]:
+            if not infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_motivate']:
                 pm = True
         return pm
 
