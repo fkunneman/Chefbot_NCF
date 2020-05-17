@@ -208,7 +208,15 @@ class ConfirmRecipe(Move):
 
         No further preconditions should be met other than the presence of a particular prior move: the intent of the user to cook a certain recipe
         """
-        return Move.preconditions_met(self,infostate)
+        pm = False
+        if Move.preconditions_met(self, infostate):
+            if ['A', 'confirm_step'] not in infostate['shared']['moves'] and infostate['shared']['entities'][-1]['recept'] != '' and infostate['private']['agenda'] == None:
+                pm = True
+        print (infostate['private']['agenda'])
+        return pm
+
+        
+        # return Move.preconditions_met(self, infostate)
 
     def effects(self,infostate,knowledge):
         """

@@ -168,7 +168,7 @@ class DialogManager:
             #print ("JA DIT WERKT")
             if self.active_processed['move'] == 'Kook recept' :
                 if self.active_processed['utterance']['parameters']['recept'] not in self.recipes['Recipe']:
-                    print(self.active_processed['utterance']['parameters']['recept']  in self.recipes['Recipe'])
+                    print("DM")
                 else:
                     self.start_recipe()
         #if self.active_processed['move'] == 'Kook recept':
