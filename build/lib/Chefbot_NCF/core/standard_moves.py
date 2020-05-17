@@ -220,8 +220,14 @@ class ConfirmRecipe(Move):
                     if len(infostate['shared']['moves']) >= 4:
                         if 'Welke recepten' in [x[1] for x in infostate['shared']['moves'][-4:]]:
                             pm = True
+                    regex = '(' + '|'.join('instruct_step') + ')'
+                    if re.search(regex,infostate['shared']['moves'][-1][1]):
+                        if len(infostate['private']['plan_wide']) == 1:
+                            pm = True
+                    else:
+                        if len(infostate['private']['plan_wide']) == 0:
+                            pm = True 
         return pm
-
         
         # return Move.preconditions_met(self, infostate)
 
