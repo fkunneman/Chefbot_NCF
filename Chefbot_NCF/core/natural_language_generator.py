@@ -147,7 +147,7 @@ class NLG:
         self.response :
             adds the utterance to confirm a recipe to the active response
         """
-        self.clarify_fallback('Confirm recipe')
+        self.clarify_fallback('Warning recipe')
         print ("oeps")
         
     def other_recipe(self):
