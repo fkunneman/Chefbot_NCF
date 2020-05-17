@@ -164,16 +164,16 @@ class DialogManager:
             For deciding on the agent moves based on the user's utterance - 
                 selecting one or more moves for which the preconditions are met, and applying their effects
         """
-        if (self.ISU.infostate['shared']['moves'] == [] or self.ISU.infostate['shared']['moves'][-1] == ['A', 'close_activity']):
-            #print ("JA DIT WERKT")
-            if self.active_processed['move'] == 'Kook recept' :
-                if self.active_processed['utterance']['parameters']['recept'] not in self.recipes['Recipe']:
-                    print("DM")
-                else:
-                    self.start_recipe()
-        #if self.active_processed['move'] == 'Kook recept':
-         #   self.start_recipe()
-         #   print(self.active_processed['entities']['recept'])
+        # if (self.ISU.infostate['shared']['moves'] == [] or self.ISU.infostate['shared']['moves'][-1] == ['A', 'close_activity']):
+        #     #print ("JA DIT WERKT")
+        #     if self.active_processed['move'] == 'Kook recept' :
+        #         if self.active_processed['utterance']['parameters']['recept'] not in self.recipes['Recipe']:
+        #             print("DM")
+        #         else:
+        #             self.start_recipe()
+        if self.active_processed['move'] == 'Kook recept':
+            self.start_recipe()
+            print(self.active_processed['entities']['recept'])
         if self.active_processed['move'] == 'ander recept':
             print (self.other_recipe_list)
             self.other = random.choice(self.other_recipe_list)

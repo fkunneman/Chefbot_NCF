@@ -166,9 +166,12 @@ class NoNewRecipe(Move):
         """
         pm = False
         if Move.preconditions_met(self, infostate):
-           if ['A', 'confirm_step'] not in infostate['shared']['moves'] and infostate['shared']['entities'][-1]['recept'] != '' and infostate['private']['agenda'] != None :
-                pm = True
-        print ("why")
+            if ['A', 'confirm_step'] not in infostate['shared']['moves'] and infostate['shared']['entities'][-1]['recept'] != '' and infostate['private']['agenda'] != None:
+                if len(infostate['shared']['moves']) >= 4:
+                    if 'Welke recepten' not in [x[1] for x in infostate['shared']['moves'][-4:]]:
+                        pm = True
+                else:
+                    pm = True
         return pm
         #return Move.preconditions_met(self, infostate)
 
@@ -210,9 +213,8 @@ class ConfirmRecipe(Move):
         """
         pm = False
         if Move.preconditions_met(self, infostate):
-            if ['A', 'confirm_step'] not in infostate['shared']['moves'] and infostate['shared']['entities'][-1]['recept'] != '' and infostate['private']['agenda'] == None:
+            if infostate['shared']['entities'][-1]['recept'] != '':
                 pm = True
-        print (infostate['private']['agenda'])
         return pm
 
         
@@ -282,7 +284,10 @@ class OtherRecipe(Move):
         infostate['shared']['beliefs']['task'] = [recipe_name]
         infostate['private']['plan'] = list(knowledge['Recipe'][recipe_name].keys())
         recipedict = knowledge['Recipe'][recipe_name]
+        print('RECIPEDICT',recipedict)
         for step in infostate['private']['plan']:
+            print('STEP',step)
+            print('RECIPEDICT STEP',recipedict[step])
             infostate['private']['plan_wide'][step] = [k for k in recipedict[step].keys() if recipedict[step][k]]
 
 
@@ -794,7 +799,7 @@ class CloseRecipe(Move):
     def __init__(self):
         Move.__init__(self,
             name = 'close_recipe',
-            prior_moves = ['instruct_step'],
+            prior_moves = ['instruct_step','Recept continueerder'],
             context = [['recept_klaar',5,{'no-input': 0.0, 'no-match': 0.0}]],
             suggestions = ['dankje','klaar']
         )
@@ -807,11 +812,16 @@ class CloseRecipe(Move):
 
         In addition to the specified prior moves, the precondition should be met that there is only one step left to explain
         """
+        pm = False
         if Move.preconditions_met(self,infostate):
-            if len(infostate['private']['plan']) == 1:
-                return True
-        else:
-            return False
+            regex = '(' + '|'.join('instruct_step') + ')'
+            if re.search(regex,infostate['shared']['moves'][-1][1]):
+                if len(infostate['private']['plan_wide']) == 1:
+                    pm = True
+            else:
+                if len(infostate['private']['plan_wide']) == 0:
+                    pm = True 
+        return pm
 
     def effects(self,infostate,knowledge):
         """
