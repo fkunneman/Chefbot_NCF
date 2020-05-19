@@ -50,6 +50,7 @@ class NLG:
             'other_recipe'                      : self.other_recipe,
             'other_recipe'                      : self.other_recipe,
             'instruct_step'                     : self.instruct_step,
+            "determination_step"                : self.determination_step,
             'close_recipe'                      : self.close_recipe,
             'ingredient_steps'                  : self.ingredient_steps,
             'cooking_utensils_list'             : self.cooking_utensils_list,
@@ -471,6 +472,15 @@ class NLG:
             adds the utterance to show options of recipes to the active response
         """
         self.response.append(random.choice(self.responses['Select recipe']['regular']))
+
+    def determination_step(self):
+        self.response.append(random.choice(self.responses['Determine cooking techniques']['regular']))
+        cooking_techniques = []
+        for x in self.recipe['preliminaries']['determination']["list"]:
+            cooking_techniques.append(self.recipe['preliminaries']['determination']["list"][x])
+        self.response.append(', '.join(cooking_techniques))
+        if self.recipe['preliminaries']['determination']['img_howto']:
+            self.images = self.recipe['preliminaries']['determination']['img_howto']
 
     def load_data(self,path):
         """
