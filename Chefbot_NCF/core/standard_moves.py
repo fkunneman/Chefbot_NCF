@@ -536,6 +536,46 @@ class ClarifyExplain(Move):
         # qud
         infostate['shared']['qud'] = infostate['private']['plan'][0] + '_howto'
 
+class ClarifyCookingTechniquesExplain(Move):
+    """
+    ClarifyExplain
+    =====
+    Class to model the preconditions and effects of the move to explain how a step is conducted
+    """
+    def __init__(self):
+        Move.__init__(self,
+            name = 'clarify_cooking_techniques_explain',
+            prior_moves = ['Recept howto'],
+            context = [],
+            suggestions = ['volgende','duidelijk','dankje', 'ander recept']
+        )
+
+    def preconditions_met(self,infostate,knowledge):
+        """
+        preconditions_met
+        =====
+        Boolean function to return if the preconditions of this move have been met given the current information state
+
+        In addition to the specified prior moves, the precondition should be met that there is knowledge of the proper way to conduct the current step
+        """
+        pm = False
+        if Move.preconditions_met(self,infostate):
+            if 'determination' in infostate['private']['preliminaries']:
+                pm = True
+        return pm
+
+    def effects(self,infostate,knowledge):
+        """
+        effects
+        =====
+        Function to apply this move's effects to the information state
+
+        In addition to adding this move to the shared conversation information state, it has the following effect:
+            - the explain clarification is added to the shared questions under discussion
+        """
+        Move.effects(self,infostate)
+        # qud
+
 
 class ClarifyExplainFallback(Move):
     """
@@ -910,7 +950,7 @@ class CookingUtensilsList(Move):
 
         pm = False
         if Move.preconditions_met(self, infostate):
-            if 'ingredients' in list(infostate['private']['preliminaries']):
+            if len(infostate['private']['preliminaries']) == 2:
                 pm = True
             else:
                 pm = False
@@ -927,7 +967,7 @@ class CookingUtensilsList(Move):
             - the quantity clarification is added to the shared questions under discussion
         """
         Move.effects(self,infostate)
-        del(infostate['private']['preliminaries'][2])
+        del(infostate['private']['preliminaries'][1])
 
 
 class IngredientStep(Move):
@@ -959,7 +999,7 @@ class IngredientStep(Move):
         # return pm
         pm = False
         if Move.preconditions_met(self, infostate):
-            if 'determination' in list(infostate['private']['preliminaries']):
+            if len(infostate['private']['preliminaries']) == 3:
                 pm = True
             else:
                 pm = False
@@ -1014,4 +1054,3 @@ class DeterminationStep(Move):
             - the last step will be signified as 'done' in the shared beliefs
         """
         Move.effects(self,infostate)
-

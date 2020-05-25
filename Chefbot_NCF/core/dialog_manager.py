@@ -200,6 +200,7 @@ class DialogManager:
         self.active_response :
             update with the textual response as returned by the NLG object
         """
+        print('PRELIMINARIES STATUS', self.ISU.infostate['private']['preliminaries'])
         self.active_response, self.active_images = self.NLG.formulate_response(self.ISU.return_agent_moves(), self.ISU.return_current_step())
 
     def update_response(self):

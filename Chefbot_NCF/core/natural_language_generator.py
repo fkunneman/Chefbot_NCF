@@ -219,13 +219,11 @@ class NLG:
             if self.recipe['Recipe_steps'][self.step][img]:
                 self.images = self.recipe['Recipe_steps'][self.step][img]
 
-    def clarify_cooking_techniques(self, clarification_type, img=False):
-        self.response.extend([random.choice(self.responses[clarification_type[1]]['regular']),
-                              self.recipe['preliminaries']['determination'][self.step][clarification_type[0]]])
+    def clarify_cooking_techniques(self):
+        self.response.append(self.recipe['preliminaries']['determination']['txt_howto'])
 
-        if img:
-            if self.recipe['preliminaries']['determination'][self.step][img]:
-                self.images = self.recipe['preliminaries']['determination'][self.step][img]
+        if self.recipe['preliminaries']['determination']['img_howto']:
+            self.images = self.recipe['preliminaries']['determination']['img_howto']
 
     def clarify_cooking_techniques_explain(self):
         """
@@ -238,7 +236,7 @@ class NLG:
         self.clarify_step :
             to retrieve the proper clarification with the specified keys
         """
-        self.clarify_cooking_techniques(['txt_howto', 'Explain step'], 'img_howto')
+        self.clarify_cooking_techniques()
 
     def clarify_fallback(self,clarification_type):
         """
@@ -323,6 +321,7 @@ class NLG:
         self.clarify_step : 
             to retrieve the proper clarification with the specified keys
         """
+        print('SELF.STEP STATUS', self.step)
         self.clarify_step(['txt_howto', 'Explain step'], 'img_howto')
 
     def fallback_explain(self):
