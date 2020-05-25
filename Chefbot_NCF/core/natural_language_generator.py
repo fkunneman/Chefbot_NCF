@@ -59,6 +59,7 @@ class NLG:
             'clarify_step_repeat'               : self.clarify_step_repeat,
             'clarify_step_elicit'               : self.clarify_step_elicit,
             'clarify_step_explain'              : self.clarify_step_explain,
+            'clarify_cooking_techniques_explain': self.clarify_cooking_techniques_explain,
             'clarify_step_explain_fallback'     : self.fallback_explain,
             'clarify_step_motivate'             : self.clarify_step_motivate,
             'clarify_step_motivate_fallback'    : self.fallback_motivate,
@@ -217,6 +218,27 @@ class NLG:
         if img:
             if self.recipe['Recipe_steps'][self.step][img]:
                 self.images = self.recipe['Recipe_steps'][self.step][img]
+
+    def clarify_cooking_techniques(self, clarification_type, img=False):
+        self.response.extend([random.choice(self.responses[clarification_type[1]]['regular']),
+                              self.recipe['preliminaries']['determination'][self.step][clarification_type[0]]])
+
+        if img:
+            if self.recipe['preliminaries']['determination'][self.step][img]:
+                self.images = self.recipe['preliminaries']['determination'][self.step][img]
+
+    def clarify_cooking_techniques_explain(self):
+        """
+        clarify_step_explain
+        =====
+        function to retrieve the proper response for the move to clarify the way to execute a recipe step
+
+        Function calls
+        -----
+        self.clarify_step :
+            to retrieve the proper clarification with the specified keys
+        """
+        self.clarify_cooking_techniques(['txt_howto', 'Explain step'], 'img_howto')
 
     def clarify_fallback(self,clarification_type):
         """
@@ -478,9 +500,9 @@ class NLG:
         cooking_techniques = []
         for x in self.recipe['preliminaries']['determination']["list"]:
             cooking_techniques.append(self.recipe['preliminaries']['determination']["list"][x])
-        self.response.append(', '.join(cooking_techniques))
-        if self.recipe['preliminaries']['determination']['img_howto']:
-            self.images = self.recipe['preliminaries']['determination']['img_howto']
+        self.response.append('. '.join(cooking_techniques))
+        # if self.recipe['preliminaries']['determination']['img_howto']:
+        #     self.images = self.recipe['preliminaries']['determination']['img_howto']
 
     def load_data(self,path):
         """

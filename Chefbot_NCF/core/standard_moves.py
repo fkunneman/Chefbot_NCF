@@ -325,7 +325,7 @@ class InstructStep(Move):
             - the last step will be signified as 'done' in the shared beliefs 
         """
         Move.effects(self,infostate)
-        if 'cooking_utensils' in list(infostate['private']['preliminaries']):
+        if 'cooking_utensils' in list(infostate['private']['preliminaries']): #get first recipe step
             del(infostate['private']['preliminaries'][0])
         else:
             infostate['shared']['beliefs']['done'].append(infostate['private']['plan_wide'].pop(0))
@@ -927,7 +927,8 @@ class CookingUtensilsList(Move):
             - the quantity clarification is added to the shared questions under discussion
         """
         Move.effects(self,infostate)
-        del(infostate['private']['preliminaries'][1])
+        del(infostate['private']['preliminaries'][2])
+
 
 class IngredientStep(Move):
     """
@@ -974,6 +975,7 @@ class IngredientStep(Move):
             - the last step will be signified as 'done' in the shared beliefs
         """
         Move.effects(self,infostate)
+        del (infostate['private']['preliminaries'][1])
 
 class DeterminationStep(Move):
     def __init__(self):
@@ -981,7 +983,7 @@ class DeterminationStep(Move):
             name = 'determination_step',
             prior_moves = ['confirm_recipe'],   #Recept continueerder is intent,   confirm_recipe is agent move
             context = [['recept_stappen',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_quantity',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_skill',5,{'no-input': 0.0, 'no-match': 0.0}]],
-            suggestions = ['volgende','hoe','hoeveel','waarom','kun je dat nog een keer herhalen','wat bedoel je']
+            suggestions = ['volgende','hoe']
         )
 
     def preconditions_met(self,infostate,knowledge):

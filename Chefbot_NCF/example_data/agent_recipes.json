@@ -2,6 +2,32 @@
 	"Recipe": {
 		"pasta aglio e olio": {
 			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet knoflookteentjes snijden",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet knoflookteentjes snijden",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflookteentjes snijden",
+									"synonyms": [
+										"snijden knoflook"
+									]
+								},
+								"description": "Instructiefilmpje",
+								"image": {
+									"url": "https://media.giphy.com/media/Q4PcMC8apFXBm/source.gif",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					}
+				},
 				"ingredients": {
 					"list": {
 						"1": "3 à 5 knoflook teentjes",
@@ -225,9 +251,10 @@
 			"preliminaries": {
 				"determination": {
 					"list": {
-						"1": "Snijd het steeltje van de rode peper, halveer de peper in de lengte",
-						"2": "verwijder de zaadlijsten van de peper"
-				},
+						"1": "Je moet de zaadlijsten van een rode peper verwijderen",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet de zaadlijsten van een rode peper verwijderen",
 					"img_howto": {
 						"title": "determination",
 						"list": [
@@ -247,7 +274,7 @@
 							}
 						]
 					}
-			},
+				},
 				"ingredients": {
 					"list": {
 					"1": "1 teen knoflook",
@@ -629,6 +656,32 @@
 		},
 		"pannenkoeken": {
 			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet eieren breken",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet eieren breken",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "eieren breken",
+									"synonyms": [
+										"eieren breken"
+									]
+								},
+								"description": "Tik heel zachtjes met het ei tegen de rand van de kom totdat er een gaatje in komt. Houd het ei boven de kom en plaats je duimen tegen het gaatje van het ei. Breek nu het ei open boven de kom.",
+								"image": {
+									"url": "https://memestatic1.fjcdn.com/thumbnails/comments/I+see+what+youre+getting+at+but+i+just+want+_272bc927eab97f7668683a2fcfc5997d.gif",
+									"accessibilityText": "instructiefilmpje eieren breken"
+								},
+								"title": "Instructiefilmpje eieren breken"
+							}
+						]
+					}
+				},
 				"ingredients": {
 					"list": {
 					"1": "300 g tarwebloem",
@@ -954,6 +1007,32 @@
 		},
 		"sate": {
 			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet de zaadlijsten van een rode peper verwijderen",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet de zaadlijsten van een rode peper verwijderen",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "rode peper zaadlijsten verwijderen",
+									"synonyms": [
+										"rp zaadlijsten"
+									]
+								},
+								"description": "Verwijder de steelaanzet en zaadlijsten van de paprika en snijd het vruchtvlees",
+								"image": {
+									"url": "https://hips.hearstapps.com/ame-prod-goodhousekeeping-assets.s3.amazonaws.com/main/embedded/34771/step-two-chilli.gif",
+									"accessibilityText": "instructiefilmpje rode peper zaadlijsten verwijderen"
+								},
+								"title": "Instructiefilmpje rode peper zaadlijsten verwijderen"
+							}
+						]
+					}
+				},
 				"ingredients": {
 					"list": {
 					"1": "Knoflook",
@@ -1197,6 +1276,32 @@
 		},
 		"ovenschotel": {
 			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet de zaadlijsten van een paprika verwijderen",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet de zaadlijsten van een paprika verwijderen",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "paprika zaadlijsten verwijderen",
+									"synonyms": [
+										"paprika zaadlijsten"
+									]
+								},
+								"description": "Verwijder de steelaanzet en zaadlijsten van de paprika en snijd het vruchtvlees",
+								"image": {
+									"url": "https://www.freshnlean.com/wp-content/uploads/2019/01/cut-deseed-devein-bell-pepper-kitchen-hack.gif",
+									"accessibilityText": "instructiefilmpje paprika zaadlijsten verwijderen"
+								},
+								"title": "Instructiefilmpje paprika zaadlijsten verwijderen"
+							}
+						]
+					}
+				},
 				"ingredients": {
 					"list": {
 					"1": "500 g rundergehakt",
