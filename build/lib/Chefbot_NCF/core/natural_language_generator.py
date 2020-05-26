@@ -38,6 +38,7 @@ class NLG:
 
     def __init__(self,default_responses, recipe_options):
         self.response = []
+        self.response_given = []
         self.images = {}
         self.recipe = False
         self.recipe_options = recipe_options
@@ -50,6 +51,7 @@ class NLG:
             'other_recipe'                      : self.other_recipe,
             'other_recipe'                      : self.other_recipe,
             'instruct_step'                     : self.instruct_step,
+            'instruct_last_step'                : self.instruct_last_step,
             'close_recipe'                      : self.close_recipe,
             'ingredient_steps'                  : self.ingredient_steps,
             'cooking_utensils_list'             : self.cooking_utensils_list,
@@ -181,7 +183,7 @@ class NLG:
         options = nrs['last'] if int(self.step) == int(self.recipe['steps'][-1]) else nrs['first'] if self.step == '1' else nrs['regular'] 
         self.response.append(random.choice(options))
 
-    def instruct_step(self):
+    def instruct_last_step(self):
         """
         instruct_step
         =====
@@ -192,7 +194,23 @@ class NLG:
         self.response : 
             adds the instruction to the active response
         """
+        self.response.append(self.response_given[-1])
+
+
+    def instruct_step(self):
+        """
+        instruct_step
+        =====
+        function to retrieve the proper response for the move to instruct a recipe step
+
+        Transforms
+        -----
+        self.response :
+            adds the instruction to the active response
+        """
         self.response.append(self.recipe['Recipe_steps'][self.step]['txt_standard'])
+        self.response_given.append(self.recipe['Recipe_steps'][self.step]['txt_standard'])
+        print (self.response_given)
 
     def clarify_step(self,clarification_type,img=False):
         """
@@ -437,6 +455,7 @@ class NLG:
         for x in self.recipe['preliminaries']['cooking_utensils']["list"]:
             utensils.append(self.recipe['preliminaries']['cooking_utensils']["list"][x])
         self.response.append(', '.join(utensils))
+        self.response_given.append(', '.join(utensils))
         if self.recipe['preliminaries']['cooking_utensils']['img_howto']:
             self.images = self.recipe['preliminaries']['cooking_utensils']['img_howto']
 
@@ -456,6 +475,7 @@ class NLG:
         for x in self.recipe['preliminaries']['ingredients']["list"]:
             ingredients.append(self.recipe['preliminaries']['ingredients']["list"][x])
         self.response.append(', '.join(ingredients))
+        self.response_given.append(', '.join(ingredients))
         if self.recipe['preliminaries']['ingredients']['img_howto']:
             self.images = self.recipe['preliminaries']['ingredients']['img_howto']
 

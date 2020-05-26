@@ -350,6 +350,57 @@ class InstructStep(Move):
             del(infostate['private']['preliminaries'][0])
         else:
             infostate['shared']['beliefs']['done'].append(infostate['private']['plan_wide'].pop(0))
+            print(infostate['private']['plan_wide'])
+
+class InstructLastStep(Move):
+    """
+    InstructStep
+    =====
+    Class to model the preconditions and effects of the move to instruct a step
+    """
+
+    def __init__(self):
+        Move.__init__(self,
+            name = 'instruct_last_step',
+            prior_moves = ['Recept last step'],
+            context = [['recept_stappen',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_quantity',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_skill',5,{'no-input': 0.0, 'no-match': 0.0}]],
+            suggestions = ['volgende','hoe','hoeveel','waarom','kun je dat nog een keer herhalen','wat bedoel je']
+        )
+
+    def preconditions_met(self,infostate,knowledge):
+        """
+        preconditions_met
+        =====
+        Boolean function to return if the preconditions of this move have been met given the current information state
+
+        In addition to the specified prior moves, the precondition should be met that there are still steps to explain
+        """
+        pm = False
+        if Move.preconditions_met(self,infostate):
+            if len(infostate['private']['plan_wide']) > 1:
+                pm = True
+            else:
+                pm = False
+            if 'ingredients' in list(infostate['private']['preliminaries']):
+                pm = False
+            else:
+                pm = True
+        return pm
+
+
+    def effects(self,infostate,knowledge):
+        """
+        effects
+        =====
+        Function to apply this move's effects to the information state
+
+        In addition to adding this move to the shared conversation information state, it has the following effects:
+            - the last step will be removed from the plan
+            - the last step will be signified as 'done' in the shared beliefs
+        """
+        Move.effects(self,infostate)
+        infostate['shared']['qud'] = infostate['private']['plan'][0] + '_howmuch'
+
 
 class ClarifyQuantity(Move):
     """
