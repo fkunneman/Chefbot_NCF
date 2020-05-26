@@ -7,7 +7,7 @@
 						"1": "Je moet knoflookteentjes snijden",
 						"2": "Wil je doorgaan met dit recept?"
 					},
-					"txt_howto": "Je moet knoflookteentjes snijden",
+					"txt_howto": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
 					"img_howto": {
 						"title": "determination",
 						"list": [
@@ -18,7 +18,7 @@
 										"snijden knoflook"
 									]
 								},
-								"description": "Instructiefilmpje",
+								"description": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
 								"image": {
 									"url": "https://media.giphy.com/media/Q4PcMC8apFXBm/source.gif",
 									"accessibilityText": "instructiefilmpje knoflook snijden"
@@ -198,7 +198,7 @@
 										"ks"
 									]
 								},
-								"description": "Instructiefilmpje",
+								"description": "Maak een teentje knoflook los van de bol, verwijder de harde onderkant van de teen en pel vervolgens voorzichtig met een mesje of met de hand de schil van de teen.",
 								"image": {
 									"url": "https://media.giphy.com/media/Q4PcMC8apFXBm/source.gif",
 									"accessibilityText": "instructiefilmpje knoflook pellen"
@@ -224,7 +224,7 @@
 										"ks"
 									]
 								},
-								"description": "Instructiefilmpje",
+								"description": "Het maakt niet echt uit hoe je de knoflook snijdt, het gaat erom dat je plakjes knoflook van 1 à 2 milimeter als resultaat krijgt.",
 								"image": {
 									"url": "https://i.imgur.com/2lTxwC7.gif",
 									"accessibilityText": "instructiefilmpje knoflook snijden"
@@ -254,7 +254,7 @@
 						"1": "Je moet de zaadlijsten van een rode peper verwijderen",
 						"2": "Wil je doorgaan met dit recept?"
 					},
-					"txt_howto": "Je moet de zaadlijsten van een rode peper verwijderen",
+					"txt_howto": "Verwijder met een scherp mesje de zaadlijsten en snijd het vruchtvlees van een halve rode peper fijn",
 					"img_howto": {
 						"title": "determination",
 						"list": [
@@ -265,7 +265,7 @@
 										"rp zaadlijsten"
 									]
 								},
-								"description": "Instructiefilmpje",
+								"description": "Verwijder met een scherp mesje de zaadlijsten en snijd het vruchtvlees van een halve rode peper fijn",
 								"image": {
 									"url": "https://hips.hearstapps.com/ame-prod-goodhousekeeping-assets.s3.amazonaws.com/main/embedded/34771/step-two-chilli.gif",
 									"accessibilityText": "instructiefilmpje rode peper zaadlijsten verwijderen"
@@ -505,7 +505,7 @@
 										"ks"
 									]
 								},
-								"description": "Instructiefilmpje",
+								"description": "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes",
 								"image": {
 									"url": "https://i.imgur.com/2lTxwC7.gif",
 									"accessibilityText": "instructiefilmpje knoflook snijden"
@@ -532,7 +532,7 @@
 										"rp"
 									]
 								},
-								"description": "Instructiefilmpje",
+								"description": "Snijd het steeltje van de rode peper, halveer de peper in de lengte.",
 								"image": {
 									"url": "https://hips.hearstapps.com/ame-prod-goodhousekeeping-assets.s3.amazonaws.com/main/embedded/34771/step-one-chilli.gif",
 									"accessibilityText": "instructiefilmpje rode peper snijden"
@@ -559,7 +559,7 @@
 										"rp zaadlijsten"
 									]
 								},
-								"description": "Instructiefilmpje",
+								"description": "Verwijder met een scherp mesje de zaadlijsten en snijd het vruchtvlees van een halve rode peper fijn",
 								"image": {
 									"url": "https://hips.hearstapps.com/ame-prod-goodhousekeeping-assets.s3.amazonaws.com/main/embedded/34771/step-two-chilli.gif",
 									"accessibilityText": "instructiefilmpje rode peper zaadlijsten verwijderen"
@@ -661,7 +661,7 @@
 						"1": "Je moet eieren breken",
 						"2": "Wil je doorgaan met dit recept?"
 					},
-					"txt_howto": "Je moet eieren breken",
+					"txt_howto": "Tik heel zachtjes met het ei tegen de rand van de kom totdat er een gaatje in komt. Houd het ei boven de kom en plaats je duimen tegen het gaatje van het ei. Breek nu het ei open boven de kom.",
 					"img_howto": {
 						"title": "determination",
 						"list": [
@@ -870,7 +870,7 @@
 									"ei"
 								]
 							},
-							"description": "Instructiefilmpje",
+							"description": "Tik heel zachtjes met het ei tegen de rand van de kom totdat er een gaatje in komt. Houd het ei boven de kom en plaats je duimen tegen het gaatje van het ei. Breek nu het ei open boven de kom.",
 							"image": {
 								"url": "https://memestatic1.fjcdn.com/thumbnails/comments/I+see+what+youre+getting+at+but+i+just+want+_272bc927eab97f7668683a2fcfc5997d.gif",
 								"accessibilityText": "ei breken"
@@ -896,7 +896,7 @@
 									"mix garde"
 								]
 							},
-							"description": "Instructiefilmpje",
+							"description": "Gebruik een garde om de bloem, melk en eieren in de mengkom door elkaar te roeren.",
 							"image": {
 								"url": "https://thewirecutter.com/wp-content/uploads/2017/12/whisk1.gif",
 								"accessibilityText": "mix met garde"
@@ -931,7 +931,7 @@
 									"boter kp"
 								]
 							},
-							"description": "Instructiefilmpje",
+							"description": "Leg een klontje boter in de verhitte koekenpan en laat deze smelten.",
 							"image": {
 								"url": "https://media.giphy.com/media/sGqCznSEOJRuM/source.gif",
 								"accessibilityText": "boter verhitten in koekenpan"
@@ -957,7 +957,7 @@
 									"beslag kp"
 								]
 							},
-							"description": "Instructiefilmpje",
+							"description": "Schep een soeplepel beslag in de koekenpan en draai de pan rond totdat het beslag over de hele koekenpan verspreid is.",
 							"image": {
 								"url": "https://steemitimages.com/DQmQLtMomaznJC1ghmaJBs9jzva2HuDt5g6kKNqzT5SXut8/palatsch.gif",
 								"accessibilityText": "beslag in koekenpan"
@@ -983,7 +983,7 @@
 									"pk omdraaien"
 								]
 							},
-							"description": "Instructiefilmpje",
+							"description": "Schuif een spatel onder de pannekoek en keer de pannenkoek ondertsteboven in de pan zodra er belletjes op de pannenkoek verschijnen.",
 							"image": {
 								"url": "https://steemitimages.com/0x0/https://steemitimages.com/DQmSLGrsfWYvoeENt53MvMHbUD9JjRPa6FK81wcJnFw68QD/palatschi.gif",
 								"accessibilityText": "pannenkoek omdraaien"
@@ -1188,7 +1188,7 @@
 										"ks"
 									]
 								},
-								"description": "Instructiefilmpje",
+								"description": "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes",
 								"image": {
 									"url": "https://i.imgur.com/2lTxwC7.gif",
 									"accessibilityText": "instructiefilmpje knoflook snijden"
