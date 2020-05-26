@@ -50,6 +50,7 @@ class NLG:
             'other_recipe'                      : self.other_recipe,
             'other_recipe'                      : self.other_recipe,
             'instruct_step'                     : self.instruct_step,
+            "determination_step"                : self.determination_step,
             'close_recipe'                      : self.close_recipe,
             'ingredient_steps'                  : self.ingredient_steps,
             'cooking_utensils_list'             : self.cooking_utensils_list,
@@ -58,6 +59,7 @@ class NLG:
             'clarify_step_repeat'               : self.clarify_step_repeat,
             'clarify_step_elicit'               : self.clarify_step_elicit,
             'clarify_step_explain'              : self.clarify_step_explain,
+            'clarify_cooking_techniques_explain': self.clarify_cooking_techniques_explain,
             'clarify_step_explain_fallback'     : self.fallback_explain,
             'clarify_step_motivate'             : self.clarify_step_motivate,
             'clarify_step_motivate_fallback'    : self.fallback_motivate,
@@ -217,6 +219,25 @@ class NLG:
             if self.recipe['Recipe_steps'][self.step][img]:
                 self.images = self.recipe['Recipe_steps'][self.step][img]
 
+    def clarify_cooking_techniques(self):
+        self.response.append(self.recipe['preliminaries']['determination']['txt_howto'])
+
+        if self.recipe['preliminaries']['determination']['img_howto']:
+            self.images = self.recipe['preliminaries']['determination']['img_howto']
+
+    def clarify_cooking_techniques_explain(self):
+        """
+        clarify_step_explain
+        =====
+        function to retrieve the proper response for the move to clarify the way to execute a recipe step
+
+        Function calls
+        -----
+        self.clarify_step :
+            to retrieve the proper clarification with the specified keys
+        """
+        self.clarify_cooking_techniques()
+
     def clarify_fallback(self,clarification_type):
         """
         clarify_fallback
@@ -300,6 +321,7 @@ class NLG:
         self.clarify_step : 
             to retrieve the proper clarification with the specified keys
         """
+        print('SELF.STEP STATUS', self.step)
         self.clarify_step(['txt_howto', 'Explain step'], 'img_howto')
 
     def fallback_explain(self):
@@ -471,6 +493,15 @@ class NLG:
             adds the utterance to show options of recipes to the active response
         """
         self.response.append(random.choice(self.responses['Select recipe']['regular']))
+
+    def determination_step(self):
+        self.response.append(random.choice(self.responses['Determine cooking techniques']['regular']))
+        cooking_techniques = []
+        for x in self.recipe['preliminaries']['determination']["list"]:
+            cooking_techniques.append(self.recipe['preliminaries']['determination']["list"][x])
+        self.response.append('. '.join(cooking_techniques))
+        # if self.recipe['preliminaries']['determination']['img_howto']:
+        #     self.images = self.recipe['preliminaries']['determination']['img_howto']
 
     def load_data(self,path):
         """

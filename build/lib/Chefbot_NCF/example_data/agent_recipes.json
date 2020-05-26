@@ -2,6 +2,32 @@
 	"Recipe": {
 		"pasta aglio e olio": {
 			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet knoflookteentjes snijden",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflookteentjes snijden",
+									"synonyms": [
+										"snijden knoflook"
+									]
+								},
+								"description": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+								"image": {
+									"url": "https://media.giphy.com/media/Q4PcMC8apFXBm/source.gif",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					}
+				},
 				"ingredients": {
 					"list": {
 						"1": "3 à 5 knoflook teentjes",
@@ -133,7 +159,7 @@
 								},
 								"description": "Afbeelding",
 								"image": {
-									"url": "https://www.hema.nl/dw/image/v2/BBRK_PRD/on/demandware.static/-/Sites-HEMA-master-catalog/default/dw8b9439ca/product/80810031_01_001_01.jpg?sw=1095&sh=1242&sm=fit",
+									"url": "https://static.ah.nl/image-optimization/static/product/AHI_434d50363030313736_1_LowRes_JPG.JPG?options=399,q85",
 									"accessibilityText": "beker"
 								},
 								"title": "Beker"
@@ -147,7 +173,7 @@
 								},
 								"description": "Afbeelding",
 								"image": {
-									"url": "https://media.knivesandtools.com/Exact675x450/54814/sx415580622$01-spring-brigade-premium-sx415580622-01.jpg",
+									"url": "https://media.s-bol.com/NPvmVjY1AQp/550x351.jpg",
 									"accessibilityText": "kookpan"
 								},
 								"title": "Kookpan"
@@ -159,8 +185,34 @@
 			"Recipe_steps": {
 				"1": {
 					"label": "pasta 2",
+					"txt_standard": "Pel de knoflookteentjes.",
+					"txt_detail": "Haal de knoflook teentjes uit elkaar en pel de teentjes.",
+					"txt_howto": "Maak een teentje knoflook los van de bol, verwijder de harde onderkant van de teen en pel vervolgens voorzichtig met een mesje of met de hand de schil van de teen. ",
+					"img_howto": {
+						"title": "instructiefilmpjes",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knofloook pellen",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Maak een teentje knoflook los van de bol, verwijder de harde onderkant van de teen en pel vervolgens voorzichtig met een mesje of met de hand de schil van de teen.",
+								"image": {
+									"url": "https://media.giphy.com/media/Q4PcMC8apFXBm/source.gif",
+									"accessibilityText": "instructiefilmpje knoflook pellen"
+								},
+								"title": "Instructiefilmpje knoflook pellen"
+							}]
+					},
+					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven. ",
+					"txt_howmuch": "Een derde bol - 3 à 5 teentjes"
+				},
+				"2": {
+					"label": "pasta 2",
 					"txt_standard": "Snij de knoflook.",
-					"txt_detail": "Haal de knoflook teentjes uit elkaar, pel de teentjes en snijd de knoflook in dunne plakjes",
+					"txt_detail": "Snijd de knoflook in dunne plakjes",
 					"txt_howto": "Het maakt niet echt uit hoe je de knoflook snijdt, het gaat erom dat je plakjes knoflook van 1 à 2 milimeter als resultaat krijgt.",
 					"img_howto": {
 						"title": "instructiefilmpjes",
@@ -172,21 +224,7 @@
 										"ks"
 									]
 								},
-								"description": "Instructiefilmpje",
-								"image": {
-									"url": "https://i.imgur.com/2lTxwC7.gif",
-									"accessibilityText": "instructiefilmpje knoflook snijden"
-								},
-								"title": "Instructiefilmpje knoflook snijden"
-							},
-							{
-								"optionInfo": {
-									"key": "knofloook snijden",
-									"synonyms": [
-										"ks"
-									]
-								},
-								"description": "Instructiefilmpje",
+								"description": "Het maakt niet echt uit hoe je de knoflook snijdt, het gaat erom dat je plakjes knoflook van 1 à 2 milimeter als resultaat krijgt.",
 								"image": {
 									"url": "https://i.imgur.com/2lTxwC7.gif",
 									"accessibilityText": "instructiefilmpje knoflook snijden"
@@ -198,7 +236,7 @@
 					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven. ",
 					"txt_howmuch": "Een derde bol - 3 à 5 teentjes"
 				},
-				"2": {
+				"3": {
 					"label": "pasta 3",
 					"txt_standard": "Garneer naar smaak met geraspte kaas.",
 					"txt_detail": "Strooi als je dat wil garaspte kaas over de pasta.",
@@ -211,6 +249,32 @@
 		},
 		"noedels": {
 			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet de zaadlijsten van een rode peper verwijderen",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Verwijder met een scherp mesje de zaadlijsten en snijd het vruchtvlees van een halve rode peper fijn",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "rode peper zaadlijsten verwijderen",
+									"synonyms": [
+										"rp zaadlijsten"
+									]
+								},
+								"description": "Verwijder met een scherp mesje de zaadlijsten en snijd het vruchtvlees van een halve rode peper fijn",
+								"image": {
+									"url": "https://hips.hearstapps.com/ame-prod-goodhousekeeping-assets.s3.amazonaws.com/main/embedded/34771/step-two-chilli.gif",
+									"accessibilityText": "instructiefilmpje rode peper zaadlijsten verwijderen"
+								},
+								"title": "Instructiefilmpje rode peper zaadlijsten verwijderen"
+							}
+						]
+					}
+				},
 				"ingredients": {
 					"list": {
 					"1": "1 teen knoflook",
@@ -431,20 +495,83 @@
 					"txt_standard": "Snijd een knoflook teen fijn.",
 					"txt_detail": "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes",
 					"txt_howto": "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes",
-					"img_howto": false,
+					"img_howto": {
+						"title": "instructiefilmpjes",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook snijden",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes",
+								"image": {
+									"url": "https://i.imgur.com/2lTxwC7.gif",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					},
 					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
 					"txt_howmuch": "Voor dit recept gebruiken we 1 teen knoflook."
 				},
 				"2": {
 					"label": "noedels 2",
 					"txt_standard": "Snijd een halve rode peper.",
-					"txt_detail": "Snijd het steeltje van de rode peper, halveer de peper in de lengte, verwijder met een scherp mesje de zaadlijsten en snijd het vruchtvlees van een halve rode peper fijn",
-					"txt_howto": "Snijd het steeltje van de rode peper, halveer de peper in de lengte, verwijder met een scherp mesje de zaadlijsten en snijd het vruchtvlees van een halve rode peper fijn",
-					"img_howto": false,
+					"txt_detail": "Snijd het steeltje van de rode peper, halveer de peper in de lengte. ",
+					"txt_howto": "Snijd het steeltje van de rode peper, halveer de peper in de lengte.",
+					"img_howto": {
+						"title": "instructiefilmpjes",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "rode peper halveren in de lengte",
+									"synonyms": [
+										"rp"
+									]
+								},
+								"description": "Snijd het steeltje van de rode peper, halveer de peper in de lengte.",
+								"image": {
+									"url": "https://hips.hearstapps.com/ame-prod-goodhousekeeping-assets.s3.amazonaws.com/main/embedded/34771/step-one-chilli.gif",
+									"accessibilityText": "instructiefilmpje rode peper snijden"
+								},
+								"title": "Instructiefilmpje rode peper halveren in de lengte"
+							}
+						]
+					},
 					"txt_motivate": false,
 					"txt_howmuch": "Voor dit recept gebruiken we een halve rode peper"
 				},
 				"3": {
+					"label": "noedels 2",
+					"txt_standard": "Verwijder de zaadlijsten van een halve rode peper en snij de peper fijn.",
+					"txt_detail": "Verwijder met een scherp mesje de zaadlijsten en snijd het vruchtvlees van een halve rode peper fijn",
+					"txt_howto": "Verwijder met een scherp mesje de zaadlijsten en snijd het vruchtvlees van een halve rode peper fijn",
+					"img_howto": {
+						"title": "instructiefilmpjes",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "rode peper zaadlijsten verwijderen",
+									"synonyms": [
+										"rp zaadlijsten"
+									]
+								},
+								"description": "Verwijder met een scherp mesje de zaadlijsten en snijd het vruchtvlees van een halve rode peper fijn",
+								"image": {
+									"url": "https://hips.hearstapps.com/ame-prod-goodhousekeeping-assets.s3.amazonaws.com/main/embedded/34771/step-two-chilli.gif",
+									"accessibilityText": "instructiefilmpje rode peper zaadlijsten verwijderen"
+								},
+								"title": "Instructiefilmpje rode peper zaadlijsten verwijderen"
+							}
+						]
+					},
+					"txt_motivate": false,
+					"txt_howmuch": "Voor dit recept gebruiken we een halve rode peper"
+				},
+				"4": {
 					"label": "noedels 3",
 					"txt_standard": "Verhit een koekenpan met antiaanbaklaag zonder olie of boter en bak het gehakt op middelhoog vuur rul.",
 					"txt_detail": "Het gehakt zou in 3 min rul moeten zijn",
@@ -453,7 +580,7 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik het hele pak 300gr mager rundergehakt"
 				},
-				"4": {
+				"5": {
 					"label": "noedels 4",
 					"txt_standard": "Giet het vocht af en zet terug op het vuur.",
 					"txt_detail": false,
@@ -462,7 +589,7 @@
 					"txt_motivate": false,
 					"txt_howmuch": false
 				},
-				"5": {
+				"6": {
 					"label": "noedels 5",
 					"txt_standard": "Voeg de knoflook en rode peper toe en bak het vlees tot het vlees knapperig is. En voeg daarna 4/5 van de woksaus toe.",
 					"txt_detail": "Het vlees zou binnen 8 min knapperig moeten zijn. De woksaus kan in de laatste minuut toegevoegd worden.",
@@ -471,7 +598,7 @@
 					"txt_motivate": false,
 					"txt_howmuch": false
 				},
-				"6": {
+				"7": {
 					"label": "noedels 6",
 					"txt_standard": "Verhit wat sesamolie in een wok en bak de wokgroente 3 min. al omscheppend op hoog vuur. Voeg de rest van de woksaus toe en verwarm 2 min. mee.",
 					"txt_detail": "Verhit de sesamolie in een wok en bak de wokgroente 3 min. al omscheppend op hoog vuur. Voeg de rest van de woksaus toe en verwarm 2 min. mee.",
@@ -480,7 +607,7 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik hiervoor 2 eetlepels sesamolie."
 				},
-				"7": {
+				"8": {
 					"label": "noedels 7",
 					"txt_standard": "Kook 2 liter water. ",
 					"txt_detail": false,
@@ -489,7 +616,7 @@
 					"txt_motivate": false,
 					"txt_howmuch": false
 				},
-				"8": {
+				"9": {
 					"label": "noedels 8",
 					"txt_standard": "Als het water kookt, zet het vuur uit en laat de egg noodles er 4 min in wellen.",
 					"txt_detail": false,
@@ -498,7 +625,7 @@
 					"txt_motivate": false,
 					"txt_howmuch": false
 				},
-				"9": {
+				"10": {
 					"label": "noedels 9",
 					"txt_standard": "Giet de noedels af in een vergiet. Spoel ze af met water en laat goed uitlekken. ",
 					"txt_detail": false,
@@ -507,7 +634,7 @@
 					"txt_motivate": false,
 					"txt_howmuch": false
 				},
-				"10": {
+				"11": {
 					"label": "noedels 10",
 					"txt_standard": "Verdeel de noedels samen met het gehakt en de groente naast elkaar over diepe borden.",
 					"txt_detail": false,
@@ -516,7 +643,7 @@
 					"txt_motivate": false,
 					"txt_howmuch": false
 				},
-				"11": {
+				"12": {
 					"label": "noedels 11",
 					"txt_standard": "Bestrooi met sesamzaad en geniet!",
 					"txt_detail": "Dit kan zowel zwarte sesamzaden zijn als witte sesamzaden.",
@@ -529,6 +656,32 @@
 		},
 		"pannenkoeken": {
 			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet eieren breken",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Tik heel zachtjes met het ei tegen de rand van de kom totdat er een gaatje in komt. Houd het ei boven de kom en plaats je duimen tegen het gaatje van het ei. Breek nu het ei open boven de kom.",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "eieren breken",
+									"synonyms": [
+										"eieren breken"
+									]
+								},
+								"description": "Tik heel zachtjes met het ei tegen de rand van de kom totdat er een gaatje in komt. Houd het ei boven de kom en plaats je duimen tegen het gaatje van het ei. Breek nu het ei open boven de kom.",
+								"image": {
+									"url": "https://memestatic1.fjcdn.com/thumbnails/comments/I+see+what+youre+getting+at+but+i+just+want+_272bc927eab97f7668683a2fcfc5997d.gif",
+									"accessibilityText": "instructiefilmpje eieren breken"
+								},
+								"title": "Instructiefilmpje eieren breken"
+							}
+						]
+					}
+				},
 				"ingredients": {
 					"list": {
 					"1": "300 g tarwebloem",
@@ -563,7 +716,7 @@
 							},
 							"description": "Afbeelding",
 							"image": {
-								"url": "https://images0.persgroep.net/rcs/hz5KoGpMETnmn7_ySGlS_DodYp4/diocontent/66568016/_crop/0/36/1625/918/_fitwidth/763?appId=93a17a8fd81db0de025c8abd1cca1279&quality=0.8",
+								"url": "https://static.ah.nl/image-optimization/static/product/AHI_43545239353735333930_1_LowRes_JPG.JPG?options=399,q85",
 								"accessibilityText": "zout"
 							},
 							"title": "Zout"
@@ -660,7 +813,7 @@
 								},
 								"description": "Afbeelding",
 								"image": {
-									"url": "https://lh3.googleusercontent.com/proxy/SUobhop4K7VBo_hf6vIevT5tKWdc0FU7BItKK5GISxPKprR8if3jC82ZJ9tzzPpNNEJ_4619d80v6esulh3dV46J0SEOH8Tcd0-aZdgCp5gDZL7W6ooURDsznzM4DpIgfMgZ65vmqq2nsVzb_67zz2DU1q6_Zx4NWpoMMtBRbGddyeoB04tS",
+									"url": "https://www.toolmarkt.nl/wp-content/uploads/2017/05/garde-rvs.png",
 									"accessibilityText": "Garde"
 								},
 								"title": "Garde"
@@ -706,8 +859,25 @@
 					"label": "pannenkoeken 3",
 					"txt_standard": "Voeg twee eieren toe aan de melk en bloem in de mengkom.",
 					"txt_detail": "Breek de eieren een voor een en doe de inhoud in de mengkom. Zorg dat er geen stukjes eischaal in de mengkom terecht komen.",
-					"txt_howto": false,
-					"img_howto": false,
+					"txt_howto": "Tik heel zachtjes met het ei tegen de rand van de kom totdat er een gaatje in komt. Houd het ei boven de kom en plaats je duimen tegen het gaatje van het ei. Breek nu het ei open boven de kom.",
+					"img_howto": {
+					"title": "Instructiefilmpje",
+					"list": [
+						{
+							"optionInfo": {
+								"key": "ei breken",
+								"synonyms": [
+									"ei"
+								]
+							},
+							"description": "Tik heel zachtjes met het ei tegen de rand van de kom totdat er een gaatje in komt. Houd het ei boven de kom en plaats je duimen tegen het gaatje van het ei. Breek nu het ei open boven de kom.",
+							"image": {
+								"url": "https://memestatic1.fjcdn.com/thumbnails/comments/I+see+what+youre+getting+at+but+i+just+want+_272bc927eab97f7668683a2fcfc5997d.gif",
+								"accessibilityText": "ei breken"
+							},
+							"title": "Instructiefilmpje ei breken"
+						}]
+					},
 					"txt_motivate": "Ei zorgt voor binding tussen de melk en de bloem waardoor het beslag een geheel wordt. Bovendien geeft ei een lekkere smaak aan de pannenkoeken.",
 					"txt_howmuch": "Twee middelgrote kippeneieren."
 				},
@@ -715,8 +885,25 @@
 					"label": "pannenkoeken 4",
 					"txt_standard": "Meng de ingredienten in de mengkom door elkaar.",
 					"txt_detail": "Gebruik een garde om de bloem, melk en eieren in de mengkom door elkaar te roeren.",
-					"txt_howto": false,
-					"img_howto": false,
+					"txt_howto": "Gebruik een garde om de bloem, melk en eieren in de mengkom door elkaar te roeren.",
+					"img_howto": {
+					"title": "Instructiefilmpje",
+					"list": [
+						{
+							"optionInfo": {
+								"key": "mix met garde",
+								"synonyms": [
+									"mix garde"
+								]
+							},
+							"description": "Gebruik een garde om de bloem, melk en eieren in de mengkom door elkaar te roeren.",
+							"image": {
+								"url": "https://thewirecutter.com/wp-content/uploads/2017/12/whisk1.gif",
+								"accessibilityText": "mix met garde"
+							},
+							"title": "Instructiefilmpje mix met garde"
+						}]
+					},
 					"txt_motivate": false,
 					"txt_howmuch": "Meng tot het een mooi, glad beslag is."
 				},
@@ -733,8 +920,25 @@
 					"label": "pannenkoeken 6",
 					"txt_standard": "Verhit een klontje boter in de koekenpan.",
 					"txt_detail": "Leg een klontje boter in de verhitte koekenpan en laat deze smelten.",
-					"txt_howto": false,
-					"img_howto": false,
+					"txt_howto": "Leg een klontje boter in de verhitte koekenpan en laat deze smelten.",
+					"img_howto": {
+					"title": "Instructiefilmpje",
+					"list": [
+						{
+							"optionInfo": {
+								"key": "boter in koekenpan",
+								"synonyms": [
+									"boter kp"
+								]
+							},
+							"description": "Leg een klontje boter in de verhitte koekenpan en laat deze smelten.",
+							"image": {
+								"url": "https://media.giphy.com/media/sGqCznSEOJRuM/source.gif",
+								"accessibilityText": "boter verhitten in koekenpan"
+							},
+							"title": "Instructiefilmpje boter verhitten in koekenpan"
+						}]
+					},
 					"txt_motivate": false,
 					"txt_howmuch": "Ongeveer een theelepel boter."
 				},
@@ -742,8 +946,25 @@
 					"label": "pannenkoeken 7",
 					"txt_standard": "Schep een soeplepel beslag in de koekenpan en verspreid dit over de koekenpan.",
 					"txt_detail": "Schep een soeplepel beslag in de koekenpan en draai de pan rond totdat het beslag over de hele koekenpan verspreid is.",
-					"txt_howto": false,
-					"img_howto": false,
+					"txt_howto": "Schep een soeplepel beslag in de koekenpan en draai de pan rond totdat het beslag over de hele koekenpan verspreid is.",
+					"img_howto": {
+					"title": "Instructiefilmpje",
+					"list": [
+						{
+							"optionInfo": {
+								"key": "beslag in koekenpan",
+								"synonyms": [
+									"beslag kp"
+								]
+							},
+							"description": "Schep een soeplepel beslag in de koekenpan en draai de pan rond totdat het beslag over de hele koekenpan verspreid is.",
+							"image": {
+								"url": "https://steemitimages.com/DQmQLtMomaznJC1ghmaJBs9jzva2HuDt5g6kKNqzT5SXut8/palatsch.gif",
+								"accessibilityText": "beslag in koekenpan"
+							},
+							"title": "Instructiefilmpje beslag in koekenpan"
+						}]
+					},
 					"txt_motivate": false,
 					"txt_howmuch": "Een soeplepel is ongeveer 150 mililiter."
 				},
@@ -751,8 +972,25 @@
 					"label": "pannenkoeken 8",
 					"txt_standard": "Draai de pannenkoek om zodra er belletjes op komen.",
 					"txt_detail": "Schuif een spatel onder de pannekoek en keer de pannenkoek ondertsteboven in de pan zodra er belletjes op de pannenkoek verschijnen.",
-					"txt_howto": false,
-					"img_howto": false,
+					"txt_howto": "Schuif een spatel onder de pannekoek en keer de pannenkoek ondertsteboven in de pan zodra er belletjes op de pannenkoek verschijnen.",
+					"img_howto": {
+					"title": "Instructiefilmpje",
+					"list": [
+						{
+							"optionInfo": {
+								"key": "pannenkoek omdraaien",
+								"synonyms": [
+									"pk omdraaien"
+								]
+							},
+							"description": "Schuif een spatel onder de pannekoek en keer de pannenkoek ondertsteboven in de pan zodra er belletjes op de pannenkoek verschijnen.",
+							"image": {
+								"url": "https://steemitimages.com/0x0/https://steemitimages.com/DQmSLGrsfWYvoeENt53MvMHbUD9JjRPa6FK81wcJnFw68QD/palatschi.gif",
+								"accessibilityText": "pannenkoek omdraaien"
+							},
+							"title": "Instructiefilmpje pannenkoek omdraaien"
+						}]
+					},
 					"txt_motivate": false,
 					"txt_howmuch": "Draai de pannenkoek een keer om."
 				},
@@ -769,6 +1007,32 @@
 		},
 		"sate": {
 			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet de zaadlijsten van een rode peper verwijderen",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet de zaadlijsten van een rode peper verwijderen",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "rode peper zaadlijsten verwijderen",
+									"synonyms": [
+										"rp zaadlijsten"
+									]
+								},
+								"description": "Verwijder de steelaanzet en zaadlijsten van de paprika en snijd het vruchtvlees",
+								"image": {
+									"url": "https://hips.hearstapps.com/ame-prod-goodhousekeeping-assets.s3.amazonaws.com/main/embedded/34771/step-two-chilli.gif",
+									"accessibilityText": "instructiefilmpje rode peper zaadlijsten verwijderen"
+								},
+								"title": "Instructiefilmpje rode peper zaadlijsten verwijderen"
+							}
+						]
+					}
+				},
 				"ingredients": {
 					"list": {
 					"1": "Knoflook",
@@ -914,7 +1178,25 @@
 					"txt_standard": "Snijd een knoflook teen fijn.",
 					"txt_detail": "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes",
 					"txt_howto": "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes",
-					"img_howto": false,
+					"img_howto": {
+						"title": "instructiefilmpjes",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook snijden",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes",
+								"image": {
+									"url": "https://i.imgur.com/2lTxwC7.gif",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					},
 					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
 					"txt_howmuch": "Voor dit recept gebruiken we 6 teentjes knoflook."
 				},
@@ -994,6 +1276,32 @@
 		},
 		"ovenschotel": {
 			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet de zaadlijsten van een paprika verwijderen",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet de zaadlijsten van een paprika verwijderen",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "paprika zaadlijsten verwijderen",
+									"synonyms": [
+										"paprika zaadlijsten"
+									]
+								},
+								"description": "Verwijder de steelaanzet en zaadlijsten van de paprika en snijd het vruchtvlees",
+								"image": {
+									"url": "https://www.freshnlean.com/wp-content/uploads/2019/01/cut-deseed-devein-bell-pepper-kitchen-hack.gif",
+									"accessibilityText": "instructiefilmpje paprika zaadlijsten verwijderen"
+								},
+								"title": "Instructiefilmpje paprika zaadlijsten verwijderen"
+							}
+						]
+					}
+				},
 				"ingredients": {
 					"list": {
 					"1": "500 g rundergehakt",

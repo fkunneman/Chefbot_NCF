@@ -153,5 +153,12 @@
 				[
 					"Dit zijn de ingredienten die je nodig hebt:"
 				]
+		},
+	"Determine cooking techniques":
+		{
+			"regular":
+				[
+					"In dit recept zitten de volgende kooktechnieken:"
+				]
 		}
 }

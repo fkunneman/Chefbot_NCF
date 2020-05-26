@@ -546,7 +546,7 @@ class ClarifyCookingTechniquesExplain(Move):
         Move.__init__(self,
             name = 'clarify_cooking_techniques_explain',
             prior_moves = ['Recept howto'],
-            context = [],
+            context = [['recept_toelichting',5,{'no-input': 0.0, 'no-match': 0.0}]],
             suggestions = ['volgende','duidelijk','dankje', 'ander recept']
         )
 
