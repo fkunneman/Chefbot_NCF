@@ -7,7 +7,11 @@
 					"Uitstekend! Ik ga je door het recept voor [recipe] praten.",
 					"Uitstekende keuze!",
 					"Gaan we doen!"
-				]
+				],
+			"fallback" :
+            	[
+                	"sorry, ken ik niet."
+            	]
 		},
 	"Warning recipe" :
 		{
@@ -159,6 +163,14 @@
 			"regular":
 				[
 					"In dit recept zitten de volgende kooktechnieken:"
+				]
+		},
+	"last_step_fallback":
+		{
+			"regular":
+				[
+					"Er is momenteel nog geen vorige stap",
+					"Dat gaat niet, je bent nog helemaal aan het begin van het recept"
 				]
 		}
 }

@@ -154,7 +154,7 @@ class NoNewRecipe(Move):
             name = 'no_new_recipe',
             prior_moves = ['Kook recept'],
             context = [['recept_confirm',1,{'no-input': 0.0, 'no-match': 0.0}]],
-            suggestions = ['volgende']
+            suggestions = ['volgende stap']
         )
 
     def preconditions_met(self,infostate,knowledge):
@@ -166,9 +166,12 @@ class NoNewRecipe(Move):
         """
         pm = False
         if Move.preconditions_met(self, infostate):
-           if ['A', 'confirm_step'] not in infostate['shared']['moves'] and infostate['shared']['entities'][-1]['recept'] != '' and infostate['private']['agenda'] != None :
-                pm = True
-        print ("why")
+            if ['A', 'confirm_step'] not in infostate['shared']['moves'] and infostate['shared']['entities'][-1]['recept'] != '' and infostate['private']['agenda'] != None:
+                if len(infostate['shared']['moves']) >= 4:
+                    if 'Welke recepten' not in [x[1] for x in infostate['shared']['moves'][-4:]]:
+                        pm = True
+                else:
+                    pm = True
         return pm
         #return Move.preconditions_met(self, infostate)
 
@@ -208,7 +211,25 @@ class ConfirmRecipe(Move):
 
         No further preconditions should be met other than the presence of a particular prior move: the intent of the user to cook a certain recipe
         """
-        return Move.preconditions_met(self,infostate)
+        pm = False
+        if Move.preconditions_met(self, infostate):
+            if infostate['shared']['entities'][-1]['recept'] != '':
+                if len(infostate['shared']['beliefs']['task']) == 0:
+                    pm = True
+                else:
+                    if len(infostate['shared']['moves']) >= 4:
+                        if 'Welke recepten' in [x[1] for x in infostate['shared']['moves'][-4:]]:
+                            pm = True
+                    regex = '(' + '|'.join('instruct_step') + ')'
+                    if re.search(regex,infostate['shared']['moves'][-1][1]):
+                        if len(infostate['private']['plan_wide']) == 1:
+                            pm = True
+                    else:
+                        if len(infostate['private']['plan_wide']) == 0:
+                            pm = True 
+        return pm
+        
+        # return Move.preconditions_met(self, infostate)
 
     def effects(self,infostate,knowledge):
         """
@@ -246,7 +267,7 @@ class OtherRecipe(Move):
             name = 'other_recipe',
             prior_moves = ['ander recept'],
             context = [['recept_confirm',1,{'no-input': 0.0, 'no-match': 0.0}]],
-            suggestions = ['volgende']
+            suggestions = []
         )
 
     def preconditions_met(self,infostate,knowledge):
@@ -290,7 +311,7 @@ class InstructStep(Move):
             name = 'instruct_step',
             prior_moves = ['Recept continueerder'],
             context = [['recept_stappen',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_quantity',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_skill',5,{'no-input': 0.0, 'no-match': 0.0}]],
-            suggestions = ['volgende','hoe','hoeveel','waarom','kun je dat nog een keer herhalen','wat bedoel je']
+            suggestions = ['volgende stap','vorige stap','hoe','hoeveel','waarom','kun je dat nog een keer herhalen','wat bedoel je']
         )
 
     def preconditions_met(self,infostate,knowledge):
@@ -329,7 +350,93 @@ class InstructStep(Move):
             del(infostate['private']['preliminaries'][0])
         else:
             infostate['shared']['beliefs']['done'].append(infostate['private']['plan_wide'].pop(0))
+            print(infostate['private']['plan_wide'])
 
+class InstructLastStep(Move):
+    """
+    InstructStep
+    =====
+    Class to model the preconditions and effects of the move to instruct a step
+    """
+
+    def __init__(self):
+        Move.__init__(self,
+            name = 'instruct_last_step',
+            prior_moves = ['Vorige stap'],
+            context = [['recept_stappen',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_quantity',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_skill',5,{'no-input': 0.0, 'no-match': 0.0}]],
+            suggestions = ['volgende stap','vorige stap','hoe','hoeveel','waarom','kun je dat nog een keer herhalen','wat bedoel je']
+        )
+
+    def preconditions_met(self,infostate,knowledge):
+        """
+        preconditions_met
+        =====
+        Boolean function to return if the preconditions of this move have been met given the current information state
+
+        In addition to the specified prior moves, the precondition should be met that there are still steps to explain
+        """
+        pm = False
+        if Move.preconditions_met(self,infostate):
+            if not '1' in infostate['private']['plan_wide'] and len(infostate['private']['preliminaries']) == 0:
+                pm = True
+        return pm
+
+    def effects(self,infostate,knowledge):
+        """
+        effects
+        =====
+        Function to apply this move's effects to the information state
+
+        In addition to adding this move to the shared conversation information state, it has the following effects:
+            - the last step will be removed from the plan
+            - the last step will be signified as 'done' in the shared beliefs
+        """
+        Move.effects(self,infostate)
+        current_step = min([int(x) for x in infostate['private']['plan_wide']])
+        previous_step = str(current_step - 1)
+        infostate['private']['plan_wide'].insert(0,previous_step)
+
+class InstructLastStepFallback(Move):
+    """
+    InstructStep
+    =====
+    Class to model the preconditions and effects of the move to instruct a step
+    """
+
+    def __init__(self):
+        Move.__init__(self,
+            name = 'instruct_last_step_fallback',
+            prior_moves = ['Vorige stap'],
+            context = [['recept_stappen',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_quantity',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_skill',5,{'no-input': 0.0, 'no-match': 0.0}]],
+            suggestions = ['volgende stap','vorige stap','hoe','hoeveel','waarom','kun je dat nog een keer herhalen','wat bedoel je']
+        )
+
+    def preconditions_met(self,infostate,knowledge):
+        """
+        preconditions_met
+        =====
+        Boolean function to return if the preconditions of this move have been met given the current information state
+
+        In addition to the specified prior moves, the precondition should be met that there are still steps to explain
+        """
+        pm = False
+        if Move.preconditions_met(self,infostate):
+            if '1' in infostate['private']['plan_wide']:
+                pm = True
+        return pm
+
+    def effects(self,infostate,knowledge):
+        """
+        effects
+        =====
+        Function to apply this move's effects to the information state
+
+        In addition to adding this move to the shared conversation information state, it has the following effects:
+            - the last step will be removed from the plan
+            - the last step will be signified as 'done' in the shared beliefs
+        """
+        Move.effects(self,infostate)
+        
 class ClarifyQuantity(Move):
     """
     ClarifyQuantity
@@ -506,7 +613,7 @@ class ClarifyExplain(Move):
             name = 'clarify_step_explain',
             prior_moves = ['Recept howto'],
             context = [['recept_stappen',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_toelichting',5,{'no-input': 0.0, 'no-match': 0.0}]], 
-            suggestions = ['volgende','duidelijk','dankje']
+            suggestions = ['volgende stap','duidelijk','dankje']
         )
 
     def preconditions_met(self,infostate,knowledge):
@@ -547,7 +654,7 @@ class ClarifyCookingTechniquesExplain(Move):
             name = 'clarify_cooking_techniques_explain',
             prior_moves = ['Recept howto'],
             context = [['recept_toelichting',5,{'no-input': 0.0, 'no-match': 0.0}]],
-            suggestions = ['volgende','duidelijk','dankje', 'ander recept']
+            suggestions = ['volgende stap','duidelijk','dankje', 'ander recept']
         )
 
     def preconditions_met(self,infostate,knowledge):
@@ -687,7 +794,7 @@ class ClarifyMotivateFallback(Move):
         """
         pm = False
         if Move.preconditions_met(self,infostate):
-            if 'txt_motivate' not in infostate['private']['plan_wide'][infostate['private']['plan'][0]]:
+            if not infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_motivate']:
                 pm = True
         return pm
 
@@ -826,7 +933,7 @@ class CloseRecipe(Move):
     def __init__(self):
         Move.__init__(self,
             name = 'close_recipe',
-            prior_moves = ['instruct_step'],
+            prior_moves = ['instruct_step','Recept continueerder'],
             context = [['recept_klaar',5,{'no-input': 0.0, 'no-match': 0.0}]],
             suggestions = ['dankje','klaar']
         )
@@ -839,11 +946,16 @@ class CloseRecipe(Move):
 
         In addition to the specified prior moves, the precondition should be met that there is only one step left to explain
         """
+        pm = False
         if Move.preconditions_met(self,infostate):
-            if len(infostate['private']['plan']) == 1:
-                return True
-        else:
-            return False
+            regex = '(' + '|'.join('instruct_step') + ')'
+            if re.search(regex,infostate['shared']['moves'][-1][1]):
+                if len(infostate['private']['plan_wide']) == 1:
+                    pm = True
+            else:
+                if len(infostate['private']['plan_wide']) == 0:
+                    pm = True 
+        return pm
 
     def effects(self,infostate,knowledge):
         """
