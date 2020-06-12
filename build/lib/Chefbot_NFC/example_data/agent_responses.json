@@ -7,28 +7,8 @@
 					"Uitstekend! Ik ga je door het recept voor [recipe] praten.",
 					"Uitstekende keuze!",
 					"Gaan we doen!"
-				],
-			"fallback" :
-            	[
-                	"sorry, ken ik niet."
-            	]
-		},
-	"Warning recipe" :
-		{
-			"regular" :
-				[],
-			"fallback" :
-            	[
-                	"Maak eerst uw huidige recept af voordat je start met een ander recept."
-            	]
-		},
-	"Other recipe" :
-	{
-		"regular" :
-				[
-					"Gaan we [recipe] doen!"
 				]
-	},
+		},
 	"New recipe step" :
 		{
 			"first" : 
@@ -135,42 +115,5 @@
 					"Als je geen verdere vragen hebt verklaar ik onze conversatie voor beëindigd"
 
 				]
-		},
-	"Select recipe" :
-		{
-			"regular" :
-    			[
-      				"De recepten waar je uit kunt kiezen zijn: [recipe_options].",
-      				"Je kunt kiezen uit de volgende recepten: [recipe_options]."
-    			]
-		},
-	"Introduce cooking utensils" :
-		{
-			"regular" :
-				[
-					"Dit is het kookgerei dat je nodig hebt voor dit recept:"
-				]
-		},
-	"Introduce ingredients" :
-		{
-			"regular" :
-				[
-					"Dit zijn de ingredienten die je nodig hebt:"
-				]
-		},
-	"Determine cooking techniques":
-		{
-			"regular":
-				[
-					"In dit recept zitten de volgende kooktechnieken:"
-				]
-		},
-	"last_step_fallback":
-		{
-			"regular":
-				[
-					"Er is momenteel nog geen vorige stap",
-					"Dat gaat niet, je bent nog helemaal aan het begin van het recept"
-				]
-		}
+		}		
 }
