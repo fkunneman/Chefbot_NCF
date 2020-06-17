@@ -1,0 +1,101 @@
+[
+  {
+    "id": "8f5a3ba5-5281-486f-8945-4ce86c5932be",
+    "data": [
+      {
+        "text": "pasta aglio e olio",
+        "alias": "recept",
+        "meta": "@recept",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "06a02480-605f-40d7-a3b4-d68dffbc0fe1",
+    "data": [
+      {
+        "text": "pasta aglio e olio",
+        "alias": "recept",
+        "meta": "@recept",
+        "userDefined": true
+      },
+      {
+        "text": " graag!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "872088f2-a5e1-4bc3-8393-2d1a247288a1",
+    "data": [
+      {
+        "text": "kun je me ",
+        "userDefined": false
+      },
+      {
+        "text": "een",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " recept voor ",
+        "userDefined": false
+      },
+      {
+        "text": "pasta",
+        "alias": "recept",
+        "meta": "@recept",
+        "userDefined": true
+      },
+      {
+        "text": " vertellen?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "209bf9a5-9a35-427c-8271-a4ff20290810",
+    "data": [
+      {
+        "text": "pasta",
+        "alias": "recept",
+        "meta": "@recept",
+        "userDefined": true
+      },
+      {
+        "text": "!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e41608eb-fef4-4e53-8e0f-7de6ccba3a43",
+    "data": [
+      {
+        "text": "Ik heb zin in ",
+        "userDefined": false
+      },
+      {
+        "text": "pasta",
+        "alias": "recept",
+        "meta": "@recept",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

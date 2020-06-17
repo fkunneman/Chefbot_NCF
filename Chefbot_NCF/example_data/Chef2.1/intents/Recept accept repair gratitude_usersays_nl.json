@@ -1,0 +1,63 @@
+[
+  {
+    "id": "c0d27dee-2eaf-4c4d-ac95-332bfa65f573",
+    "data": [
+      {
+        "text": "Veel dank",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4f2d759b-870e-4ff4-8177-fa2aec5dae1b",
+    "data": [
+      {
+        "text": "Dank",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3c596f41-ab89-42a5-9f41-a2fed11684c1",
+    "data": [
+      {
+        "text": "thanks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cbfc1cd9-463b-4ecd-8245-74d3cfb3e34e",
+    "data": [
+      {
+        "text": "Dankjewel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a481283b-b3fc-4264-aa13-74b69c8a4334",
+    "data": [
+      {
+        "text": "Dankje",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

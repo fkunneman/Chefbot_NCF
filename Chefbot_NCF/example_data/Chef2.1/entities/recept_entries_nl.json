@@ -1,0 +1,42 @@
+[
+  {
+    "value": "pasta aglio e olio",
+    "synonyms": [
+      "pasta",
+      "pasta aglio e olio"
+    ]
+  },
+  {
+    "value": "pannenkoeken",
+    "synonyms": [
+      "pannenkoeken",
+      "pannenkoek",
+      "pancakes",
+      "flensjes"
+    ]
+  },
+  {
+    "value": "noedels",
+    "synonyms": [
+      "noedels",
+      "noodles"
+    ]
+  },
+  {
+    "value": "ovenschotel",
+    "synonyms": [
+      "ovenschotel",
+      "casserole",
+      "schotel uit de oven",
+      "mexicaanse ovenschotel"
+    ]
+  },
+  {
+    "value": "sate",
+    "synonyms": [
+      "Sate",
+      "sate",
+      "kipsate"
+    ]
+  }
+]

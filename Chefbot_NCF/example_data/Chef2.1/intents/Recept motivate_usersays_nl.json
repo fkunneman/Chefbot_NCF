@@ -1,0 +1,59 @@
+[
+  {
+    "id": "10117624-266b-43c8-8226-d4f54dcd1da2",
+    "data": [
+      {
+        "text": "Waar is deze stap voor nodig?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9612c240-9781-4b70-a889-16fb30de6250",
+    "data": [
+      {
+        "text": "Kun je deze stap motiveren?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "77fd0602-2728-4089-9bf0-956d38ae3be5",
+    "data": [
+      {
+        "text": "Wat is ",
+        "userDefined": false
+      },
+      {
+        "text": "de",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " reden van deze stap?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "03d665b0-0df1-443c-8f9b-fc2bdf0817df",
+    "data": [
+      {
+        "text": "Waarom moet ik dat doen?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
