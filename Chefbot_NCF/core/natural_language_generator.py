@@ -69,7 +69,8 @@ class NLG:
             'close_clarification_understood'    : self.close_clarification_understood,
             'close_clarification_acknowledged'  : self.close_clarification_acknowledged,
             'close_activity'                    : self.close_activity,
-            'select_recipe'                     : self.select_recipe
+            'select_recipe'                     : self.select_recipe,
+            'update_handler'                    : self.update_handler
         }
 
     def formulate_response(self,moves,index=False):
@@ -540,3 +541,19 @@ class NLG:
             json_data = file_in.read().strip()
         json_data_formatted = json.loads(json_data)
         return json_data_formatted
+
+
+    def update_handler(self):
+        """
+        update_handler
+        =====
+        function to handle updates about the cooking process. These are updates
+        that the user gives
+        """
+
+
+        self.response.append(self.recipe['Recipe_steps'][self.step]['txt_update'])
+        print(self.response.append(self.recipe['Recipe_steps'][self.step]['txt_update']))
+
+        # self.clarify_step(['txt_update', 'Step reminder'])
+        # print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", infostate['private']['plan'][0])

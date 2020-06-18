@@ -1644,7 +1644,8 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": "Door de oven nu alvast voor de verwarmen hoef je straks niet meer te wachten tot hij op temperatuur is.",
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet."
 				},
 				"2": {
 					"label": "Mexicaanse Ovenschotel 2",
@@ -1653,7 +1654,8 @@
 					"txt_howto": "Je kan het gehakt in stukjes in de pan doen of alles tegelijk erin gooien. je mag zelf bepalen hoe je dat doet.",
 					"img_howto": "https://kokenmetfotos.inekedegroot11.nl/wp-content/uploads/2017/08/W-Spaghetti-met-uiensaus-20.jpg",
 					"txt_motivate": "Er is geen extra boter of olie nodig omdat er al genoeg vet in het gehakt zit om het rul te bakken.",
-					"txt_howmuch": "500 gram rundergehakt"
+					"txt_howmuch": "500 gram rundergehakt",
+					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet."
 				},
 				"3": {
 					"label": "Mexicaanse Ovenschotel 3",
@@ -1662,7 +1664,8 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": "De seasoningmix zorgt voor een groot deel voor de lekkere smaak van deze Ovenschotel",
-					"txt_howmuch": "Het hele zakje seasoningmix mag er doorheen, dat is 40 gram. En er moet 400 gram tomatenblokjes doorheen."
+					"txt_howmuch": "Het hele zakje seasoningmix mag er doorheen, dat is 40 gram. En er moet 400 gram tomatenblokjes doorheen.",
+					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet."
 				},
 				"4": {
 					"label": "Mexicaanse Ovenschotel 4",
@@ -1734,7 +1737,8 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": "20 minuten is een goeie tijd om de ovenschotel goed op te warmen, zodat het nog lekkerder is.",
-					"txt_howmuch": "De schotel moet 20 minuten in de oven, maar houd natuurlijk altijd de schotel zelf in de gaten."
+					"txt_howmuch": "De schotel moet 20 minuten in de oven, maar houd natuurlijk altijd de schotel zelf in de gaten.",
+					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet."
 				},
 				"12": {
 					"label": "Mexicaanse Ovenschotel 12",
