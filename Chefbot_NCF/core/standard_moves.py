@@ -315,7 +315,7 @@ class UpdateHandler(Move):
     def __init__(self):
         Move.__init__(self,
             name = 'update_handler',
-            prior_moves = ['Recept update'],
+            prior_moves = ['Advanced update'],
             context = [['recept_stappen',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_quantity',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_skill',5,{'no-input': 0.0, 'no-match': 0.0}]],
             suggestions = ['volgende stap','vorige stap','hoe','hoeveel','waarom','kun je dat nog een keer herhalen','wat bedoel je']
         )
@@ -333,8 +333,8 @@ class UpdateHandler(Move):
         # first_step_str = str(first_step)
         # infostate['private']['plan_wide'].insert(0,first_step_str)
         # print("PRINT FIRST STEP HERE: ", len(infostate['private']['plan_wide']) >= 1,  infostate['private']['plan_wide'])
-        print('EXPLANATIONS',  infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_update'])
-        print('WAT IS DIT', infostate['private']['plan'][0])
+        # print('EXPLANATIONS',  infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_update'])
+        # print('WAT IS DIT', infostate['private']['plan'][0])
 
         pm = False
         if Move.preconditions_met(self, infostate):
@@ -342,14 +342,7 @@ class UpdateHandler(Move):
                 pm = True
         return pm
 
-        # if Move.preconditions_met(self,infostate):
-        #     if len(infostate['private']['plan']) >= 1:
-        #         return True
-        # else:
-        #     return False
-
-
-def effects(self,infostate,knowledge):
+    def effects(self,infostate,knowledge):
         """
         effects
         =====
@@ -362,16 +355,64 @@ def effects(self,infostate,knowledge):
         # Move.effects(self,infostate)
         # # current_step = min([int(x) for x in infostate['private']['plan_wide']])
         # first_step = infostate['private']['plan_wide'] == 1
-        print("PRINT FIRST STEP: ", infostate['private']['plan_wide'] == 1)
+        # print("PRINT FIRST STEP: ", infostate['private']['plan_wide'] == 1)
         # first_step_str = str(first_step)
         # infostate['private']['plan_wide'].insert(0,first_step_str)
 
         Move.effects(self,infostate)
-        # infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_update']
+        # print('WAT IS DIT???', infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_update'])
         # qud
-        infostate['shared']['qud'] = infostate['private']['plan'][0] + '_update'
-        print(infostate['shared']['qud'])
+        # infostate['shared']['qud'] = infostate['private']['plan'][0]  + + '_update' #Dit lijkt niet gebruikt te worden als output
 
+
+
+
+
+
+
+class ErrorHandler(Move):
+    """
+    InstructStep
+    =====
+    Class to model the preconditions and effects of the move to instruct a step
+    """
+
+    def __init__(self):
+        Move.__init__(self,
+            name = 'error_handler',
+            prior_moves = ['Advanced update'],
+            context = [['recept_stappen',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_quantity',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_skill',5,{'no-input': 0.0, 'no-match': 0.0}]],
+            suggestions = ['volgende stap','vorige stap','kun je dat nog een keer herhalen','wat bedoel je']
+        )
+
+    def preconditions_met(self,infostate,knowledge):
+        """
+       preconditions_met
+       =====
+       Boolean function to return if the preconditions of this move have been met given the current information state
+
+       In addition to the specified prior moves, the precondition should be met that there are still steps to explain
+       """
+
+        pm = False
+        if Move.preconditions_met(self, infostate):
+            if infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_error'] and not infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_update']:
+                pm = True
+        return pm
+
+    def effects(self,infostate,knowledge):
+        """
+        effects
+        =====
+        Function to apply this move's effects to the information state
+
+        In addition to adding this move to the shared conversation information state, it has the following effects:
+            - the last step will be removed from the plan
+            - the last step will be signified as 'done' in the shared beliefs
+        """
+
+
+        Move.effects(self,infostate)
 
 
 
@@ -388,9 +429,9 @@ class InstructStep(Move):
     def __init__(self):
         Move.__init__(self,
             name = 'instruct_step',
-            prior_moves = ['Recept continueerder', 'update_handler'],
+            prior_moves = ['Recept continueerder', 'Recept update'],   #'update_handler' is voor moeilijke updates & 'Recept update' is de intent
             context = [['recept_stappen',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_quantity',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_skill',5,{'no-input': 0.0, 'no-match': 0.0}]],
-            suggestions = ['volgende stap', 'Ik ben klaar', 'vorige stap','hoe','hoeveel','waarom','kun je dat nog een keer herhalen','wat bedoel je']
+            suggestions = ['volgende stap', 'vorige stap','hoe','hoeveel','waarom','kun je dat nog een keer herhalen','wat bedoel je']
         )
 
     def preconditions_met(self,infostate,knowledge):
@@ -429,7 +470,7 @@ class InstructStep(Move):
             del(infostate['private']['preliminaries'][0])
         else:
             infostate['shared']['beliefs']['done'].append(infostate['private']['plan_wide'].pop(0))
-            print(infostate['private']['plan_wide'])
+
 
 
 class InstructLastStep(Move):

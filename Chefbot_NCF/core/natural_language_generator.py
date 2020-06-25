@@ -70,8 +70,10 @@ class NLG:
             'close_clarification_acknowledged'  : self.close_clarification_acknowledged,
             'close_activity'                    : self.close_activity,
             'select_recipe'                     : self.select_recipe,
-            'update_handler'                    : self.update_handler
+            'update_handler'                    : self.update_handler,
+            'error_handler'                     :self.error_handler
         }
+
 
     def formulate_response(self,moves,index=False):
         print('NLG moves',moves,index)
@@ -550,10 +552,42 @@ class NLG:
         function to handle updates about the cooking process. These are updates
         that the user gives
         """
+        # Voor nu doet elke if hetzelfde maar dat moet gesplitst worden
+        # nadat ik weet wat waar moet
+        # ook moet er per recept in de json wss een getal
+        # dat getal kan dan plus of min aantal stappen zijn in recept
+        # alle 'text' zijn mogelijkheden die gezegt kunnen worden voor een bepaalde reactie
+        if 'de oven is warm' or 'de oven is voorverwarmd' or 'de oven is voor verwarmd' or 'de oven is op temperatuur' or\
+                'op temperatuur'or 'voorverwarmd' or 'de oven is nu klaar':
+            self.response.append(self.recipe['Recipe_steps'][self.step]['txt_update'])
+            print(self.recipe['Recipe_steps'][self.step]['txt_update'])
+        elif 'het water kookt' or 'het water heeft gekookt' or 'de aardappelen hebben gekookt' or 'de aardappelen koken' or\
+                'de aardappels koken' or 'de fusilli koken' or 'de aardappels hebben gekookt' or 'de pasta heeft gekookt' or 'de pasta kookt' or\
+                'de fusilli heeft gekookt' or 'de fusilli kookt' or 'de melk kookt' or 'de melk heeft gekookt' or 'de bonen koken' or\
+                'de rijst heeft gekookt' or 'de rijst kookt':
+            self.response.append(self.recipe['Recipe_steps'][self.step]['txt_update'])
+            print(self.recipe['Recipe_steps'][self.step]['txt_update'])
+        elif 'de ui is gebakken' or ' de ui is glazig' or 'de ui is glazig gebakken' or 'de aardappelen zijn gaar' or\
+                'de aardappelen zijn gaar gebakken' or 'de kip is gegrilled' or 'de kip is gegrillt' or 'de kipfilet is gebakken':
+            self.response.append(self.recipe['Recipe_steps'][self.step]['txt_update'])
+            print(self.recipe['Recipe_steps'][self.step]['txt_update'])
+        else:
+            self.response.append(self.recipe['Recipe_steps'][self.step]['txt_error'])
 
+            # infostate['shared']['beliefs']['done'].append(infostate['private']['plan_wide'].pop(0))
 
-        self.response.append(self.recipe['Recipe_steps'][self.step]['txt_update'])
-        print(self.response.append(self.recipe['Recipe_steps'][self.step]['txt_update']))
-
-        # self.clarify_step(['txt_update', 'Step reminder'])
-        # print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", infostate['private']['plan'][0])
+    def error_handler(self):
+        """
+        error_handler
+        =====
+        function to handle errors about updates that are given in the cooking process, but cannot be given. These are updates
+        that the user gives
+        """
+        if 'de oven is warm' or 'de oven is voorverwarmd' or 'de oven is voor verwarmd' or 'de oven is op temperatuur' or\
+                'op temperatuur'or 'voorverwarmd' or 'de oven is nu klaar' or 'het water kookt' or 'het water heeft gekookt'\
+                or 'de aardappelen hebben gekookt' or 'de aardappelen koken' or 'de aardappels koken' or 'de fusilli koken' or\
+                'de aardappels hebben gekookt' or 'de pasta heeft gekookt' or 'de pasta kookt' or 'de fusilli heeft gekookt'\
+                or 'de fusilli kookt' or 'de melk kookt' or 'de melk heeft gekookt' or 'de bonen koken' or 'de rijst heeft gekookt'\
+                or 'de rijst kookt' or 'de ui is gebakken' or ' de ui is glazig' or 'de ui is glazig gebakken' or 'de aardappelen zijn gaar' or\
+                'de aardappelen zijn gaar gebakken' or 'de kip is gegrilled' or 'de kip is gegrillt' or 'de kipfilet is gebakken':
+            self.response.append(self.recipe['Recipe_steps'][self.step]['txt_error'])
