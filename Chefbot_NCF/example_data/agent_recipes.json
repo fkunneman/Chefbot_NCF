@@ -35,24 +35,10 @@
 						"3": "water",
 						"4": "geraspte kaas",
 						"time": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
-						},
+					},
 					"img_howto": {
 						"title": "Ingredienten & Bereidingstijd",
 						"list": [
-							{
-								"optionInfo": {
-									"key": "Tijd",
-									"synonyms": [
-										"Tijd"
-									]
-								},
-								"description": "Bereidingstijd",
-								"image": {
-									"url": "https://asset.conrad.com/media10/isa/160267/c1/-/nl/672032_BB_00_FB/image.jpg?x=400&y=400",
-									"accessibilityText": "Tijd"
-								},
-								"title": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
-							},
 							{
 								"optionInfo": {
 									"key": "knoflook foto",
@@ -65,7 +51,7 @@
 									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
 									"accessibilityText": "knoflook"
 								},
-								"title": "3 à 5 knoflook teentjes"
+								"title": "knoflook teentjes"
 							},
 							{
 								"optionInfo": {
@@ -199,7 +185,7 @@
 			},
 			"Recipe_steps": {
 				"1": {
-					"label": "pasta 2",
+					"label": "pasta 1",
 					"txt_standard": "Pel de knoflookteentjes.",
 					"txt_detail": "Haal de knoflook teentjes uit elkaar en pel de teentjes.",
 					"txt_howto": "Maak een teentje knoflook los van de bol, verwijder de harde onderkant van de teen en pel vervolgens voorzichtig met een mesje of met de hand de schil van de teen. ",
@@ -222,7 +208,9 @@
 							}]
 					},
 					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven. ",
-					"txt_howmuch": "Een derde bol - 3 à 5 teentjes"
+					"txt_howmuch": "Een derde bol - 3 à 5 teentjes",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"2": {
 					"label": "pasta 2",
@@ -249,7 +237,9 @@
 						]
 					},
 					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven. ",
-					"txt_howmuch": "Een derde bol - 3 à 5 teentjes"
+					"txt_howmuch": "Een derde bol - 3 à 5 teentjes",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"3": {
 					"label": "pasta 3",
@@ -258,7 +248,9 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": "Veel mensen vinden het lekker om pasta verder op smaak te brengen met geraspte kaas, maar zonder is het ook nog steeds erg lekker.",
-					"txt_howmuch": "Naar smaak, dus net zoveel als je lekker vindt. Ik zou het echter niet te bont maken"
+					"txt_howmuch": "Naar smaak, dus net zoveel als je lekker vindt. Ik zou het echter niet te bont maken",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				}
 			}
 		},
@@ -307,20 +299,6 @@
 						"list": [
 							{
 								"optionInfo": {
-									"key": "Tijd",
-									"synonyms": [
-										"Tijd"
-									]
-								},
-								"description": "Bereidingstijd",
-								"image": {
-									"url": "https://asset.conrad.com/media10/isa/160267/c1/-/nl/672032_BB_00_FB/image.jpg?x=400&y=400",
-									"accessibilityText": "Tijd"
-								},
-								"title": "Het duurt ongeveer 33 minuten voordat dit recept klaar is om te eten!"
-							},
-							{
-								"optionInfo": {
 									"key": "knoflook foto",
 									"synonyms": [
 										"knoflook"
@@ -331,7 +309,7 @@
 									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
 									"accessibilityText": "knoflook"
 								},
-								"title": "1 Knoflook teentje"
+								"title": "Knoflook teentjes"
 							},
 							{
 								"optionInfo": {
@@ -345,7 +323,7 @@
 									"url": "https://dieetuniversiteit.nl/wp-content/uploads/2016/10/sesamzaad-gezond-1024x768.jpg",
 									"accessibilityText": "sesamzaad"
 								},
-								"title": "2 eetlepels sesamzaad"
+								"title": "Sesamzaad"
 							},
 							{
 								"optionInfo": {
@@ -359,7 +337,7 @@
 									"url": "https://www.ahealthylife.nl/wp-content/uploads/2019/02/chilipeper_spaanse_peper_voedingswaarde.jpg",
 									"accessibilityText": "rode peper"
 								},
-								"title": "een halve Rode peper"
+								"title": "Rode peper"
 							},
 							{
 								"optionInfo": {
@@ -373,7 +351,7 @@
 									"url": "https://www.slagerij-islamcentrum.nl/wp-content/uploads/2017/11/gehakt.jpg",
 									"accessibilityText": "mager rundergehakt"
 								},
-								"title": "300 gram mager rundergehakt"
+								"title": "Mager rundergehakt"
 							},
 							{
 								"optionInfo": {
@@ -387,7 +365,7 @@
 									"url": "https://dg3w27tmpqz1r.cloudfront.net/artikelen/15910_1_392688_637188237569169724.png?width=500&height=500&mode=crop",
 									"accessibilityText": "Go-Tan woksaus oyster garlic"
 								},
-								"title": "5 eetlepels Go-Tan woksaus oyster garlic"
+								"title": "Go-Tan woksaus oyster garlic"
 							},
 							{
 								"optionInfo": {
@@ -401,7 +379,7 @@
 									"url": "https://static.ah.nl/image-optimization/static/product/AHI_43545239363439393333_1_LowRes_JPG.JPG?options=399,q85",
 									"accessibilityText": "sesamolie"
 								},
-								"title": "2 eetlepels sesamolie"
+								"title": "Sesamolie"
 							},
 							{
 								"optionInfo": {
@@ -415,7 +393,7 @@
 									"url": "https://dg3w27tmpqz1r.cloudfront.net/artikelen/22482_1_247488_637188381593665069.png?width=500&height=500&mode=crop",
 									"accessibilityText": "Japanse wokgroente kastanjechampignons & peulen"
 								},
-								"title": "800 gram japanse wokgroente kastanjechampignons & peulen"
+								"title": "Japanse wokgroente kastanjechampignons & peulen"
 							},
 							{
 								"optionInfo": {
@@ -429,7 +407,7 @@
 									"url": "https://www.worldwideholland.com/images/productimages/big/go-tan-egg-noodles.png",
 									"accessibilityText": "Go-Tan egg noodles"
 								},
-								"title": "250 gram Go-Tan egg noodles"
+								"title": "Go-Tan egg noodles"
 							}
 						]
 					}
@@ -545,7 +523,9 @@
 						]
 					},
 					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
-					"txt_howmuch": "Voor dit recept gebruiken we 1 teen knoflook."
+					"txt_howmuch": "Voor dit recept gebruiken we 1 teen knoflook.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"2": {
 					"label": "noedels 2",
@@ -572,7 +552,9 @@
 						]
 					},
 					"txt_motivate": false,
-					"txt_howmuch": "Voor dit recept gebruiken we een halve rode peper"
+					"txt_howmuch": "Voor dit recept gebruiken we een halve rode peper",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"3": {
 					"label": "noedels 2",
@@ -599,6 +581,7 @@
 						]
 					},
 					"txt_motivate": false,
+					"txt_update": false,
 					"txt_howmuch": "Voor dit recept gebruiken we een halve rode peper"
 				},
 				"4": {
@@ -608,7 +591,9 @@
 					"txt_howto": "Het gehakt zou in 3 min rul moeten zijn",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Gebruik het hele pak 300gr mager rundergehakt"
+					"txt_howmuch": "Gebruik het hele pak 300gr mager rundergehakt",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"5": {
 					"label": "noedels 4",
@@ -617,7 +602,9 @@
 					"txt_howto": "Giet het vocht voorzichtig af terwijl je de pan wat schuin houdt.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"6": {
 					"label": "noedels 5",
@@ -626,7 +613,9 @@
 					"txt_howto": "Het vlees zou binnen 8 min knapperig moeten zijn. De woksaus kan in de laatste minuut toegevoegd worden.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"7": {
 					"label": "noedels 6",
@@ -635,7 +624,9 @@
 					"txt_howto": "Gebruik voor het omscheppen een grote spatel.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Gebruik hiervoor 2 eetlepels sesamolie."
+					"txt_howmuch": "Gebruik hiervoor 2 eetlepels sesamolie.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"8": {
 					"label": "noedels 7",
@@ -644,7 +635,9 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": "Oke, als het water kookt kan je doorgaan met de volgende stap.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"9": {
 					"label": "noedels 8",
@@ -653,7 +646,9 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": "Oke, als het water kookt kan je beginnen met de huidige stap.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"10": {
 					"label": "noedels 9",
@@ -662,7 +657,9 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"11": {
 					"label": "noedels 10",
@@ -671,7 +668,9 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"12": {
 					"label": "noedels 11",
@@ -680,7 +679,9 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": "Het toevoegen van sesamzaden aan gerechten kan worden vergelijken met een kers op de taart. Dit maakt het gerecht helemaal af.",
-					"txt_howmuch": "De hoeveelheid is naar eigen wens aan te passen."
+					"txt_howmuch": "De hoeveelheid is naar eigen wens aan te passen.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				}
 			}
 		},
@@ -722,22 +723,8 @@
 					"title": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
 				},
 					"img_howto": {
-					"title": "ingredienten",
+					"title": "Ingredienten & Bereidingstijd",
 					"list": [
-						{
-							"optionInfo": {
-								"key": "Tijd",
-								"synonyms": [
-									"Tijd"
-								]
-							},
-							"description": "Bereidingstijd",
-							"image": {
-								"url": "https://asset.conrad.com/media10/isa/160267/c1/-/nl/672032_BB_00_FB/image.jpg?x=400&y=400",
-								"accessibilityText": "Tijd"
-							},
-							"title": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
-						},
 						{
 							"optionInfo": {
 								"key": "tarwebloem foto",
@@ -750,7 +737,7 @@
 								"url": "https://www.koopmans.com/assets/_processed_/6/8/csm_tarwebloem-biologisch_V4_8fa92bda70.png",
 								"accessibilityText": "tarwebloem"
 							},
-							"title": "300 gram tarwebloem"
+							"title": "Tarwebloem"
 						},
 						{
 							"optionInfo": {
@@ -764,7 +751,7 @@
 								"url": "https://static.ah.nl/image-optimization/static/product/AHI_43545239353735333930_1_LowRes_JPG.JPG?options=399,q85",
 								"accessibilityText": "zout"
 							},
-							"title": "1 theelepel zout"
+							"title": "Zout"
 						},
 						{
 							"optionInfo": {
@@ -778,7 +765,7 @@
 								"url": "https://www.altijdweervooreenei.nl/wp-content/uploads/2018/11/eiveschillenthumbnail.jpg",
 								"accessibilityText": "eieren"
 							},
-							"title": "2 middelgrote eieren"
+							"title": "Eieren"
 						},
 						{
 							"optionInfo": {
@@ -792,7 +779,7 @@
 								"url": "https://www.htwcatering.nl/wp-content/uploads/2018/08/110883-71550-campina-halfvolle-melk.4-400.png",
 								"accessibilityText": "halfvolle melk"
 							},
-							"title": "500 ml halfvolle melk"
+							"title": "Halfvolle melk"
 						},
 						{
 							"optionInfo": {
@@ -806,7 +793,7 @@
 								"url": "https://static.hanos.com/sys-master/productimages/h28/h37/9258621009950/27109988.jpg_914Wx914H",
 								"accessibilityText": "ongezouten roomboter"
 							},
-							"title": "30 gram ongezouten roomboter"
+							"title": "Ongezouten roomboter"
 						}
 					]
 				}
@@ -889,7 +876,9 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Een mok bloem is ongeveer 170 grams bloem."
+					"txt_howmuch": "Een mok bloem is ongeveer 170 grams bloem.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"2": {
 					"label": "pannenkoeken 2",
@@ -898,7 +887,9 @@
 					"txt_howto": "De melk mag ik een keer bij de bloem worden gegoten.",
 					"img_howto": "https://steemitimages.com/p/54TLbc8y6GjYuEZJYFMRKMgW3z2i2u2CRfgFK2u8RGF63cdmB2VwxLVX6S5EGDGxjyko3BVqv7Wv3fMi212wZgTDLX2K4tarPnVPF93EgCUyMMyLfSnYCNSK5rmL55PV1Q7VWKVFj?format=match&mode=fit",
 					"txt_motivate": false,
-					"txt_howmuch": "Een mok melk is ongeveer 350 mililiter melk."
+					"txt_howmuch": "Een mok melk is ongeveer 350 mililiter melk.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"3": {
 					"label": "pannenkoeken 3",
@@ -924,7 +915,9 @@
 						}]
 					},
 					"txt_motivate": "Ei zorgt voor binding tussen de melk en de bloem waardoor het beslag een geheel wordt. Bovendien geeft ei een lekkere smaak aan de pannenkoeken.",
-					"txt_howmuch": "Twee middelgrote kippeneieren."
+					"txt_howmuch": "Twee middelgrote kippeneieren.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"4": {
 					"label": "pannenkoeken 4",
@@ -950,7 +943,9 @@
 						}]
 					},
 					"txt_motivate": false,
-					"txt_howmuch": "Meng tot het een mooi, glad beslag is."
+					"txt_howmuch": "Meng tot het een mooi, glad beslag is.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"5": {
 					"label": "pannenkoeken 5",
@@ -959,7 +954,9 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": "Het beslag heeft niet lang nodig om gaar te worden. Door middelhoog vuur te gebruiken zijn de pannenkoeken snel klaar zonder te verbranden.",
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"6": {
 					"label": "pannenkoeken 6",
@@ -985,7 +982,9 @@
 						}]
 					},
 					"txt_motivate": false,
-					"txt_howmuch": "Ongeveer een theelepel boter."
+					"txt_howmuch": "Ongeveer een theelepel boter.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"7": {
 					"label": "pannenkoeken 7",
@@ -1011,7 +1010,9 @@
 						}]
 					},
 					"txt_motivate": false,
-					"txt_howmuch": "Een soeplepel is ongeveer 150 mililiter."
+					"txt_howmuch": "Een soeplepel is ongeveer 150 mililiter.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"8": {
 					"label": "pannenkoeken 8",
@@ -1037,7 +1038,9 @@
 						}]
 					},
 					"txt_motivate": false,
-					"txt_howmuch": "Draai de pannenkoek een keer om."
+					"txt_update": false,
+					"txt_howmuch": "Draai de pannenkoek een keer om.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"9": {
 					"label": "pannenkoeken 9",
@@ -1046,7 +1049,9 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Naar smaak, dus net zoveel als je lekker vindt."
+					"txt_howmuch": "Naar smaak, dus net zoveel als je lekker vindt.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				}
 			}
 		},
@@ -1091,20 +1096,6 @@
 					"list": [
 						{
 							"optionInfo": {
-								"key": "Tijd",
-								"synonyms": [
-									"Tijd"
-								]
-							},
-							"description": "Bereidingstijd",
-							"image": {
-								"url": "https://asset.conrad.com/media10/isa/160267/c1/-/nl/672032_BB_00_FB/image.jpg?x=400&y=400",
-								"accessibilityText": "Tijd"
-							},
-							"title": "Het duurt ongeveer 20 tot 30 minuten voordat dit recept klaar is om te eten!"
-						},
-						{
-							"optionInfo": {
 								"key": "knoflook foto",
 								"synonyms": [
 									"knoflook"
@@ -1143,7 +1134,7 @@
 								"url": "https://www.ahealthylife.nl/wp-content/uploads/2019/02/chilipeper_spaanse_peper_voedingswaarde.jpg",
 								"accessibilityText": "rode peper"
 							},
-							"title": "een rode peper"
+							"title": "Rode peper"
 						},
 						{
 							"optionInfo": {
@@ -1258,7 +1249,9 @@
 						]
 					},
 					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
-					"txt_howmuch": "Voor dit recept gebruiken we 6 teentjes knoflook."
+					"txt_howmuch": "Voor dit recept gebruiken we 6 teentjes knoflook.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"2": {
 					"label": "sate 2",
@@ -1267,7 +1260,9 @@
 					"txt_howto": "Snijd het steeltje van de rode peper en snijd de peper in ringen.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Voor dit recept gebruiken we een hele rode peper"
+					"txt_howmuch": "Voor dit recept gebruiken we een hele rode peper",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"3": {
 					"label": "sate 3",
@@ -1276,7 +1271,9 @@
 					"txt_howto": "Snij het vet van de kip en snij in stukken",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "We gebruiken 500 gram kipfilet"
+					"txt_howmuch": "We gebruiken 500 gram kipfilet",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"4": {
 					"label": "sate 4",
@@ -1285,7 +1282,9 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "We gebruiken een halve liter ketjap"
+					"txt_howmuch": "We gebruiken een halve liter ketjap",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"5": {
 					"label": "sate 5",
@@ -1294,7 +1293,9 @@
 					"txt_howto": "Dek af met een bord of folie.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"6": {
 					"label": "sate 6",
@@ -1303,7 +1304,9 @@
 					"txt_howto": "Gebruik voor het omscheppen een grote spatel.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Gebruik 4 of 5 stukjes kip per stokje."
+					"txt_howmuch": "Gebruik 4 of 5 stukjes kip per stokje.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"7": {
 					"label": "sate 7",
@@ -1312,7 +1315,9 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "3 minuten per kant is een goede indicatie."
+					"txt_howmuch": "3 minuten per kant is een goede indicatie.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"8": {
 					"label": "sate 8",
@@ -1321,7 +1326,9 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"9": {
 					"label": "sate 9",
@@ -1330,7 +1337,9 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				}
 			}
 		},
@@ -1379,20 +1388,6 @@
 					"list": [
 						{
 							"optionInfo": {
-								"key": "Tijd",
-								"synonyms": [
-									"Tijd"
-								]
-							},
-							"description": "Bereidingstijd",
-							"image": {
-								"url": "https://asset.conrad.com/media10/isa/160267/c1/-/nl/672032_BB_00_FB/image.jpg?x=400&y=400",
-								"accessibilityText": "Tijd"
-							},
-							"title": "Het duurt ongeveer 35 minuten voordat dit recept klaar is om te eten!"
-						},
-						{
-							"optionInfo": {
 								"key": "rundergehakt foto",
 								"synonyms": [
 									"rundergehakt"
@@ -1403,7 +1398,7 @@
 								"url": "https://www.supermarktaanbiedingen.com/public/images/product/2017/42/0-675163000-magere-rundergehakt.jpg",
 								"accessibilityText": "rundergehakt"
 							},
-							"title": "500 gram rundergehakt"
+							"title": "Rundergehakt"
 						},
 						{
 							"optionInfo": {
@@ -1417,7 +1412,7 @@
 								"url": "https://www.santamariaworld.com/optimized/product-large/globalassets/foodservice/blocks/promo-blocks/07311310313999_c1n1-1.png",
 								"accessibilityText": "burrito seasoning mix"
 							},
-							"title": "40 gram burrito seasoning mix"
+							"title": "Burrito seasoning mix"
 						},
 						{
 							"optionInfo": {
@@ -1431,7 +1426,7 @@
 								"url": "https://mediacenter.bonduelle.com/cdn/201909/03083680597210_.png",
 								"accessibilityText": "mais in blik"
 							},
-							"title": "300 gram mais in blik"
+							"title": "Mais in blik"
 						},
 						{
 							"optionInfo": {
@@ -1445,7 +1440,7 @@
 								"url": "https://mediacenter.bonduelle.com/cdn/201908_1/03083680479264_03083680479264-chili-beans-sauce-200g.png",
 								"accessibilityText": "chilibonen in blik"
 							},
-							"title": "400 gram chilibonen in blik"
+							"title": "Chilibonen in blik"
 						},
 						{
 							"optionInfo": {
@@ -1459,7 +1454,7 @@
 								"url": "https://static.ah.nl/image-optimization/static/product/AHI_434d50313930353539_3_LowRes_JPG.JPG?options=399,q85",
 								"accessibilityText": "geraspte milde kaas"
 							},
-							"title": "100 gram geraspte milde kaas"
+							"title": "Geraspte milde kaas"
 						},
 						{
 							"optionInfo": {
@@ -1473,7 +1468,7 @@
 								"url": "https://www.bidfood.nl/images/product/70/064157-product-shot-250x190-22c7af70.jpeg",
 								"accessibilityText": "tortillachips naturel"
 							},
-							"title": "1 zak van ongeveer 150 gram tortillachips naturel"
+							"title": "Tortillachips naturel"
 						},
 						{
 							"optionInfo": {
@@ -1487,7 +1482,7 @@
 								"url": "https://dgmnuojaamh45.cloudfront.net/images/maaltijden/67007-Screen-Shot-2014-05-27-at-08.54.49.png",
 								"accessibilityText": "rode puntpaprika"
 							},
-							"title": "1 rode puntpaprika"
+							"title": "Rode puntpaprika"
 						},
 						{
 							"optionInfo": {
@@ -1520,63 +1515,63 @@
 					"img_howto": {
 						"title": "Kookgerei",
 						"list": [
-							{
-								"optionInfo": {
-									"key": "Koekenpan foto",
-									"synonyms": [
-										"ks"
-									]
+								{
+									"optionInfo": {
+										"key": "Koekenpan foto",
+										"synonyms": [
+											"ks"
+										]
+									},
+									"description": "Afbeelding",
+									"image": {
+										"url": "https://www.tefal.nl/medias/?context=bWFzdGVyfGltYWdlc3w1Mjc3NnxpbWFnZS9qcGVnfGltYWdlcy9oNDIvaDAxLzEzNTQwOTQ0NTExMDA2LmJpbnw5MWVlNTAzNmVlNWVlNTU4OTZhOTUwM2M3Zjk1ZmFhOWY2MDg0MTYyZDJhMzk0N2ZmZGQ3NjU4N2NjMDIzZDQx",
+										"accessibilityText": "Koekenpan"
+									},
+									"title": "Koekenpan"
 								},
-								"description": "Afbeelding",
-								"image": {
-									"url": "https://www.tefal.nl/medias/?context=bWFzdGVyfGltYWdlc3w1Mjc3NnxpbWFnZS9qcGVnfGltYWdlcy9oNDIvaDAxLzEzNTQwOTQ0NTExMDA2LmJpbnw5MWVlNTAzNmVlNWVlNTU4OTZhOTUwM2M3Zjk1ZmFhOWY2MDg0MTYyZDJhMzk0N2ZmZGQ3NjU4N2NjMDIzZDQx",
-									"accessibilityText": "Koekenpan"
+								{
+									"optionInfo": {
+										"key": "scheplepel foto",
+										"synonyms": [
+											"ks"
+										]
+									},
+									"description": "Afbeelding",
+									"image": {
+										"url": "https://f.jwwb.nl/public/i/v/a/temp-skzbrxpsykgncqjoetek/qfyy8y/20190223_100606.jpg",
+										"accessibilityText": "scheplepel"
+									},
+									"title": "Scheplepel"
 								},
-								"title": "Koekenpan"
-							},
-							{
-								"optionInfo": {
-									"key": "scheplepel foto",
-									"synonyms": [
-										"ks"
-									]
+								{
+									"optionInfo": {
+										"key": "Office mes foto",
+										"synonyms": [
+											"ks"
+										]
+									},
+									"description": "Afbeelding",
+									"image": {
+										"url": "https://cuizine.be/wp-content/uploads/2017/11/officemes.jpg",
+										"accessibilityText": "Office mes"
+									},
+									"title": "Office mes"
 								},
-								"description": "Afbeelding",
-								"image": {
-									"url": "https://f.jwwb.nl/public/i/v/a/temp-skzbrxpsykgncqjoetek/qfyy8y/20190223_100606.jpg",
-									"accessibilityText": "scheplepel"
+								{
+									"optionInfo": {
+										"key": "Snijplank foto",
+										"synonyms": [
+											"ks"
+										]
+									},
+									"description": "Afbeelding",
+									"image": {
+										"url": "https://cdn.zilvercms.nl/http://cookinglife.zilvercdn.nl/uploads/photo/snijplank_bamboe_38cm.jpg",
+										"accessibilityText": "Snijplank"
+									},
+									"title": "Snijplank"
 								},
-								"title": "Scheplepel"
-							},
-							{
-								"optionInfo": {
-									"key": "Office mes foto",
-									"synonyms": [
-										"ks"
-									]
-								},
-								"description": "Afbeelding",
-								"image": {
-									"url": "https://cuizine.be/wp-content/uploads/2017/11/officemes.jpg",
-									"accessibilityText": "Office mes"
-								},
-								"title": "Office mes"
-							},
-							{
-								"optionInfo": {
-									"key": "Snijplank foto",
-									"synonyms": [
-										"ks"
-									]
-								},
-								"description": "Afbeelding",
-								"image": {
-									"url": "https://cdn.zilvercms.nl/http://cookinglife.zilvercdn.nl/uploads/photo/snijplank_bamboe_38cm.jpg",
-									"accessibilityText": "Snijplank"
-								},
-								"title": "Snijplank"
-							},
-							{
+								{
 								"optionInfo": {
 									"key": "Spatel foto",
 									"synonyms": [
@@ -1645,27 +1640,30 @@
 					"img_howto": false,
 					"txt_motivate": "Door de oven nu alvast voor de verwarmen hoef je straks niet meer te wachten tot hij op temperatuur is.",
 					"txt_howmuch": false,
-					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet."
+					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"2": {
 					"label": "Mexicaanse Ovenschotel 2",
-					"txt_standard": "Verhit een koekenpan zonder olie of boter en bak het gehakt op middelhoog vuur in 5 minuten rul. Gebruik de spatel om het gehak goed te roeren en klein te maken, hierdoor wordt het overal goed bruin.",
+					"txt_standard": "Verhit een koekenpan zonder olie of boter en bak het gehakt op middelhoog vuur in 5 minuten rul.",
 					"txt_detail": "Bak het gehakt tot het bruin in plaats van rood is.",
 					"txt_howto": "Je kan het gehakt in stukjes in de pan doen of alles tegelijk erin gooien. je mag zelf bepalen hoe je dat doet.",
 					"img_howto": "https://kokenmetfotos.inekedegroot11.nl/wp-content/uploads/2017/08/W-Spaghetti-met-uiensaus-20.jpg",
 					"txt_motivate": "Er is geen extra boter of olie nodig omdat er al genoeg vet in het gehakt zit om het rul te bakken.",
 					"txt_howmuch": "500 gram rundergehakt",
-					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet."
+					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"3": {
 					"label": "Mexicaanse Ovenschotel 3",
-					"txt_standard": "Voeg de seasoningmix en tomatenblokjes toe en verwarm nog 2 minuten. Ook hier weer goed roeren met de spatel.",
+					"txt_standard": "Voeg de seasoningmix en tomatenblokjes toe en verwarm nog 2 minuten.",
 					"txt_detail": "Strooi de seasoningmix over het gehakt en giet het blikje tomatenblokjes er overheen.",
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": "De seasoningmix zorgt voor een groot deel voor de lekkere smaak van deze Ovenschotel",
 					"txt_howmuch": "Het hele zakje seasoningmix mag er doorheen, dat is 40 gram. En er moet 400 gram tomatenblokjes doorheen.",
-					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet."
+					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"4": {
 					"label": "Mexicaanse Ovenschotel 4",
@@ -1674,7 +1672,9 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": "Schep of giet de hele pan leeg in de ovenschaal en verdeel het mensgel goed. Dit is de onderste laag van de ovenschotel.",
-					"txt_howmuch": "Schep de hele pan leeg"
+					"txt_howmuch": "Schep de hele pan leeg",
+					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"5": {
 					"label": "Mexicaanse Ovenschotel 5",
@@ -1683,52 +1683,64 @@
 					"txt_howto": "Dit kan heel makkelijk door de inhoud van het maïsblik in een zeef te gooien.",
 					"img_howto": false,
 					"txt_motivate": "Door de maiskorrels eerst uit te laten lekken komt er geen extra vocht in de ovenschotel.",
-					"txt_howmuch": "Er gaat 300 gram mais in het mengsel"
+					"txt_howmuch": "Er gaat 300 gram mais in het mengsel",
+					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"6": {
 					"label": "Mexicaanse Ovenschotel 6",
-					"txt_standard": "Voeg nu de chilibonen toe, deze moeten ook gelijk verdeeld worden over de ovenshaal.",
+					"txt_standard": "Voeg nu de chilibonen toe.",
 					"txt_detail": "Verdeel de chilibonen goed over het gehakt mengsel in de ovenschotel.",
 					"txt_howto": "Open het blik en schud de bonen eruit boven het gehaktmengsel.",
 					"img_howto": false,
 					"txt_motivate": "Zorg dat je de chilibonen goed verdeelt over het gehaktmengsel, want het is lekkerder als er overal een paar bonen zitten.",
-					"txt_howmuch": "Er moet 400 gram chilibonen toegevoegd worden."
+					"txt_howmuch": "Er moet 400 gram chilibonen toegevoegd worden.",
+					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"7": {
 					"label": "Mexicaanse Ovenschotel 7",
-					"txt_standard": "Voeg nu de helft van de geraspte kaas toe. Dit moet bovenop de chilibonen en ook dit moe weer goed verdeeld worden",
+					"txt_standard": "Voeg nu de helft van de geraspte kaas toe.",
 					"txt_detail": "Verdeel de kaas goed over het gehakt mengsel in de ovenschotel.",
 					"txt_howto": "Open het zakje en schud de kaas eruit boven het gehaktmengsel.",
 					"img_howto": false,
 					"txt_motivate": "Zorg dat je de kaas goed verdeelt over het gehaktmengsel.",
-					"txt_howmuch": "Er moet 50 gram geraspte kaas toegevoegd worden."
+					"txt_howmuch": "Er moet 50 gram geraspte kaas toegevoegd worden.",
+					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"8": {
 					"label": "Mexicaanse Ovenschotel 8",
-					"txt_standard": "Verdeel nu de helft van de tortillachips over de ovenschaal.",
+					"txt_standard": "Voeg nu de helft van de tortillachips toe.",
 					"txt_detail": "Leg de tortillachips bovenop het gehakt mengsel en zorg dat de tortillachips goed verdeeld is zodat hat gehaktmengsel nauwelijks nog te zien is.",
 					"txt_howto": "Leg de tortillachips bovenop het gehaktmengsel. Dit kan je doen door de halve zak leeg te schudden of door de tortillachipjes zelf op de ovenschotel te leggen.",
 					"img_howto": false,
 					"txt_motivate": "Zorg dat je de tortillachips goed verdeelt over het gehaktmengsel, zodat er een goeie laag chips bovenop ligt.",
-					"txt_howmuch": "De halve zak tortillachips moet bovenop de schotel geplaatst worden"
+					"txt_howmuch": "De halve zak tortillachips moet bovenop de schotel geplaatst worden",
+					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"9": {
 					"label": "Mexicaanse Ovenschotel 9",
-					"txt_standard": "Nu moet de andere helft van de geraspte kaas over de tortillachips verdeeld worden.",
+					"txt_standard": "Voeg nu de andere helft van de geraspte kaas toe.",
 					"txt_detail": "Strooi de andere helft van de geraspte kaas over de tortillachips.",
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": "Het ziet er extra lekker uit als er gesmolten kaas over de tortillachips ligt.",
-					"txt_howmuch": "Er moet 50 gram geraspte kaas toegevoegd worden."
+					"txt_howmuch": "Er moet 50 gram geraspte kaas toegevoegd worden.",
+					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"10": {
 					"label": "Mexicaanse Ovenschotel 10",
-					"txt_standard": "Verwijder de steelaanzet en zaadlijsten van de paprika en snijd het vruchtvlees in halve ringen. En verdeel deze over de ovenschotel. Als je wil zien hoe dit moet kun je mij vragen hoe het moet, dan laat ik het zien! ",
-					"txt_detail": "Snij met een mes de steel van de paprika eraf en verwijder alle zaadjes. Snij daarna de puntpaprika door de lengte door midden en snij het vruchtvlees in halve ringen. Verdeel de ringen daarna over de ovenschotel.",
+					"txt_standard": "Verwijder de steelaanzet en zaadlijsten van de paprika en snijd het vruchtvlees in ringen. En verdeel deze over de ovenschotel. ",
+					"txt_detail": "Snij met een mes de steel van de paprika eraf en verwijder alle zaadjes. Snij daarna de puntpaprika door de lengte door midden en snij het vruchtvlees in ringen. Verdeel de ringen daarna over de ovenschotel.",
 					"txt_howto": "Snij met een mes de steel en een stukje van de bovenkant van de paprika af. Snij de paprika door midden en haal alle zaadjes eruit, Snij dan door de breedte ringen van het vruchtvlees. Verdeel de ringen daarna over de chips en kaas op de ovenschotel.",
 					"img_howto": "https://www.youtube.com/watch?v=_5sE1FNh8rg",
 					"txt_motivate": "De ringen liggen bovenop de ovenschotel en dit maakt het helemaal af. Ziet het er niet prachtig uit.",
-					"txt_howmuch": "Er moet 1 rode puntpaprika gesneden worden."
+					"txt_howmuch": "Er moet 1 rode puntpaprika gesneden worden.",
+					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"11": {
 					"label": "Mexicaanse Ovenschotel 11",
@@ -1738,7 +1750,8 @@
 					"img_howto": false,
 					"txt_motivate": "20 minuten is een goeie tijd om de ovenschotel goed op te warmen, zodat het nog lekkerder is.",
 					"txt_howmuch": "De schotel moet 20 minuten in de oven, maar houd natuurlijk altijd de schotel zelf in de gaten.",
-					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet."
+					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
 				},
 				"12": {
 					"label": "Mexicaanse Ovenschotel 12",
@@ -1746,8 +1759,3146 @@
 					"txt_detail": "Doe de overige inhoud van de tortillachips in een schaal en zet deze op tafel.",
 					"txt_howto": false,
 					"img_howto": false,
-					"txt_motivate": "Tortillachips is lekker om naast het gerecht erbij te eten, of je kan er wat extra chips bij doen als je vind dat er niet genoeg chips door je eten zit.",
-					"txt_howmuch": "De overige tortillachips uit de zak, en dat is als het goed is ongeveer de halve zak."
+					"txt_motivate": "Tortillachips is lekker om naast het gerecht erbij te eten, of je kan er wat extra chips bij doen als je vindt dat er niet genoeg chips door je eten zit.",
+					"txt_howmuch": "De overige tortillachips uit de zak, en dat is als het goed is ongeveer de halve zak.",
+					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				}
+			}
+		},
+		"risotto met spinazie a la creme": {
+			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet knoflookteentjes snijden",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflookteentjes snijden",
+									"synonyms": [
+										"snijden knoflook"
+									]
+								},
+								"description": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+								"image": {
+									"url": "https://media.giphy.com/media/Q4PcMC8apFXBm/source.gif",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					}
+				},
+				"ingredients": {
+					"list": {
+						"1": "300 gram risotto rijst",
+						"2": "1 ui gesnipperd",
+						"3": "2 tenen fijngehakte knoflook",
+						"4": "600 milliliter groentebouillon",
+						"5": "100 milliliter kookroom",
+						"6": "500 gram spinazie",
+						"7": "4 hardgekookte eieren",
+						"8": "50 gram geraspte Parmezaanse kaas",
+						"9": "1 eetlepel ongezouten roomboter",
+						"10": "olijfolie",
+						"11": "zout en peper",
+						"time": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
+					},
+					"img_howto": {
+						"title": "Ingredienten & Bereidingstijd",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook foto",
+									"synonyms": [
+										"knoflook"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
+									"accessibilityText": "knoflook"
+								},
+								"title": "knoflook teentjes"
+							}
+						]
+					}
+				},
+				"cooking_utensils": {
+					"list": {
+						"1": "Ondiepe braadpan",
+						"2": "Hoge kookpan",
+						"3": "Schuimspaan",
+						"4": "Soeplepel"
+					},
+					"img_howto": {
+						"title": "Kookgerei",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "snijplank foto",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://cdn.zilvercms.nl/http://cookinglife.zilvercdn.nl/uploads/photo/snijplank_bamboe_38cm.jpg",
+									"accessibilityText": "snijplank"
+								},
+								"title": "Snijplank"
+							}
+						]
+					}
+				}
+			},
+			"Recipe_steps": {
+				"1": {
+					"label": "risotto 1",
+					"txt_standard": "Kook de spinazie in 2 minuten gaar in de groentebouillon.",
+					"txt_detail": "Breng een pan met water aan de kook en laat de spinazie daar 2 minuten in koken.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": "Door de spinazie in de bouillon te koken, krijgt de bouillon extra smaak.",
+					"txt_howmuch": "600 milliliter groentebouillon en 500 gram spinazie.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"2": {
+					"label": "risotto 2",
+					"txt_standard": "Schep de spinazie in een kom en bewaar de hete bouillon.",
+					"txt_detail": "Schep met een schuimspaan de spinazie in een kom en laat de hete bouillon in de pan.",
+					"txt_howto": "Schep met een schuimspaan de spinazie uit de pan en in een kom, en laat de hete bouillon in de pan.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"3": {
+					"label": "risotto 3",
+					"txt_standard": "Giet een flinke scheut olijfolie in de braadpan en fruit hierin de ui tot deze glazig is.",
+					"txt_detail": "De ui wordt in een paar minuten glazig.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Een scheut olie is 1 a 2 eetlepels.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"4": {
+					"label": "risotto 4",
+					"txt_standard": "Voeg de knoflook en de rijst toe, en bak een paar minuten mee totdat de rijst begint te glanzen en doorzichtig wordt.",
+					"txt_detail": "De rijstkorrels veranderen van dof en wit naar glanzend en doorzichtig.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": "Als de rijst doorzichtig is en glanst, heeft het wat  olie opgenomen waardoor de risotto romig wordt.",
+					"txt_howmuch": "Dit duurt een paar minuten, maar houdt de rijst in de gaten.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"5": {
+					"label": "risotto 5",
+					"txt_standard": "Voeg nu steeds een lepel hete bouillon toe aan de rijst en blijf roeren tot alles is opgenomen. Herhaal dit totdat alle bouillon op is.",
+					"txt_detail": "Voeg steeds een soeplepel hete bouillon toe aan de rijst en blijf roeren totdat de soeplepel bouillon is opgenomen.",
+					"txt_howto": "Voeg telkens een lepel bouillon toe aan de risotto en blijf de risotto roeren tot er geen bouillon meer te zien is in de risotto.",
+					"img_howto": false,
+					"txt_motivate": "Het langzame koken en roeren zorgt voor een romige risotto.",
+					"txt_howmuch": "Een soeplepel hete bouillon is ongeveer 150 milliliter.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"6": {
+					"label": "risotto 6",
+					"txt_standard": "Als alle bouillon is gebruikt, roer dan de kookroom door de risotto.",
+					"txt_detail": "Als alle bouillon is opgenomen door de rijst, roer je de kookroom erdoor.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "150 milliliter kookroom",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"7": {
+					"label": "risotto 7",
+					"txt_standard": "Voeg de gekookte spinazie, Parmezaanse kaas en de roomboter toe en schep om.",
+					"txt_detail": "Voeg de gekookte spinazie, Parmezaanse kaas en de roomboter toe en schep om tot een romig geheel ontstaat.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "50 gram geraspte Parmezaanse kaas en 1 eetlepel boter",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"8": {
+					"label": "risotto 8",
+					"txt_standard": "Snijd de eieren in kwarten en serveer deze op de risotto.",
+					"txt_detail": "Snijd de eieren in vieren en leg deze op de risotto.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"9": {
+					"label": "risotto 9",
+					"txt_standard": "Bestrooi de risotto met Parmezaanse kaas en wat verse zwarte peper.",
+					"txt_detail": "Strooi wat geraspte Parmezaanse kaas en verse zwarte peper over de risotto.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": "De risotto kan op smaak gebracht worden met geraspte kaas en peper, maar zonder is het ook nog steeds erg lekker.",
+					"txt_howmuch": "Naar smaak, dus net zoveel als je lekker vindt. Ik zou het echter niet te bont maken.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				}
+			}
+		},
+		"wok 'n roll": {
+			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet knoflookteentjes snijden",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflookteentjes snijden",
+									"synonyms": [
+										"snijden knoflook"
+									]
+								},
+								"description": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+								"image": {
+									"url": "https://media.giphy.com/media/Q4PcMC8apFXBm/source.gif",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					}
+				},
+				"ingredients": {
+					"list": {
+						"1": "500 gram sperziebonen",
+						"2": "1 rode ui",
+						"3": "1 teentje knoflook",
+						"4": "1 paprika",
+						"5": "1 paksoi",
+						"6": "400 gram zalmfilet",
+						"7": "125 gram taugé",
+						"8": "1 eetlepel chilisaus",
+						"9": "8 wraps",
+						"10": "zonnebloemolie",
+						"time": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
+					},
+					"img_howto": {
+						"title": "Ingredienten & Bereidingstijd",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook foto",
+									"synonyms": [
+										"knoflook"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
+									"accessibilityText": "knoflook"
+								},
+								"title": "knoflook teentjes"
+							}
+						]
+					}
+				},
+				"cooking_utensils": {
+					"list": {
+						"1": "Wok",
+						"2": "Snijplank"
+					},
+					"img_howto": {
+						"title": "Kookgerei",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "snijplank foto",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://cdn.zilvercms.nl/http://cookinglife.zilvercdn.nl/uploads/photo/snijplank_bamboe_38cm.jpg",
+									"accessibilityText": "snijplank"
+								},
+								"title": "Snijplank"
+							}
+						]
+					}
+				}
+			},
+			"Recipe_steps": {
+				"1": {
+					"label": "woknroll 1",
+					"txt_standard": "Verwarm de oven voor op 180 graden Celsius.",
+					"txt_detail": "Zet de oven alvast aan op 180 graden Celsius.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": "Door de oven voor te verwarmen hoeft het eten minder lang in de oven.",
+					"txt_howmuch": "180 graden Celsius",
+					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false
+
+				},
+				"2": {
+					"label": "woknroll 2",
+					"txt_standard": "Breng een pan met water en zout aan de kook.",
+					"txt_detail": false,
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 2
+				},
+				"3": {
+					"label": "woknroll 3",
+					"txt_standard": "Snijd de uiteindes van de sperziebonen.",
+					"txt_detail": "Snijd de uiteindes van de sperziebonen en verwijder eventuele draden.",
+					"txt_howto": "Snijd de uiteindes van de sperziebonen in en trek daarmee eventuele draden los van de sperziebonen.",
+					"img_howto": false,
+					"txt_motivate": "Door de puntjes van de sperziebonen te halen",
+					"txt_howmuch": "500 gram sperziebonen.",
+					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 1
+				},
+				"4": {
+					"label": "woknroll 4",
+					"txt_standard": "Kook de sperziebonen in circa 3 minuten beetgaar. Giet ze daarna af en spoel met koud water.",
+					"txt_detail": "Kook de sperziebonen in de pan met het zoute water voor circa 3 minuten. Giet het water daarna weg en spoel de sperziebonen af met koud water.",
+					"txt_howto": "Kook de sperziebonen in de pan met het zoute water voor circa 3 minuten. Giet het water daarna weg en spoel de sperziebonen af met koud water.",
+					"img_howto": false,
+					"txt_motivate": "Door de sperziebonen af te spoelen met koud water stopt het garingsprocess. Daardoor blijven de bonen beetgaar en knapperig.",
+					"txt_howmuch": "Circa 3 minuten.",
+					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false
+				},
+				"5": {
+					"label": "woknroll 5",
+					"txt_standard": "Pel en snipper de ui.",
+					"txt_detail": "Pel de ui en snijd deze in kleine blokjes.",
+					"txt_howto": "Haal de buitenste laag van de ui en snijd de ui in blokjes van ongeveer een halve centimeter breed.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "We gebruiken 1 ui",
+					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false
+				},
+				"6": {
+					"label": "woknroll 6",
+					"txt_standard": "Pel de knoflookteen en snijd deze fijn.",
+					"txt_detail": "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes en daarna in blokjes.",
+					"txt_howto": "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes en daarna blokjes.",
+					"img_howto": {
+						"title": "instructiefilmpjes",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook snijden",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes",
+								"image": {
+									"url": "https://tinyurl.com/ya4jh6w8",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					},
+					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
+					"txt_howmuch": "Voor dit recept gebruiken we 1 teen knoflook.",
+					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false
+				},
+				"7": {
+					"label": "woknroll 7",
+					"txt_standard": "Verwijder de zaadlijsten van de paprika en snijd de paprika in reepjes.",
+					"txt_detail": "Verwijder de steelaanzet en de zaadlijsten van de paprika en snijd de paprika in reepjes.",
+					"txt_howto": "Verwijder de steelaanzet en de zaadlijsten van de paprika en snijd de paprika in reepjes.",
+					"img_howto": "https://tinyurl.com/yabgc2yc",
+					"txt_motivate": false,
+					"txt_howmuch": "Voor dit recept gebruiken we 1 paprika.",
+					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false
+				},
+				"8": {
+					"label": "woknroll 8",
+					"txt_standard": "Snijd de paksoi in gelijke stukken en houd het groen apart.",
+					"txt_detail": "Snijd de paksoi in gelijke stukken en houd de groene stukken apart van de witte stukken.",
+					"txt_howto": "Snijd de paksoi in gelijke stukken en houd de groene stukken apart van de witte stukken.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "We gebruiken 1 paksoi.",
+					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false
+				},
+				"9": {
+					"label": "woknroll 9",
+					"txt_standard": "Snijd de zalm in blokjes.",
+					"txt_detail": "Snijd de zalmfilet in blokjes van ongeveer 1 centimeter breed.",
+					"txt_howto": "Snijd de zalmfilet in blokjes van ongeveer 1 centimeter breed.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "400 gram zalmfilet",
+					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false
+				},
+				"10": {
+					"label": "woknroll 10",
+					"txt_standard": "Verhit een scheut olie in een wokpan en fruit de ui en knoflook circa 2 minuten.",
+					"txt_detail": "In ongeveer 2 minuten zijn de ui en de knoflook gefruit.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Een scheut olie is 1 a 2 eetlepels.",
+					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false
+				},
+				"11": {
+					"label": "woknroll 11",
+					"txt_standard": "Voeg de paprika en het wit van de paksoi toe en bak op hoog vuur circa 3 minuten.",
+					"txt_detail": false,
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": "Het witte deel van paksoi heeft langer nodig om te garen dan het groene deel van paksoi.",
+					"txt_howmuch": "Dit duurt ongeveer 3 minuten.",
+					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false
+				},
+				"12": {
+					"label": "woknroll 12",
+					"txt_standard": "Voeg de sperziebonen, het groen van de paksoi, de taugé en de zalm toe en bak circa 2 minuten mee.",
+					"txt_detail": false,
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Dit duurt ongeveer 2 minuten",
+					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false
+				},
+				"13": {
+					"label": "woknroll 13",
+					"txt_standard": "Breng het gerecht op smaak met chilisaus en peper.",
+					"txt_detail": false,
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik ongeveer 1 eetlepel chillisaus en peper naar smaak.",
+					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false
+				},
+				"14": {
+					"label": "woknroll 14",
+					"txt_standard": "Leg de wraps uit op het aanrecht, schep het mengsel in de wraps en rol op.",
+					"txt_detail": "Leg de wraps op het aanrecht of een bord, verdeel het mengsel uit de pan over de wraps en rol ze op.",
+					"txt_howto": "Leg de wraps op het aanrecht of een bord, verdeel het mengsel uit de pan over de wraps en rol ze op.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false
+				},
+				"15": {
+					"label": "woknroll 15",
+					"txt_standard": "Verpak de opgerolde wraps in aluminiumfolie en leg de wraps op een met bakpapier beklede bakplaat.",
+					"txt_detail": "Verpak elke wrap in aluminiumfolie en leg de wraps op een met bakpapier beklede bakplaat.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false
+				},
+				"16": {
+					"label": "woknroll 16",
+					"txt_standard": "Bak de wraps circa 6 minuten in de oven.",
+					"txt_detail": false,
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Ongeveer 6 minuten in de oven.",
+					"txt_update": "Oké de oven is warm! Voer nu de huidige stap uit.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false
+				}
+			}
+		},
+		"maaltijdwraps met kip, avocado en yoghurt-knoflooksaus": {
+			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet knoflookteentjes snijden",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflookteentjes snijden",
+									"synonyms": [
+										"snijden knoflook"
+									]
+								},
+								"description": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+								"image": {
+									"url": "https://media.giphy.com/media/Q4PcMC8apFXBm/source.gif",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					}
+				},
+				"ingredients": {
+					"list": {
+						"1": "4 grote tortilla's",
+						"2": "500 gram kipfilet",
+						"3": "0.5 eetlepel paprikapoeder",
+						"4": "2 avocado's",
+						"5": "2 roma-tomaten",
+						"6": "6 eetlepels Griekse yoghurt",
+						"7": "1 teen knoflook, geperst",
+						"8": "15 gram koriander",
+						"9": "zout en peper",
+						"10": "2 eetlepels olijfolie",
+						"time": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
+					},
+					"img_howto": {
+						"title": "Ingredienten & Bereidingstijd",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook foto",
+									"synonyms": [
+										"knoflook"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
+									"accessibilityText": "knoflook"
+								},
+								"title": "knoflook teentjes"
+							}
+						]
+					}
+				},
+				"cooking_utensils": {
+					"list": {
+						"1": "grillpan",
+						"2": "Snijplank"
+					},
+					"img_howto": {
+						"title": "Kookgerei",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "snijplank foto",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://cdn.zilvercms.nl/http://cookinglife.zilvercdn.nl/uploads/photo/snijplank_bamboe_38cm.jpg",
+									"accessibilityText": "snijplank"
+								},
+								"title": "Snijplank"
+							}
+						]
+					}
+				}
+			},
+			"Recipe_steps": {
+				"1": {
+					"label": "maaltijdwraps 1",
+					"txt_standard": "Bedek de kipfiletblokjes met 2 eetlepels olie.",
+					"txt_detail": "Giet de olijfolie over de kipfiletblokjes heen.",
+					"txt_howto": "Giet de olijfolie over de kipfiletblokjes heen en zorg ervoor dat de kipfiletblokjes aan alle kanten bedekt zijn met de olie.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "2 eetlepels olijfolie",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"2": {
+					"label": "maaltijdwraps 2",
+					"txt_standard": "Bestrooi de kipfiletblokjes met een halve eetlepel paprikapoeder en een snufje peper en zout.",
+					"txt_detail": "Strooi de paprikapoeder en een snufje peper en zout over de kipfiletblokjes.",
+					"txt_howto": "Strooi de paprikapoeder en een snufje peper en zout over de kipfiletblokjes.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Een halve eetlepel paprikapoeder.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"3": {
+					"label": "maaltijdwraps 3",
+					"txt_standard": "Bak de kipfiletblokjes vervolgens in de grillpan tot ze net gaar zijn.",
+					"txt_detail": "Om te zien of de kip gaar is kun je een blokje uit de pan halen en doormidden snijden. Is het midden wit, dan is de kip gaar.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": "Oke mooi, hou de kip even apart en volg de rest van de stappen ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"4": {
+					"label": "maaltijdwraps 4",
+					"txt_standard": "Snijd de avocado’s in de lengte doormidden, verwijder de pit en kerf met een mes kleine blokjes in het vruchtvlees.",
+					"txt_detail": "Snijd de avocado's in de lengte doormidden, verwijder de pit en snijd het vruchtvlees nog in de schil in kleine blokjes.",
+					"txt_howto": "Snijd de avocado's in de lengte doormidden, verwijder de pit en snijd het vruchtvlees nog in de schil in kleine blokjes.",
+					"img_howto": false,
+					"txt_motivate": "Door het vruchtvlees in de schil te laten tijdens het snijden, is de avocado makkelijk vast te houden en blijven je handen schoon.",
+					"txt_howmuch": "Voor dit recept gebruiken we 2 avocado's.",
+					"txt_update": "Oke mooi, hou de kip even apart en volg de rest van de stappen ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"5": {
+					"label": "maaltijdwraps 5",
+					"txt_standard": "Schep met een lepel de blokjes uit de schil en zet opzij.",
+					"txt_detail": "Schep met een lepel dicht langs de schil het vruchtvlees uit de avocado's en zet het vruchtvlees opzij op een bordje of snijplank.",
+					"txt_howto": "Schep een lepel tussen het vruchtvlees en de schil van de avocado en haal het vruchtvlees uit de avocado.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": "Oke mooi, hou de kip even apart en volg de rest van de stappen ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"6": {
+					"label": "maaltijdwraps 6",
+					"txt_standard": "Snijd de tomaten in partjes.",
+					"txt_detail": "Snijd de tomaten in partjes van 1 a 2 centimeter breed.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Voor dit recept gebruiken we 2 roma-tomaten.",
+					"txt_update": "Oke mooi, hou de kip even apart en volg de rest van de stappen ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"7": {
+					"label": "maaltijdwraps 7",
+					"txt_standard": "Doe de yoghurt in een schaal, pers een teen knoflook erbij en meng het goed door elkaar.",
+					"txt_detail": "Als je geen knoflookpers hebt, kun je de knoflook ook zelf fijn snijden.",
+					"txt_howto": "Doe de yoghurt in een schaal, gebruik een knoflookpers om de knoflook fijn te maken en meng de yoghurt en knoflook door elkaar.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Voor dit recept gebruiken we 6 eetlepels yoghurt en 1 teen knoflook.",
+					"txt_update": "Oke mooi, hou de kip even apart en volg de rest van de stappen ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"8": {
+					"label": "maaltijdwraps 8",
+					"txt_standard": "Hak de koriander fijn.",
+					"txt_detail": false,
+					"txt_howto": "Snijd de blaadjes van de koriander fijn.",
+					"img_howto": "https://tinyurl.com/ycm62ubd",
+					"txt_motivate": false,
+					"txt_howmuch": "We gebruiken 15 gram koriander, dat is een bosje koriander.",
+					"txt_update": "Oke mooi, hou de kip even apart en volg de rest van de stappen ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"9": {
+					"label": "maaltijdwraps 9",
+					"txt_standard": "Smeer het midden van een wrap in met een goede laag yoghurt-knoflooksaus.",
+					"txt_detail": "Verdeel de yoghurt-knoflooksaus over de tortilla's en smeer uit.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Een grote eetlepel per tortilla.",
+					"txt_update": "Oke mooi, hou de kip even apart en volg de rest van de stappen ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"10": {
+					"label": "maaltijdwraps 10",
+					"txt_standard": "Leg wat van de gebakken kip, tomaat en avocado op de tortilla's.",
+					"txt_detail": "Verdeel de gebakken kipfiletblokjes, tomatenpartjes en avocadoblokjes over de tortilla's.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": "Oke mooi, hou de kip even apart en volg de rest van de stappen ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"11": {
+					"label": "maaltijdwraps 11",
+					"txt_standard": "Bestrooi met de koriander en vouw dicht.",
+					"txt_detail": "Strooi koriander over de tortilla's naar smaak, en vouw de wrap's dicht.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Naar smaak, dus net zoveel koriander als je zelf lekker vindt.",
+					"txt_update": "Oke mooi, hou de kip even apart en volg de rest van de stappen ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				}
+			}
+		},
+		"chicken parmesan pasta": {
+			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet knoflookteentjes snijden",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflookteentjes snijden",
+									"synonyms": [
+										"snijden knoflook"
+									]
+								},
+								"description": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+								"image": {
+									"url": "https://media.giphy.com/media/Q4PcMC8apFXBm/source.gif",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					}
+				},
+				"ingredients": {
+					"list": {
+						"1": "4 kippendijfilets",
+						"2": "peper en zout",
+						"3": "1 ui",
+						"4": "250 gram champignons",
+						"5": "3.5 eetlepels olijfolie",
+						"6": "4 knoflooktenen",
+						"7": "500 milliliter kippenbouillon",
+						"8": "375 milliliter kookroom",
+						"9": "250 gram grote schelpenpasta",
+						"10": "135 gram Parmezaanse kaas",
+						"11": "15 gram fijngehakte peterselie",
+						"time": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
+					},
+					"img_howto": {
+						"title": "Ingredienten & Bereidingstijd",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook foto",
+									"synonyms": [
+										"knoflook"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
+									"accessibilityText": "knoflook"
+								},
+								"title": "knoflook teentjes"
+							}
+						]
+					}
+				},
+				"cooking_utensils": {
+					"list": {
+						"1": "Snijplank"
+					},
+					"img_howto": {
+						"title": "Kookgerei",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "snijplank foto",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://cdn.zilvercms.nl/http://cookinglife.zilvercdn.nl/uploads/photo/snijplank_bamboe_38cm.jpg",
+									"accessibilityText": "snijplank"
+								},
+								"title": "Snijplank"
+							}
+						]
+					}
+				}
+			},
+			"Recipe_steps": {
+				"1": {
+					"label": "chickenparmpasta 1",
+					"txt_standard": "Breng de kipdijfilets op smaak met peper en zout. ",
+					"txt_detail": false,
+					"txt_howto": "Strooi peper en zout over de kipdijfilets naar smaak.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Naar smaak, dus je mag zelf bepalen hoe veel je wilt. Meestal is een snufje per filet genoeg.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"2": {
+					"label": "chickenparmpasta 2",
+					"txt_standard": " Snipper de ui.",
+					"txt_detail": "Pel de ui en snijd deze in kleine blokjes.",
+					"txt_howto": "Haal de buitenste laag van de ui en snijd de ui in blokjes van ongeveer een halve centimeter breed.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "We gebruiken 1 ui",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"3": {
+					"label": "chickenparmpasta 3",
+					"txt_standard": "Snijd de champignons in plakjes.",
+					"txt_detail": "Snijd eventueel de het steeltje van de champignon als deze erg hard is.",
+					"txt_howto": false,
+					"img_howto": "https://tinyurl.com/ycnqsafe",
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"4": {
+					"label": "chickenparmpasta 4",
+					"txt_standard": "Verhit 1.5 eetlepels olijfolie in een kookpan en bak hierin de ui glazig.",
+					"txt_detail": "De ui wordt in een paar minuten glazig..",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "We gebruiken hier 1.5 eetlepel olijfolie.",
+					"txt_update": "Oke als de ui glazig is kan je door met de volgende stap!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"5": {
+					"label": "chickenparmpasta 5",
+					"txt_standard": "Pers de knoflook en voeg samen met de champignons toe aan de ui en laat nog twee minuten meebakken.",
+					"txt_detail": "Als je geen knoflookpers hebt, kun je de knoflook ook zelf fijn snijden.",
+					"txt_howto": "Gebruik een knoflookpers om de knoflook fijn te maken en voeg de knoflook en de champignons toe aan de pan.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"6": {
+					"label": "chickenparmpasta 6",
+					"txt_standard": "Voeg de kippenbouillon, 250 ml van de kookroom en een snuf peper en zout toe en breng aan de kook.",
+					"txt_detail": false,
+					"txt_howto": "Je kunt het vuur wat hoger zetten tot de saus kookt.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "We gebruiken 500 milliliter kippenbouillon en 250 milliliter kookroom. Let op, dit is maar een deel van alle kookroom.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"7": {
+					"label": "chickenparmpasta 7",
+					"txt_standard": "Voeg de pasta toe." ,
+					"txt_detail": false,
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Laat het ongeveer  15 minuten sudderen.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"8": {
+					"label": "chickenparmpasta 8",
+					"txt_standard": "Zet het vuur laag. Laat het geheel ongeveer 15 minuten sudderen totdat de pasta beetgaar is en roer regelmatig om.",
+					"txt_detail": "Proef na 15 minuten voorzichtig of de pasta beetgaar is.",
+					"txt_howto": "Proef na 15 minuten voorzichtig of de pasta beetgaar is.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Laat het ongeveer  15 minuten sudderen.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"9": {
+					"label": "chickenparmpasta 9",
+					"txt_standard": "Roer de Parmezaanse kaas door de pasta totdat het smelt en haal de pan van het vuur. Houd nog wat kaas over voor de garnering.",
+					"txt_detail": "Als je de saus te dik vindt, kun je wat van het overgebleven kookroom erdoor mengen.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik iets minder dan alle 135 gram Parmezaanse kaas.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"10": {
+					"label": "chickenparmpasta 10",
+					"txt_standard": "Verhit een eetlepel olijfolie in een koekenpan.",
+					"txt_detail": false,
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Een eetlepel olie.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"11": {
+					"label": "chickenparmpasta 11",
+					"txt_standard": "Bak de kip aan beide kanten ongeveer 2 a 3 minuten per kant tot ze goudbruin en gaar zijn.",
+					"txt_detail": false,
+					"txt_howto": "Bak de kipdijfilets voor 1 tot anderhalve minuut, draai ze dan om en bak die kant ook voor 1 tot anderhalve minuut.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Bak de kip voor circa 2 of 3 minuten.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"12": {
+					"label": "chickenparmpasta 12",
+					"txt_standard": "Snijd de kipdijfilets in repen en verdeel over de pasta.",
+					"txt_detail": false,
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"13": {
+					"label": "chickenparmpasta 13",
+					"txt_standard": "Garneer met de peterselie en extra Parmezaanse kaas.",
+					"txt_detail": "Strooi als je dat wil peterselie en geraspte Parmezaanse kaas over de pasta.",
+					"txt_howto": "Hak wat peterselie fijn en strooi dit over de pasta. Bestrooi de pasta ook met wat Parmezaanse kaas.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 15 gram peterselie, dat is ongeveer een bosje. De overige kaas kan hier opgemaakt worden.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				}
+			}
+		},
+		"karbonade romige saus met aardappelpuree": {
+			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet knoflookteentjes snijden",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflookteentjes snijden",
+									"synonyms": [
+										"snijden knoflook"
+									]
+								},
+								"description": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+								"image": {
+									"url": "https://media.giphy.com/media/Q4PcMC8apFXBm/source.gif",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					}
+				},
+				"ingredients": {
+					"list": {
+						"1": "1 kilo kruimige aardappels",
+						"2": "150 milliliter melk",
+						"3": "55 gram ongezouten roomboter",
+						"4": "1 theelepel gemalen nootmuskaat",
+						"5": "4 karbonades",
+						"6": "1 theelepel paprikapoeder",
+						"7": "150 gram champignons",
+						"8": "4 tenen knoflook",
+						"9": "1 theelepel oregano",
+						"10": "375 milliliter kookroom",
+						"11": "125 milliliter kippenbouillon",
+						"12": "1 eetlepel verse peterselie, fijngehakt",
+						"13": "zout en  peper",
+						"time": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
+					},
+					"img_howto": {
+						"title": "Ingredienten & Bereidingstijd",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook foto",
+									"synonyms": [
+										"knoflook"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
+									"accessibilityText": "knoflook"
+								},
+								"title": "knoflook teentjes"
+							}
+						]
+					}
+				},
+				"cooking_utensils": {
+					"list": {
+						"1": "Snijplank",
+						"2": "Pureestamper"
+					},
+					"img_howto": {
+						"title": "Kookgerei",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "snijplank foto",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://cdn.zilvercms.nl/http://cookinglife.zilvercdn.nl/uploads/photo/snijplank_bamboe_38cm.jpg",
+									"accessibilityText": "snijplank"
+								},
+								"title": "Snijplank"
+							}
+						]
+					}
+				}
+			},
+			"Recipe_steps": {
+				"1": {
+					"label": "karbonade 1",
+					"txt_standard": "Schil de aardappels.",
+					"txt_detail": "Haal de schil van de aardappels.",
+					"txt_howto": "Snijd met een aardappelschilmesje of een aardappelschiller de schil van de aardappels.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "1 kilo aardappels",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"2": {
+					"label": "karbonade 2",
+					"txt_standard": "Kook de aardappels gaar in water met een snuf zout.",
+					"txt_detail": "Leg de aardappels in een pan met koud water en een snuf zout, en breng dit aan de kook tot de aardappels gaar zijn.",
+					"txt_howto": "Leg de aardappels in een pan met koud water en een snuf zout, en breng dit aan de kook. De aardappels zijn gaar als je er makkelijk met een vork in kunt prikken en ze vanzelf van de vork glijden.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Dit zal rond de 20 minuten duren.",
+					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"3": {
+					"label": "karbonade 3",
+					"txt_standard": "Breng ondertussen de karbonades op smaak met paprikapoeder, zout en peper.",
+					"txt_detail": "Terwijl de aardappels koken, kun je alvast de karbonades klaarmaken.",
+					"txt_howto": "Strooi wat paprikapoeder en zout en peper over de karbonades.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Naar smaak, dus je kunt zoveel doen als je zelf wilt. Meestal is een theelepel paprikapoeder en een snuf peper en zout genoeg.",
+					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"4": {
+					"label": "karbonade 4",
+					"txt_standard": "Verhit een klontje roomboter in een braadpan tot het is gesmolten. ",
+					"txt_detail": false,
+					"txt_howto": "Verhit een braadpan en leg daarin een klontje boter. Laat de boter smelten.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Een klontje boter is circa 25 gram.",
+					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"5": {
+					"label": "karbonade 5",
+					"txt_standard": "Bak de karbonades ongeveer 4 minuten per kant totdat ze aan beide kanten bruin zijn.",
+					"txt_detail": false,
+					"txt_howto": "Leg de karbonades in de pan en laat ze ongeveer 4 minuten bakken. Draai de karbonades dan om en laat opnieuw 4 minuten bakken, totdat ze aan beide kanten bruin zijn.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Dit duurt 4 minuten per kant",
+					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"6": {
+					"label": "karbonade 6",
+					"txt_standard": "Leg de karbonades vervolgens op een verwarmd bord en laat rusten.",
+					"txt_detail": "Dek het bord af met een ander bord of aluminiumfolie om de karbonades langer warm te houden.",
+					"txt_howto": "Verwarm een bord onder de hete kraan, droog het bord af, schep de karbonades uit de pan en leg ze op het bord.",
+					"img_howto": false,
+					"txt_motivate": "Door het vlees te laten rusten, wordt het malser.",
+					"txt_howmuch": "Dit duurt een paar minuten, dus je kunt alvast beginnen aan de saus.",
+					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"7": {
+					"label": "karbonade 7",
+					"txt_standard": "Snijd de champignons in plakjes.",
+					"txt_detail": "Snijd eventueel de het steeltje van de champignon als deze erg hard is.",
+					"txt_howto": false,
+					"img_howto": "https://tinyurl.com/ycnqsafe",
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"8": {
+					"label": "karbonade 8",
+					"txt_standard": "Voeg in dezelfde pan de champignons toe en bak ze goudbruin.",
+					"txt_detail": "Je bakt de champginons in de pan waar je net de karbonades uit hebt gehaald. Je hoeft de pan niet eerst schoon te maken.",
+					"txt_howto": "Bak de champginons in de pan waar je de karbonades in hebt gebakken. Daar zit de boter nog in waarin je de karbonades hebt gebakken.",
+					"img_howto": false,
+					"txt_motivate": "Door de champignons te bakken in dezelfde pan als de karbonades, krijgen de champignons extra smaak.",
+					"txt_howmuch": false,
+					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"9": {
+					"label": "karbonade 9",
+					"txt_standard": "Voeg de knoflook, oregano en 1 eetlepel peterselie toe en roer 30 seconden door. ",
+					"txt_detail": "Als je geen knoflookpers hebt, kun je de knoflook ook zelf fijn snijden.",
+					"txt_howto": "Gebruik een knoflookpers om de knoflook fijn te maken en voeg de knoflook en peterselie toe aan champginons in de pan.",
+					"img_howto": false,
+					"txt_motivate": "Aan knoflook worden verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
+					"txt_howmuch": "Voor dit recept hebben we 4 teentjes knoflook nodig.",
+					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"10": {
+					"label": "karbonade 10",
+					"txt_standard": "Voeg daarna de kippenbouillon en kookroom toe en meng goed door.",
+					"txt_detail": false,
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "125 milliliter kippenbouillon en 375 milliliter kookroom.",
+					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"11": {
+					"label": "karbonade 11",
+					"txt_standard": "Laat het geheel voor 4 minuten sudderen totdat de saus wat dikker is geworden.",
+					"txt_detail": false,
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Dit duurt ongeveer 4 minuten.",
+					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"12": {
+					"label": "karbonade 12",
+					"txt_standard": "Leg de karbonades weer terug in de pan en laat ze 3 minuten meesudderen.",
+					"txt_detail": false,
+					"txt_howto": "Haal de karbonades van het bord en leg ze in de pan bij de champignonsaus. Laat ze 3 minuten meesudderen.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Laat de karbonades circa 3 minuten meesudderen.",
+					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"13": {
+					"label": "karbonade 10",
+					"txt_standard": "Stamp de aardappels als ze gaar zijn samen met de melk, 30 gram roomboter en nootmuskaat tot een grove puree.",
+					"txt_detail": false,
+					"txt_howto": "Giet het water uit de pan en stamp de aardappels samen met de melk, 30 gram roomboter en nootmuskaat tot een grove puree.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "We gebruiken 150 milliliter melk, 30 gram roomboter en 1 theelepel nootmuskaat.",
+					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"14": {
+					"label": "karbonade 11",
+					"txt_standard": "Serveer de aardappelpuree met de karbonade en een paar scheppen saus.",
+					"txt_detail": false,
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"15": {
+					"label": "karbonade 10",
+					"txt_standard": "Garneer met de overgebleven peterselie.",
+					"txt_detail": "Strooi wat extra peterselie over de maaltijd.",
+					"txt_howto": "Strooi wat extra gehakte peterselie over de karbonade en de aardappelpuree.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Naar smaak, dus je mag zelf bepalen hoeveel.",
+					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				}
+			}
+		},
+		"teriyaki-kipballetjes met rijst": {
+			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet knoflookteentjes snijden",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflookteentjes snijden",
+									"synonyms": [
+										"snijden knoflook"
+									]
+								},
+								"description": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+								"image": {
+									"url": "https://media.giphy.com/media/Q4PcMC8apFXBm/source.gif",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					}
+				},
+				"ingredients": {
+					"list": {
+						"1": "400 gram kipgehakt",
+						"2": "4 bosuitjes, in dunne ringen",
+						"3": "2 teentjes knoflook, geperst",
+						"4": "olijfolie",
+						"5": "zout en peper",
+						"6": "60 milliliter Japanse sojasaus",
+						"7": "3 eetlepels honing",
+						"8": "1 eetlepel maizena",
+						"9": "1 eetlepel sesamzaad",
+						"10": "400 gram pandanrijst",
+						"time": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
+					},
+					"img_howto": {
+						"title": "Ingredienten & Bereidingstijd",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook foto",
+									"synonyms": [
+										"knoflook"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
+									"accessibilityText": "knoflook"
+								},
+								"title": "knoflook teentjes"
+							}
+						]
+					}
+				},
+				"cooking_utensils": {
+					"list": {
+						"1": "Snijplank"
+					},
+					"img_howto": {
+						"title": "Kookgerei",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "snijplank foto",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://cdn.zilvercms.nl/http://cookinglife.zilvercdn.nl/uploads/photo/snijplank_bamboe_38cm.jpg",
+									"accessibilityText": "snijplank"
+								},
+								"title": "Snijplank"
+							}
+						]
+					}
+				}
+			},
+			"Recipe_steps": {
+				"1": {
+					"label": "teriyaki-kipballetjes 1",
+					"txt_standard": "Verwarm de oven voor op 200 graden Celsius en leg een bakplaat met een vel bakpapier klaar.",
+					"txt_detail": false,
+					"txt_howto": "Zet de oven aan op 200 graden Celsius. Leg een vel bakpapier op een bakplaat.",
+					"img_howto": false,
+					"txt_motivate": "Door de oven voor te verwarmen hoeft het eten minder lang in de oven.",
+					"txt_howmuch": false
+				},
+				"2": {
+					"label": "teriyaki-kipballetjes 2",
+					"txt_standard": "Leg het kipgehakt in een kom en voeg de 1 teen knoflook toe.",
+					"txt_detail": "Als je geen knoflookpers hebt, kun je de knoflook ook zelf fijn snijden.",
+					"txt_howto": "Gebruik een knoflookpers om de knoflookteen fijn te maken en voeg de knoflook toe aan kom met kip.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "We gebruiken 400 gram kipgehakt en 1 teen knoflook."
+				},
+				"3": {
+					"label": "teriyaki-kipballetjes 3",
+					"txt_standard": "Voeg de helft van de bosui, een eetlepel olijfolie en wat peper en zout toe en meng alles door elkaar.",
+					"txt_detail": "Snijd hier alvast alle 4 de bosuitjes. Gebruik de helft hier voor de kip en bewaar de rest voor garnering.",
+					"txt_howto": "Snijd het kontje van de bosui en snijd de bosui in ringetjes. Meng de helft van de ringetjes met de kip, een eetlepel olijfolie en wat peper en zout.",
+					"img_howto": "https://tinyurl.com/y9dou34d",
+					"txt_motivate": false,
+					"txt_howmuch": "Er gaan 2 bosuitjes, 1 eetlepel en een snufje peper en zout bij de kip."
+				},
+				"4": {
+					"label": "teriyaki-kipballetjes 4",
+					"txt_standard": "Schep er een goedgevulde eetlepel gehakt uit en draai er een bal van. Herhaal tot het gehakt op is.",
+					"txt_detail": false,
+					"txt_howto": "Schep met een eetlepel wat gehakt uit de kom en draai dit met je handen tot een balletje. Herhaal dit tot al het gehakt op is.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false
+				},
+				"5": {
+					"label": "teriyaki-kipballetjes 5",
+					"txt_standard": "Plaats de kipballetjes op de bakplaat en bak ze gedurende 15 minuten in de voorverwarmde oven tot ze gaar zijn.",
+					"txt_detail": "Om te zien of de kip gaar is kun je een balletje uit de oven halen en doormidden snijden. Is het midden wit, dan is de kip gaar.",
+					"txt_howto": "Leg alle kipgehaktballetjes op het bakpapier op de bakplaat en plaats deze voor 15 minuten in de oven.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Bak de gehaktballetjes voor circa 15 minuten."
+				},
+				"6": {
+					"label": "teriyaki-kipballetjes 6",
+					"txt_standard": "Zet ondertussen de rijst op en kook volgens de gebruiksaanwijzing op de verpakking.",
+					"txt_detail": "Kijk op de verpakking hoe lang de rijst moet koken, meestal is dit circa 10 minuten.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 400 gram pandanrijst."
+				},
+				"7": {
+					"label": "teriyaki-kipballetjes 7",
+					"txt_standard": "Meng in een kleine kom de maïzena met een 5 eetlepels koud water tot een papje en zet even weg.",
+					"txt_detail": "Dit kun je doen terwijl de rijst op staat.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": "Maizena zorgt ervoor dat een saus iets dikker wordt.",
+					"txt_howmuch": "Hier is 350 milliliter kokosmelk en 300 milliliter water nodig."
+				},
+				"8": {
+					"label": "teriyaki-kipballetjes 8",
+					"txt_standard": "Voeg in een pan de sojasaus, honing en 1 knoflookteen samen met 60 ml water.",
+					"txt_detail": "Als je geen knoflookpers hebt, kun je de knoflook ook zelf fijn snijden.",
+					"txt_howto": "Gebruik een knoflookpers om de knoflookteen fijn te maken en voeg de knoflook toe aan kom met kip.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "We gebruiken hier 60 milliliter sojasaus en water, 3 eetlepels honing en 1 teentje knoflook."
+				},
+				"9": {
+					"label": "teriyaki-kipballetjes 9",
+					"txt_standard": "Breng de saus aan de kook op middelhoog vuur.",
+					"txt_detail": false,
+					"txt_howto": "Zet de pan met het sojasaus mengsel op een middelhoog vuur tot het kookt.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false
+				},
+				"10": {
+					"label": "teriyaki-kipballetjes 10",
+					"txt_standard": "Voeg daarna al roerend steeds een beetje van het maïzenamengsel toe totdat de saus dik genoeg is.",
+					"txt_detail": false,
+					"txt_howto": "Roer de saus en voeg steeds een beetje van het maizenapapje toe. Blijf roeren en toevoegen tot de saus de gewenste dikte heeft.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Je kunt alles van het maizenamengsel gebruiken. Als je liever een dunnere saus hebt, gebruik dan minder."
+				},
+				"11": {
+					"label": "teriyaki-kipballetjes 11",
+					"txt_standard": "Neem de balletjes uit de oven, voeg ze bij de saus en bak ze nog 5 minuten op laag vuur.",
+					"txt_detail": false,
+					"txt_howto": "Haal de kipballetjes uit de oven en voeg ze toe aan de saus. Laat de balletjes 5 minuten mee bakken op laag vuur.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Dit duurt 5 minuten."
+				},
+				"12": {
+					"label": "teriyaki-kipballetjes 12",
+					"txt_standard": "Serveer de rijst met de teriyaki-kipballetjes en garneer met wat sesamzaad en de rest van de bosui.",
+					"txt_detail": false,
+					"txt_howto": "Schep wat rijst en teriyaki-kipballetjes op een bord. Strooi wat sesamzaadjes en de rest van de bosui erover.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik hier de rest van de bosui, dus ringen van ongeveer 2 bosuitjes en 1 eetlepel sesamzaadjes."
+				}
+			}
+		},
+		"andijviestamppot": {
+			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet knoflookteentjes snijden",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflookteentjes snijden",
+									"synonyms": [
+										"snijden knoflook"
+									]
+								},
+								"description": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+								"image": {
+									"url": "https://media.giphy.com/media/Q4PcMC8apFXBm/source.gif",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					}
+				},
+				"ingredients": {
+					"list": {
+						"1": "2 kilo kruimige aardappels",
+						"2": "125 gram ongezouten roomboter",
+						"3": "1 kilo rauwe andijvie",
+						"4": "geraspte nootmuskaat",
+						"5": "1 ui",
+						"6": "mosterd",
+						"7": "1 rookworst",
+						"8": "1 zakje jus",
+						"9": "250 gram spekblokjes",
+						"10": "150 milliliter melk",
+						"time": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
+					},
+					"img_howto": {
+						"title": "Ingredienten & Bereidingstijd",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook foto",
+									"synonyms": [
+										"knoflook"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
+									"accessibilityText": "knoflook"
+								},
+								"title": "knoflook teentjes"
+							}
+						]
+					}
+				},
+				"cooking_utensils": {
+					"list": {
+						"1": "Zeef"
+					},
+					"img_howto": {
+						"title": "Kookgerei",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "zeef foto",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://media.s-bol.com/rQ4RyNNm2jK/550x249.jpg",
+									"accessibilityText": "zeef"
+								},
+								"title": "Zeef"
+							}
+						]
+					}
+				}
+			},
+			"Recipe_steps": {
+				"1": {
+					"label": "andijviestamppot 1",
+					"txt_standard": "Schil de aardappelen en snijd ze in gelijke stukken.",
+					"txt_detail": false,
+					"txt_howto": "Snijd met een aardappelschilmesje of een aardappelschiller de schil van de aardappels en snijd de aardappels in ongeveer even grote stukken.",
+					"img_howto": false,
+					"txt_motivate": "Door de aardappels in gelijke stukken te snijden, zijn de stukken gelijktijdig gaar.",
+					"txt_howmuch": "2 kilo aardappels"
+				},
+				"2": {
+					"label": "andijviestamppot 2",
+					"txt_standard": "Kook de aardappelen gaar in ongeveer 15 minuten.",
+					"txt_detail": false,
+					"txt_howto": "Leg de aardappels in een pan met koud water en een snuf zout, en breng dit aan de kook. De aardappels zijn gaar als je er makkelijk met een vork in kunt prikken en ze vanzelf van de vork glijden.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Dit duurt ongeveer 15 minuten."
+				},
+				"3": {
+					"label": "andijviestamppot 3",
+					"txt_standard": "Bak ondertussen het spek helemaal uit tot het knapperig is. ",
+					"txt_detail": "Er hoeft geen boter of olie in de pan omdat het spek zelf al vet is.",
+					"txt_howto": "Leg het spek in een koekenpan en zet de pan op middelhoog vuur. Bak het spek tot het knapperig is.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik hiervoor 250 gram spekblokjes."
+				},
+				"4": {
+					"label": "andijviestamppot 4",
+					"txt_standard": "Leg de spekjes in een zeef en vang het vet op.",
+					"txt_detail": false,
+					"txt_howto": "Zet een zeef op een kom en leg de spekjes in de zeef. Het spekvet wordt opgevangen in de kom.",
+					"img_howto": false,
+					"txt_motivate": "Het spekvet geeft extra smaak aan de stamppot.",
+					"txt_howmuch": false
+				},
+				"5": {
+					"label": "andijviestamppot 5",
+					"txt_standard": "Snijd het groen van de andijvie en snijd de knapperige onderkant vingerdik op.",
+					"txt_detail": false,
+					"txt_howto": "Snijd het kontje van de andijvie af. Snijd het groen en het wit van de andijvie in reepjes van 1 a 2 centimeter breed.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "1 kilo rauwe andijvie."
+				},
+				"6": {
+					"label": "andijviestamppot 6",
+					"txt_standard": "Kook ondertussen de melk.",
+					"txt_detail": false,
+					"txt_howto": "Zet een pannetje met melk op het vuur en blijf roeren tot het kookt.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 150 milliliter melk"
+				},
+				"7": {
+					"label": "andijviestamppot 7",
+					"txt_standard": "Giet de aardappelen af zodra ze gaar zijn.",
+					"txt_detail": false,
+					"txt_howto": "Giet het water uit de pan en laat de aardappels in de pan zitten.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false
+				},
+				"8": {
+					"label": "andijviestamppot 8",
+					"txt_standard": "Prak de aardappelen grof met de boter.",
+					"txt_detail": "Je kunt hiervoor een pureestamper gebruiken als je die hebt, maar een vork werkt ook prima.",
+					"txt_howto": "Voeg de boter toe aan de aardappels en prak de aardappels grof.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "125 gram ongezouten roomboter."
+				},
+				"9": {
+					"label": "andijviestamppot 9",
+					"txt_standard": "Gooi de gekookte melk op de geprakte aardappels en prak die er ook door.",
+					"txt_detail": false,
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik ongeveer 150 milliliter melk."
+				},
+				"10": {
+					"label": "andijviestamppot 10",
+					"txt_standard": "Voeg het spekvet en geraspte nootmuskaat toe aan de aardappelpuree.",
+					"txt_detail": false,
+					"txt_howto": "Voeg het spekvet en de geraspte nootmustkaat bij de aardappelpuree en meng het door elkaar.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Naar smaak, gebruik zoveel nootmuskaat als je zelf lekker vindt."
+				},
+				"11": {
+					"label": "andijviestamppot 11",
+					"txt_standard": "Stamp de verse andijvie door het aardappelmengsel.",
+					"txt_detail": false,
+					"txt_howto": "Voeg de andijvie toe aan de aardappelpuree en stamp deze erdoor.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false
+				},
+				"12": {
+					"label": "andijviestamppot 12",
+					"txt_standard": "Meng het zakje jus met water zoals het op de verpakking staat.",
+					"txt_detail": false,
+					"txt_howto": "Leeg het zakje jus in een kom, voeg daar zoveel water aan toe als op de verpaking staat en meng dit door elkaar.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Meestal gebruik je hiervoor 300 milliliter water."
+				},
+				"13": {
+					"label": "andijviestamppot 13",
+					"txt_standard": "Pel en snipper de ui.",
+					"txt_detail": "Pel de ui en snijd deze in kleine blokjes.",
+					"txt_howto": "Haal de buitenste laag van de ui en snijd de ui in blokjes van ongeveer een halve centimeter breed.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "We gebruiken 1 ui"
+				},
+				"14": {
+					"label": "andijviestamppot 14",
+					"txt_standard": "Serveer de andijviestamppot met de ui, mosterd, jus en de spekjes.",
+					"txt_detail": false,
+					"txt_howto": "Giet wat jus over de stamppot en strooi wat ui en spekjes erover. Schep een beetje mosterd op de stamppot.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Naar smaak, dus gebruik zoveel ui, mosterd, jus en spekjes als je zelf lekker vindt."
+				}
+
+			}
+		},
+		"kip caprese": {
+			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet knoflookteentjes snijden",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflookteentjes snijden",
+									"synonyms": [
+										"snijden knoflook"
+									]
+								},
+								"description": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+								"image": {
+									"url": "https://media.giphy.com/media/Q4PcMC8apFXBm/source.gif",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					}
+				},
+				"ingredients": {
+					"list": {
+						"1": "300 gram kippendijen",
+						"2": "3 tomaten",
+						"3": "125 gram buffelmozzarella",
+						"4": "1 handvol basilicumblaadjes",
+						"5": "zeezout",
+						"6": "zout en peper naar smaak",
+						"time": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
+					},
+					"img_howto": {
+						"title": "Ingredienten & Bereidingstijd",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook foto",
+									"synonyms": [
+										"knoflook"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
+									"accessibilityText": "knoflook"
+								},
+								"title": "knoflook teentjes"
+							}
+						]
+					}
+				},
+				"cooking_utensils": {
+					"list": {
+						"1": "Snijplank",
+						"2": "Grillpan"
+					},
+					"img_howto": {
+						"title": "Kookgerei",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "snijplank foto",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://cdn.zilvercms.nl/http://cookinglife.zilvercdn.nl/uploads/photo/snijplank_bamboe_38cm.jpg",
+									"accessibilityText": "snijplank"
+								},
+								"title": "Snijplank"
+							}
+						]
+					}
+				}
+			},
+			"Recipe_steps": {
+				"1": {
+					"label": "kip caprese 1",
+					"txt_standard": "Snijd de kippendijen in platte, dunnen stukjes.",
+					"txt_detail": false,
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 300 gram kippendijen.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"2": {
+					"label": "kip caprese 2",
+					"txt_standard": "Bestrooi de kip met wat zout en peper naar smaak.",
+					"txt_detail": false,
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Naar smaak, dus zoveel peper en zout als je zelf lekker vindt.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"3": {
+					"label": "kip caprese 3",
+					"txt_standard": "Leg ze op de grill en sluit indien aanwezig de kap tot de kip gaar is. ",
+					"txt_detail": "Als je een barbeque grill met een kap hebt, kun je die hier sluiten.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": "Oke goed de kip is gaar VERWIJS NAAR STAP 5 ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"4": {
+					"label": "kip caprese 4",
+					"txt_standard": "Snijd ondertussen de tomaten en de mozzarella in schijven.",
+					"txt_detail": false,
+					"txt_howto": "Snijd met een mesje de tomaten en mozzarella in dunne plakjes.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 3 tomaten en 125 gram mozzarella.",
+					"txt_update": "Oke goed de kip is gaar VERWIJS NAAR STAP 5 ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"5": {
+					"label": "kip caprese 5",
+					"txt_standard": "Haal de kip van de grill en leg er een schijfje tomaat bovenop.",
+					"txt_detail": false,
+					"txt_howto": "Haal de kip van de grill en leg op een bord. Leg bovenop de kip de plakjes tomaat.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik alle tomatenschijfjes die je hebt gesneden.",
+					"txt_update": "Oke goed de kip is gaar VERWIJS NAAR STAP 5 ",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"6": {
+					"label": "kip caprese 6",
+					"txt_standard": "Vervolgens leg je op de tomaat een schijfje mozzarella.",
+					"txt_detail": false,
+					"txt_howto": "Leg bovenop elk schijfje tomaat een plakje mozzarella.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik alle mozzarella plakjes die je hebt gesneden.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"7": {
+					"label": "kip caprese 7",
+					"txt_standard": "Leg je de kip nog twee minuten terug op de grill.",
+					"txt_detail": "Sluit hierij opnieuw de kap indien aanwezig.",
+					"txt_howto": "Leg de kip, met de tomaat en mozzarella erbovenop, terug op de grill voor 2 minuten.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Laat de kip nog 2 minuten op de grill liggen.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"8": {
+					"label": "kip caprese 8",
+					"txt_standard": "Leg de kip daarna op een bord en gebruik enkele basilicumblaadjes als topping.",
+					"txt_detail": false,
+					"txt_howto": "Haal de kip, met de tomaat en mozzarella erbovenop, van de grill en leg dit op een bord. Leg een paar basilicumblaadjes op de mozzarella.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik een handvol basilicum blaadjes.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				}
+			}
+		},
+		"spaghetti met avocadosaus": {
+			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet knoflookteentjes snijden",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflookteentjes snijden",
+									"synonyms": [
+										"snijden knoflook"
+									]
+								},
+								"description": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+								"image": {
+									"url": "https://media.giphy.com/media/Q4PcMC8apFXBm/source.gif",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					}
+				},
+				"ingredients": {
+					"list": {
+						"1": "150 gram spaghetti",
+						"2": "2 theelepels (zwarte) komijnzaad of nigellazaad",
+						"3": "1 teen knoflook",
+						"4": "200 gram cherrytomaten aan de tak",
+						"5": "2 courgettes",
+						"6": "gedroogde chilivlokken",
+						"7": "olijfolie",
+						"8": "zout en peper",
+						"9": "2 avocado's",
+						"10": "100 gram verse roomkaas",
+						"11": "2 eetlepels Japanse sojasaus",
+						"12": "halve citroen",
+						"time": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
+					},
+					"img_howto": {
+						"title": "Ingredienten & Bereidingstijd",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook foto",
+									"synonyms": [
+										"knoflook"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
+									"accessibilityText": "knoflook"
+								},
+								"title": "knoflook teentjes"
+							}
+						]
+					}
+				},
+				"cooking_utensils": {
+					"list": {
+						"1": "Snijplank"
+					},
+					"img_howto": {
+						"title": "Kookgerei",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "snijplank foto",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://cdn.zilvercms.nl/http://cookinglife.zilvercdn.nl/uploads/photo/snijplank_bamboe_38cm.jpg",
+									"accessibilityText": "snijplank"
+								},
+								"title": "Snijplank"
+							}
+						]
+					}
+				}
+			},
+			"Recipe_steps": {
+				"1": {
+					"label": "spaghetti avocadosaus 1",
+					"txt_standard": "Breng een pan met gezouten water aan de kook.",
+					"txt_detail": false,
+					"txt_howto": "Zet een pan met water en een grote snuf zout op het vuur tot het kookt.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": "Als het water kookt kan je doorgaan naar de volgende stap.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"2": {
+					"label": "spaghetti avocadosaus 2",
+					"txt_standard": "Kook de spaghetti volgens de gebruiksaanwijzing op de verpakking in de pan",
+					"txt_detail": false,
+					"txt_howto": "Als het water kookt leg je spaghetti in het water. Laat de spaghetti koken zolang als er op de verpakking staat.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Meestal moet de spaghetti rond 10 minuten koken.",
+					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"3": {
+					"label": "spaghetti avocadosaus 3",
+					"txt_standard": "Rooster het nigellazaad in een droge koekenpan, zodat de smaak en geur vrijkomen. Zet weg.",
+					"txt_detail": "Het roosteren van de zaadjes gaat heel snel, blijf erbij en pas op dat de zaadjes niet verbranden.",
+					"txt_howto": "Verwarm een koekenpan op het vuur en leg de komijnzaadjes in de droge pan. Rooster de zaadjes kort en plaats de zaadjes in een bakje.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Rooster 2 theelepels nigellazaad.",
+					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"4": {
+					"label": "spaghetti avocadosaus 4",
+					"txt_standard": "Pel de knoflookteen en snijd deze grof.",
+					"txt_detail": "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in kleine stukjes.",
+					"txt_howto": "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in kleine stukjes.",
+					"img_howto": {
+						"title": "instructiefilmpjes",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook snijden",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in kleine stukjes",
+								"image": {
+									"url": "https://tinyurl.com/ya4jh6w8",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					},
+					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
+					"txt_howmuch": "Voor dit recept gebruiken we 2 teentjes knoflook.",
+					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"5": {
+					"label": "spaghetti avocadosaus 5",
+					"txt_standard": "Verhit een scheut olie in een wok of grote koekenpan.",
+					"txt_detail": false,
+					"txt_howto": "Zet een wok of een koekenpan op het vuur met een scheut olie erin.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Een scheut olie is 1 a 2 eetlepels. ",
+					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"6": {
+					"label": "spaghetti avocadosaus 6",
+					"txt_standard": "Fruit de knoflook op laag vuur circa 2 minuten.",
+					"txt_detail": false,
+					"txt_howto": "Gooi de gesneden knoflook in de koekenpan en bak voor ongeveer 2 minuten.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Dit duurt ongeveer 2 minuten.",
+					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"7": {
+					"label": "spaghetti avocadosaus 7",
+					"txt_standard": "Voeg de tomaatjes aan de tak erbij, doe de deksel op de pan en bak circa 8 minuten.",
+					"txt_detail": false,
+					"txt_howto": "Leg de tomaatjes terwijl ze nog aan de tak zitten bij de knoflook in de koekenpan. Doe de deksel op de pan en bak circa 8 minuten.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "200 gram cherrytomaten aan de tak.",
+					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"8": {
+					"label": "spaghetti avocadosaus 8",
+					"txt_standard": "Haal de tomaten met het sap uit de pan.",
+					"txt_detail": false,
+					"txt_howto": "Pak de tomaten met de tak uit de koekenpan en plaats op een bord. Giet het sap met de knoflook uit de pan op de tomaten.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"9": {
+					"label": "spaghetti avocadosaus 9",
+					"txt_standard": "Maak de avocado’s schoon.",
+					"txt_detail": false,
+					"txt_howto": "Snijd de avocado’s in de lengte doormidden, verwijder de pit en kerf met een mes kleine blokjes in het vruchtvlees.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "We gebruiken 2 avocado's.",
+					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"10": {
+					"label": "spaghetti avocadosaus 10",
+					"txt_standard": "Pureer het vruchtvlees met de roomkaas, sojasaus en citroensap.",
+					"txt_detail": false,
+					"txt_howto": "Schep het vruchtvlees uit de avocado en prak dit samen met de roomkaas, sojasaus en het sap van een halve citroen.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 100 gram roomkaas, 2 eetlepels sojasaus en een halve citroen.",
+					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"11": {
+					"label": "spaghetti avocadosaus 11",
+					"txt_standard": "Giet de spaghetti af.",
+					"txt_detail": false,
+					"txt_howto": "Giet het water uit de pan met spaghetti.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"12": {
+					"label": "spaghetti avocadosaus 12",
+					"txt_standard": "Snijd dunne reepjes van courgette.",
+					"txt_detail": "Als je een spiraalsnijder hebt, kun je die gebruiken voor de cougette.",
+					"txt_howto": "Snijd plakken van de courgette in de lengte en snijd vervolgens die plakken in dunne reepjes.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik hier 2 courgettes voor.",
+					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"13": {
+					"label": "spaghetti avocadosaus 13",
+					"txt_standard": "Verhit een scheutje olijfolie in de pan en roerbak de courgetteslierten een halve minuut.",
+					"txt_detail": false,
+					"txt_howto": "Verhit een scheutje olijfolie in de pan, bak daarin de courgetteslierten een halve minuut en blijf roeren.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Dit duurt een halve minuut",
+					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"14": {
+					"label": "spaghetti avocadosaus 14",
+					"txt_standard": "Doe de spaghetti erbij. Breng eventueel op smaak met zout en peper.",
+					"txt_detail": false,
+					"txt_howto": "Doe de spaghetti in de pan bij de courgette en roer door elkaar. Strooi peper en zout erover naar smaak.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Naar smaak, dus gebruik zoveel peper en zout als je lekker vindt.",
+					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"15": {
+					"label": "spaghetti avocadosaus 15",
+					"txt_standard": "Doe de spaghetti op de borden en lepel de avocadosaus erover.",
+					"txt_detail": false,
+					"txt_howto": "Schep de spaghetti en courgette op de borden en schep een lepel avocadosaus erbovenop.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"16": {
+					"label": "spaghetti avocadosaus 16",
+					"txt_standard": "Leg de tomaatjes erop en schenk het sap uit de pan erover. ",
+					"txt_detail": false,
+					"txt_howto": "Leg de tomaatjes op de spaghetti en avocadosaus en schenk het tomatensap met de knoflook over de erover. ",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"17": {
+					"label": "spaghetti avocadosaus 17",
+					"txt_standard": "Bestrooi met chilipeper en nigellazaad.",
+					"txt_detail": false,
+					"txt_howto": "Strooi naar smaak chilipeper en het geroosterde komijnzaad over de pasta.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Naar smaak, dus zoveel als je zelf lekker vindt. Ik zou het echter niet te bond maken.",
+					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				}
+			}
+		},
+		"garnalencurry met kokosrijst": {
+			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet knoflookteentjes snijden",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflookteentjes snijden",
+									"synonyms": [
+										"snijden knoflook"
+									]
+								},
+								"description": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+								"image": {
+									"url": "https://media.giphy.com/media/Q4PcMC8apFXBm/source.gif",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					}
+				},
+				"ingredients": {
+					"list": {
+						"1": "1 bos radijs",
+						"2": "500 milliliter azijn",
+						"3": "1 bosje koriander",
+						"4": "150 gram suiker",
+						"5": "400 gram basmatirijst",
+						"6": "400 milliliter kokosmelk",
+						"7": "2 teentjes knoflook",
+						"8": "1 paksoi",
+						"9": "25 milliliter zonnebloemolie",
+						"10": "500 gram gepelde garnalen",
+						"11": "1 potje rode curry pasta",
+						"12": "2 limoenen",
+						"time": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
+					},
+					"img_howto": {
+						"title": "Ingredienten & Bereidingstijd",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook foto",
+									"synonyms": [
+										"knoflook"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
+									"accessibilityText": "knoflook"
+								},
+								"title": "knoflook teentjes"
+							}
+						]
+					}
+				},
+				"cooking_utensils": {
+					"list": {
+						"1": "Snijplank"
+					},
+					"img_howto": {
+						"title": "Kookgerei",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "snijplank foto",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://cdn.zilvercms.nl/http://cookinglife.zilvercdn.nl/uploads/photo/snijplank_bamboe_38cm.jpg",
+									"accessibilityText": "snijplank"
+								},
+								"title": "Snijplank"
+							}
+						]
+					}
+				}
+			},
+			"Recipe_steps": {
+				"1": {
+					"label": "garnalencurry 1",
+					"txt_standard": "Snijd of schaaf de radijs in dunne plakjes.",
+					"txt_detail": "Snijd of schaaf de radijs in dunne plakjes en leg deze in een kom.",
+					"txt_howto": "Snijd of schaaf de radijs in dunne plakjes en leg deze in een kom.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "1 bos radijsjes",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"2": {
+					"label": "garnalencurry 2",
+					"txt_standard": "Voeg een scheut azijn toe aan de radijsplakjes.",
+					"txt_detail": false,
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Een scheut azijn is 1 a 2 eetlepels.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"3": {
+					"label": "garnalencurry 3",
+					"txt_standard": "Snijd de koriander fijn.",
+					"txt_detail": false,
+					"txt_howto": "Snijd de blaadjes van de koriander fijn.",
+					"img_howto": "https://tinyurl.com/ycm62ubd",
+					"txt_motivate": false,
+					"txt_howmuch": "We gebruiken 15 gram koriander, dat is een bosje koriander.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"4": {
+					"label": "garnalencurry 4",
+					"txt_standard": "Verhit de rest van de azijn met de suiker in een pan tot alle suiker is opgelost.",
+					"txt_detail": false,
+					"txt_howto": "Giet de overige azijn in een pan en voeg daar de suiker aan toe. Verhit dit mengsel totdat er geen suiker meer te zien is.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "De rest van de azijn is iets minder dan 500 milliliter en we gebruiken 150 gram suiker.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"5": {
+					"label": "garnalencurry 5",
+					"txt_standard": "Giet het mengsel over de radijs.",
+					"txt_detail": "Giet het hete azijn-suiker mengsel over de plakjes radijs.",
+					"txt_howto": "Giet het hete azijn-suiker mengsel over de plakjes radijs.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"6": {
+					"label": "garnalencurry 6",
+					"txt_standard": "Voeg de koriander toe en laat afkoelen.",
+					"txt_detail": "Voeg de koriander toe aan het radijs mengsel en laat afkoelen.",
+					"txt_howto": "Voeg de koriander toe aan het radijs mengsel, roer dit door en laat afkoelen.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Alle gesneden koriander, dus ongeveer een bosje.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"7": {
+					"label": "garnalencurry 7",
+					"txt_standard": "Kook de rijst in een pan met 350 milliliter kokosmelk en 300 milliliter water en een beetje zout in circa 10 minuten gaar.",
+					"txt_detail": "Bewaar 50 milliliter kokosmelk voor later.",
+					"txt_howto": "Giet 350 milliliter kokosmelk, 300 milliliter water en een snufje zout in een pan en kook daarin de rijst in 10 minuten gaar.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Hier is 350 milliliter kokosmelk en 300 milliliter water nodig.",
+					"txt_update": "Als de rijst klaar is kun je die apart zetten en de rest van de stappen volgen.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"8": {
+					"label": "garnalencurry 8",
+					"txt_standard": "Pel de knoflookteen en snijd deze grof.",
+					"txt_detail": "Haal de knoflook teentjes uit elkaar, pel 2 teentjes en snijd deze in kleine stukjes.",
+					"txt_howto": "Haal de knoflook teentjes uit elkaar, pel 2 teentjes en snijd deze in kleine stukjes.",
+					"img_howto": {
+						"title": "instructiefilmpjes",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook snijden",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Haal de knoflook teentjes uit elkaar, pel 2 teentjes en snijd deze in kleine stukjes",
+								"image": {
+									"url": "https://tinyurl.com/ya4jh6w8",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					},
+					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
+					"txt_howmuch": "Voor dit recept gebruiken we 2 teentjes knoflook.",
+					"txt_update": "Als de rijst klaar is kun je die apart zetten en de rest van de stappen volgen.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"9": {
+					"label": "garnalencurry 9",
+					"txt_standard": "Snijd de paksoi fijn.",
+					"txt_detail": "Snijd de paksoi in kleine ongeveer gelijke stukken.",
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Hiervoor gebruiken we 1 paksoi.",
+					"txt_update": "Als de rijst klaar is kun je die apart zetten en de rest van de stappen volgen.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"10": {
+					"label": "garnalencurry 10",
+					"txt_standard": "Verhit een koekenpan met zonnebloemolie.",
+					"txt_detail": false,
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Je hebt hier 25 milliliter zonnebloemolie nodig. Dit is ongeveer 2 eetlepels",
+					"txt_update": "Als de rijst klaar is kun je die apart zetten en de rest van de stappen volgen.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"11": {
+					"label": "garnalencurry 11",
+					"txt_standard": "Bak de garnalen met de knoflook.",
+					"txt_detail": "Bak de garnalen met de knoflook in de koekenpan.",
+					"txt_howto": "Bak de garnalen met de knoflook in de koekenpan.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Dit is 500 gran garnalen.",
+					"txt_update": "Als de rijst klaar is kun je die apart zetten en de rest van de stappen volgen.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"12": {
+					"label": "garnalencurry 12",
+					"txt_standard": "Rasp de schil van een limoen en voeg toe.",
+					"txt_detail": "Rasp de schil van een limoen en voeg de rasp toe aan de garnalen.",
+					"txt_howto": "Rasp de schil van een limoen en voeg de rasp toe aan de garnalen en de knoflook in de koekenpan.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Hier gebruiken we 2 limoenen.",
+					"txt_update": "Als de rijst klaar is kun je die apart zetten en de rest van de stappen volgen.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"13": {
+					"label": "garnalencurry 13",
+					"txt_standard": "Roer de curry en de rest van de kokosmelk erdoor.",
+					"txt_detail": false,
+					"txt_howto": "Roer de rode curry pasta door de garnalen samen met de rest van de kokosmelk.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 1 potje rode curry pasta en 50 milliliter kokosmelk.",
+					"txt_update": "Als de rijst klaar is kun je die apart zetten en de rest van de stappen volgen.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"14": {
+					"label": "garnalencurry 14",
+					"txt_standard": "Schep de rijst op een bord, daarover de garnalen en de radijs.",
+					"txt_detail": false,
+					"txt_howto": "Schep de rijst op een bord, daarover de garnalen met de curry en de radijs.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": "Als de rijst klaar is kun je die apart zetten en de rest van de stappen volgen.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				}
+			}
+		},
+		"maaltijdsalade met bramen, bietjes en blauwe kaas": {
+			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet knoflookteentjes snijden",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflookteentjes snijden",
+									"synonyms": [
+										"snijden knoflook"
+									]
+								},
+								"description": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+								"image": {
+									"url": "https://media.giphy.com/media/Q4PcMC8apFXBm/source.gif",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					}
+				},
+				"ingredients": {
+					"list": {
+						"1": "600 gram rode bietjes",
+						"2": "4 eetlepels olijfolie",
+						"3": "1 eetlepel honing",
+						"4": "150 gram quinoa",
+						"5": "75 gram walnoten",
+						"6": "2 speklapjes",
+						"7": "100 gram rucola",
+						"8": "125 gram bramen",
+						"9": "150 gram pittige blauwe kaas",
+						"time": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
+					},
+					"img_howto": {
+						"title": "Ingredienten & Bereidingstijd",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook foto",
+									"synonyms": [
+										"knoflook"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
+									"accessibilityText": "knoflook"
+								},
+								"title": "knoflook teentjes"
+							}
+						]
+					}
+				},
+				"cooking_utensils": {
+					"list": {
+						"1": "Snijplank"
+					},
+					"img_howto": {
+						"title": "Kookgerei",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "snijplank foto",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://cdn.zilvercms.nl/http://cookinglife.zilvercdn.nl/uploads/photo/snijplank_bamboe_38cm.jpg",
+									"accessibilityText": "snijplank"
+								},
+								"title": "Snijplank"
+							}
+						]
+					}
+				}
+			},
+			"Recipe_steps": {
+				"1": {
+					"label": "maaltijdsalade 1",
+					"txt_standard": "Verwarm je oven voor op 225 graden Celsius.",
+					"txt_detail": false,
+					"txt_howto": "Zet de oven aan op 225 graden Celsius.",
+					"img_howto": false,
+					"txt_motivate": "Door de oven voor te verwarmen hoeft het eten minder lang in de oven.",
+					"txt_howmuch": "De oven moet op 225 graden Celsius."
+				},
+				"2": {
+					"label": "maaltijdsalade 2",
+					"txt_standard": "Schil de rode bieten en snij in stukken van ongeveer 3 centimeter.",
+					"txt_detail": false,
+					"txt_howto": "Haal met een mesje de schil van de rode bieten en snijd de bieten in stukken van ongeveer 3 centimeter.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "We gebruiken 600 gram rode bietjes."
+				},
+				"3": {
+					"label": "maaltijdsalade 3",
+					"txt_standard": "Meng met de helft van de olijfolie, honing, zout en peper in een kom.",
+					"txt_detail": false,
+					"txt_howto": "Doe de helft van de olijfolie met de honing en een snufje zout en peper in een kom. Roer dit door elkaar.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 2 eetlepels olijfolie en 1 eetlepel honing."
+				},
+				"4": {
+					"label": "maaltijdsalade 4",
+					"txt_standard": "Verdeel het mengesel over een met bakpapier beklede bakplaat.",
+					"txt_detail": false,
+					"txt_howto": "Bekleed een bakplaat met bakpapier en giet het mengsel erop.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false
+				},
+				"5": {
+					"label": "maaltijdsalade 5",
+					"txt_standard": "Rooster de bieten ongeveer 20 minuten, tot ze mooi geroosterd zijn.",
+					"txt_detail": false,
+					"txt_howto": "Rooster de bieten in de oven ongeveer 20 minuten, tot ze mooi geroosterd zijn.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Dit duurt 20 minuten."
+				},
+				"6": {
+					"label": "maaltijdsalade 6",
+					"txt_standard": "Kook ondertussen de quinoa volgens de verpakking gaar.",
+					"txt_detail": "Quinoa moet ongeveer 10 minuten koken, dus je kunt ondertussen verder met de walnoten.",
+					"txt_howto": "Giet de quinoa en water volgens de verpakking in een pan en breng dit aan de kook.",
+					"img_howto": false,
+					"txt_motivate": "Quinoa is een bron van eiwitten en bevat vezels.",
+					"txt_howmuch": "Gebruik 150 gram quinoa en 300 milliliter water. Meestal moet de quinoa 10 minuten koken."
+				},
+				"7": {
+					"label": "maaltijdsalade 7",
+					"txt_standard": "Rooster de walnoten in een droge pan tot ze beginnen te geuren.",
+					"txt_detail": false,
+					"txt_howto": "Verwarm een koekenpan en rooster daarin de walnoten zonder boter of olie tot je de walnoten goed kunt ruiken.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "75 gram walnoten."
+				},
+				"8": {
+					"label": "maaltijdsalade 8",
+					"txt_standard": "Laat de walnoten afkoelen, hak grof en leg apart.",
+					"txt_detail": false,
+					"txt_howto": "Haal de walnoten uit de pan, hak ze grof en leg ze op een bordje en zet weg.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false
+				},
+				"9": {
+					"label": "maaltijdsalade 9",
+					"txt_standard": "Verwarm dezelfde koekenpan en bak hierin de speklapjes gaar.",
+					"txt_detail": false,
+					"txt_howto": "Verwarm opnieuw de koekenpan en bak daarin de speklapjes tot ze gaar zijn.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Bak 2 speklapjes."
+				},
+				"10": {
+					"label": "maaltijdsalade 10",
+					"txt_standard": "Halveer de bramen en verbrokkel de kaas.",
+					"txt_detail": false,
+					"txt_howto": "Was de bramen, snijd deze doormidden en verbrokkel de blauwe kaas.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 125 gram bramen en 150 gram kaas."
+				},
+				"11": {
+					"label": "maaltijdsalade 11",
+					"txt_standard": "Giet de quinoa af.",
+					"txt_detail": false,
+					"txt_howto": "Giet het water uit de pan met quinoa.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false
+				},
+				"12": {
+					"label": "maaltijdsalade 12",
+					"txt_standard": "Kruid de speklapjes als ze gaar zijn met een snufje zout en peper. Snij ze in dunne reepjes.",
+					"txt_detail": false,
+					"txt_howto": "Als de speklapjes gaar zijn kruid je ze met een snufje peper en zout. Snijd de speklapjes daarna in reepjes.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Naar smaak, dus gebruik zoveel peper en zout als je zelf lekker vindt."
+				},
+				"13": {
+					"label": "maaltijdsalade 13",
+					"txt_standard": "Meng in een grote schaal de rucola met de resterende olijfolie en het spek, de bramen, kaas, quinoa.",
+					"txt_detail": false,
+					"txt_howto": "Gebruik sla couvert of een twee lepels om de rucola met de olijfolie, het spek, de bramen, kaas en quinoa te mengen.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 100 gram rucola en 2 eetlepels olijfolie."
+				},
+				"14": {
+					"label": "maaltijdsalade 14",
+					"txt_standard": "Top de maaltijdsalade met de walnoten en eventueel wat gehakte peterselie en zonnebloempitten.",
+					"txt_detail": false,
+					"txt_howto": "Strooi de walnoten over de salade en strooi er ook wat peterselie en zonnebloempitten over als je dat hebt.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false
+				}
+			}
+		},
+		"pastasalade op zijn Grieks": {
+			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet knoflookteentjes snijden",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflookteentjes snijden",
+									"synonyms": [
+										"snijden knoflook"
+									]
+								},
+								"description": "Je moet de knoflookteentjes snijden met plakjes knoflook van 1 à 2 milimeter als resultaat. De manier waarop maakt niet uit.",
+								"image": {
+									"url": "https://media.giphy.com/media/Q4PcMC8apFXBm/source.gif",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					}
+				},
+				"ingredients": {
+					"list": {
+						"1": "250 gram cherrytomaten",
+						"2": "3 takjes tijm",
+						"3": "olijfolie om in te bakken",
+						"4": "300 gram fusilli pasta",
+						"5": "1 teentje knoflook",
+						"6": "1 rode ui",
+						"7": "1 bos bladpeterselie",
+						"8": "olijfolie extra vierge",
+						"9": "1 komkommer",
+						"10": "1 potje groene olijven",
+						"11": "200 gram feta",
+						"12": "1 citroen",
+						"time": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
+					},
+					"img_howto": {
+						"title": "Ingredienten & Bereidingstijd",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook foto",
+									"synonyms": [
+										"knoflook"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
+									"accessibilityText": "knoflook"
+								},
+								"title": "knoflook teentjes"
+							}
+						]
+					}
+				},
+				"cooking_utensils": {
+					"list": {
+						"1": "Snijplank"
+					},
+					"img_howto": {
+						"title": "Kookgerei",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "snijplank foto",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://cdn.zilvercms.nl/http://cookinglife.zilvercdn.nl/uploads/photo/snijplank_bamboe_38cm.jpg",
+									"accessibilityText": "snijplank"
+								},
+								"title": "Snijplank"
+							}
+						]
+					}
+				}
+			},
+			"Recipe_steps": {
+				"1": {
+					"label": "pastasalade 1",
+					"txt_standard": "Verwarm de oven voor op 200 graden Celsius.",
+					"txt_detail": false,
+					"txt_motivate": "Door de oven voor te verwarmen hoeft het eten minder lang in de oven.",
+					"img_howto": false,
+					"txt_howmuch": "De oven moet op 200 graden Celsius.",
+					"txt_update": "Oke de oven is warm, ga nu eerst door met de volgende stappen totdat ik je vertel dat de ovenschaal de oven in kan!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+
+				},
+				"2": {
+					"label": "pastasalade 2",
+					"txt_standard": "Halveer de tomaatjes, verdeel over een ovenschaal.",
+					"txt_detail": false,
+					"txt_howto": "Snijd de tomaatjes doormidden en verdeel ze over een ovenschaal.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "250 gram cherrytomaten.",
+					"txt_update": "Oke de oven is warm, ga nu eerst door met de volgende stappen totdat ik je vertel dat de ovenschaal de oven in kan!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"3": {
+					"label": "pastasalade 3",
+					"txt_standard": "Ris de tijm boven de ovenschaal.",
+					"txt_detail": false,
+					"txt_howto": "Duw met je wijsvinger en duim langs het steeltje van de tijm de blaadjes eraf boven de ovenschaal.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik hiervoor 3 takjes tijm.",
+					"txt_update": "Oke de oven is warm, ga nu eerst door met de volgende stappen totdat ik je vertel dat de ovenschaal de oven in kan!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"4": {
+					"label": "pastasalade 4",
+					"txt_standard": "Bestrooi de ovenschaal met een beetje zout en versgemalen peper.",
+					"txt_detail": false,
+					"txt_howto": "Strooi een beetje zout en versgemalen peper in de ovenschaal.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Naar smaak, dus je mag zelf bepalen hoeveel peper en zout je wilt.",
+					"txt_update": "Oke de oven is warm, ga nu eerst door met de volgende stappen totdat ik je vertel dat de ovenschaal de oven in kan!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"5": {
+					"label": "pastasalade 5",
+					"txt_standard": "Besprenkel de tomaatjes met olijfolie om in te bakken en pof de tomaatjes circa 10 minuten in de oven.",
+					"txt_detail": false,
+					"txt_howto": "Giet een beetje olijfolie over de tomaatjes in de ovenschaal en bak deze in de oven voor 10 minuten om ze te poffen.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Het maakt niet zo veel uit hoevee olijfolie je hier gebruikt. Zorg ervoor dat er op elke tomaat een beetje zit.",
+					"txt_update": "Oke de oven is warm, ga nu eerst door met de volgende stappen totdat ik je vertel dat de ovenschaal de oven in kan!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"6": {
+					"label": "pastasalade 6",
+					"txt_standard": "Kook de fusilli volgens de bereidingswijze op de verpakking.",
+					"txt_detail": "Proef na 10 minuten voorzichtig of de pasta gaar is.",
+					"txt_howto": "Zet een pan met water en een snufje zout op. Doe de fusilli pasta erin als het water kookt en laat de pasta koken tot het gaar is.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 300 gram fusilli pasta. Meestal moet pasta 10 minuten koken.",
+					"txt_update": "Oke de fusilli is klaar, VERWIJZEN NAAR STAP 14, maak daarna de rest van de stappen af en meng ook deze groente met de fusilli.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"7": {
+					"label": "pastasalade 7",
+					"txt_standard": "Pel de knoflookteen en snijd deze fijn.",
+					"txt_detail": "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes en daarna in blokjes.",
+					"txt_howto": "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes en daarna blokjes.",
+					"img_howto": {
+						"title": "instructiefilmpjes",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook snijden",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Haal de knoflook teentjes uit elkaar, pel 1 teen en snijd deze in dunne plakjes",
+								"image": {
+									"url": "https://tinyurl.com/ya4jh6w8",
+									"accessibilityText": "instructiefilmpje knoflook snijden"
+								},
+								"title": "Instructiefilmpje knoflook snijden"
+							}
+						]
+					},
+					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
+					"txt_howmuch": "Voor dit recept gebruiken we 1 teen knoflook.",
+					"txt_update": "Oke de fusilli is klaar, VERWIJZEN NAAR STAP 14, maak daarna de rest van de stappen af en meng ook deze groente met de fusilli.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"8": {
+					"label": "pastasalade 8",
+					"txt_standard": "Pel en snijd de ui in halve ringen.",
+					"txt_detail": false,
+					"txt_howto": "Haal de buitenste laag van de ui en snijd het kontje eraf. Snijd de ui doormidden van boven naar beneden. Snijd vervolgens halve ringen van de ui.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "We gebruiken 1 ui.",
+					"txt_update": "Oke de fusilli is klaar, VERWIJZEN NAAR STAP 14, maak daarna de rest van de stappen af en meng ook deze groente met de fusilli.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"9": {
+					"label": "pastasalade 9",
+					"txt_standard": "Pluk de peterselie en pureer de blaadjes met een flinke scheut olijfolie extra vierge fijn in het bakje van de staafmixer.",
+					"txt_detail": "Als je geen staafmixer hebt kun je de peterselieblaadjes fijn snijden en mengen met olijfolie.",
+					"txt_howto": "Snijd de blaadjes van de peterselie fijn en meng met een scheutje extra vierge olijfolie.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 1 bosje peterselie. Een scheut olie is 1 a 2 eetlepels.",
+					"txt_update": "Oke de fusilli is klaar, VERWIJZEN NAAR STAP 14, maak daarna de rest van de stappen af en meng ook deze groente met de fusilli.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"10": {
+					"label": "pastasalade 10",
+					"txt_standard": "Snijd de komkommer in blokjes.",
+					"txt_detail": false,
+					"txt_howto": "Snijd de komkommer doormidden in de lengte. Snijd elke helft opnieuw doormidden in de lengte en snijd blokjes van circa 1 centimeter van de kwarten.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 1 komkommer.",
+					"txt_update": "Oke de fusilli is klaar, VERWIJZEN NAAR STAP 14, maak daarna de rest van de stappen af en meng ook deze groente met de fusilli.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"11": {
+					"label": "pastasalade 11",
+					"txt_standard": "Halveer de olijven.",
+					"txt_detail": false,
+					"txt_howto": "Snijd de olijven doormidden.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 1 potje groene olijven.",
+					"txt_update": "Oke de fusilli is klaar, VERWIJZEN NAAR STAP 14, maak daarna de rest van de stappen af en meng ook deze groente met de fusilli.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"12": {
+					"label": "pastasalade 12",
+					"txt_standard": "Meng de peterselieolie, komkommer, olijven, knoflook en ui.",
+					"txt_detail": false,
+					"txt_howto": "Meng de peterselieolie, komkommer, olijven, knoflook en ui met elkaar in een schaal.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": "Oke de fusilli is klaar, VERWIJZEN NAAR STAP 14, maak daarna de rest van de stappen af en meng ook deze groente met de fusilli.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"13": {
+					"label": "pastasalade 13",
+					"txt_standard": "Verbrokkel de feta erboven en breng op smaak met een beetje zout en versgemalen peper en sap van een halve citroen.",
+					"txt_detail": false,
+					"txt_howto": "Verbrokkel de feta met je handen boven de schaal en voeg een snufje zout, peper en citroensap toe.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 200 gram feta en peper en zout naar smaak. Gebruik het sap van 1 citroen of minder als je dat lekker vindt.",
+					"txt_update": "Oke de fusilli is klaar, VERWIJZEN NAAR STAP 14, maak daarna de rest van de stappen af en meng ook deze groente met de fusilli.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				},
+				"14": {
+					"label": "pastasalade 14",
+					"txt_standard": "Giet de pasta af, spoel koud met water, laat goed uitlekken en meng door de groente.",
+					"txt_detail": false,
+					"txt_howto": "Giet het water uit de pasta en spoel de pasta af met koud water. Laat de pasta goed uitlekken en meng de pasta door de groente in de schaal.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false,
+					"txt_update": "Oke de fusilli is klaar, volg de huidige stap en dan ben je klaar!.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+				}
+			}
+		},
+		"Geroosterde aardappelbloemkoolsalade": {
+			"preliminaries": {
+				"determination": {
+					"list": {
+						"1": "Je moet de zaadlijsten van een rode peper verwijderen",
+						"2": "Wil je doorgaan met dit recept?"
+					},
+					"txt_howto": "Verwijder met een scherp mesje de zaadlijsten en snijd het vruchtvlees van een halve rode peper fijn",
+					"img_howto": {
+						"title": "determination",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "rode peper zaadlijsten verwijderen",
+									"synonyms": [
+										"rp zaadlijsten"
+									]
+								},
+								"description": "Verwijder met een scherp mesje de zaadlijsten en snijd het vruchtvlees van een halve rode peper fijn",
+								"image": {
+									"url": "https://hips.hearstapps.com/ame-prod-goodhousekeeping-assets.s3.amazonaws.com/main/embedded/34771/step-two-chilli.gif",
+									"accessibilityText": "instructiefilmpje rode peper zaadlijsten verwijderen"
+								},
+								"title": "Instructiefilmpje rode peper zaadlijsten verwijderen"
+							}
+						]
+					}
+				},
+				"ingredients": {
+					"list": {
+						"1": "zout",
+						"2": "1 kilo aardappels",
+						"3": "1 klkeine bloemkool",
+						"4": "1 a 2 eetlepels garam massala",
+						"5": "gedroogde chiliflakes naar smaak",
+						"6": "olijfolie",
+						"7": "3 a 4 Libanese snackkomkommers",
+						"8": "1 a 2 limoenen",
+						"9": "200 gram kokosyoghurt",
+						"10": "100 gram gezouten cashewnoten",
+						"11": "3 bosuien",
+						"12": "1 kleine rode peper",
+						"13": "1 bos koriander",
+						"time": "Het duurt ongeveer 30 minuten voordat dit recept klaar is om te eten!"
+					},
+					"img_howto": {
+						"title": "Ingredienten & Bereidingstijd",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "knoflook foto",
+									"synonyms": [
+										"knoflook"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://www.pourquoidocteur.fr/media/article/istock-547425302-(1)-1556355402.jpg",
+									"accessibilityText": "knoflook"
+								},
+								"title": "knoflook teentjes"
+							}
+						]
+					}
+				},
+				"cooking_utensils": {
+					"list": {
+						"1": "Snijplank"
+					},
+					"img_howto": {
+						"title": "Kookgerei",
+						"list": [
+							{
+								"optionInfo": {
+									"key": "snijplank foto",
+									"synonyms": [
+										"ks"
+									]
+								},
+								"description": "Afbeelding",
+								"image": {
+									"url": "https://cdn.zilvercms.nl/http://cookinglife.zilvercdn.nl/uploads/photo/snijplank_bamboe_38cm.jpg",
+									"accessibilityText": "snijplank"
+								},
+								"title": "Snijplank"
+							}
+						]
+					}
+				}
+			},
+			"Recipe_steps": {
+				"1": {
+					"label": "aardappelbloemkoolsalade 1",
+					"txt_standard": "Breng een pan water met zout aan de kook.",
+					"txt_detail": false,
+					"txt_howto": "Vul een pan met water en een snuf zout en zet op het vuur tot het water kookt.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Vul de pan voor de helft met water."
+				},
+				"2": {
+					"label": "aardappelbloemkoolsalade 2",
+					"txt_standard": "Verwarm de oven voor op 220 graden Celsius.",
+					"txt_detail": false,
+					"txt_howto": "Zet de oven aan op 220 graden Celsius.",
+					"img_howto": false,
+					"txt_motivate": "Door de oven voor te verwarmen hoeft het eten minder lang in de oven.",
+					"txt_howmuch": "Zet de oven op 220 graden Celsius."
+				},
+				"3": {
+					"label": "aardappelbloemkoolsalade 3",
+					"txt_standard": "Was en snijd de aardappels in stukken.",
+					"txt_detail": false,
+					"txt_howto": "Was de aardappelen en snijd met een aardappelschilmesje of een aardappelschiller de schil van de aardappels. Snijd de aardappels in gelijke stukken.",
+					"img_howto": false,
+					"txt_motivate": "Door de aardappels in gelijke stukken te snijden, zijn de stukken gelijktijdig gaar.",
+					"txt_howmuch": "1 kilo aardappels"
+				},
+				"4": {
+					"label": "aardappelbloemkoolsalade 4",
+					"txt_standard": "Kook de aardappels circa 5 minuten in het kokende water.",
+					"txt_detail": false,
+					"txt_howto": false,
+					"img_howto": false,
+					"txt_motivate": "Door de aardappels alvast een beetje te koken, zijn de aardappels en de bloemkool straks gelijktijdig gaar.",
+					"txt_howmuch": "Dit duurt 5 minuten."
+				},
+				"5": {
+					"label": "aardappelbloemkoolsalade 5",
+					"txt_standard": "Maak ondertussen de bloemkool schoon. Verdeel in roosjes en snijd de steel in stukken.",
+					"txt_detail": "Breek de bloemkoolroosjes los van elkaar en snijd de stronk in kleine stukken.",
+					"txt_howto": "Maak de bloemkool schoon. Breek de bloemkoolroosjes los van elkaar en van de stronk en snijd de stronk in kleine stukken.",
+					"img_howto": false,
+					"txt_motivate": "Bloemkoolroosjes van de stronk breken met je handen geeft minder rommelig dan snijden.",
+					"txt_howmuch": "Gebruik 1 kleine bloemkool."
+				},
+				"6": {
+					"label": "aardappelbloemkoolsalade 6",
+					"txt_standard": "Giet de aardappels af en laat uitdampen.",
+					"txt_detail": false,
+					"txt_howto": "Giet het water uit de pan met aardappels en laat de aardappels zonder deksel op de pan nog even staan.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": false
+				},
+				"7": {
+					"label": "aardappelbloemkoolsalade 7",
+					"txt_standard": "Doe de bloemkool en aardappels in een grote ovenschaal.",
+					"txt_detail": false,
+					"txt_howto": "Verdeel de bloemkoolroosjes en de aardappels over een ovenschaal.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik alle aardappels en bloemkoolroosjes en stukken stronk."
+				},
+				"8": {
+					"label": "aardappelbloemkoolsalade 8",
+					"txt_standard": "Bestrooi de bloemkool en aardappels met de garam massala, chiliflakes en zout.",
+					"txt_detail": false,
+					"txt_howto": "Strooi garam massala poeder, chiliflakes en zout over de aardappels en bloemkool in de ovenschaal.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 1 a 2 eetlepels garam massala. Strooi de chiliflakes en zout naar smaak, dus zoveel als je zelf wilt."
+				},
+				"9": {
+					"label": "aardappelbloemkoolsalade 9",
+					"txt_standard": "Besprenkel de ovenschotel met olijfolie en meng goed.",
+					"txt_detail": false,
+					"txt_howto": "Giet wat olijfolie over de ovenschotel en meng het goed met een lepel door de aardappels en bloemkool.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik genoeg olijfolie zodat er wat op elke stukje bloemkool en aardappel zit."
+				},
+				"10": {
+					"label": "aardappelbloemkoolsalade 10",
+					"txt_standard": "Rooster de aardappels en bloemkool in de oven in 15-20 minuten mooi bruin. Schep tijdens het roosteren een keer om.",
+					"txt_detail": false,
+					"txt_howto": "Zet de ovenschotel in de voorverwarmde oven en rooster de aardappels en bloemkool in 15 tot 20 minuten gaar. Schep de ovenschotel af en toe om.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Dit duurt ongeveer 15 tot 20 minuten, dus je kunt ondertussen verder met de komkommer en saus."
+				},
+				"11": {
+					"label": "aardappelbloemkoolsalade 11",
+					"txt_standard": "Snijd de komkommers in plakjes.",
+					"txt_detail": false,
+					"txt_howto": "Snijd de komkommer in kleine plakjes en leg in een schaal.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 3 a 4 snackkomkommers"
+				},
+				"12": {
+					"label": "aardappelbloemkoolsalade 12",
+					"txt_standard": "Bestrooi de komkommer zout en besprenkel met limoensap.",
+					"txt_detail": false,
+					"txt_howto": "Strooi wat zout over de komkommer en giet wat limoensap in de schaal.",
+					"img_howto": false,
+					"txt_motivate": "Door het zout aan de komkommer toe te voegen wordt het vocht uit de komkommer gehaald.",
+					"txt_howmuch": "Gebruik een grote snuf zout en limoensap naar smaak."
+				},
+				"13": {
+					"label": "aardappelbloemkoolsalade 13",
+					"txt_standard": "Doe de kokosyoghurt in een kom en rasp wat limoenschil erboven.",
+					"txt_detail": false,
+					"txt_howto": "Schep de kokosyoghurt in een kom en rasp wat groene limoenschil op de yoghurt. Pas op dat je het witte van de schil niet meeraspt.",
+					"img_howto": false,
+					"txt_motivate": "Het groene van de limoenschil geeft een frisse limoensmaak aan de yoghurt. Het witte van de limoenschil is bitter en wordt daarom niet gebruikt.",
+					"txt_howmuch": "Naar smaak, dus je kunt zelf bepalen hoeveel je lekker vindt."
+				},
+				"14": {
+					"label": "aardappelbloemkoolsalade 14",
+					"txt_standard": "Pers limoensap naar smaak boven de yoghurt uit en breng de yoghurt op smaak met zout en peper.",
+					"txt_detail": false,
+					"txt_howto": "Pers wat limoensap uit boven de yoghurt en voeg wat peper en zout toe. Roer de yoghurt.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Naar smaak, voeg zoveel limoensap, peper en zout toe als je lekker vindt."
+				},
+				"15": {
+					"label": "aardappelbloemkoolsalade 15",
+					"txt_standard": "Hak de cashewnoten grof.",
+					"txt_detail": "Hak de gezouten cashewnoten grof.",
+					"txt_howto": "Leg de cashewnoten op een snijplanken en hak er een paar keer doorheen met een scherp mes.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 100 gram gezouten cashewnoten."
+				},
+				"16": {
+					"label": "aardappelbloemkoolsalade 16",
+					"txt_standard": "Snijd de bosuien in fijne ringetjes.",
+					"txt_detail": false,
+					"txt_howto": "Snijd het kontje van de bosui en snijd de bosui in ringetjes. Meng de helft van de ringetjes met de kip, een eetlepel olijfolie en wat peper en zout.",
+					"img_howto": "https://tinyurl.com/y9dou34d",
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik 3 bosuien."
+				},
+				"17": {
+					"label": "aardappelbloemkoolsalade 17",
+					"txt_standard": "Snijd de rode peper in schuine ringen.",
+					"txt_detail": "Je kunt ook eerste de zaadlijst van de rode peper verwijderen.",
+					"txt_howto": "Leg de rode peper schuin voor je op een snijplank en snijd er ringetjes van.",
+					"img_howto": false,
+					"txt_motivate": "Als je eerst de zaadlijst van de rode peper verwijderd, wordt het gerecht minder pittig.",
+					"txt_howmuch": "Gebruik 1 kleine rode peper."
+				},
+				"18": {
+					"label": "aardappelbloemkoolsalade 18",
+					"txt_standard": "Hak of pluk de koriander.",
+					"txt_detail": false,
+					"txt_howto": "Snijd de blaadjes van de koriander fijn.",
+					"img_howto": "https://tinyurl.com/ycm62ubd",
+					"txt_motivate": false,
+					"txt_howmuch": "We gebruiken 15 gram koriander, dat is een bosje koriander."
+				},
+				"19": {
+					"label": "aardappelbloemkoolsalade 19",
+					"txt_standard": "Schep de aardappelbloemkoolsalade op de borden of op een grote schaal.",
+					"txt_detail": false,
+					"txt_howto": "Schep de aardappelbloemkoolsalade uit de ovenschaal direct op borden of in een grote schaal.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Gebruik alle aardappelbloemkoolsalade."
+				},
+				"20": {
+					"label": "aardappelbloemkoolsalade 20",
+					"txt_standard": "Bestrooi met bosui, koriander, rode peper en cashewnoten.",
+					"txt_detail": false,
+					"txt_howto": "Strooi de gesneden bosui, koriander en cashewnoten over de salade.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Naar smaak, strooi zoveel van de bosui, koriander en cashewnoten erover als je zelf lekker vindt."
+				},
+				"21": {
+					"label": "aardappelbloemkoolsalade 21",
+					"txt_standard": "Geef de kokosyoghurt en komkommer erbij.",
+					"txt_detail": false,
+					"txt_howto": "Schep een beetje kokosyoghurtsaus naast of op de salade.",
+					"img_howto": false,
+					"txt_motivate": false,
+					"txt_howmuch": "Naar smaak, dus zoveel als je zelf lekker vindt."
 				}
 			}
 		}
