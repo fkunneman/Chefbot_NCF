@@ -328,17 +328,10 @@ class UpdateHandler(Move):
 
        In addition to the specified prior moves, the precondition should be met that there are still steps to explain
        """
-        # first_step = infostate['private']['plan_wide'] == 1
-        # print("PRINT FIRST STEP: ", infostate['private']['plan_wide'] == 1)
-        # first_step_str = str(first_step)
-        # infostate['private']['plan_wide'].insert(0,first_step_str)
-        # print("PRINT FIRST STEP HERE: ", len(infostate['private']['plan_wide']) >= 1,  infostate['private']['plan_wide'])
-        # print('EXPLANATIONS',  infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_update'])
-        # print('WAT IS DIT', infostate['private']['plan'][0])
 
         pm = False
         if Move.preconditions_met(self, infostate):
-            if infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_update']:
+            if infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_update'] and not infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['jump_to'] and not infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_decision']:
                 pm = True
         return pm
 
@@ -352,22 +345,8 @@ class UpdateHandler(Move):
             - the last step will be removed from the plan
             - the last step will be signified as 'done' in the shared beliefs
         """
-        # Move.effects(self,infostate)
-        # # current_step = min([int(x) for x in infostate['private']['plan_wide']])
-        # first_step = infostate['private']['plan_wide'] == 1
-        # print("PRINT FIRST STEP: ", infostate['private']['plan_wide'] == 1)
-        # first_step_str = str(first_step)
-        # infostate['private']['plan_wide'].insert(0,first_step_str)
 
         Move.effects(self,infostate)
-        # print('WAT IS DIT???', infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_update'])
-        # qud
-        # infostate['shared']['qud'] = infostate['private']['plan'][0]  + + '_update' #Dit lijkt niet gebruikt te worden als output
-
-
-
-
-
 
 
 class ErrorHandler(Move):
@@ -396,7 +375,7 @@ class ErrorHandler(Move):
 
         pm = False
         if Move.preconditions_met(self, infostate):
-            if infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_error'] and not infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_update']:
+            if infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_error'] and not infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_update'] and not infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['jump_to']:
                 pm = True
         return pm
 
@@ -413,6 +392,129 @@ class ErrorHandler(Move):
 
 
         Move.effects(self,infostate)
+
+
+
+
+class JumpTO(Move):
+    """
+    JumpTO
+    =====
+    Class to model the preconditions and effects of the move to switch between recipe steps
+    """
+
+    def __init__(self):
+        Move.__init__(self,
+                      name = 'jump_to',
+                      prior_moves = ['Advanced update'],
+                      context = [['recept_stappen',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_quantity',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_skill',5,{'no-input': 0.0, 'no-match': 0.0}]],
+                      suggestions = ['volgende stap','vorige stap','kun je dat nog een keer herhalen','wat bedoel je']
+                      )
+
+    def preconditions_met(self,infostate,knowledge):
+        """
+       preconditions_met
+       =====
+       Boolean function to return if the preconditions of this move have been met given the current information state
+
+       In addition to the specified prior moves, the precondition should be met that there are still steps to explain
+       """
+        # DEZE PM ZOU MOETEN WERKEN NU
+        pm = False
+        if Move.preconditions_met(self, infostate):
+            if infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['jump_to'] and not infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_update'] and not infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_decision']:
+                pm = True
+        return pm
+
+    def effects(self,infostate,knowledge):
+        """
+        effects
+        =====
+        Function to apply this move's effects to the information state
+
+        In addition to adding this move to the shared conversation information state, it has the following effects:
+            - the last step will be removed from the plan
+            - the last step will be signified as 'done' in the shared beliefs
+        """
+
+
+        Move.effects(self,infostate)
+        # ONDERSTAANDE STAPPEN ZIJN NODIG OM EEN STAP TE VERWIJDEREN!!!
+        current_step = min([int(x) for x in infostate['private']['plan_wide']])
+        current_step = str(current_step)
+        int_current_step = int(current_step)
+        # print('DIT ZOU DE HUIDIGE STAP MOETEN ZIJN:::::', current_step) #KLOPT GEEFT HET NUMMER
+        # print('WAT IS DEZE????????????????????', infostate['private']['explanations'][current_step], '\n') #Dit is alles wat er in deze stap staat
+        jump = infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['jump_to']
+        new_step = int_current_step + jump
+        # print( 'BEN BENIEUWD WAT DIT IS:    ', jump, type(jump), "DAN DE JUMP", new_step, type(new_step))
+        new_step = str(new_step)
+        # del(infostate['private']['explanations'][new_step])
+        infostate['private']['explanations'][new_step]['Done'] = True
+
+
+
+
+class DecisionMaker(Move):
+    """
+    DecisionMaker
+    =====
+    Class to model the preconditions and effects of the move to help make a decision on where to go in the recipe
+    """
+
+    def __init__(self):
+        Move.__init__(self,
+            name = 'decision_maker',
+            prior_moves = ['Advanced update'],
+            context = [['recept_stappen',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_quantity',5,{'no-input': 0.0, 'no-match': 0.0}],['recept_skill',5,{'no-input': 0.0, 'no-match': 0.0}]],
+            suggestions = ['volgende stap','vorige stap','kun je dat nog een keer herhalen','wat bedoel je']
+        )
+
+    def preconditions_met(self,infostate,knowledge):
+        """
+       preconditions_met
+       =====
+       Boolean function to return if the preconditions of this move have been met given the current information state
+
+       In addition to the specified prior moves, the precondition should be met that there are still steps to explain
+       """
+
+        pm = False
+        if Move.preconditions_met(self, infostate):
+            if infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['jump_to'] and infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['txt_update']:
+                pm = True
+        return pm
+
+    def effects(self,infostate,knowledge):
+        """
+        effects
+        =====
+        Function to apply this move's effects to the information state
+
+        In addition to adding this move to the shared conversation information state, it has the following effects:
+            - the last step will be removed from the plan
+            - the last step will be signified as 'done' in the shared beliefs
+        """
+
+
+        Move.effects(self,infostate)
+        print(infostate['shared']['entities'])
+        entities = sum([list(x.values()) for x in infostate['shared']['entities']], [])
+        print(entities)
+        if infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['jump_to_entity'] in entities:
+            current_step = min([int(x) for x in infostate['private']['plan_wide']])
+            current_step = str(current_step)
+            int_current_step = int(current_step)
+            jump = infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['jump_to']
+            new_step = int_current_step + jump
+            new_step = str(new_step)
+            infostate['private']['explanations'][new_step]['Done'] = True
+            infostate['shared']['moves'].append(['A', 'jump_to'])
+        elif infostate['private']['explanations'][infostate['private']['plan_wide'][0]]['update_entity'] in entities:
+            infostate['shared']['moves'].append(['A', 'update_handler'])
+
+
+
 
 
 
@@ -471,6 +573,13 @@ class InstructStep(Move):
         else:
             infostate['shared']['beliefs']['done'].append(infostate['private']['plan_wide'].pop(0))
 
+        if 'Done' in infostate['private']['explanations'][infostate['private']['plan_wide'][0]].keys():
+            # current_step = min([int(x) for x in infostate['private']['plan_wide']])
+            # current_step = str(current_step)
+            # int_current_step = int(current_step)
+            # new_step = int_current_step + 1
+            # new_step = str(new_step)
+            del(infostate['private']['plan_wide'][0])
 
 
 class InstructLastStep(Move):

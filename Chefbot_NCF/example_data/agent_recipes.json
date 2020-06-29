@@ -210,7 +210,10 @@
 					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven. ",
 					"txt_howmuch": "Een derde bol - 3 à 5 teentjes",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"2": {
 					"label": "pasta 2",
@@ -239,7 +242,10 @@
 					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven. ",
 					"txt_howmuch": "Een derde bol - 3 à 5 teentjes",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"3": {
 					"label": "pasta 3",
@@ -250,7 +256,10 @@
 					"txt_motivate": "Veel mensen vinden het lekker om pasta verder op smaak te brengen met geraspte kaas, maar zonder is het ook nog steeds erg lekker.",
 					"txt_howmuch": "Naar smaak, dus net zoveel als je lekker vindt. Ik zou het echter niet te bont maken",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				}
 			}
 		},
@@ -525,7 +534,10 @@
 					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
 					"txt_howmuch": "Voor dit recept gebruiken we 1 teen knoflook.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"2": {
 					"label": "noedels 2",
@@ -554,7 +566,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Voor dit recept gebruiken we een halve rode peper",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"3": {
 					"label": "noedels 2",
@@ -582,7 +597,12 @@
 					},
 					"txt_motivate": false,
 					"txt_update": false,
-					"txt_howmuch": "Voor dit recept gebruiken we een halve rode peper"
+					"txt_howmuch": "Voor dit recept gebruiken we een halve rode peper",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"4": {
 					"label": "noedels 3",
@@ -593,7 +613,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik het hele pak 300gr mager rundergehakt",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"5": {
 					"label": "noedels 4",
@@ -604,7 +627,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"6": {
 					"label": "noedels 5",
@@ -615,7 +641,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"7": {
 					"label": "noedels 6",
@@ -626,7 +655,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik hiervoor 2 eetlepels sesamolie.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"8": {
 					"label": "noedels 7",
@@ -637,7 +669,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": "Oke, als het water kookt kan je doorgaan met de volgende stap.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"9": {
 					"label": "noedels 8",
@@ -648,7 +683,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": "Oke, als het water kookt kan je beginnen met de huidige stap.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"10": {
 					"label": "noedels 9",
@@ -659,7 +697,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"11": {
 					"label": "noedels 10",
@@ -670,7 +711,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"12": {
 					"label": "noedels 11",
@@ -681,7 +725,10 @@
 					"txt_motivate": "Het toevoegen van sesamzaden aan gerechten kan worden vergelijken met een kers op de taart. Dit maakt het gerecht helemaal af.",
 					"txt_howmuch": "De hoeveelheid is naar eigen wens aan te passen.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				}
 			}
 		},
@@ -878,7 +925,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Een mok bloem is ongeveer 170 grams bloem.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"2": {
 					"label": "pannenkoeken 2",
@@ -889,7 +939,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Een mok melk is ongeveer 350 mililiter melk.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"3": {
 					"label": "pannenkoeken 3",
@@ -917,7 +970,10 @@
 					"txt_motivate": "Ei zorgt voor binding tussen de melk en de bloem waardoor het beslag een geheel wordt. Bovendien geeft ei een lekkere smaak aan de pannenkoeken.",
 					"txt_howmuch": "Twee middelgrote kippeneieren.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"4": {
 					"label": "pannenkoeken 4",
@@ -945,7 +1001,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Meng tot het een mooi, glad beslag is.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"5": {
 					"label": "pannenkoeken 5",
@@ -956,7 +1015,10 @@
 					"txt_motivate": "Het beslag heeft niet lang nodig om gaar te worden. Door middelhoog vuur te gebruiken zijn de pannenkoeken snel klaar zonder te verbranden.",
 					"txt_howmuch": false,
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"6": {
 					"label": "pannenkoeken 6",
@@ -984,7 +1046,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Ongeveer een theelepel boter.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"7": {
 					"label": "pannenkoeken 7",
@@ -1012,7 +1077,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Een soeplepel is ongeveer 150 mililiter.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"8": {
 					"label": "pannenkoeken 8",
@@ -1040,7 +1108,10 @@
 					"txt_motivate": false,
 					"txt_update": false,
 					"txt_howmuch": "Draai de pannenkoek een keer om.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"9": {
 					"label": "pannenkoeken 9",
@@ -1051,7 +1122,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Naar smaak, dus net zoveel als je lekker vindt.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				}
 			}
 		},
@@ -1251,7 +1325,10 @@
 					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
 					"txt_howmuch": "Voor dit recept gebruiken we 6 teentjes knoflook.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"2": {
 					"label": "sate 2",
@@ -1262,7 +1339,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Voor dit recept gebruiken we een hele rode peper",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"3": {
 					"label": "sate 3",
@@ -1273,7 +1353,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "We gebruiken 500 gram kipfilet",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"4": {
 					"label": "sate 4",
@@ -1284,7 +1367,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "We gebruiken een halve liter ketjap",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"5": {
 					"label": "sate 5",
@@ -1295,7 +1381,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"6": {
 					"label": "sate 6",
@@ -1306,7 +1395,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik 4 of 5 stukjes kip per stokje.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"7": {
 					"label": "sate 7",
@@ -1317,7 +1409,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "3 minuten per kant is een goede indicatie.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"8": {
 					"label": "sate 8",
@@ -1328,7 +1423,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"9": {
 					"label": "sate 9",
@@ -1339,7 +1437,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				}
 			}
 		},
@@ -1641,7 +1742,10 @@
 					"txt_motivate": "Door de oven nu alvast voor de verwarmen hoef je straks niet meer te wachten tot hij op temperatuur is.",
 					"txt_howmuch": false,
 					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"2": {
 					"label": "Mexicaanse Ovenschotel 2",
@@ -1652,7 +1756,10 @@
 					"txt_motivate": "Er is geen extra boter of olie nodig omdat er al genoeg vet in het gehakt zit om het rul te bakken.",
 					"txt_howmuch": "500 gram rundergehakt",
 					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"3": {
 					"label": "Mexicaanse Ovenschotel 3",
@@ -1663,7 +1770,10 @@
 					"txt_motivate": "De seasoningmix zorgt voor een groot deel voor de lekkere smaak van deze Ovenschotel",
 					"txt_howmuch": "Het hele zakje seasoningmix mag er doorheen, dat is 40 gram. En er moet 400 gram tomatenblokjes doorheen.",
 					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"4": {
 					"label": "Mexicaanse Ovenschotel 4",
@@ -1674,7 +1784,10 @@
 					"txt_motivate": "Schep of giet de hele pan leeg in de ovenschaal en verdeel het mensgel goed. Dit is de onderste laag van de ovenschotel.",
 					"txt_howmuch": "Schep de hele pan leeg",
 					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"5": {
 					"label": "Mexicaanse Ovenschotel 5",
@@ -1685,7 +1798,10 @@
 					"txt_motivate": "Door de maiskorrels eerst uit te laten lekken komt er geen extra vocht in de ovenschotel.",
 					"txt_howmuch": "Er gaat 300 gram mais in het mengsel",
 					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"6": {
 					"label": "Mexicaanse Ovenschotel 6",
@@ -1696,7 +1812,10 @@
 					"txt_motivate": "Zorg dat je de chilibonen goed verdeelt over het gehaktmengsel, want het is lekkerder als er overal een paar bonen zitten.",
 					"txt_howmuch": "Er moet 400 gram chilibonen toegevoegd worden.",
 					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"7": {
 					"label": "Mexicaanse Ovenschotel 7",
@@ -1707,7 +1826,10 @@
 					"txt_motivate": "Zorg dat je de kaas goed verdeelt over het gehaktmengsel.",
 					"txt_howmuch": "Er moet 50 gram geraspte kaas toegevoegd worden.",
 					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"8": {
 					"label": "Mexicaanse Ovenschotel 8",
@@ -1718,7 +1840,10 @@
 					"txt_motivate": "Zorg dat je de tortillachips goed verdeelt over het gehaktmengsel, zodat er een goeie laag chips bovenop ligt.",
 					"txt_howmuch": "De halve zak tortillachips moet bovenop de schotel geplaatst worden",
 					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"9": {
 					"label": "Mexicaanse Ovenschotel 9",
@@ -1729,7 +1854,10 @@
 					"txt_motivate": "Het ziet er extra lekker uit als er gesmolten kaas over de tortillachips ligt.",
 					"txt_howmuch": "Er moet 50 gram geraspte kaas toegevoegd worden.",
 					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"10": {
 					"label": "Mexicaanse Ovenschotel 10",
@@ -1740,7 +1868,10 @@
 					"txt_motivate": "De ringen liggen bovenop de ovenschotel en dit maakt het helemaal af. Ziet het er niet prachtig uit.",
 					"txt_howmuch": "Er moet 1 rode puntpaprika gesneden worden.",
 					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"11": {
 					"label": "Mexicaanse Ovenschotel 11",
@@ -1751,7 +1882,10 @@
 					"txt_motivate": "20 minuten is een goeie tijd om de ovenschotel goed op te warmen, zodat het nog lekkerder is.",
 					"txt_howmuch": "De schotel moet 20 minuten in de oven, maar houd natuurlijk altijd de schotel zelf in de gaten.",
 					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"12": {
 					"label": "Mexicaanse Ovenschotel 12",
@@ -1762,7 +1896,10 @@
 					"txt_motivate": "Tortillachips is lekker om naast het gerecht erbij te eten, of je kan er wat extra chips bij doen als je vindt dat er niet genoeg chips door je eten zit.",
 					"txt_howmuch": "De overige tortillachips uit de zak, en dat is als het goed is ongeveer de halve zak.",
 					"txt_update": "Zorg dat de oven op deze temperatuur blijft en volg eerst alle bereidingsstappen voordat je de ovenschaal in de oven zet.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				}
 			}
 		},
@@ -1867,7 +2004,10 @@
 					"txt_motivate": "Door de spinazie in de bouillon te koken, krijgt de bouillon extra smaak.",
 					"txt_howmuch": "600 milliliter groentebouillon en 500 gram spinazie.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"2": {
@@ -1879,7 +2019,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"3": {
@@ -1891,7 +2034,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Een scheut olie is 1 a 2 eetlepels.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"4": {
@@ -1903,7 +2049,10 @@
 					"txt_motivate": "Als de rijst doorzichtig is en glanst, heeft het wat  olie opgenomen waardoor de risotto romig wordt.",
 					"txt_howmuch": "Dit duurt een paar minuten, maar houdt de rijst in de gaten.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"5": {
@@ -1915,7 +2064,10 @@
 					"txt_motivate": "Het langzame koken en roeren zorgt voor een romige risotto.",
 					"txt_howmuch": "Een soeplepel hete bouillon is ongeveer 150 milliliter.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"6": {
@@ -1927,7 +2079,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "150 milliliter kookroom",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"7": {
@@ -1939,7 +2094,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "50 gram geraspte Parmezaanse kaas en 1 eetlepel boter",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"8": {
@@ -1951,7 +2109,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"9": {
@@ -1963,7 +2124,10 @@
 					"txt_motivate": "De risotto kan op smaak gebracht worden met geraspte kaas en peper, maar zonder is het ook nog steeds erg lekker.",
 					"txt_howmuch": "Naar smaak, dus net zoveel als je lekker vindt. Ik zou het echter niet te bont maken.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				}
 			}
@@ -2067,7 +2231,9 @@
 					"txt_howmuch": "180 graden Celsius",
 					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
 					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
-					"jump_to": false
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"2": {
@@ -2079,20 +2245,28 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
+					"update_entity": "Oven",
 					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
-					"jump_to": 2
+					"jump_to": 2,
+					"jump_to_entity": "water",
+					"txt_check": false,
+
 				},
 				"3": {
 					"label": "woknroll 3",
-					"txt_standard": "Snijd de uiteindes van de sperziebonen.",
+					"txt_standard": "Snijd de uiteindes van de sperziebonen. Als je dit al hebt gedaan mag je doorgaan met de volgende stap.",
 					"txt_detail": "Snijd de uiteindes van de sperziebonen en verwijder eventuele draden.",
 					"txt_howto": "Snijd de uiteindes van de sperziebonen in en trek daarmee eventuele draden los van de sperziebonen.",
 					"img_howto": false,
 					"txt_motivate": "Door de puntjes van de sperziebonen te halen",
 					"txt_howmuch": "500 gram sperziebonen.",
 					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
+					"update_entity": "Oven",
 					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
-					"jump_to": 1
+					"jump_to": 1,
+					"jump_to_entity": "water",
+					"txt_check": false,
+
 				},
 				"4": {
 					"label": "woknroll 4",
@@ -2104,7 +2278,10 @@
 					"txt_howmuch": "Circa 3 minuten.",
 					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
 					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
-					"jump_to": false
+					"jump_to": false,
+					"txt_check": "Houd er rekening mee dat je wel eerst alle sperziebonen gesneden moet hebben als je deze stap wil uitvoeren.",
+					"txt_check": false,
+
 				},
 				"5": {
 					"label": "woknroll 5",
@@ -2116,7 +2293,9 @@
 					"txt_howmuch": "We gebruiken 1 ui",
 					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
 					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
-					"jump_to": false
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"6": {
 					"label": "woknroll 6",
@@ -2146,7 +2325,9 @@
 					"txt_howmuch": "Voor dit recept gebruiken we 1 teen knoflook.",
 					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
 					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
-					"jump_to": false
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"7": {
 					"label": "woknroll 7",
@@ -2158,7 +2339,9 @@
 					"txt_howmuch": "Voor dit recept gebruiken we 1 paprika.",
 					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
 					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
-					"jump_to": false
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"8": {
 					"label": "woknroll 8",
@@ -2170,7 +2353,9 @@
 					"txt_howmuch": "We gebruiken 1 paksoi.",
 					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
 					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
-					"jump_to": false
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"9": {
 					"label": "woknroll 9",
@@ -2182,7 +2367,9 @@
 					"txt_howmuch": "400 gram zalmfilet",
 					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
 					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
-					"jump_to": false
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"10": {
 					"label": "woknroll 10",
@@ -2194,7 +2381,9 @@
 					"txt_howmuch": "Een scheut olie is 1 a 2 eetlepels.",
 					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
 					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
-					"jump_to": false
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"11": {
 					"label": "woknroll 11",
@@ -2206,7 +2395,9 @@
 					"txt_howmuch": "Dit duurt ongeveer 3 minuten.",
 					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
 					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
-					"jump_to": false
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"12": {
 					"label": "woknroll 12",
@@ -2218,7 +2409,9 @@
 					"txt_howmuch": "Dit duurt ongeveer 2 minuten",
 					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
 					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
-					"jump_to": false
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"13": {
 					"label": "woknroll 13",
@@ -2230,7 +2423,9 @@
 					"txt_howmuch": "Gebruik ongeveer 1 eetlepel chillisaus en peper naar smaak.",
 					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
 					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
-					"jump_to": false
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"14": {
 					"label": "woknroll 14",
@@ -2242,7 +2437,9 @@
 					"txt_howmuch": false,
 					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
 					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
-					"jump_to": false
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"15": {
 					"label": "woknroll 15",
@@ -2254,7 +2451,9 @@
 					"txt_howmuch": false,
 					"txt_update": "Oké de oven is warm! Houd de oven op temperatuur tot er wordt gezegd dat hij gebruikt moet worden.",
 					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
-					"jump_to": false
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"16": {
 					"label": "woknroll 16",
@@ -2266,7 +2465,9 @@
 					"txt_howmuch": "Ongeveer 6 minuten in de oven.",
 					"txt_update": "Oké de oven is warm! Voer nu de huidige stap uit.",
 					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
-					"jump_to": false
+					"jump_to": false,
+					"txt_check": false,
+
 				}
 			}
 		},
@@ -2368,7 +2569,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "2 eetlepels olijfolie",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"2": {
@@ -2380,7 +2584,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Een halve eetlepel paprikapoeder.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"3": {
@@ -2392,7 +2599,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": "Oke mooi, hou de kip even apart en volg de rest van de stappen ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"4": {
@@ -2404,7 +2614,10 @@
 					"txt_motivate": "Door het vruchtvlees in de schil te laten tijdens het snijden, is de avocado makkelijk vast te houden en blijven je handen schoon.",
 					"txt_howmuch": "Voor dit recept gebruiken we 2 avocado's.",
 					"txt_update": "Oke mooi, hou de kip even apart en volg de rest van de stappen ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"5": {
 					"label": "maaltijdwraps 5",
@@ -2415,7 +2628,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": "Oke mooi, hou de kip even apart en volg de rest van de stappen ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"6": {
 					"label": "maaltijdwraps 6",
@@ -2426,7 +2642,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Voor dit recept gebruiken we 2 roma-tomaten.",
 					"txt_update": "Oke mooi, hou de kip even apart en volg de rest van de stappen ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"7": {
 					"label": "maaltijdwraps 7",
@@ -2437,7 +2656,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Voor dit recept gebruiken we 6 eetlepels yoghurt en 1 teen knoflook.",
 					"txt_update": "Oke mooi, hou de kip even apart en volg de rest van de stappen ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"8": {
 					"label": "maaltijdwraps 8",
@@ -2448,7 +2670,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "We gebruiken 15 gram koriander, dat is een bosje koriander.",
 					"txt_update": "Oke mooi, hou de kip even apart en volg de rest van de stappen ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"9": {
 					"label": "maaltijdwraps 9",
@@ -2459,7 +2684,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Een grote eetlepel per tortilla.",
 					"txt_update": "Oke mooi, hou de kip even apart en volg de rest van de stappen ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"10": {
 					"label": "maaltijdwraps 10",
@@ -2470,7 +2698,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": "Oke mooi, hou de kip even apart en volg de rest van de stappen ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"11": {
 					"label": "maaltijdwraps 11",
@@ -2481,7 +2712,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Naar smaak, dus net zoveel koriander als je zelf lekker vindt.",
 					"txt_update": "Oke mooi, hou de kip even apart en volg de rest van de stappen ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				}
 			}
 		},
@@ -2583,7 +2817,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Naar smaak, dus je mag zelf bepalen hoe veel je wilt. Meestal is een snufje per filet genoeg.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"2": {
@@ -2595,7 +2832,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "We gebruiken 1 ui",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"3": {
@@ -2607,7 +2847,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"4": {
@@ -2619,7 +2862,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "We gebruiken hier 1.5 eetlepel olijfolie.",
 					"txt_update": "Oke als de ui glazig is kan je door met de volgende stap!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"5": {
@@ -2631,7 +2877,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"6": {
 					"label": "chickenparmpasta 6",
@@ -2642,7 +2891,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "We gebruiken 500 milliliter kippenbouillon en 250 milliliter kookroom. Let op, dit is maar een deel van alle kookroom.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"7": {
 					"label": "chickenparmpasta 7",
@@ -2653,7 +2905,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Laat het ongeveer  15 minuten sudderen.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"8": {
 					"label": "chickenparmpasta 8",
@@ -2664,7 +2919,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Laat het ongeveer  15 minuten sudderen.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"9": {
 					"label": "chickenparmpasta 9",
@@ -2675,7 +2933,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik iets minder dan alle 135 gram Parmezaanse kaas.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"10": {
 					"label": "chickenparmpasta 10",
@@ -2686,7 +2947,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Een eetlepel olie.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"11": {
 					"label": "chickenparmpasta 11",
@@ -2697,7 +2961,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Bak de kip voor circa 2 of 3 minuten.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"12": {
 					"label": "chickenparmpasta 12",
@@ -2708,7 +2975,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"13": {
 					"label": "chickenparmpasta 13",
@@ -2719,7 +2989,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik 15 gram peterselie, dat is ongeveer een bosje. De overige kaas kan hier opgemaakt worden.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				}
 			}
 		},
@@ -2824,7 +3097,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "1 kilo aardappels",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"2": {
@@ -2836,7 +3112,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Dit zal rond de 20 minuten duren.",
 					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 11,
+					"txt_check": false,
+
 
 				},
 				"3": {
@@ -2848,7 +3127,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Naar smaak, dus je kunt zoveel doen als je zelf wilt. Meestal is een theelepel paprikapoeder en een snuf peper en zout genoeg.",
 					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 10,
+					"txt_check": false,
+
 				},
 				"4": {
 					"label": "karbonade 4",
@@ -2859,7 +3141,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Een klontje boter is circa 25 gram.",
 					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 9,
+					"txt_check": false,
+
 				},
 				"5": {
 					"label": "karbonade 5",
@@ -2870,7 +3155,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Dit duurt 4 minuten per kant",
 					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 8,
+					"txt_check": false,
+
 				},
 				"6": {
 					"label": "karbonade 6",
@@ -2881,7 +3169,10 @@
 					"txt_motivate": "Door het vlees te laten rusten, wordt het malser.",
 					"txt_howmuch": "Dit duurt een paar minuten, dus je kunt alvast beginnen aan de saus.",
 					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 7,
+					"txt_check": false,
+
 				},
 				"7": {
 					"label": "karbonade 7",
@@ -2892,7 +3183,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 6,
+					"txt_check": false,
+
 				},
 				"8": {
 					"label": "karbonade 8",
@@ -2903,7 +3197,10 @@
 					"txt_motivate": "Door de champignons te bakken in dezelfde pan als de karbonades, krijgen de champignons extra smaak.",
 					"txt_howmuch": false,
 					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 5,
+					"txt_check": false,
+
 				},
 				"9": {
 					"label": "karbonade 9",
@@ -2914,7 +3211,10 @@
 					"txt_motivate": "Aan knoflook worden verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
 					"txt_howmuch": "Voor dit recept hebben we 4 teentjes knoflook nodig.",
 					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 4,
+					"txt_check": false,
+
 				},
 				"10": {
 					"label": "karbonade 10",
@@ -2925,7 +3225,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "125 milliliter kippenbouillon en 375 milliliter kookroom.",
 					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 3,
+					"txt_check": false,
+
 				},
 				"11": {
 					"label": "karbonade 11",
@@ -2936,7 +3239,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Dit duurt ongeveer 4 minuten.",
 					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 2,
+					"txt_check": false,
+
 				},
 				"12": {
 					"label": "karbonade 12",
@@ -2947,7 +3253,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Laat de karbonades circa 3 minuten meesudderen.",
 					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 1,
+					"txt_check": false,
+
 				},
 				"13": {
 					"label": "karbonade 10",
@@ -2958,7 +3267,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "We gebruiken 150 milliliter melk, 30 gram roomboter en 1 theelepel nootmuskaat.",
 					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": "Let hierbij wel op dat je niet vergeet waar je mee bezig was. Staat er bijvoorbeeld iets op het vuur, houd het dan wel goed in de gaten!",
+
 				},
 				"14": {
 					"label": "karbonade 11",
@@ -2969,7 +3281,9 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false
 				},
 				"15": {
 					"label": "karbonade 10",
@@ -2980,7 +3294,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Naar smaak, dus je mag zelf bepalen hoeveel.",
 					"txt_update": "Goed, als de aardappelen klaar zijn kan je ze afgieten en doorgaan met de volgende stappen tot de aardappelen nodig zijn ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				}
 			}
 		},
@@ -3079,7 +3396,12 @@
 					"txt_howto": "Zet de oven aan op 200 graden Celsius. Leg een vel bakpapier op een bakplaat.",
 					"img_howto": false,
 					"txt_motivate": "Door de oven voor te verwarmen hoeft het eten minder lang in de oven.",
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": "Oke de oven is warm, houd hem nu op temperatuur zodat hij nog warm is als de kipballetjes de oven in moeten!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"2": {
 					"label": "teriyaki-kipballetjes 2",
@@ -3088,7 +3410,12 @@
 					"txt_howto": "Gebruik een knoflookpers om de knoflookteen fijn te maken en voeg de knoflook toe aan kom met kip.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "We gebruiken 400 gram kipgehakt en 1 teen knoflook."
+					"txt_howmuch": "We gebruiken 400 gram kipgehakt en 1 teen knoflook.",
+					"txt_update": "Oke de oven is warm, houd hem nu op temperatuur zodat hij nog warm is als de kipballetjes de oven in moeten!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"3": {
 					"label": "teriyaki-kipballetjes 3",
@@ -3097,7 +3424,12 @@
 					"txt_howto": "Snijd het kontje van de bosui en snijd de bosui in ringetjes. Meng de helft van de ringetjes met de kip, een eetlepel olijfolie en wat peper en zout.",
 					"img_howto": "https://tinyurl.com/y9dou34d",
 					"txt_motivate": false,
-					"txt_howmuch": "Er gaan 2 bosuitjes, 1 eetlepel en een snufje peper en zout bij de kip."
+					"txt_howmuch": "Er gaan 2 bosuitjes, 1 eetlepel en een snufje peper en zout bij de kip.",
+					"txt_update": "Oke de oven is warm, houd hem nu op temperatuur zodat hij nog warm is als de kipballetjes de oven in moeten!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"4": {
 					"label": "teriyaki-kipballetjes 4",
@@ -3106,7 +3438,12 @@
 					"txt_howto": "Schep met een eetlepel wat gehakt uit de kom en draai dit met je handen tot een balletje. Herhaal dit tot al het gehakt op is.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": "Oke de oven is warm, houd hem nu op temperatuur zodat hij nog warm is als de kipballetjes de oven in moeten!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"5": {
 					"label": "teriyaki-kipballetjes 5",
@@ -3115,7 +3452,12 @@
 					"txt_howto": "Leg alle kipgehaktballetjes op het bakpapier op de bakplaat en plaats deze voor 15 minuten in de oven.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Bak de gehaktballetjes voor circa 15 minuten."
+					"txt_howmuch": "Bak de gehaktballetjes voor circa 15 minuten.",
+					"txt_update": "Oke de oven is warm, houd hem nu op temperatuur zodat hij nog warm is als de kipballetjes de oven in moeten!",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"6": {
 					"label": "teriyaki-kipballetjes 6",
@@ -3124,7 +3466,12 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Gebruik 400 gram pandanrijst."
+					"txt_howmuch": "Gebruik 400 gram pandanrijst.",
+					"txt_update": "Als de rijst klaar is kan je die afgieten en doorgaan met de rest van het recept.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"7": {
 					"label": "teriyaki-kipballetjes 7",
@@ -3133,7 +3480,12 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": "Maizena zorgt ervoor dat een saus iets dikker wordt.",
-					"txt_howmuch": "Hier is 350 milliliter kokosmelk en 300 milliliter water nodig."
+					"txt_howmuch": "Hier is 350 milliliter kokosmelk en 300 milliliter water nodig.",
+					"txt_update": "Als de rijst klaar is kan je die afgieten en doorgaan met de rest van het recept.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"8": {
 					"label": "teriyaki-kipballetjes 8",
@@ -3142,7 +3494,12 @@
 					"txt_howto": "Gebruik een knoflookpers om de knoflookteen fijn te maken en voeg de knoflook toe aan kom met kip.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "We gebruiken hier 60 milliliter sojasaus en water, 3 eetlepels honing en 1 teentje knoflook."
+					"txt_howmuch": "We gebruiken hier 60 milliliter sojasaus en water, 3 eetlepels honing en 1 teentje knoflook.",
+					"txt_update": "Als de rijst klaar is kan je die afgieten en doorgaan met de rest van het recept.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"9": {
 					"label": "teriyaki-kipballetjes 9",
@@ -3151,7 +3508,12 @@
 					"txt_howto": "Zet de pan met het sojasaus mengsel op een middelhoog vuur tot het kookt.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": "Als de rijst klaar is kan je die afgieten en doorgaan met de rest van het recept.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"10": {
 					"label": "teriyaki-kipballetjes 10",
@@ -3160,7 +3522,12 @@
 					"txt_howto": "Roer de saus en voeg steeds een beetje van het maizenapapje toe. Blijf roeren en toevoegen tot de saus de gewenste dikte heeft.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Je kunt alles van het maizenamengsel gebruiken. Als je liever een dunnere saus hebt, gebruik dan minder."
+					"txt_howmuch": "Je kunt alles van het maizenamengsel gebruiken. Als je liever een dunnere saus hebt, gebruik dan minder.",
+					"txt_update": "Als de rijst klaar is kan je die afgieten en doorgaan met de rest van het recept.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"11": {
 					"label": "teriyaki-kipballetjes 11",
@@ -3169,7 +3536,12 @@
 					"txt_howto": "Haal de kipballetjes uit de oven en voeg ze toe aan de saus. Laat de balletjes 5 minuten mee bakken op laag vuur.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Dit duurt 5 minuten."
+					"txt_howmuch": "Dit duurt 5 minuten.",
+					"txt_update": "Als de rijst klaar is kan je die afgieten en doorgaan met de rest van het recept.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"12": {
 					"label": "teriyaki-kipballetjes 12",
@@ -3178,7 +3550,12 @@
 					"txt_howto": "Schep wat rijst en teriyaki-kipballetjes op een bord. Strooi wat sesamzaadjes en de rest van de bosui erover.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Gebruik hier de rest van de bosui, dus ringen van ongeveer 2 bosuitjes en 1 eetlepel sesamzaadjes."
+					"txt_howmuch": "Gebruik hier de rest van de bosui, dus ringen van ongeveer 2 bosuitjes en 1 eetlepel sesamzaadjes.",
+					"txt_update": "Als de rijst klaar is kan je die afgieten en doorgaan met de rest van het recept.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				}
 			}
 		},
@@ -3277,7 +3654,12 @@
 					"txt_howto": "Snijd met een aardappelschilmesje of een aardappelschiller de schil van de aardappels en snijd de aardappels in ongeveer even grote stukken.",
 					"img_howto": false,
 					"txt_motivate": "Door de aardappels in gelijke stukken te snijden, zijn de stukken gelijktijdig gaar.",
-					"txt_howmuch": "2 kilo aardappels"
+					"txt_howmuch": "2 kilo aardappels",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"2": {
 					"label": "andijviestamppot 2",
@@ -3286,7 +3668,12 @@
 					"txt_howto": "Leg de aardappels in een pan met koud water en een snuf zout, en breng dit aan de kook. De aardappels zijn gaar als je er makkelijk met een vork in kunt prikken en ze vanzelf van de vork glijden.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Dit duurt ongeveer 15 minuten."
+					"txt_howmuch": "Dit duurt ongeveer 15 minuten.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 5,
+					"txt_check": false,
+
 				},
 				"3": {
 					"label": "andijviestamppot 3",
@@ -3295,7 +3682,12 @@
 					"txt_howto": "Leg het spek in een koekenpan en zet de pan op middelhoog vuur. Bak het spek tot het knapperig is.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Gebruik hiervoor 250 gram spekblokjes."
+					"txt_howmuch": "Gebruik hiervoor 250 gram spekblokjes.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 4,
+					"txt_check": false,
+
 				},
 				"4": {
 					"label": "andijviestamppot 4",
@@ -3304,7 +3696,12 @@
 					"txt_howto": "Zet een zeef op een kom en leg de spekjes in de zeef. Het spekvet wordt opgevangen in de kom.",
 					"img_howto": false,
 					"txt_motivate": "Het spekvet geeft extra smaak aan de stamppot.",
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 3,
+					"txt_check": false,
+
 				},
 				"5": {
 					"label": "andijviestamppot 5",
@@ -3313,7 +3710,12 @@
 					"txt_howto": "Snijd het kontje van de andijvie af. Snijd het groen en het wit van de andijvie in reepjes van 1 a 2 centimeter breed.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "1 kilo rauwe andijvie."
+					"txt_howmuch": "1 kilo rauwe andijvie.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 2,
+					"txt_check": false,
+
 				},
 				"6": {
 					"label": "andijviestamppot 6",
@@ -3322,7 +3724,14 @@
 					"txt_howto": "Zet een pannetje met melk op het vuur en blijf roeren tot het kookt.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Gebruik 150 milliliter melk"
+					"txt_howmuch": "Gebruik 150 milliliter melk",
+					"txt_update": "Oke de melk kookt, haal het pannetje met melk van het vuur en zet het ergens neer waar het niet in de weg staat. Je hebt de melk zometeen weer nodig.",
+					"update_entity": "melk",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 1,
+					"jump_to_entity": "gebakken",
+					"txt_check": false,
+					"txt_decision": "HIER MOET DUS EEN DECISION OVER OF DE MELK KOOKT OF DE AARDAPPELEN GAAR ZIJN!!!!!!!!"
 				},
 				"7": {
 					"label": "andijviestamppot 7",
@@ -3331,7 +3740,12 @@
 					"txt_howto": "Giet het water uit de pan en laat de aardappels in de pan zitten.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": "Als je dat gedaan hebt kun je de aardappelen nog even in de pan laten liggen en verder gaan met de volgende stappen tot de aardappelen weer nodig zijn.",
+
 				},
 				"8": {
 					"label": "andijviestamppot 8",
@@ -3340,7 +3754,12 @@
 					"txt_howto": "Voeg de boter toe aan de aardappels en prak de aardappels grof.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "125 gram ongezouten roomboter."
+					"txt_howmuch": "125 gram ongezouten roomboter.",
+					"txt_update": "Oke de melk kookt, haal het pannetje met melk van het vuur en zet het ergens neer waar het niet in de weg staat. Je hebt de melk zometeen weer nodig.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 0,
+					"txt_check": false,
+
 				},
 				"9": {
 					"label": "andijviestamppot 9",
@@ -3349,7 +3768,12 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Gebruik ongeveer 150 milliliter melk."
+					"txt_howmuch": "Gebruik ongeveer 150 milliliter melk.",
+					"txt_update": "Oke de melk kookt, Gooi de gekookte melk op de geprakte aardappels en prak die er ook door.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"10": {
 					"label": "andijviestamppot 10",
@@ -3358,7 +3782,12 @@
 					"txt_howto": "Voeg het spekvet en de geraspte nootmustkaat bij de aardappelpuree en meng het door elkaar.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Naar smaak, gebruik zoveel nootmuskaat als je zelf lekker vindt."
+					"txt_howmuch": "Naar smaak, gebruik zoveel nootmuskaat als je zelf lekker vindt.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"11": {
 					"label": "andijviestamppot 11",
@@ -3367,7 +3796,12 @@
 					"txt_howto": "Voeg de andijvie toe aan de aardappelpuree en stamp deze erdoor.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"12": {
 					"label": "andijviestamppot 12",
@@ -3376,7 +3810,12 @@
 					"txt_howto": "Leeg het zakje jus in een kom, voeg daar zoveel water aan toe als op de verpaking staat en meng dit door elkaar.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Meestal gebruik je hiervoor 300 milliliter water."
+					"txt_howmuch": "Meestal gebruik je hiervoor 300 milliliter water.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"13": {
 					"label": "andijviestamppot 13",
@@ -3385,7 +3824,12 @@
 					"txt_howto": "Haal de buitenste laag van de ui en snijd de ui in blokjes van ongeveer een halve centimeter breed.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "We gebruiken 1 ui"
+					"txt_howmuch": "We gebruiken 1 ui",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"14": {
 					"label": "andijviestamppot 14",
@@ -3394,7 +3838,12 @@
 					"txt_howto": "Giet wat jus over de stamppot en strooi wat ui en spekjes erover. Schep een beetje mosterd op de stamppot.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Naar smaak, dus gebruik zoveel ui, mosterd, jus en spekjes als je zelf lekker vindt."
+					"txt_howmuch": "Naar smaak, dus gebruik zoveel ui, mosterd, jus en spekjes als je zelf lekker vindt.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				}
 
 			}
@@ -3493,7 +3942,9 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik 300 gram kippendijen.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
 
 				},
 				"2": {
@@ -3505,7 +3956,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Naar smaak, dus zoveel peper en zout als je zelf lekker vindt.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"3": {
@@ -3516,8 +3970,11 @@
 					"img_howto": false,
 					"txt_motivate": false,
 					"txt_howmuch": false,
-					"txt_update": "Oke goed de kip is gaar VERWIJS NAAR STAP 5 ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 2,
+					"txt_check": false,
+
 
 				},
 				"4": {
@@ -3528,8 +3985,11 @@
 					"img_howto": false,
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik 3 tomaten en 125 gram mozzarella.",
-					"txt_update": "Oke goed de kip is gaar VERWIJS NAAR STAP 5 ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 1,
+					"txt_check": false,
+
 				},
 				"5": {
 					"label": "kip caprese 5",
@@ -3539,8 +3999,11 @@
 					"img_howto": false,
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik alle tomatenschijfjes die je hebt gesneden.",
-					"txt_update": "Oke goed de kip is gaar VERWIJS NAAR STAP 5 ",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": "Als je de tomaten nog niet hebt gesneden kan je dit nu doen.",
+
 				},
 				"6": {
 					"label": "kip caprese 6",
@@ -3551,7 +4014,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik alle mozzarella plakjes die je hebt gesneden.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"7": {
 					"label": "kip caprese 7",
@@ -3562,7 +4028,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Laat de kip nog 2 minuten op de grill liggen.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"8": {
 					"label": "kip caprese 8",
@@ -3573,7 +4042,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik een handvol basilicum blaadjes.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				}
 			}
 		},
@@ -3676,7 +4148,9 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": "Als het water kookt kan je doorgaan naar de volgende stap.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
 
 				},
 				"2": {
@@ -3687,8 +4161,10 @@
 					"img_howto": false,
 					"txt_motivate": false,
 					"txt_howmuch": "Meestal moet de spaghetti rond 10 minuten koken.",
-					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 9,
+					"txt_check": false,
 
 				},
 				"3": {
@@ -3699,8 +4175,11 @@
 					"img_howto": false,
 					"txt_motivate": false,
 					"txt_howmuch": "Rooster 2 theelepels nigellazaad.",
-					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 8,
+					"txt_check": false,
+
 				},
 				"4": {
 					"label": "spaghetti avocadosaus 4",
@@ -3728,8 +4207,11 @@
 					},
 					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
 					"txt_howmuch": "Voor dit recept gebruiken we 2 teentjes knoflook.",
-					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 7,
+					"txt_check": false,
+
 				},
 				"5": {
 					"label": "spaghetti avocadosaus 5",
@@ -3739,8 +4221,11 @@
 					"img_howto": false,
 					"txt_motivate": false,
 					"txt_howmuch": "Een scheut olie is 1 a 2 eetlepels. ",
-					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 6,
+					"txt_check": false,
+
 				},
 				"6": {
 					"label": "spaghetti avocadosaus 6",
@@ -3750,8 +4235,11 @@
 					"img_howto": false,
 					"txt_motivate": false,
 					"txt_howmuch": "Dit duurt ongeveer 2 minuten.",
-					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 5,
+					"txt_check": false,
+
 				},
 				"7": {
 					"label": "spaghetti avocadosaus 7",
@@ -3761,8 +4249,11 @@
 					"img_howto": false,
 					"txt_motivate": false,
 					"txt_howmuch": "200 gram cherrytomaten aan de tak.",
-					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 4,
+					"txt_check": false,
+
 				},
 				"8": {
 					"label": "spaghetti avocadosaus 8",
@@ -3772,8 +4263,11 @@
 					"img_howto": false,
 					"txt_motivate": false,
 					"txt_howmuch": false,
-					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 3,
+					"txt_check": false,
+
 				},
 				"9": {
 					"label": "spaghetti avocadosaus 9",
@@ -3783,8 +4277,11 @@
 					"img_howto": false,
 					"txt_motivate": false,
 					"txt_howmuch": "We gebruiken 2 avocado's.",
-					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 2,
+					"txt_check": false,
+
 				},
 				"10": {
 					"label": "spaghetti avocadosaus 10",
@@ -3794,8 +4291,11 @@
 					"img_howto": false,
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik 100 gram roomkaas, 2 eetlepels sojasaus en een halve citroen.",
-					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 1,
+					"txt_check": false,
+
 				},
 				"11": {
 					"label": "spaghetti avocadosaus 11",
@@ -3805,8 +4305,11 @@
 					"img_howto": false,
 					"txt_motivate": false,
 					"txt_howmuch": false,
-					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"12": {
 					"label": "spaghetti avocadosaus 12",
@@ -3816,8 +4319,11 @@
 					"img_howto": false,
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik hier 2 courgettes voor.",
-					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"13": {
 					"label": "spaghetti avocadosaus 13",
@@ -3827,8 +4333,11 @@
 					"img_howto": false,
 					"txt_motivate": false,
 					"txt_howmuch": "Dit duurt een halve minuut",
-					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"14": {
 					"label": "spaghetti avocadosaus 14",
@@ -3838,8 +4347,11 @@
 					"img_howto": false,
 					"txt_motivate": false,
 					"txt_howmuch": "Naar smaak, dus gebruik zoveel peper en zout als je lekker vindt.",
-					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"15": {
 					"label": "spaghetti avocadosaus 15",
@@ -3849,8 +4361,11 @@
 					"img_howto": false,
 					"txt_motivate": false,
 					"txt_howmuch": false,
-					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"16": {
 					"label": "spaghetti avocadosaus 16",
@@ -3860,8 +4375,11 @@
 					"img_howto": false,
 					"txt_motivate": false,
 					"txt_howmuch": false,
-					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"17": {
 					"label": "spaghetti avocadosaus 17",
@@ -3871,8 +4389,11 @@
 					"img_howto": false,
 					"txt_motivate": false,
 					"txt_howmuch": "Naar smaak, dus zoveel als je zelf lekker vindt. Ik zou het echter niet te bond maken.",
-					"txt_update": "Als de spaghetti gekookt is kan je VERWIJS NAAR STAP 11!!!!!!!!!!!!!!!!!!!!!!!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				}
 			}
 		},
@@ -3975,7 +4496,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "1 bos radijsjes",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"2": {
@@ -3987,7 +4511,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Een scheut azijn is 1 a 2 eetlepels.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"3": {
 					"label": "garnalencurry 3",
@@ -3998,7 +4525,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "We gebruiken 15 gram koriander, dat is een bosje koriander.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"4": {
 					"label": "garnalencurry 4",
@@ -4009,7 +4539,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "De rest van de azijn is iets minder dan 500 milliliter en we gebruiken 150 gram suiker.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"5": {
 					"label": "garnalencurry 5",
@@ -4020,7 +4553,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"6": {
 					"label": "garnalencurry 6",
@@ -4031,7 +4567,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Alle gesneden koriander, dus ongeveer een bosje.",
 					"txt_update": false,
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"7": {
 					"label": "garnalencurry 7",
@@ -4042,7 +4581,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Hier is 350 milliliter kokosmelk en 300 milliliter water nodig.",
 					"txt_update": "Als de rijst klaar is kun je die apart zetten en de rest van de stappen volgen.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"8": {
 					"label": "garnalencurry 8",
@@ -4071,7 +4613,10 @@
 					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
 					"txt_howmuch": "Voor dit recept gebruiken we 2 teentjes knoflook.",
 					"txt_update": "Als de rijst klaar is kun je die apart zetten en de rest van de stappen volgen.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"9": {
 					"label": "garnalencurry 9",
@@ -4082,7 +4627,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Hiervoor gebruiken we 1 paksoi.",
 					"txt_update": "Als de rijst klaar is kun je die apart zetten en de rest van de stappen volgen.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"10": {
 					"label": "garnalencurry 10",
@@ -4093,7 +4641,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Je hebt hier 25 milliliter zonnebloemolie nodig. Dit is ongeveer 2 eetlepels",
 					"txt_update": "Als de rijst klaar is kun je die apart zetten en de rest van de stappen volgen.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"11": {
 					"label": "garnalencurry 11",
@@ -4104,7 +4655,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Dit is 500 gran garnalen.",
 					"txt_update": "Als de rijst klaar is kun je die apart zetten en de rest van de stappen volgen.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"12": {
 					"label": "garnalencurry 12",
@@ -4115,7 +4669,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Hier gebruiken we 2 limoenen.",
 					"txt_update": "Als de rijst klaar is kun je die apart zetten en de rest van de stappen volgen.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"13": {
 					"label": "garnalencurry 13",
@@ -4126,7 +4683,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik 1 potje rode curry pasta en 50 milliliter kokosmelk.",
 					"txt_update": "Als de rijst klaar is kun je die apart zetten en de rest van de stappen volgen.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"14": {
 					"label": "garnalencurry 14",
@@ -4137,7 +4697,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": "Als de rijst klaar is kun je die apart zetten en de rest van de stappen volgen.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				}
 			}
 		},
@@ -4235,7 +4798,12 @@
 					"txt_howto": "Zet de oven aan op 225 graden Celsius.",
 					"img_howto": false,
 					"txt_motivate": "Door de oven voor te verwarmen hoeft het eten minder lang in de oven.",
-					"txt_howmuch": "De oven moet op 225 graden Celsius."
+					"txt_howmuch": "De oven moet op 225 graden Celsius.",
+					"txt_update": "Oke, maak nu eerst de stappen af tot ik je vertel dat je de oven moet gebruiken. Zorg er wel voor dat de oven nog op de goede temperatuur is als die gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"2": {
 					"label": "maaltijdsalade 2",
@@ -4244,7 +4812,12 @@
 					"txt_howto": "Haal met een mesje de schil van de rode bieten en snijd de bieten in stukken van ongeveer 3 centimeter.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "We gebruiken 600 gram rode bietjes."
+					"txt_howmuch": "We gebruiken 600 gram rode bietjes.",
+					"txt_update": "Oke, maak nu eerst de stappen af tot ik je vertel dat je de oven moet gebruiken. Zorg er wel voor dat de oven nog op de goede temperatuur is als die gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"3": {
 					"label": "maaltijdsalade 3",
@@ -4253,7 +4826,12 @@
 					"txt_howto": "Doe de helft van de olijfolie met de honing en een snufje zout en peper in een kom. Roer dit door elkaar.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Gebruik 2 eetlepels olijfolie en 1 eetlepel honing."
+					"txt_howmuch": "Gebruik 2 eetlepels olijfolie en 1 eetlepel honing.",
+					"txt_update": "Oke, maak nu eerst de stappen af tot ik je vertel dat je de oven moet gebruiken. Zorg er wel voor dat de oven nog op de goede temperatuur is als die gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"4": {
 					"label": "maaltijdsalade 4",
@@ -4262,7 +4840,12 @@
 					"txt_howto": "Bekleed een bakplaat met bakpapier en giet het mengsel erop.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": "Oke, maak nu eerst de stappen af tot ik je vertel dat je de oven moet gebruiken. Zorg er wel voor dat de oven nog op de goede temperatuur is als die gebruikt moet worden.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"5": {
 					"label": "maaltijdsalade 5",
@@ -4271,7 +4854,12 @@
 					"txt_howto": "Rooster de bieten in de oven ongeveer 20 minuten, tot ze mooi geroosterd zijn.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Dit duurt 20 minuten."
+					"txt_howmuch": "Dit duurt 20 minuten.",
+					"txt_update": "Mooi, Rooster nu de bieten in de oven voor 20 minuten.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"6": {
 					"label": "maaltijdsalade 6",
@@ -4280,7 +4868,12 @@
 					"txt_howto": "Giet de quinoa en water volgens de verpakking in een pan en breng dit aan de kook.",
 					"img_howto": false,
 					"txt_motivate": "Quinoa is een bron van eiwitten en bevat vezels.",
-					"txt_howmuch": "Gebruik 150 gram quinoa en 300 milliliter water. Meestal moet de quinoa 10 minuten koken."
+					"txt_howmuch": "Gebruik 150 gram quinoa en 300 milliliter water. Meestal moet de quinoa 10 minuten koken.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 5,
+					"txt_check": false,
+
 				},
 				"7": {
 					"label": "maaltijdsalade 7",
@@ -4289,7 +4882,12 @@
 					"txt_howto": "Verwarm een koekenpan en rooster daarin de walnoten zonder boter of olie tot je de walnoten goed kunt ruiken.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "75 gram walnoten."
+					"txt_howmuch": "75 gram walnoten.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 4,
+					"txt_check": false,
+
 				},
 				"8": {
 					"label": "maaltijdsalade 8",
@@ -4298,7 +4896,12 @@
 					"txt_howto": "Haal de walnoten uit de pan, hak ze grof en leg ze op een bordje en zet weg.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 3,
+					"txt_check": false,
+
 				},
 				"9": {
 					"label": "maaltijdsalade 9",
@@ -4307,7 +4910,14 @@
 					"txt_howto": "Verwarm opnieuw de koekenpan en bak daarin de speklapjes tot ze gaar zijn.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Bak 2 speklapjes."
+					"txt_howmuch": "Bak 2 speklapjes.",
+					"txt_update": "Als de skeplapjes gaar zijn kan je ze even laten liggen en doorgaan met de volgende stappen.",
+					"update_entity": "speklapjes",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": 2,
+					"jump_to_entity": "quinoa",
+					"txt_check": false,
+					"txt_decision": "Sorry ik moet veel bijhouden, zijn de speklapjes klaar?"
 				},
 				"10": {
 					"label": "maaltijdsalade 10",
@@ -4316,7 +4926,14 @@
 					"txt_howto": "Was de bramen, snijd deze doormidden en verbrokkel de blauwe kaas.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Gebruik 125 gram bramen en 150 gram kaas."
+					"txt_howmuch": "Gebruik 125 gram bramen en 150 gram kaas.",
+					"txt_update": "Als de skeplapjes gaar zijn kan je ze even laten liggen en doorgaan met de volgende stappen.",
+					"update_entity": "speklapjes",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to_entity": "quinoa",
+					"jump_to": 1,
+					"txt_check": false,
+					"txt_decision": "Sorry ik moet veel bijhouden, zijn de speklapjes klaar?"
 				},
 				"11": {
 					"label": "maaltijdsalade 11",
@@ -4325,7 +4942,12 @@
 					"txt_howto": "Giet het water uit de pan met quinoa.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": "Als de skeplapjes gaar zijn kan je ze even laten liggen en doorgaan met de volgende stappen.",
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"12": {
 					"label": "maaltijdsalade 12",
@@ -4334,7 +4956,12 @@
 					"txt_howto": "Als de speklapjes gaar zijn kruid je ze met een snufje peper en zout. Snijd de speklapjes daarna in reepjes.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Naar smaak, dus gebruik zoveel peper en zout als je zelf lekker vindt."
+					"txt_howmuch": "Naar smaak, dus gebruik zoveel peper en zout als je zelf lekker vindt.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"13": {
 					"label": "maaltijdsalade 13",
@@ -4343,7 +4970,12 @@
 					"txt_howto": "Gebruik sla couvert of een twee lepels om de rucola met de olijfolie, het spek, de bramen, kaas en quinoa te mengen.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Gebruik 100 gram rucola en 2 eetlepels olijfolie."
+					"txt_howmuch": "Gebruik 100 gram rucola en 2 eetlepels olijfolie.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"14": {
 					"label": "maaltijdsalade 14",
@@ -4352,7 +4984,12 @@
 					"txt_howto": "Strooi de walnoten over de salade en strooi er ook wat peterselie en zonnebloempitten over als je dat hebt.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				}
 			}
 		},
@@ -4454,7 +5091,10 @@
 					"img_howto": false,
 					"txt_howmuch": "De oven moet op 200 graden Celsius.",
 					"txt_update": "Oke de oven is warm, ga nu eerst door met de volgende stappen totdat ik je vertel dat de ovenschaal de oven in kan!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 
 				},
 				"2": {
@@ -4466,7 +5106,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "250 gram cherrytomaten.",
 					"txt_update": "Oke de oven is warm, ga nu eerst door met de volgende stappen totdat ik je vertel dat de ovenschaal de oven in kan!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"3": {
 					"label": "pastasalade 3",
@@ -4477,7 +5120,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik hiervoor 3 takjes tijm.",
 					"txt_update": "Oke de oven is warm, ga nu eerst door met de volgende stappen totdat ik je vertel dat de ovenschaal de oven in kan!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"4": {
 					"label": "pastasalade 4",
@@ -4488,7 +5134,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Naar smaak, dus je mag zelf bepalen hoeveel peper en zout je wilt.",
 					"txt_update": "Oke de oven is warm, ga nu eerst door met de volgende stappen totdat ik je vertel dat de ovenschaal de oven in kan!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"5": {
 					"label": "pastasalade 5",
@@ -4499,7 +5148,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Het maakt niet zo veel uit hoevee olijfolie je hier gebruikt. Zorg ervoor dat er op elke tomaat een beetje zit.",
 					"txt_update": "Oke de oven is warm, ga nu eerst door met de volgende stappen totdat ik je vertel dat de ovenschaal de oven in kan!",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"6": {
 					"label": "pastasalade 6",
@@ -4510,7 +5162,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik 300 gram fusilli pasta. Meestal moet pasta 10 minuten koken.",
 					"txt_update": "Oke de fusilli is klaar, VERWIJZEN NAAR STAP 14, maak daarna de rest van de stappen af en meng ook deze groente met de fusilli.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"7": {
 					"label": "pastasalade 7",
@@ -4539,7 +5194,10 @@
 					"txt_motivate": "Knoflook is essentieel voor de smaak van dit gerecht. Aan knoflook worden bovendien verschillende gezondheidsbevorderende eigenschappen toegeschreven.",
 					"txt_howmuch": "Voor dit recept gebruiken we 1 teen knoflook.",
 					"txt_update": "Oke de fusilli is klaar, VERWIJZEN NAAR STAP 14, maak daarna de rest van de stappen af en meng ook deze groente met de fusilli.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"8": {
 					"label": "pastasalade 8",
@@ -4550,7 +5208,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "We gebruiken 1 ui.",
 					"txt_update": "Oke de fusilli is klaar, VERWIJZEN NAAR STAP 14, maak daarna de rest van de stappen af en meng ook deze groente met de fusilli.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"9": {
 					"label": "pastasalade 9",
@@ -4561,7 +5222,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik 1 bosje peterselie. Een scheut olie is 1 a 2 eetlepels.",
 					"txt_update": "Oke de fusilli is klaar, VERWIJZEN NAAR STAP 14, maak daarna de rest van de stappen af en meng ook deze groente met de fusilli.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"10": {
 					"label": "pastasalade 10",
@@ -4572,7 +5236,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik 1 komkommer.",
 					"txt_update": "Oke de fusilli is klaar, VERWIJZEN NAAR STAP 14, maak daarna de rest van de stappen af en meng ook deze groente met de fusilli.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"11": {
 					"label": "pastasalade 11",
@@ -4583,7 +5250,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik 1 potje groene olijven.",
 					"txt_update": "Oke de fusilli is klaar, VERWIJZEN NAAR STAP 14, maak daarna de rest van de stappen af en meng ook deze groente met de fusilli.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"12": {
 					"label": "pastasalade 12",
@@ -4594,7 +5264,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": "Oke de fusilli is klaar, VERWIJZEN NAAR STAP 14, maak daarna de rest van de stappen af en meng ook deze groente met de fusilli.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"13": {
 					"label": "pastasalade 13",
@@ -4605,7 +5278,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": "Gebruik 200 gram feta en peper en zout naar smaak. Gebruik het sap van 1 citroen of minder als je dat lekker vindt.",
 					"txt_update": "Oke de fusilli is klaar, VERWIJZEN NAAR STAP 14, maak daarna de rest van de stappen af en meng ook deze groente met de fusilli.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"14": {
 					"label": "pastasalade 14",
@@ -4616,7 +5292,10 @@
 					"txt_motivate": false,
 					"txt_howmuch": false,
 					"txt_update": "Oke de fusilli is klaar, volg de huidige stap en dan ben je klaar!.",
-					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap."
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				}
 			}
 		},
@@ -4718,7 +5397,12 @@
 					"txt_howto": "Vul een pan met water en een snuf zout en zet op het vuur tot het water kookt.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Vul de pan voor de helft met water."
+					"txt_howmuch": "Vul de pan voor de helft met water.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"2": {
 					"label": "aardappelbloemkoolsalade 2",
@@ -4727,7 +5411,12 @@
 					"txt_howto": "Zet de oven aan op 220 graden Celsius.",
 					"img_howto": false,
 					"txt_motivate": "Door de oven voor te verwarmen hoeft het eten minder lang in de oven.",
-					"txt_howmuch": "Zet de oven op 220 graden Celsius."
+					"txt_howmuch": "Zet de oven op 220 graden Celsius.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"3": {
 					"label": "aardappelbloemkoolsalade 3",
@@ -4736,7 +5425,12 @@
 					"txt_howto": "Was de aardappelen en snijd met een aardappelschilmesje of een aardappelschiller de schil van de aardappels. Snijd de aardappels in gelijke stukken.",
 					"img_howto": false,
 					"txt_motivate": "Door de aardappels in gelijke stukken te snijden, zijn de stukken gelijktijdig gaar.",
-					"txt_howmuch": "1 kilo aardappels"
+					"txt_howmuch": "1 kilo aardappels",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"4": {
 					"label": "aardappelbloemkoolsalade 4",
@@ -4745,7 +5439,12 @@
 					"txt_howto": false,
 					"img_howto": false,
 					"txt_motivate": "Door de aardappels alvast een beetje te koken, zijn de aardappels en de bloemkool straks gelijktijdig gaar.",
-					"txt_howmuch": "Dit duurt 5 minuten."
+					"txt_howmuch": "Dit duurt 5 minuten.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"5": {
 					"label": "aardappelbloemkoolsalade 5",
@@ -4754,7 +5453,12 @@
 					"txt_howto": "Maak de bloemkool schoon. Breek de bloemkoolroosjes los van elkaar en van de stronk en snijd de stronk in kleine stukken.",
 					"img_howto": false,
 					"txt_motivate": "Bloemkoolroosjes van de stronk breken met je handen geeft minder rommelig dan snijden.",
-					"txt_howmuch": "Gebruik 1 kleine bloemkool."
+					"txt_howmuch": "Gebruik 1 kleine bloemkool.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"6": {
 					"label": "aardappelbloemkoolsalade 6",
@@ -4763,7 +5467,12 @@
 					"txt_howto": "Giet het water uit de pan met aardappels en laat de aardappels zonder deksel op de pan nog even staan.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": false
+					"txt_howmuch": false,
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"7": {
 					"label": "aardappelbloemkoolsalade 7",
@@ -4772,7 +5481,12 @@
 					"txt_howto": "Verdeel de bloemkoolroosjes en de aardappels over een ovenschaal.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Gebruik alle aardappels en bloemkoolroosjes en stukken stronk."
+					"txt_howmuch": "Gebruik alle aardappels en bloemkoolroosjes en stukken stronk.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"8": {
 					"label": "aardappelbloemkoolsalade 8",
@@ -4781,7 +5495,12 @@
 					"txt_howto": "Strooi garam massala poeder, chiliflakes en zout over de aardappels en bloemkool in de ovenschaal.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Gebruik 1 a 2 eetlepels garam massala. Strooi de chiliflakes en zout naar smaak, dus zoveel als je zelf wilt."
+					"txt_howmuch": "Gebruik 1 a 2 eetlepels garam massala. Strooi de chiliflakes en zout naar smaak, dus zoveel als je zelf wilt.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"9": {
 					"label": "aardappelbloemkoolsalade 9",
@@ -4790,7 +5509,12 @@
 					"txt_howto": "Giet wat olijfolie over de ovenschotel en meng het goed met een lepel door de aardappels en bloemkool.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Gebruik genoeg olijfolie zodat er wat op elke stukje bloemkool en aardappel zit."
+					"txt_howmuch": "Gebruik genoeg olijfolie zodat er wat op elke stukje bloemkool en aardappel zit.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"10": {
 					"label": "aardappelbloemkoolsalade 10",
@@ -4799,7 +5523,12 @@
 					"txt_howto": "Zet de ovenschotel in de voorverwarmde oven en rooster de aardappels en bloemkool in 15 tot 20 minuten gaar. Schep de ovenschotel af en toe om.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Dit duurt ongeveer 15 tot 20 minuten, dus je kunt ondertussen verder met de komkommer en saus."
+					"txt_howmuch": "Dit duurt ongeveer 15 tot 20 minuten, dus je kunt ondertussen verder met de komkommer en saus.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"11": {
 					"label": "aardappelbloemkoolsalade 11",
@@ -4808,7 +5537,12 @@
 					"txt_howto": "Snijd de komkommer in kleine plakjes en leg in een schaal.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Gebruik 3 a 4 snackkomkommers"
+					"txt_howmuch": "Gebruik 3 a 4 snackkomkommers",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"12": {
 					"label": "aardappelbloemkoolsalade 12",
@@ -4817,7 +5551,12 @@
 					"txt_howto": "Strooi wat zout over de komkommer en giet wat limoensap in de schaal.",
 					"img_howto": false,
 					"txt_motivate": "Door het zout aan de komkommer toe te voegen wordt het vocht uit de komkommer gehaald.",
-					"txt_howmuch": "Gebruik een grote snuf zout en limoensap naar smaak."
+					"txt_howmuch": "Gebruik een grote snuf zout en limoensap naar smaak.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"13": {
 					"label": "aardappelbloemkoolsalade 13",
@@ -4826,7 +5565,12 @@
 					"txt_howto": "Schep de kokosyoghurt in een kom en rasp wat groene limoenschil op de yoghurt. Pas op dat je het witte van de schil niet meeraspt.",
 					"img_howto": false,
 					"txt_motivate": "Het groene van de limoenschil geeft een frisse limoensmaak aan de yoghurt. Het witte van de limoenschil is bitter en wordt daarom niet gebruikt.",
-					"txt_howmuch": "Naar smaak, dus je kunt zelf bepalen hoeveel je lekker vindt."
+					"txt_howmuch": "Naar smaak, dus je kunt zelf bepalen hoeveel je lekker vindt.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"14": {
 					"label": "aardappelbloemkoolsalade 14",
@@ -4835,7 +5579,12 @@
 					"txt_howto": "Pers wat limoensap uit boven de yoghurt en voeg wat peper en zout toe. Roer de yoghurt.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Naar smaak, voeg zoveel limoensap, peper en zout toe als je lekker vindt."
+					"txt_howmuch": "Naar smaak, voeg zoveel limoensap, peper en zout toe als je lekker vindt.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"15": {
 					"label": "aardappelbloemkoolsalade 15",
@@ -4844,7 +5593,12 @@
 					"txt_howto": "Leg de cashewnoten op een snijplanken en hak er een paar keer doorheen met een scherp mes.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Gebruik 100 gram gezouten cashewnoten."
+					"txt_howmuch": "Gebruik 100 gram gezouten cashewnoten.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"16": {
 					"label": "aardappelbloemkoolsalade 16",
@@ -4853,7 +5607,12 @@
 					"txt_howto": "Snijd het kontje van de bosui en snijd de bosui in ringetjes. Meng de helft van de ringetjes met de kip, een eetlepel olijfolie en wat peper en zout.",
 					"img_howto": "https://tinyurl.com/y9dou34d",
 					"txt_motivate": false,
-					"txt_howmuch": "Gebruik 3 bosuien."
+					"txt_howmuch": "Gebruik 3 bosuien.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"17": {
 					"label": "aardappelbloemkoolsalade 17",
@@ -4862,7 +5621,12 @@
 					"txt_howto": "Leg de rode peper schuin voor je op een snijplank en snijd er ringetjes van.",
 					"img_howto": false,
 					"txt_motivate": "Als je eerst de zaadlijst van de rode peper verwijderd, wordt het gerecht minder pittig.",
-					"txt_howmuch": "Gebruik 1 kleine rode peper."
+					"txt_howmuch": "Gebruik 1 kleine rode peper.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"18": {
 					"label": "aardappelbloemkoolsalade 18",
@@ -4871,7 +5635,12 @@
 					"txt_howto": "Snijd de blaadjes van de koriander fijn.",
 					"img_howto": "https://tinyurl.com/ycm62ubd",
 					"txt_motivate": false,
-					"txt_howmuch": "We gebruiken 15 gram koriander, dat is een bosje koriander."
+					"txt_howmuch": "We gebruiken 15 gram koriander, dat is een bosje koriander.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"19": {
 					"label": "aardappelbloemkoolsalade 19",
@@ -4880,7 +5649,12 @@
 					"txt_howto": "Schep de aardappelbloemkoolsalade uit de ovenschaal direct op borden of in een grote schaal.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Gebruik alle aardappelbloemkoolsalade."
+					"txt_howmuch": "Gebruik alle aardappelbloemkoolsalade.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"20": {
 					"label": "aardappelbloemkoolsalade 20",
@@ -4889,7 +5663,12 @@
 					"txt_howto": "Strooi de gesneden bosui, koriander en cashewnoten over de salade.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Naar smaak, strooi zoveel van de bosui, koriander en cashewnoten erover als je zelf lekker vindt."
+					"txt_howmuch": "Naar smaak, strooi zoveel van de bosui, koriander en cashewnoten erover als je zelf lekker vindt.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				},
 				"21": {
 					"label": "aardappelbloemkoolsalade 21",
@@ -4898,7 +5677,12 @@
 					"txt_howto": "Schep een beetje kokosyoghurtsaus naast of op de salade.",
 					"img_howto": false,
 					"txt_motivate": false,
-					"txt_howmuch": "Naar smaak, dus zoveel als je zelf lekker vindt."
+					"txt_howmuch": "Naar smaak, dus zoveel als je zelf lekker vindt.",
+					"txt_update": false,
+					"txt_error": "Er is iets fout gegaan! Ga door met de volgende stap.",
+					"jump_to": false,
+					"txt_check": false,
+
 				}
 			}
 		}

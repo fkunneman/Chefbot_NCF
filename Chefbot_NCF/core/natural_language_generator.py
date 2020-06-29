@@ -71,7 +71,9 @@ class NLG:
             'close_activity'                    : self.close_activity,
             'select_recipe'                     : self.select_recipe,
             'update_handler'                    : self.update_handler,
-            'error_handler'                     :self.error_handler
+            'error_handler'                     : self.error_handler,
+            'jump_to'                           : self.jump_to,
+            'decision_maker'                    : self.decision_maker
         }
 
 
@@ -109,6 +111,8 @@ class NLG:
 
     def update_step(self,index):
         self.step = index
+
+
 
 
     ###################################
@@ -212,7 +216,53 @@ class NLG:
         self.response :
             adds the instruction to the active response
         """
-        self.response.append(self.recipe['Recipe_steps'][self.step]['txt_standard'])
+
+        print("DIT IS SELF.STEP", self.step)
+        if  self.recipe['Recipe_steps'][self.step] == None:
+            current_step = self.step
+            current_step_int = int(current_step)
+            new_step = current_step_int  + 1
+            new_step = str(new_step)
+            self.response.append(self.recipe['Recipe_steps'][new_step]['txt_standard'])
+            moves = ['instruct_step']
+            self.skip_step(moves, new_step)
+            # del self.recipe['Recipe_steps'][current_step]     #DIT DELETE INDERDAAD DE STAP MAAR DAN KOMT ER EEN ERROR ALS INSTURCT STEP BIJ DIE STAP AANKOMT
+        else:
+            self.response.append(self.recipe['Recipe_steps'][self.step]['txt_standard'])
+
+    def skip_step(self, moves, index):
+        """
+        skip_step
+        =====
+        function to skip the proper step
+        """
+        print('NLG moves NEW', index)
+        index = int(index)
+        print('INDEX CHECKEN   :', index, type(index))
+        new_index = index +1
+        new_index = str(new_index)
+        print('NEW INDEX CHECKEN', new_index, type(new_index))
+        self.update_step(new_index)                  #LIJKTNIET ECHT WAT TE DOEN
+        print('NLG moves', moves, new_index)         #goeie response met goeie nlg moves en index, wordt alleen niet onthouden of iets mee gedaan.
+        for move in moves:
+            print(move)
+            self.move_response[move]()
+        response = ' '.join(self.response)
+        response_out = self.fill_in_concepts(response)
+        print("RESPONSE:", response)                 #RESPONS & RESPONSE OUT LIJKEN HETZELFDE TE ZIJN
+        print("RESPONSE OUT", response_out)
+        return response_out
+
+        # for move in moves:
+        #     self.move_response[move]()
+        # recipe_options_string = ', '.join(self.recipe_options)
+        # response = ' '.join(self.response)
+        # response_out = self.fill_in_concepts(response)
+        # images_out = self.images
+        # # self.reset_response()
+        # return response_out, images_out
+
+
 
     def clarify_step(self,clarification_type,img=False):
         """
@@ -557,24 +607,18 @@ class NLG:
         # ook moet er per recept in de json wss een getal
         # dat getal kan dan plus of min aantal stappen zijn in recept
         # alle 'text' zijn mogelijkheden die gezegt kunnen worden voor een bepaalde reactie
-        if 'de oven is warm' or 'de oven is voorverwarmd' or 'de oven is voor verwarmd' or 'de oven is op temperatuur' or\
-                'op temperatuur'or 'voorverwarmd' or 'de oven is nu klaar':
-            self.response.append(self.recipe['Recipe_steps'][self.step]['txt_update'])
-            print(self.recipe['Recipe_steps'][self.step]['txt_update'])
-        elif 'het water kookt' or 'het water heeft gekookt' or 'de aardappelen hebben gekookt' or 'de aardappelen koken' or\
-                'de aardappels koken' or 'de fusilli koken' or 'de aardappels hebben gekookt' or 'de pasta heeft gekookt' or 'de pasta kookt' or\
-                'de fusilli heeft gekookt' or 'de fusilli kookt' or 'de melk kookt' or 'de melk heeft gekookt' or 'de bonen koken' or\
-                'de rijst heeft gekookt' or 'de rijst kookt':
-            self.response.append(self.recipe['Recipe_steps'][self.step]['txt_update'])
-            print(self.recipe['Recipe_steps'][self.step]['txt_update'])
-        elif 'de ui is gebakken' or ' de ui is glazig' or 'de ui is glazig gebakken' or 'de aardappelen zijn gaar' or\
-                'de aardappelen zijn gaar gebakken' or 'de kip is gegrilled' or 'de kip is gegrillt' or 'de kipfilet is gebakken':
-            self.response.append(self.recipe['Recipe_steps'][self.step]['txt_update'])
-            print(self.recipe['Recipe_steps'][self.step]['txt_update'])
-        else:
-            self.response.append(self.recipe['Recipe_steps'][self.step]['txt_error'])
+        self.response.append(self.recipe['Recipe_steps'][self.step]['txt_update'])
+        # if 'de oven is warm' or 'de oven is voorverwarmd' or 'de oven is voor verwarmd' or 'de oven is op temperatuur' or\
+        #         'op temperatuur'or 'voorverwarmd' or 'de oven is nu klaar' or 'het water kookt' or 'het water heeft gekookt' or 'de aardappelen hebben gekookt' or 'de aardappelen koken' or\
+        #         'de aardappels koken' or 'de fusilli koken' or 'de aardappels hebben gekookt' or 'de pasta heeft gekookt' or 'de pasta kookt' or\
+        #         'de fusilli heeft gekookt' or 'de fusilli kookt' or 'de melk kookt' or 'de melk heeft gekookt' or 'de bonen koken' or\
+        #         'de rijst heeft gekookt' or 'de rijst kookt' or 'de ui is gebakken' or ' de ui is glazig' or 'de ui is glazig gebakken' or 'de aardappelen zijn gaar' or\
+        #         'de aardappelen zijn gaar gebakken' or 'de kip is gegrilled' or 'de kip is gegrillt' or 'de kipfilet is gebakken':
+        #     self.response.append(self.recipe['Recipe_steps'][self.step]['txt_update'])
+        # else:
+        #     self.response.append(self.recipe['Recipe_steps'][self.step]['txt_error'])
 
-            # infostate['shared']['beliefs']['done'].append(infostate['private']['plan_wide'].pop(0))
+
 
     def error_handler(self):
         """
@@ -583,11 +627,84 @@ class NLG:
         function to handle errors about updates that are given in the cooking process, but cannot be given. These are updates
         that the user gives
         """
-        if 'de oven is warm' or 'de oven is voorverwarmd' or 'de oven is voor verwarmd' or 'de oven is op temperatuur' or\
-                'op temperatuur'or 'voorverwarmd' or 'de oven is nu klaar' or 'het water kookt' or 'het water heeft gekookt'\
-                or 'de aardappelen hebben gekookt' or 'de aardappelen koken' or 'de aardappels koken' or 'de fusilli koken' or\
-                'de aardappels hebben gekookt' or 'de pasta heeft gekookt' or 'de pasta kookt' or 'de fusilli heeft gekookt'\
-                or 'de fusilli kookt' or 'de melk kookt' or 'de melk heeft gekookt' or 'de bonen koken' or 'de rijst heeft gekookt'\
-                or 'de rijst kookt' or 'de ui is gebakken' or ' de ui is glazig' or 'de ui is glazig gebakken' or 'de aardappelen zijn gaar' or\
-                'de aardappelen zijn gaar gebakken' or 'de kip is gegrilled' or 'de kip is gegrillt' or 'de kipfilet is gebakken':
-            self.response.append(self.recipe['Recipe_steps'][self.step]['txt_error'])
+        # if 'de oven is warm' or 'de oven is voorverwarmd' or 'de oven is voor verwarmd' or 'de oven is op temperatuur' or\
+        #         'op temperatuur'or 'voorverwarmd' or 'de oven is nu klaar' or 'het water kookt' or 'het water heeft gekookt'\
+        #         or 'de aardappelen hebben gekookt' or 'de aardappelen koken' or 'de aardappels koken' or 'de fusilli koken' or\
+        #         'de aardappels hebben gekookt' or 'de pasta heeft gekookt' or 'de pasta kookt' or 'de fusilli heeft gekookt'\
+        #         or 'de fusilli kookt' or 'de melk kookt' or 'de melk heeft gekookt' or 'de bonen koken' or 'de rijst heeft gekookt'\
+        #         or 'de rijst is klaar' or 'de rijst kookt' or 'de ui is gebakken' or ' de ui is glazig' or 'de ui is glazig gebakken' or 'de aardappelen zijn gaar' or\
+        #         'de aardappelen zijn gaar gebakken' or 'de kip is gegrilled' or 'de kip is gegrillt' or 'de kipfilet is gebakken':
+        self.response.append(self.recipe['Recipe_steps'][self.step]['txt_error'])
+
+
+    def jump_to(self):
+        """
+        jump_to
+        =======
+        this function is used to jump to another step in the recipe due to an update of an user
+        """
+        current_step = self.step
+        current_step = int(current_step)
+        # print('huidige stap',current_step, type(current_step))
+        # print('wat staat er in jump to',self.recipe['Recipe_steps'][self.step]['jump_to'], type(self.recipe['Recipe_steps'][self.step]['jump_to']))
+        new_step = current_step + self.recipe['Recipe_steps'][self.step]['jump_to']
+        new_str_step = str(new_step)
+        # print('new step', new_step, type(new_step))
+
+        # self.instruct_step(new_str_step)
+        self.response.append(self.recipe['Recipe_steps'][new_str_step]['txt_standard'])
+        if self.recipe['Recipe_steps'][new_str_step]['txt_check'] is not False:
+            self.response.append(self.recipe['Recipe_steps'][new_str_step]['txt_check'])
+
+        # print('DELETE DEZE STAP:  ', new_str_step)
+        # del self.recipe['Recipe_steps'][new_str_step]     #DIT DELETE INDERDAAD DE STAP MAAR DAN KOMT ER EEN ERROR ALS INSTURCT STEP BIJ DIE STAP AANKOMT
+        # print('DEZE MOET OP NONE KOMEN', self.recipe['Recipe_steps'][new_str_step])
+        # del new_str_step
+        # self.recipe['Recipe_steps'][new_str_step] = None
+
+
+    def decision_maker(self):
+        """
+        decision_maker
+        ==============
+        this function is used to make a decision about where in the recipe the agent needs to go
+        """
+
+
+
+        # if  'spek' or 'speklapjes' or 'lapjes': #DIT WERKT NIET, HIER MOET USER INPUT KOMEN TE STAAN!
+        #
+        #     print('HOOOOOOOOOIIIIIIIIIIIIIIIIIIIIIIIIIIIII')
+        #     # self.response.extend((self.recipe['Recipe_steps'][self.step]['txt_decision'], self.recipe['Recipe_steps'][self.step]['txt_update']))
+        #     self.response.append(self.recipe['Recipe_steps'][self.step]['txt_decision'])
+        #     self.jump_to()
+        #
+        # else:
+        #     print('DDDDDDDOOOOOOOOOOOOOEEEEEEEEEEEIIIIIIIIIIIIIIiiii')
+        #     # self.response.extend((self.recipe['Recipe_steps'][self.step]['txt_decision'], self.recipe['Recipe_steps'][self.step]['txt_howmuch']))
+        #     self.response.extend((self.recipe['Recipe_steps'][self.step]['txt_decision'], self.recipe['Recipe_steps'][self.step]['txt_update']))
+        #     # self.jump_to()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
